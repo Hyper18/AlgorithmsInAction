@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AlgorithmsInAction.iml" filepath="$PROJECT_DIR$/AlgorithmsInAction.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BlueBridgeCup/BlueBridgeCup.iml" filepath="$PROJECT_DIR$/BlueBridgeCup/BlueBridgeCup.iml" />
       <module fileurl="file://$PROJECT_DIR$/LeetCode/LeetCode.iml" filepath="$PROJECT_DIR$/LeetCode/LeetCode.iml" />
       <module fileurl="file://$PROJECT_DIR$/洛谷新手村/洛谷新手村.iml" filepath="$PROJECT_DIR$/洛谷新手村/洛谷新手村.iml" />
     </modules>
