@@ -8,12 +8,12 @@ import java.util.Scanner;
  */
 public class R1_输入输出 {
     public static void main(String[] args) {
-        /**
+        /*
          * 获取输入
          */
         Scanner sc = new Scanner(System.in);
 
-        /**
+        /*
          * 获取输入参数
          */
         int num = sc.nextInt();
@@ -22,7 +22,7 @@ public class R1_输入输出 {
         String str = sc.next();
         String line = sc.nextLine();
 
-        /**
+        /*
          * 处理输出
          */
         System.out.print(fl);
@@ -30,7 +30,7 @@ public class R1_输入输出 {
         System.out.printf("%f %f %s %s\n", fl, dou, str, line);
         System.out.format("%f %f %s %s\n", fl, dou, str, line);
 
-        /**
+        /*
          * 关流
          */
         sc.close();
