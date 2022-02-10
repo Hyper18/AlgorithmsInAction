@@ -14,7 +14,7 @@ public class R2_缓冲区输入输出 {
         char[] chars = new char[]{'a', 'B', 'c', 'D', 'e', 'f'};
         String s = "1234567890";
 
-        /*
+        /**
          * 获取输入输出
          */
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -23,7 +23,7 @@ public class R2_缓冲区输入输出 {
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
         PrintWriter pw = new PrintWriter(new OutputStreamWriter(System.out));
 
-        /*
+        /**
          * BufferedReader处理输入
          * 按一下回车 有两个字符 “\n\r” （win环境）
          * 吸收回车: 两个read()/一个readLine()
@@ -38,7 +38,7 @@ public class R2_缓冲区输入输出 {
         bw.write(str);
         bw.flush();
 
-        /*
+        /**
          * StreamTokenizer处理输入
          * 只能接收数字或字母，其他均无法识别，是为null
          * 获取输入流并根据空格和回车分割成Token（标记），用nextToken方法读取下一个标记
@@ -64,7 +64,7 @@ public class R2_缓冲区输入输出 {
             pw.flush();
         }
 
-        /*
+        /**
          * 处理输出 -> 缓冲区存放
          * 如果在未flush/close前重新new BufferedWriter(),会把原来的缓冲区覆盖
          */
@@ -90,14 +90,14 @@ public class R2_缓冲区输入输出 {
         bw.write(s, 1, 3);
         bw.write("\n");
 
-        /*
+        /**
          * 刷新 -> console
          * 如果在未flush/close前重新new BufferedWriter(),就会把原来的缓冲区覆盖
          */
         bw.flush();
         pw.flush();
 
-        /*
+        /**
          * （刷新并）关流 -> console
          */
         br.close();
