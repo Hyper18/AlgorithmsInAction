@@ -112,7 +112,7 @@ public class R4_数据类型 {
         String sr2 = "abc".replace("ab", "cd");
 
         // 使用正则表达式
-        String sr3 = "abc".replaceAll("[b]", ", ");
+        String sr3 = "abc".replaceAll("[bc]", ", ");
 
         String str4 = "abc,EF,ddd";
         str4.split(",");
