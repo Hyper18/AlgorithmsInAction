@@ -1,10 +1,10 @@
-package 二分查找;
+package BinarySearch;
 
 /**
  * @author Hyperspace
  * @date 2022/02/11
  * 思路
- * 二分查找，左闭右开型
+ * BinarySearch，左闭右开型
  * 从题意最后一个版本一定是坏版本，不计入考虑
  */
 public class Q278_第一个错误的版本 {

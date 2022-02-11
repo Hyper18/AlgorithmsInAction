@@ -1,10 +1,10 @@
-package 二分查找;
+package BinarySearch;
 
 /**
  * @author Hyperspace
  * @date 2022/02/11
  * 思路
- * 题目已指定算法的时间复杂度为 O(log n),，数组无重复元素、升序 -> 二分查找
+ * 题目已指定算法的时间复杂度为 O(log n),，数组无重复元素、升序 -> BinarySearch
  * 重点：未找到，返回按序插入位置
  */
 public class Q35_搜索插入位置 {

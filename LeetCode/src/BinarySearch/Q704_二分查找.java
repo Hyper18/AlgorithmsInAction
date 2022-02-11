@@ -1,4 +1,4 @@
-package 二分查找;
+package BinarySearch;
 
 import java.util.Arrays;
 
