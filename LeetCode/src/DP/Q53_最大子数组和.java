@@ -1,4 +1,4 @@
-package Array;
+package DP;
 
 /**
  * @author Hyperspace

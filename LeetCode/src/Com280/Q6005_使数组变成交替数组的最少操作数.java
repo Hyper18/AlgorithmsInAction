@@ -30,7 +30,6 @@ public class Q6005_使数组变成交替数组的最少操作数 {
             mapEven.put(nums[i], mapEven.getOrDefault(nums[i], 0) + 1);
         }
 
-
         int countOdd1st = 0;
         int countOdd2rd = 0;
         int max1 = 0;
