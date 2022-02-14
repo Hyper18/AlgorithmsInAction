@@ -61,4 +61,13 @@ public class M540_有序数组中的单一元素 {
         }
         return res;
     }
+
+    public int singleNonDuplicate3_2(int[] nums) {
+        int res = 0;
+        for (int num : nums) {
+            res ^= num;
+        }
+
+        return res;
+    }
 }

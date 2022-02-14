@@ -32,7 +32,6 @@ public class R5_位运算 {
          */
         System.out.println((a ^ b) < 0);
 
-
         int n = 12;
         n |= n >> 1;
         System.out.println(n);
