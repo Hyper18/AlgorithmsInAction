@@ -37,13 +37,13 @@ public class Q118_杨辉三角 {
         for (int i = 1; i < numRows; i++) {
             List<Integer> currRow = new ArrayList<>();
             List<Integer> preRow = dp.get(i - 1);
-
-            currRow.add(1);
-            for (int j = 1; j < i; j++) {
-                currRow.add(preRow.get(j) + preRow.get(j - 1));
+            for (int j = 0; j <= i; j++) {
+                if (j == 0 || j == i) {
+                    currRow.add(1);
+                } else {
+                    currRow.add(preRow.get(j - 1) + preRow.get(j));
+                }
             }
-            currRow.add(1);
-
             dp.add(currRow);
         }
 
