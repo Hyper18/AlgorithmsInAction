@@ -5,6 +5,10 @@ import java.io.OutputStreamWriter;
 import java.io.PrintWriter;
 import java.util.Scanner;
 
+/**
+ * @author Hyperspace
+ * @date 2022/02/17
+ */
 public class C_基础练习_Fibonacci数列 {
     public static void main(String[] args) {
         Scanner in = new Scanner(new BufferedInputStream(System.in));

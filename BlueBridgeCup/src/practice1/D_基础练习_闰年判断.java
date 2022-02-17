@@ -5,6 +5,10 @@ import java.io.OutputStreamWriter;
 import java.io.PrintWriter;
 import java.util.Scanner;
 
+/**
+ * @author Hyperspace
+ * @date 2022/02/17
+ */
 public class D_基础练习_闰年判断 {
 	public static void main(String[] args) {
 		Scanner in = new Scanner(new BufferedInputStream(System.in));

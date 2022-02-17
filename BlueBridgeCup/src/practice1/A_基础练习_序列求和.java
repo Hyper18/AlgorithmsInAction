@@ -6,6 +6,10 @@ import java.io.OutputStreamWriter;
 import java.io.PrintWriter;
 import java.util.Scanner;
 
+/**
+ * @author Hyperspace
+ * @date 2022/02/17
+ */
 public class A_基础练习_序列求和 {
 	public static void main(String[] args) throws IOException {
 		Scanner sc = new Scanner(new BufferedInputStream(System.in));

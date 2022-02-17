@@ -6,6 +6,10 @@ import java.io.OutputStreamWriter;
 import java.io.PrintWriter;
 import java.io.StreamTokenizer;
 
+/**
+ * @author Hyperspace
+ * @date 2022/02/17
+ */
 public class B_基础练习_圆的面积 {
 	public static void main(String[] args) throws IOException {
 		StreamTokenizer in = new StreamTokenizer(new InputStreamReader(System.in));
