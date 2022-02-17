@@ -1,12 +1,13 @@
 package practice1;
 
+import java.io.BufferedInputStream;
 import java.io.OutputStreamWriter;
 import java.io.PrintWriter;
 import java.util.Scanner;
 
 public class C_基础练习_Fibonacci数列 {
     public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
+        Scanner in = new Scanner(new BufferedInputStream(System.in));
         PrintWriter out = new PrintWriter(new OutputStreamWriter(System.out));
 
         long n = in.nextLong();
