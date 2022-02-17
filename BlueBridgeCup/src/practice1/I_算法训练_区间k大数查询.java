@@ -18,9 +18,9 @@ public class I_算法训练_区间k大数查询 {
 		int n = in.nextInt();
 		in.nextLine();
 		String[] array = in.nextLine().split(" ");
-		long[] arr = new long[n];
+		int[] arr = new int[n];
 		for (int i = 0; i < n; i++) {
-			arr[i] = Long.parseLong(array[i]);
+			arr[i] = Integer.parseInt(array[i]);
 		}
 		int m = in.nextInt();
 		in.nextLine();
@@ -30,7 +30,7 @@ public class I_算法训练_区间k大数查询 {
 			int r = Integer.parseInt(s[1]);
 			int k = Integer.parseInt(s[2]);
 
-			long[] window = Arrays.copyOfRange(arr, l - 1, r);
+			int[] window = Arrays.copyOfRange(arr, l - 1, r);
 			Arrays.sort(window);
 
 			int len = window.length;
