@@ -11,30 +11,32 @@ import java.util.Stack;
 public class Q144_二叉树的前序遍历 {
     public List<Integer> preorderTraversal(TreeNode root) {
         List<Integer> res = new ArrayList<>();
-        preorder(root, res);
+        TreeNode cur = root;
+        preorder(cur, res);
 
         return res;
     }
 
-    private void preorder(TreeNode root, List<Integer> res) {
-        if (root != null) {
-            res.add(root.val);
-            preorder(root.left, res);
-            preorder(root.right, res);
+    private void preorder(TreeNode cur, List<Integer> res) {
+        if (cur != null) {
+            res.add(cur.val);
+            preorder(cur.left, res);
+            preorder(cur.right, res);
         }
     }
 
     public List<Integer> preorderTraversal2(TreeNode root) {
         List<Integer> res = new ArrayList<>();
         Stack<TreeNode> stk = new Stack<>();
-        while (root != null || !stk.isEmpty()) {
-            if (root != null) {
-                stk.push(root);
-                res.add(root.val);
-                root = root.left;
+        TreeNode cur = root;
+        while (cur != null || !stk.isEmpty()) {
+            if (cur != null) {
+                stk.push(cur);
+                res.add(cur.val);
+                cur = cur.left;
             } else {
-                root = stk.pop();
-                root = root.right;
+                cur = stk.pop();
+                cur = cur.right;
             }
         }
 

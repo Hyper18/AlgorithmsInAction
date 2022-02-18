@@ -13,31 +13,33 @@ import java.util.*;
 public class Q94_二叉树的中序遍历 {
     public List<Integer> inorderTraversal(TreeNode root) {
         List<Integer> res = new ArrayList<>();
-        inorder(root, res);
+        TreeNode cur = root;
+        inorder(cur, res);
 
         return res;
     }
 
-    public void inorder(TreeNode root, List<Integer> res) {
-        if (root != null) {
-            inorder(root.left, res);
-            res.add(root.val);
-            inorder(root.right, res);
+    public void inorder(TreeNode cur, List<Integer> res) {
+        if (cur != null) {
+            inorder(cur.left, res);
+            res.add(cur.val);
+            inorder(cur.right, res);
         }
     }
 
     public List<Integer> inorderTraversal2(TreeNode root) {
         List<Integer> res = new ArrayList<>();
         Stack<TreeNode> stk = new Stack<>();
+        TreeNode cur = root;
 
-        while (root != null || !stk.isEmpty()) {
-            if (root != null) {
-                stk.push(root);
-                root = root.left;
+        while (cur != null || !stk.isEmpty()) {
+            if (cur != null) {
+                stk.push(cur);
+                cur = cur.left;
             } else {
-                root = stk.pop();
-                res.add(root.val);
-                root = root.right;
+                cur = stk.pop();
+                res.add(cur.val);
+                cur = cur.right;
             }
         }
 
