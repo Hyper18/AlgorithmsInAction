@@ -1,4 +1,4 @@
-package TwoPointer;
+package MyLinkedList;
 
 /**
  * @author Hyperspace
