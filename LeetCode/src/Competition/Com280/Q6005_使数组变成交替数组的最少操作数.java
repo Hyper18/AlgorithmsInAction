@@ -1,4 +1,4 @@
-package Com280;
+package Competition.Com280;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,4 +1,4 @@
-package ComD72;
+package Competition.ComD72;
 
 /**
  * @author Hyperspace

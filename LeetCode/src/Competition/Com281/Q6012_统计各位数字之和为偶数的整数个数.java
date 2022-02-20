@@ -1,4 +1,4 @@
-package Com281;
+package Competition.Com281;
 
 /**
  * @author Hyperspace

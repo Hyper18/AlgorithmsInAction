@@ -1,4 +1,4 @@
-package Com281;
+package Competition.Com281;
 
 import java.util.Arrays;
 import java.util.HashMap;
@@ -50,7 +50,7 @@ public class Q6014_构造限制重复的字符串 {
                 }
             }
         }
-        
+
         StringBuilder sb2 = new StringBuilder();
         for (int i = 0; i < res.length; i++) {
             if (res[i] != ' ') {

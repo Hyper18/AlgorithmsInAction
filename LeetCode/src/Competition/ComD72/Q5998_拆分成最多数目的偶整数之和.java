@@ -1,4 +1,4 @@
-package ComD72;
+package Competition.ComD72;
 
 import java.util.ArrayList;
 import java.util.List;

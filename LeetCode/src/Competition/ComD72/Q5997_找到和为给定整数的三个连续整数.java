@@ -1,6 +1,4 @@
-package ComD72;
-
-import java.util.ArrayList;
+package Competition.ComD72;
 
 /**
  * @author Hyperspace
