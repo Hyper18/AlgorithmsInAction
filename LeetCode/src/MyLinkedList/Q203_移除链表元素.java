@@ -19,4 +19,12 @@ public class Q203_移除链表元素 {
 
         return dummy.next;
     }
+
+    public ListNode removeElements2(ListNode head, int val) {
+        if (head == null) {
+            return null;
+        }
+        head.next = removeElements2(head.next, val);
+        return head.val == val ? head.next : head;
+    }
 }
