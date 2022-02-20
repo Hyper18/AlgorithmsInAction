@@ -8,6 +8,7 @@ import java.util.Stack;
  * <p>
  * 1. stack
  * 2. two-pointer
+ * 3. 递归
  */
 public class Q206_反转链表 {
     public ListNode reverseList(ListNode head) {
@@ -44,5 +45,16 @@ public class Q206_反转链表 {
         }
 
         return head;
+    }
+
+    public ListNode reverseList3(ListNode head) {
+        if (head == null || head.next == null) {
+            return head;
+        }
+        ListNode newHead = reverseList3(head.next);
+        head.next.next = head;
+        head.next = null;
+
+        return newHead;
     }
 }
