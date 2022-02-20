@@ -10,7 +10,7 @@ package Array;
  * 借鉴官解的思路，只需判断n−2−i -- n-i的奇偶性
  * 找出最后一个0前面有奇数个还是偶数个1
  */
-public class Q717_1比特与2比特字符 {
+public class M717_1比特与2比特字符 {
     public boolean isOneBitCharacter(int[] bits) {
         int n = bits.length;
         int i;
