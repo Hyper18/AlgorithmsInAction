@@ -8,11 +8,7 @@ import java.util.Map;
  * @date 2022/02/24
  */
 public class Q3_无重复字符的最长子串 {
-    public static void main(String[] args) {
-        System.out.println(lengthOfLongestSubstring("abcabcbb"));
-    }
-
-    public static int lengthOfLongestSubstring(String s) {
+    public int lengthOfLongestSubstring(String s) {
         if (s.length() == 0) {
             return 0;
         }
