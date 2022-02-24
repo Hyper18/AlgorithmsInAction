@@ -9,19 +9,16 @@ import java.util.Map;
  */
 public class Q3_无重复字符的最长子串 {
     public int lengthOfLongestSubstring(String s) {
-        if (s.length() == 0) {
-            return 0;
-        }
         Map<Character, Integer> map = new HashMap<>();
         int cnt = 0;
-        int left = 0;
-        char[] ss = s.toCharArray();
-        for (int i = 0; i < ss.length; i++) {
-            if (map.containsKey(ss[i])) {
-                left = Math.max(left, map.get(ss[i]) + 1);
+        int start = 0;
+        for (int end = 0; end < s.length(); end++) {
+            char ch = s.charAt(end);
+            if (map.containsKey(ch)) {
+                start = Math.max(start, map.get(ch) + 1);
             }
-            map.put(ss[i], i);
-            cnt = Math.max(cnt, i - left + 1);
+            map.put(ch, end);
+            cnt = Math.max(cnt, end - start + 1);
         }
 
         return cnt;
