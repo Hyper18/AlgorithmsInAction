@@ -17,6 +17,8 @@ import java.util.Arrays;
  * 注：实际使用api需要处理二分查找未查找到（为负值）的情况
  * <p>
  * 小结：由于前缀和递增的特性，给二分查找提供了前置条件
+ * 3. SVM -- O(n)
+ * 不再反复从起始下标开始，而是通过窗口滑动降低复杂度
  */
 public class Q209_长度最小的子数组 {
     public int minSubArrayLen(int target, int[] nums) {
@@ -51,6 +53,25 @@ public class Q209_长度最小的子数组 {
             if (bound <= n) {
                 ans = Math.min(ans, bound - i + 1);
             }
+        }
+
+        return ans == Integer.MAX_VALUE ? 0 : ans;
+    }
+
+    public int minSubArrayLen3(int target, int[] nums) {
+        int n = nums.length;
+        int ans = Integer.MAX_VALUE;
+        int sum = 0;
+
+        int start = 0;
+        int end = 0;
+        while (end < n) {
+            sum += nums[end];
+            while (sum >= target) {
+                ans = Math.min(ans, end - start + 1);
+                sum -= nums[start++];
+            }
+            end++;
         }
 
         return ans == Integer.MAX_VALUE ? 0 : ans;
