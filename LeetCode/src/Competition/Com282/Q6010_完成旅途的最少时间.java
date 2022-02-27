@@ -8,8 +8,9 @@ import java.util.Arrays;
  * <p>
  * 思路
  * 1. 暴力（上溢）
- * 2. 二分法
+ * 2. 二分
  * 注意long溢出的情况
+ * 数据范围最大可能值是max(time)*totalTrips，最多可能达到1e^14
  */
 public class Q6010_完成旅途的最少时间 {
     public long minimumTime(int[] time, int totalTrips) {
