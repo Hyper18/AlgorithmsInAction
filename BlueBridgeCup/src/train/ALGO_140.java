@@ -10,11 +10,31 @@ import java.util.Scanner;
  * @date 2022/03/02
  * <p>
  * 思路
- * 使用静态类表示prut结构体
+ * 使用一个主函数内的内部类表示prut结构体
  */
 public class ALGO_140 {
 
     public static void main(String[] args) {
+        class prut {
+            String mc;
+            double dj;
+            int sl;
+
+            public prut(String mc, double dj, int sl) {
+                super();
+                this.mc = mc;
+                this.dj = dj;
+                this.sl = sl;
+            }
+
+            public double getDj() {
+                return dj;
+            }
+
+            public int getSl() {
+                return sl;
+            }
+        }
         Scanner in = new Scanner(new BufferedInputStream(System.in));
         PrintWriter out = new PrintWriter(new OutputStreamWriter(System.out));
 
@@ -29,46 +49,5 @@ public class ALGO_140 {
 
         in.close();
         out.close();
-    }
-
-    private static class prut {
-        String mc;
-        double dj;
-        int sl;
-
-        public prut() {
-            super();
-        }
-
-        public prut(String mc, double dj, int sl) {
-            super();
-            this.mc = mc;
-            this.dj = dj;
-            this.sl = sl;
-        }
-
-        public String getMc() {
-            return mc;
-        }
-
-        public void setMc(String mc) {
-            this.mc = mc;
-        }
-
-        public double getDj() {
-            return dj;
-        }
-
-        public void setDj(double dj) {
-            this.dj = dj;
-        }
-
-        public int getSl() {
-            return sl;
-        }
-
-        public void setSl(int sl) {
-            this.sl = sl;
-        }
     }
 }
