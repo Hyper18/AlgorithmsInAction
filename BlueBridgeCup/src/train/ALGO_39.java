@@ -3,10 +3,7 @@ package train;
 import java.io.BufferedInputStream;
 import java.io.OutputStreamWriter;
 import java.io.PrintWriter;
-import java.util.Arrays;
-import java.util.HashSet;
-import java.util.Scanner;
-import java.util.Set;
+import java.util.*;
 
 /**
  * @author Hyperspace
@@ -15,9 +12,35 @@ import java.util.Set;
  * 思路
  * set去重+sort
  * 注：注意hashset的默认排列
+ * 2. 直接采用treeSet，优化复杂度
  */
 public class ALGO_39 {
     public static void main(String[] args) {
+        Scanner in = new Scanner(new BufferedInputStream(System.in));
+        PrintWriter out = new PrintWriter(new OutputStreamWriter(System.out));
+
+        int[] nums = new int[10];
+        for (int i = 0; i < nums.length; i++) {
+            nums[i] = in.nextInt();
+        }
+        Arrays.sort(nums);
+
+        Set<Integer> set = new TreeSet<>();
+        for (int num : nums) {
+            if (!set.contains(num)) {
+                set.add(num);
+            }
+        }
+
+        for (int num : set) {
+            out.println(num);
+        }
+
+        in.close();
+        out.close();
+    }
+
+    public static void main2(String[] args) {
         Scanner in = new Scanner(new BufferedInputStream(System.in));
         PrintWriter out = new PrintWriter(new OutputStreamWriter(System.out));
 
