@@ -56,7 +56,7 @@ public class R7_日期时间处理 {
         Calendar c = Calendar.getInstance();
         // 设置：这里需要注意默认的月份是从0开始的，因此实际想要输入7月，应为6
         c.set(2022, 3 - 1, 3);
-        // 注意星期默认从1开始
+        // 注意这里星期天是周一，因此周四为5，需要减1
         System.out.println(c.get(Calendar.DAY_OF_WEEK) - 1);
 
 
