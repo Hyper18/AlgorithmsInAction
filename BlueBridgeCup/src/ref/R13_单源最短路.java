@@ -18,7 +18,7 @@ public class R13_单源最短路 {
 
     private static long Dijkstra(int n) {
         for (int i = 1; i <= n; i++) {
-            distance[1] = INF;
+            distance[i] = INF;
         }
 
         distance[1] = 0;
