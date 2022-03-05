@@ -1,6 +1,6 @@
 package ref;
 
-import javafx.util.Pair;
+//import javafx.util.Pair;
 
 import java.util.*;
 
@@ -99,20 +99,20 @@ public class R8_集合处理 {
 
         map.size();
 
-        /**
-         * Pair的使用
-         */
-        Pair<String, Integer>[] pair = new Pair[55];
-        pair[0] = new Pair<>("23", 23);
-        pair[1] = new Pair<>("234", 234);
-        pair[2] = new Pair<>("23456", 23456);
-
-        for (int i = 0; i < 3; i++) {
-            String s = pair[i].getKey();
-            System.out.println(s);
-            int t = pair[i].getValue();
-            System.out.println(t);
-        }
+//        /**
+//         * Pair的使用
+//         */
+//        Pair<String, Integer>[] pair = new Pair[55];
+//        pair[0] = new Pair<>("23", 23);
+//        pair[1] = new Pair<>("234", 234);
+//        pair[2] = new Pair<>("23456", 23456);
+//
+//        for (int i = 0; i < 3; i++) {
+//            String s = pair[i].getKey();
+//            System.out.println(s);
+//            int t = pair[i].getValue();
+//            System.out.println(t);
+//        }
 
     }
 }
