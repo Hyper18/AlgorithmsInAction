@@ -12,7 +12,7 @@ import java.util.Queue;
  * 如果单纯用设置visit标志位的方式，只能得到所有为陆地的网格
  * 因此将搜索得到的陆地的值标记为岛屿（2），从而达到只统计岛屿（>=1块的陆地方格）的目的
  * 2. bfs
- * 待优化
+ * 注意将路队方格标注为岛屿的位置
  */
 public class Q200_岛屿数量 {
     private int[][] dirs = {{-1, 0}, {1, 0}, {0, -1}, {0, 1}};
@@ -53,31 +53,36 @@ public class Q200_岛屿数量 {
     public int numIslands2(char[][] grid) {
         n = grid.length;
         m = grid[0].length;
-        Queue<int[]> queue = new LinkedList<>();
 
         int ans = 0;
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < m; j++) {
                 if (grid[i][j] == LAND) {
-                    queue.offer(new int[]{i, j});
-                    while (!queue.isEmpty()) {
-                        int[] pos = queue.poll();
-                        int row = pos[0];
-                        int col = pos[1];
-                        grid[row][col] = ISLAND;
-                        for (int[] dir : dirs) {
-                            int currRow = row + dir[0];
-                            int currCol = col + dir[1];
-                            if (currRow >= 0 && currRow < n && currCol >= 0 && currCol < m && grid[currRow][currCol] == LAND) {
-                                queue.offer(new int[]{currRow, currCol});
-                            }
-                        }
-                    }
+                    bfs(grid, i, j);
                     ans++;
                 }
             }
         }
 
         return ans;
+    }
+
+    private void bfs(char[][] grid, int row, int col) {
+        Queue<int[]> queue = new LinkedList<>();
+        queue.offer(new int[]{row, col});
+        while (!queue.isEmpty()) {
+            int[] pos = queue.poll();
+            row = pos[0];
+            col = pos[1];
+            for (int[] dir : dirs) {
+                int currRow = row + dir[0];
+                int currCol = col + dir[1];
+                if (currRow >= 0 && currRow < n && currCol >= 0 && currCol < m && grid[currRow][currCol] == LAND) {
+                    // here
+                    grid[currRow][currCol] = ISLAND;
+                    queue.offer(new int[]{currRow, currCol});
+                }
+            }
+        }
     }
 }
