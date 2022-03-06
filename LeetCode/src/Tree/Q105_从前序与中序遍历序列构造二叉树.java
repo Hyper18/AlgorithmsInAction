@@ -11,29 +11,39 @@ import java.util.Map;
  * 3. 迭代
  */
 public class Q105_从前序与中序遍历序列构造二叉树 {
-    public TreeNode buildTree(int[] preorder, int[] inorder) {
-        int n = preorder.length;
-        return build(preorder, inorder, 0, n - 1, 0, n - 1);
+    private int[] preorder;
+    private int[] inorder;
+
+    private void init(int[] preorder, int[] inorder) {
+        this.preorder = preorder;
+        this.inorder = inorder;
     }
 
-    private TreeNode build(int[] preorder, int[] inorder, int preorder_left, int preorder_right, int inorder_left, int inorder_right) {
-        if (preorder_left > preorder_right) {
+    public TreeNode buildTree(int[] preorder, int[] inorder) {
+        int n = preorder.length;
+        return build(0, n - 1, 0, n - 1);
+    }
+
+    private TreeNode build(int preorderLeft, int preorderRight, int inorderLeft, int inorderRight) {
+        if (preorderLeft > preorderRight) {
             return null;
         }
-        int preorder_root = preorder_left;
-        TreeNode root = new TreeNode(preorder[preorder_root]);
-        int inorder_root = 0;
-        for (int i = inorder_left; i <= inorder_right; i++) {
-            if (preorder[preorder_root] == inorder[i]) {
-                inorder_root = i;
+        init(preorder, inorder);
+
+        int preorderRoot = preorderLeft;
+        TreeNode root = new TreeNode(preorder[preorderRoot]);
+        int inorderRoot = 0;
+        for (int i = inorderLeft; i <= inorderRight; i++) {
+            if (preorder[preorderRoot] == inorder[i]) {
+                inorderRoot = i;
                 break;
             }
         }
 
-        int size_left_subtree = inorder_root - inorder_left;
+        int leftSubtreeSize = inorderRoot - inorderLeft;
 
-        root.left = build(preorder, inorder, preorder_left + 1, preorder_left + size_left_subtree, inorder_left, inorder_root - 1);
-        root.right = build(preorder, inorder, preorder_left + size_left_subtree + 1, preorder_right, inorder_root + 1, inorder_right);
+        root.left = build(preorderLeft + 1, preorderLeft + leftSubtreeSize, inorderLeft, inorderRoot - 1);
+        root.right = build(preorderLeft + leftSubtreeSize + 1, preorderRight, inorderRoot + 1, inorderRight);
 
         return root;
     }
@@ -41,27 +51,28 @@ public class Q105_从前序与中序遍历序列构造二叉树 {
     private static Map<Integer, Integer> map;
 
     public TreeNode buildTree2(int[] preorder, int[] inorder) {
+        init(preorder, inorder);
         map = new HashMap<>();
         int n = preorder.length;
         for (int i = 0; i < n; i++) {
             map.put(inorder[i], i);
         }
 
-        return build2(preorder, inorder, 0, n - 1, 0, n - 1);
+        return build2(0, n - 1, 0, n - 1);
     }
 
-    private TreeNode build2(int[] preorder, int[] inorder, int preorder_left, int preorder_right, int inorder_left, int inorder_right) {
-        if (preorder_left > preorder_right) {
+    private TreeNode build2(int preorderLeft, int preorderRight, int inorderLeft, int inorderRight) {
+        if (preorderLeft > preorderRight) {
             return null;
         }
-        int preorder_root = preorder_left;
-        TreeNode root = new TreeNode(preorder[preorder_root]);
-        int inorder_root = map.get(preorder_root);
+        int preorderRoot = preorderLeft;
+        TreeNode root = new TreeNode(preorder[preorderRoot]);
+        int inorderRoot = map.get(preorderRoot);
 
-        int size_left_subtree = inorder_root - inorder_left;
+        int leftSubtreeSize = inorderRoot - inorderLeft;
 
-        root.left = build2(preorder, inorder, preorder_left + 1, preorder_left + size_left_subtree, inorder_left, inorder_root - 1);
-        root.right = build2(preorder, inorder, preorder_left + size_left_subtree + 1, preorder_right, inorder_root + 1, inorder_right);
+        root.left = build2(preorderLeft + 1, preorderLeft + leftSubtreeSize, inorderLeft, inorderRoot - 1);
+        root.right = build2(preorderLeft + leftSubtreeSize + 1, preorderRight, inorderRoot + 1, inorderRight);
 
         return root;
     }
