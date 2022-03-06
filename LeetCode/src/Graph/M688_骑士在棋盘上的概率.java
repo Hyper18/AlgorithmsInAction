@@ -1,4 +1,4 @@
-package BFS_DFS;
+package Graph;
 
 /**
  * @author Hyperspace

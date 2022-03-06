@@ -1,4 +1,4 @@
-package BFS_DFS;
+package Graph;
 
 import java.util.ArrayDeque;
 import java.util.Queue;
