@@ -8,7 +8,7 @@ import java.util.Queue;
  * @date 2022/03/06
  */
 public class Q733_图像渲染 {
-    private static int[][] dirs = new int[][]{{1, 0}, {0, 1}, {-1, 0}, {0, -1}};
+    private int[][] dirs = new int[][]{{1, 0}, {0, 1}, {-1, 0}, {0, -1}};
 
     public int[][] floodFill(int[][] image, int sr, int sc, int newColor) {
         int curColor = image[sr][sc];
@@ -21,7 +21,7 @@ public class Q733_图像渲染 {
         return image;
     }
 
-    private static void dfs(int[][] img, int row, int col, int color, int newColor) {
+    private void dfs(int[][] img, int row, int col, int color, int newColor) {
         if (img[row][col] != color) {
             return;
         }
@@ -35,7 +35,7 @@ public class Q733_图像渲染 {
         }
     }
 
-    private static void dfs2(int[][] img, int row, int col, int color, int newColor) {
+    private void dfs2(int[][] img, int row, int col, int color, int newColor) {
         if (img[row][col] != color) {
             return;
         }
