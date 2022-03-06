@@ -10,6 +10,12 @@ import java.util.StringTokenizer;
  * @author Hyperspace
  * @date 2022/03/06
  * @time 140ms
+ * 思路同根据中序和后序排列构造二叉树，并顺次记录两序列相等时结点值
+ * 遍历输出得到前序序列
+ * 主要思考的地方在于递归左右子树时前序和后序指针的位置边界处理：
+ * 1. 遍历左子树时，后序排列中的前i-inorderLeft个结点为当前根结点的左子树结点
+ * 2. 同理，在遍历右子树时，后序排列中的第i+1到根节点下标的前一个结点为当前根节点的右子树
+ * 但实际上这两个点还是思考蛮久的，一开始左子树的后序指针没有-1，一直间隔输出空格。。
  */
 public class S_算法训练_求先序排列 {
     public static BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
