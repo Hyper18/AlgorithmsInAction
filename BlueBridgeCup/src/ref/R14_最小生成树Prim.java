@@ -9,6 +9,8 @@ import java.util.Scanner;
 /**
  * @author Hyperspace
  * @date 2022/03/05
+ * <p>
+ * 稠密图适用
  */
 public class R14_最小生成树Prim {
     private static int MAXD = 100007;
