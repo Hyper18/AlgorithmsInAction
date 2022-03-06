@@ -1,4 +1,8 @@
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.io.OutputStreamWriter;
+import java.io.PrintWriter;
+import java.util.StringTokenizer;
 
 /**
  * 提交代码不要加入import 包名！！
@@ -10,10 +14,9 @@ import java.io.*;
  * 主类必须用Main！！
  */
 public class Main {
-    public static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-    public static StreamTokenizer st = new StreamTokenizer(new BufferedReader(new InputStreamReader(System.in)));
-
-    public static PrintWriter pw = new PrintWriter(new OutputStreamWriter(System.out));
+    public static BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
+    public static StringTokenizer token = new StringTokenizer("");
+    public static PrintWriter out = new PrintWriter(new OutputStreamWriter(System.out));
 
     public static void main(String[] args) throws Exception {
         int n = nextInt();
@@ -21,39 +24,45 @@ public class Main {
         double d = nextDouble();
         String s = nextString();
 
-        pw.println(n);
-        pw.flush();
-        pw.println(m);
-        pw.flush();
-        pw.println(d);
-        pw.flush();
-        pw.write(s);
-        pw.flush();
+        out.printf("%d %f %f %s", n, m, d, s);
 
-        closeAll();
+        close();
     }
 
     public static int nextInt() throws Exception {
-        st.nextToken();
-        return (int) st.nval;
+        while (!token.hasMoreTokens()) {
+            token = new StringTokenizer(in.readLine());
+        }
+
+        return Integer.parseInt(token.nextToken());
     }
 
     public static long nextLong() throws Exception {
-        st.nextToken();
-        return (long) st.nval;
+        while (!token.hasMoreTokens()) {
+            token = new StringTokenizer(in.readLine());
+        }
+
+        return Long.parseLong(token.nextToken());
     }
 
     public static double nextDouble() throws Exception {
-        st.nextToken();
-        return st.nval;
+        while (!token.hasMoreTokens()) {
+            token = new StringTokenizer(in.readLine());
+        }
+
+        return Double.parseDouble(token.nextToken());
     }
 
     public static String nextString() throws Exception {
-        return br.readLine();
+        while (!token.hasMoreTokens()) {
+            token = new StringTokenizer(in.readLine());
+        }
+
+        return token.nextToken();
     }
 
-    public static void closeAll() throws Exception {
-        br.close();
-        pw.close();
+    public static void close() throws Exception {
+        in.close();
+        out.close();
     }
 }
