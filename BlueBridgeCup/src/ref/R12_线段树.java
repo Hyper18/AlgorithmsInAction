@@ -11,6 +11,9 @@ import java.util.Scanner;
  */
 public class R12_线段树 {
     private static int MAXD = 100007;
+    /**
+     * 原数组 线段树（默认大小开4倍，防止数组越界）
+     */
     private static int[] a = new int[MAXD];
     private static int[] tree = new int[MAXD * 4];
 
