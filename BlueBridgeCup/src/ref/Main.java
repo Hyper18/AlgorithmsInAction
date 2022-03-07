@@ -1,9 +1,16 @@
+package ref;
+
 import java.io.*;
 import java.util.StringTokenizer;
 
 /**
+ * 提交代码不要加入import 包名！！
+ * JDK8下引用包仍需正常导入
+ *
  * @author Hyperspace
- * @date 2022/03/07
+ * @date 2022/02/09
+ * <p>
+ * 主类必须用Main！！
  */
 public class Main {
     public static BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
@@ -29,19 +36,6 @@ public class Main {
         return Integer.parseInt(token.nextToken());
     }
 
-    public static String nextString() throws IOException {
-        while (!token.hasMoreTokens()) {
-            token = new StringTokenizer(in.readLine());
-        }
-
-        return token.nextToken();
-    }
-
-    public static void close() throws IOException {
-        in.close();
-        out.close();
-    }
-
     public static long nextLong() throws IOException {
         while (!token.hasMoreTokens()) {
             token = new StringTokenizer(in.readLine());
@@ -57,5 +51,17 @@ public class Main {
 
         return Double.parseDouble(token.nextToken());
     }
-}
 
+    public static String nextString() throws IOException {
+        while (!token.hasMoreTokens()) {
+            token = new StringTokenizer(in.readLine());
+        }
+
+        return token.nextToken();
+    }
+
+    public static void close() throws IOException {
+        in.close();
+        out.close();
+    }
+}
