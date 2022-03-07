@@ -30,7 +30,7 @@ public class R14_最小生成树Prim {
         int n = in.nextInt();
         int m = in.nextInt();
 
-        init(n);
+        init();
 
         while (m-- > 0) {
             int a = in.nextInt();
@@ -49,9 +49,8 @@ public class R14_最小生成树Prim {
         out.close();
     }
 
-    private static void init(int n) {
+    private static void init() {
         Arrays.fill(distance, INF);
-        Arrays.fill(visited, false);
         Arrays.fill(head, -1);
         node = 0;
     }
@@ -60,7 +59,6 @@ public class R14_最小生成树Prim {
         edgePre[node] = head[a];
         edgeTo[node] = b;
         edgeW[node] = w;
-
         head[a] = node++;
     }
 
