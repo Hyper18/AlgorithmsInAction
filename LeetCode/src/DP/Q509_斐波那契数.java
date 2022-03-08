@@ -6,7 +6,7 @@ package DP;
  * <p>
  * 思路
  * 1. DP table
- * 2. 状压DP
+ * 2. 滚动数组 + 状压DP
  */
 public class Q509_斐波那契数 {
     public int fib(int n) {
@@ -31,6 +31,7 @@ public class Q509_斐波那契数 {
             pre = curr;
             curr = tmp;
         }
+
         return curr;
     }
 }
