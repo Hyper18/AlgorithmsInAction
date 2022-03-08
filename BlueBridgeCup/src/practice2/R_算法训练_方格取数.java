@@ -6,7 +6,7 @@ import java.util.StringTokenizer;
 /**
  * @author Hyperspace
  * @date 2022/03/08
- * @time 62ms
+ * @time 78ms
  * <p>
  * 1. 一个人先走，走过的非0位置置0
  * 重点在于如何在第一次遍历后取掉路径上的数
@@ -26,11 +26,9 @@ public class R_算法训练_方格取数 {
         dp = new int[n][n][n][n];
         for (int i = 1; i < n; i++) {
             dp[i][0][0][0] = dp[i - 1][0][0][0] + grid[i][0];
+            dp[0][i][0][0] = dp[0][i - 1][0][0] + grid[0][i];
             dp[0][0][i][0] = dp[0][0][i - 1][0] + grid[i][0];
-        }
-        for (int j = 1; j < n; j++) {
-            dp[0][j][0][0] = dp[0][j - 1][0][0] + grid[0][j];
-            dp[0][0][0][j] = dp[0][0][0][j - 1] + grid[0][j];
+            dp[0][0][0][i] = dp[0][0][0][i - 1] + grid[0][i];
         }
     }
 
