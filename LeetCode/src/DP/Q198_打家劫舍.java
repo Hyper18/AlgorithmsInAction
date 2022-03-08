@@ -10,11 +10,7 @@ package DP;
  * 2. 状压dp -- O(n)
  */
 public class Q198_打家劫舍 {
-    public static void main(String[] args) {
-        System.out.println(rob2(new int[]{2, 1}));
-    }
-
-    public static int rob(int[] nums) {
+    public int rob(int[] nums) {
         if (nums.length == 1) {
             return nums[0];
         }
@@ -30,7 +26,7 @@ public class Q198_打家劫舍 {
         return dp[n - 1];
     }
 
-    public static int rob2(int[] nums) {
+    public int rob2(int[] nums) {
         if (nums.length == 1) {
             return nums[0];
         }
