@@ -11,7 +11,6 @@ import java.util.List;
  * 本题如果按照常规思路从内部点开始判断比较麻烦，
  * 考虑转换思路从边缘点开始往上走（溯源）
  * 找到既能流向大西洋、又能流向太平洋的点
- * 待回看
  */
 public class Q417_太平洋大西洋水流问题 {
     private int[][] dirs = new int[][]{{1, 0}, {-1, 0}, {0, 1}, {0, -1}};
@@ -26,21 +25,24 @@ public class Q417_太平洋大西洋水流问题 {
         if (m == 0 || n == 0) {
             return res;
         }
+        boolean[][] reachP = new boolean[m][n];
+        boolean[][] reachA = new boolean[m][n];
 
-        boolean[][] canReachP = new boolean[m][n];
-        boolean[][] canReachA = new boolean[m][n];
-        for (int i = 0; i < n; i++) {
-            dfs(0, i, canReachP);
-            dfs(m - 1, i, canReachA);
-        }
-        for (int i = 0; i < m; i++) {
-            dfs(i, 0, canReachP);
-            dfs(i, n - 1, canReachA);
+        int len = m > n ? m : n;
+        for (int i = 0; i < len; i++) {
+            if (i < m) {
+                dfs(i, 0, reachP);
+                dfs(i, n - 1, reachA);
+            }
+            if (i < n) {
+                dfs(0, i, reachP);
+                dfs(m - 1, i, reachA);
+            }
         }
 
         for (int i = 0; i < m; i++) {
             for (int j = 0; j < n; j++) {
-                if (canReachA[i][j] && canReachP[i][j]) {
+                if (reachA[i][j] && reachP[i][j]) {
                     List<Integer> output = new ArrayList<>();
                     output.add(i);
                     output.add(j);
@@ -52,19 +54,17 @@ public class Q417_太平洋大西洋水流问题 {
         return res;
     }
 
-    private void dfs(int row, int col, boolean[][] canReach) {
-        canReach[row][col] = true;
+    private void dfs(int row, int col, boolean[][] reachable) {
+        reachable[row][col] = true;
         for (int[] dir : dirs) {
             int currRow = row + dir[0];
             int currCol = col + dir[1];
-            if (isIn(currRow, currCol) && grid[row][col] <= grid[currRow][currCol] && !canReach[currRow][currCol]) {
-                dfs(currRow, currCol, canReach);
+            if (currRow < 0 || currRow >= m || currCol < 0 || currCol >= n) {
+                continue;
+            }
+            if (grid[row][col] <= grid[currRow][currCol] && !reachable[currRow][currCol]) {
+                dfs(currRow, currCol, reachable);
             }
         }
     }
-
-    private boolean isIn(int row, int col) {
-        return row >= 0 && row < m && col >= 0 && col < n;
-    }
-
 }
