@@ -58,6 +58,20 @@ public class Q53_最大子数组和 {
         return ans;
     }
 
+    public int maxSubArray3_2(int[] nums) {
+        int ans = nums[0];
+        int sum = 0;
+        for (int num : nums) {
+            sum = max(sum + num, num);
+            ans = max(ans, sum);
+        }
+        return ans;
+    }
+
+    private int max(int a, int b) {
+        return a > b ? a : b;
+    }
+
     public int maxSubArray4(int[] nums) {
         int len = nums.length;
         int[] dp = new int[len];
