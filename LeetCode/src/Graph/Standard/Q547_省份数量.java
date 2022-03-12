@@ -13,6 +13,7 @@ import java.util.Queue;
  * 1. dfs
  * 2. bfs
  * 通过广搜入队，在每层进行计数
+ * 3. 并查集
  */
 public class Q547_省份数量 {
     private boolean[] visited;
