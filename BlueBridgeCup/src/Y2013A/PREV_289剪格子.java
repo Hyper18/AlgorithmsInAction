@@ -8,7 +8,7 @@ import java.util.StringTokenizer;
  * @date 2022/03/14
  * @time 93ms
  */
-public class PREV_289 {
+public class PREV_289剪格子 {
     public static BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
     public static StringTokenizer token = new StringTokenizer("");
     public static PrintWriter out = new PrintWriter(new BufferedOutputStream(System.out));

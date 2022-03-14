@@ -13,9 +13,8 @@ import java.util.Scanner;
  * @author Hyperspace
  * @date 2022/03/13
  * @time 78ms
- * Q7错误票据
  */
-public class PREV_285 {
+public class PREV_285错误票据 {
     public static Scanner in = new Scanner(new BufferedInputStream(System.in));
     public static PrintWriter out = new PrintWriter(new BufferedOutputStream(System.out));
     static int extra;
