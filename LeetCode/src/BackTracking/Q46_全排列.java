@@ -11,32 +11,32 @@ import java.util.List;
  * 参考官解
  */
 public class Q46_全排列 {
-    private int n;
     private List<List<Integer>> res;
-    private List<Integer> output;
+    private List<Integer> permutation;
+    int n;
 
     public List<List<Integer>> permute(int[] nums) {
         n = nums.length;
         res = new ArrayList<>();
-        output = new ArrayList<>();
+        permutation = new ArrayList<>();
         for (int num : nums) {
-            output.add(num);
+            permutation.add(num);
         }
 
         backtrack(0);
         return res;
     }
 
-    private void backtrack(int first) {
-        if (first == n) {
-            res.add(new ArrayList<>(output));
+    private void backtrack(int idx) {
+        if (idx == n) {
+            res.add(new ArrayList<>(permutation));
         }
-        for (int i = first; i < n; i++) {
+        for (int i = idx; i < n; i++) {
             // 动态维护数组
-            Collections.swap(output, first, i);
-            backtrack(first + 1);
-            // 执行撤销操作
-            Collections.swap(output, first, i);
+            Collections.swap(permutation, idx, i);
+            backtrack(idx + 1);
+            // 执行撤销操作，回溯
+            Collections.swap(permutation, idx, i);
         }
     }
 }
