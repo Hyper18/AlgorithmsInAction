@@ -25,7 +25,7 @@ public class PREV_291大臣的旅费 {
 	public static PrintWriter out = new PrintWriter(new BufferedOutputStream(System.out));
 	private static int[][] graph;
 	private static boolean[] vis;
-	static int n, cityIdx = Integer.MIN_VALUE, max = Integer.MIN_VALUE;
+	static int n, cityIdx, max = Integer.MIN_VALUE;
 
 	public static void main(String[] args) throws IOException {
 		n = nextInt();
