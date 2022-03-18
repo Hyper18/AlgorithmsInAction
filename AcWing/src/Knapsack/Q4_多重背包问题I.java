@@ -6,6 +6,7 @@ import java.util.StringTokenizer;
 /**
  * @author Hyperspace
  * @date 2022/03/18
+ * 多重背包问题
  */
 public class Q4_多重背包问题I {
     private static BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
