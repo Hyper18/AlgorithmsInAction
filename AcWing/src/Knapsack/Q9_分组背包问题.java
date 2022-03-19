@@ -28,6 +28,7 @@ public class Q9_分组背包问题 {
             }
             for (int j = V; j >= 0; j--) {
                 for (int k = 1; k <= S; k++) {
+                    // 区分循环条件与终止条件
                     if (v[k] > j) {
                         continue;
                     }
