@@ -7,34 +7,22 @@ import java.util.StringTokenizer;
  */
 public class Main {
     public static BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
-    public static StringTokenizer token = new StringTokenizer("");
+    public static StringTokenizer tk = new StringTokenizer("");
     public static PrintWriter out = new PrintWriter(new BufferedOutputStream(System.out));
 
     public static void main(String[] args) throws IOException {
         int n = nextInt();
-        long m = nextLong();
-        double d = nextDouble();
-        String s = nextString();
 
-        out.printf("%d %d %f %s\n", n, m, d, s);
 
         close();
     }
 
     public static int nextInt() throws IOException {
-        while (!token.hasMoreTokens()) {
-            token = new StringTokenizer(in.readLine());
+        while (!tk.hasMoreTokens()) {
+            tk = new StringTokenizer(in.readLine());
         }
 
-        return Integer.parseInt(token.nextToken());
-    }
-
-    public static String nextString() throws IOException {
-        while (!token.hasMoreTokens()) {
-            token = new StringTokenizer(in.readLine());
-        }
-
-        return token.nextToken();
+        return Integer.parseInt(tk.nextToken());
     }
 
     public static void close() throws IOException {
@@ -42,20 +30,27 @@ public class Main {
         out.close();
     }
 
-    public static long nextLong() throws IOException {
-        while (!token.hasMoreTokens()) {
-            token = new StringTokenizer(in.readLine());
+    public static String nextString() throws IOException {
+        while (!tk.hasMoreTokens()) {
+            tk = new StringTokenizer(in.readLine());
         }
 
-        return Long.parseLong(token.nextToken());
+        return tk.nextToken();
+    }
+
+    public static long nextLong() throws IOException {
+        while (!tk.hasMoreTokens()) {
+            tk = new StringTokenizer(in.readLine());
+        }
+
+        return Long.parseLong(tk.nextToken());
     }
 
     public static double nextDouble() throws IOException {
-        while (!token.hasMoreTokens()) {
-            token = new StringTokenizer(in.readLine());
+        while (!tk.hasMoreTokens()) {
+            tk = new StringTokenizer(in.readLine());
         }
 
-        return Double.parseDouble(token.nextToken());
+        return Double.parseDouble(tk.nextToken());
     }
 }
-
