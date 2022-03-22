@@ -60,28 +60,4 @@ public class O_算法提高_计算素数和 {
         in.close();
         out.close();
     }
-
-    public static String nextString() throws IOException {
-        while (!tk.hasMoreTokens()) {
-            tk = new StringTokenizer(in.readLine());
-        }
-
-        return tk.nextToken();
-    }
-
-    public static long nextLong() throws IOException {
-        while (!tk.hasMoreTokens()) {
-            tk = new StringTokenizer(in.readLine());
-        }
-
-        return Long.parseLong(tk.nextToken());
-    }
-
-    public static double nextDouble() throws IOException {
-        while (!tk.hasMoreTokens()) {
-            tk = new StringTokenizer(in.readLine());
-        }
-
-        return Double.parseDouble(tk.nextToken());
-    }
 }
