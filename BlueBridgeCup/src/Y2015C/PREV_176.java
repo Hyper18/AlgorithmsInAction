@@ -33,7 +33,7 @@ public class PREV_176 {
         }
 
         for (int i = 0; i < n; i++) {
-            for (int j = 0 + i; j < m + i; j++) {
+            for (int j = i; j < m + i; j++) {
                 grid[i][j] = '*';
             }
             for (int j = w - 1 - i; j > w - 1 - m - i; j--) {
