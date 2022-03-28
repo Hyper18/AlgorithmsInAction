@@ -5,11 +5,7 @@ package Math;
  * @date 2022/03/28
  */
 public class M693_交替位二进制数 {
-    public static void main(String[] args) {
-        hasAlternatingBits(10);
-    }
-
-    public static boolean hasAlternatingBits(int n) {
+    public boolean hasAlternatingBits(int n) {
         if (n == 1) {
             return true;
         }
@@ -27,7 +23,7 @@ public class M693_交替位二进制数 {
         return pre != cur;
     }
 
-    public static boolean hasAlternatingBits2(int n) {
+    public boolean hasAlternatingBits2(int n) {
         int pre = -1, cur;
         while (n != 0) {
             cur = n % 2;
