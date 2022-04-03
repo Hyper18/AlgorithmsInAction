@@ -9,6 +9,9 @@ import java.util.*;
  * @time 234ms
  */
 public class PREV_206青蛙跳杯子_3 {
+    /**
+     * 1. 封装一个持有状态和层次的类
+     */
     private static class StateAndLevel {
         StringBuilder state;
         int level;
@@ -36,11 +39,16 @@ public class PREV_206青蛙跳杯子_3 {
     }
 
     private static void bfs() {
-        // 在队列中加入初始状态
+        /**
+         * 2. 在队列中加入初始状态
+         */
         Queue<StateAndLevel> q = new LinkedList<>();
         q.add(new StateAndLevel(start, 0, start.indexOf("*")));
         allStates.add(start.toString());
 
+        /**
+         * 3. 不断弹出队首元素，逐步演化为相邻状态，加入队列（并判重）
+         */
         while (!q.isEmpty()) {
             StateAndLevel front = q.poll();
             StringBuilder state = front.state;
@@ -51,7 +59,7 @@ public class PREV_206青蛙跳杯子_3 {
                 break;
             }
             int pos = front.pos;
-            // 演化出若干个相邻状态
+            // 演化出若干个相邻状态：根据题目要求，最大的跨度为3
             for (int i = -3; i <= 3; i++) {
                 if (i == 0) {
                     continue;
