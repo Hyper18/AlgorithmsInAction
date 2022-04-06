@@ -10,14 +10,13 @@ import java.util.Set;
 public class B不同子串 {
     public static void main(String[] args) {
         String s = "0100110001010001";
-        int ans = 2;
         Set<String> set = new HashSet<>();
         for (int i = 0; i < s.length(); i++) {
-            for (int j = i + 1; j < s.length(); j++) {
+            for (int j = i + 1; j <= s.length(); j++) {
+                // 踩坑啊！！由源码可知，这里是截取左闭右开，也就是endIndex不包含！！
                 set.add(s.substring(i, j));
             }
         }
-        ans += set.size();
-        System.out.println(ans);
+        System.out.println(set.size());
     }
 }
