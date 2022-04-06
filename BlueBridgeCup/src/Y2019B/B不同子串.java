@@ -1,0 +1,23 @@
+package Y2019B;
+
+import java.util.HashSet;
+import java.util.Set;
+
+/**
+ * @author Hyperspace
+ * @date 2022/04/06
+ */
+public class B不同子串 {
+    public static void main(String[] args) {
+        String s = "0100110001010001";
+        int ans = 2;
+        Set<String> set = new HashSet<>();
+        for (int i = 0; i < s.length(); i++) {
+            for (int j = i + 1; j < s.length(); j++) {
+                set.add(s.substring(i, j));
+            }
+        }
+        ans += set.size();
+        System.out.println(ans);
+    }
+}
