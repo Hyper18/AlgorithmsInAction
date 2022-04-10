@@ -14,9 +14,10 @@ public class H {
 		getF(n);
 
 		for (int i = 1; i <= n; i++) {
-			for (int j = 1; j <= n; j++) {
+			for (int j = 1; j <= i; j++) {
 				if (f[i][j] == n) {
 					out.println((i - 1) * i / 2 + j);
+					break;
 				}
 			}
 		}
@@ -29,8 +30,8 @@ public class H {
 		for (int i = 1; i <= n; i++) {
 			f[i][1] = 1;
 			f[i][i] = 1;
-			for (int j = 1; j <= n; j++) {
-				if (i >= 3 && j > 1 && j < n) {
+			for (int j = 2; j < i; j++) {
+				if (i >= 3) {
 					f[i][j] = f[i - 1][j - 1] + f[i - 1][j];
 				}
 			}
