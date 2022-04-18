@@ -13,5 +13,22 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="源文件\LeetCode">
+      <UniqueIdentifier>{230284aa-3c76-4436-832f-90cb6634e10e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\LeetCode\DFS">
+      <UniqueIdentifier>{2b3cfe52-3b04-4812-8869-6aa77f0962f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\LeetCode\String">
+      <UniqueIdentifier>{94b53e3f-72d2-4c2f-90a8-6ff2782853c5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="M386_字典序排数.cpp">
+      <Filter>源文件\LeetCode\DFS</Filter>
+    </ClCompile>
+    <ClCompile Include="Q819_最常见的单词.cpp">
+      <Filter>源文件\LeetCode\String</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
