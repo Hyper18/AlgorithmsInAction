@@ -140,6 +140,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="M386_字典序排数.cpp" />
+    <ClCompile Include="M821_字符的最短距离.cpp" />
     <ClCompile Include="Q819_最常见的单词.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
