@@ -9,8 +9,7 @@ import java.util.Stack;
  * 1. stack
  * 2. two-pointer
  * 3. 递归
- * 4. 直接反转值
- * 思路来自@触不可及
+ * 4. 直接反转值，思路来自@触不可及
  */
 public class Q206_反转链表 {
     public ListNode reverseList(ListNode head) {
