@@ -7,8 +7,8 @@ import java.util.Map;
  * @author Hyperspace
  * @date 2022/02/18
  * 1. 递归 - 遍历
- * 2. 递归 - hash
- * 3. 迭代
+ * 2. 递归 - hash优化
+ * 通过hashmap记录val-idx的对应关系
  */
 public class Q105_从前序与中序遍历序列构造二叉树 {
     private int[] preorder;
@@ -20,6 +20,7 @@ public class Q105_从前序与中序遍历序列构造二叉树 {
     }
 
     public TreeNode buildTree(int[] preorder, int[] inorder) {
+        init(preorder, inorder);
         int n = preorder.length;
         return build(0, n - 1, 0, n - 1);
     }

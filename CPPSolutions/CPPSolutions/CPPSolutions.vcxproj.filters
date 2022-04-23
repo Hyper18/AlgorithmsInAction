@@ -25,6 +25,12 @@
     <Filter Include="源文件\LeetCode\LinkedList">
       <UniqueIdentifier>{4e587c97-b49a-4637-b28d-298b42a5c38a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\LeetCode\SVM">
+      <UniqueIdentifier>{32380770-644d-451e-a10a-240a509b0f54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\LeetCode\Tree">
+      <UniqueIdentifier>{adcbc177-a624-4379-bc17-b57fdf2ef1f0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="M386_字典序排数.cpp">
@@ -45,8 +51,14 @@
     <ClCompile Include="ListNode.cpp">
       <Filter>源文件\LeetCode\LinkedList</Filter>
     </ClCompile>
-    <ClCompile Include="M824_山羊拉丁文.cpp">
-      <Filter>源文件\LeetCode\String</Filter>
+    <ClCompile Include="M396_旋转函数.cpp">
+      <Filter>源文件\LeetCode\SVM</Filter>
+    </ClCompile>
+    <ClCompile Include="Q110_平衡二叉树.cpp">
+      <Filter>源文件\LeetCode\Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Q111_二叉树的最小深度.cpp">
+      <Filter>源文件\LeetCode\Tree</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
