@@ -144,6 +144,9 @@
     <ClCompile Include="M388_文件的最长绝对路径.cpp" />
     <ClCompile Include="M396_旋转函数.cpp" />
     <ClCompile Include="M821_字符的最短距离.cpp" />
+    <ClCompile Include="Q105_从前序与中序遍历序列构造二叉树.cpp" />
+    <ClCompile Include="Q106_从中序与后序遍历序列构造二叉树.cpp" />
+    <ClCompile Include="Q107_二叉树的层序遍历II.cpp" />
     <ClCompile Include="Q110_平衡二叉树.cpp" />
     <ClCompile Include="Q111_二叉树的最小深度.cpp" />
     <ClCompile Include="Q206_反转链表.cpp" />
