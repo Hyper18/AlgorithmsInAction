@@ -1,13 +1,9 @@
 #pragma once
-using namespace std;
-#include <cstdio>
 #include <cstdlib>
+#include "Status.h"
+
 #define MAXSIZE 100
-#define  SElemType int
-#define Status int
-#define OK 0
-#define ERROR -1
-#define OVERFLOW -2
+typedef int SElemType;
 
 typedef struct {
 	SElemType* base; // Õ»µ×Ö¸Õë
@@ -35,4 +31,18 @@ Status Push(SqStack& S, SElemType e) {
 	return OK;
 }
 
+Status Pop(SqStack& S, SElemType& e) {
+	if (S.top == S.base) {
+		return ERROR;
+	}
+	e = --*S.top;
+
+	return OK;
+}
+
+SElemType GetTop(SqStack S) {
+	if (S.top != S.base) {
+		return *(S.top-1);
+	}
+}
 
