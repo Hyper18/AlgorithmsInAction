@@ -69,5 +69,8 @@
     <ClCompile Include="Q107_二叉树的层序遍历II.cpp">
       <Filter>源文件\LeetCode\Tree</Filter>
     </ClCompile>
+    <ClCompile Include="Q868_二进制间距.cpp">
+      <Filter>源文件\LeetCode</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
