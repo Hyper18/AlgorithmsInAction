@@ -160,7 +160,9 @@
     <ClCompile Include="mid-day6.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="LinkQueue.h" />
     <ClInclude Include="LinkStack.h" />
+    <ClInclude Include="SqQueue.h" />
     <ClInclude Include="SqStack.h" />
     <ClInclude Include="Status.h" />
   </ItemGroup>

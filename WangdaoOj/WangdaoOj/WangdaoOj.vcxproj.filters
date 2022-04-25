@@ -22,8 +22,8 @@
     <Filter Include="头文件\Stack">
       <UniqueIdentifier>{0e2776ad-776c-4e63-b047-581d96cca18d}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\mid\2">
-      <UniqueIdentifier>{716a9f70-acf0-4049-9815-34b60786dd03}</UniqueIdentifier>
+    <Filter Include="头文件\Queue">
+      <UniqueIdentifier>{101ad398-3b0a-4023-8f4d-33ab21f477a0}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -70,19 +70,19 @@
       <Filter>源文件\mid</Filter>
     </ClCompile>
     <ClCompile Include="mid-day1.c">
-      <Filter>源文件\mid\2</Filter>
+      <Filter>源文件\mid</Filter>
     </ClCompile>
     <ClCompile Include="mid-day2.cpp">
-      <Filter>源文件\mid\2</Filter>
+      <Filter>源文件\mid</Filter>
     </ClCompile>
     <ClCompile Include="mid-day3.cpp">
-      <Filter>源文件\mid\2</Filter>
+      <Filter>源文件\mid</Filter>
     </ClCompile>
     <ClCompile Include="mid-day4.cpp">
-      <Filter>源文件\mid\2</Filter>
+      <Filter>源文件\mid</Filter>
     </ClCompile>
     <ClCompile Include="mid-day5.cpp">
-      <Filter>源文件\mid\2</Filter>
+      <Filter>源文件\mid</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -94,6 +94,12 @@
     </ClInclude>
     <ClInclude Include="Status.h">
       <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SqQueue.h">
+      <Filter>头文件\Queue</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkQueue.h">
+      <Filter>头文件\Queue</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
