@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\low">
+      <UniqueIdentifier>{c0025b99-6af2-4083-8a36-01d43abf9cf3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\mid">
+      <UniqueIdentifier>{12c64260-37df-45fd-95bc-0384889a79c9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="low-day1.c">
+      <Filter>源文件\low</Filter>
+    </ClCompile>
+    <ClCompile Include="low-day2.c">
+      <Filter>源文件\low</Filter>
+    </ClCompile>
+    <ClCompile Include="low-day3.c">
+      <Filter>源文件\low</Filter>
+    </ClCompile>
+    <ClCompile Include="low-day4.c">
+      <Filter>源文件\low</Filter>
+    </ClCompile>
+    <ClCompile Include="low-day5.c">
+      <Filter>源文件\low</Filter>
+    </ClCompile>
+    <ClCompile Include="low-day6.c">
+      <Filter>源文件\low</Filter>
+    </ClCompile>
+    <ClCompile Include="low-day7.c">
+      <Filter>源文件\low</Filter>
+    </ClCompile>
+    <ClCompile Include="low-day7-2.c">
+      <Filter>源文件\low</Filter>
+    </ClCompile>
+    <ClCompile Include="low-day8.c">
+      <Filter>源文件\low</Filter>
+    </ClCompile>
+    <ClCompile Include="low-day9.c">
+      <Filter>源文件\low</Filter>
+    </ClCompile>
+    <ClCompile Include="low-day10.c">
+      <Filter>源文件\low</Filter>
+    </ClCompile>
+    <ClCompile Include="low-day11.c">
+      <Filter>源文件\low</Filter>
+    </ClCompile>
+    <ClCompile Include="low-day12.c">
+      <Filter>源文件\low</Filter>
+    </ClCompile>
+    <ClCompile Include="mid-day1.c">
+      <Filter>源文件\mid</Filter>
+    </ClCompile>
+    <ClCompile Include="mid-day2.cpp">
+      <Filter>源文件\mid</Filter>
+    </ClCompile>
+    <ClCompile Include="mid-day3.cpp">
+      <Filter>源文件\mid</Filter>
+    </ClCompile>
+    <ClCompile Include="mid-day4.cpp">
+      <Filter>源文件\mid</Filter>
+    </ClCompile>
+    <ClCompile Include="mid-day5.cpp">
+      <Filter>源文件\mid</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
