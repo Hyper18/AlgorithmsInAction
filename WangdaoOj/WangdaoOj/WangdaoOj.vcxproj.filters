@@ -25,6 +25,9 @@
     <Filter Include="头文件\Queue">
       <UniqueIdentifier>{101ad398-3b0a-4023-8f4d-33ab21f477a0}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\Tree">
+      <UniqueIdentifier>{3db50c6c-b5f7-460e-9dc0-c5ecec0f5ec7}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="low-day1.c">
@@ -84,6 +87,12 @@
     <ClCompile Include="mid-day5.cpp">
       <Filter>源文件\mid</Filter>
     </ClCompile>
+    <ClCompile Include="mid-day7.cpp">
+      <Filter>源文件\mid</Filter>
+    </ClCompile>
+    <ClCompile Include="mid-day8.cpp">
+      <Filter>源文件\mid</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="SqStack.h">
@@ -100,6 +109,9 @@
     </ClInclude>
     <ClInclude Include="LinkQueue.h">
       <Filter>头文件\Queue</Filter>
+    </ClInclude>
+    <ClInclude Include="BinaryTree.h">
+      <Filter>头文件\Tree</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
