@@ -31,6 +31,9 @@
     <Filter Include="源文件\LeetCode\Tree">
       <UniqueIdentifier>{adcbc177-a624-4379-bc17-b57fdf2ef1f0}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\LeetCode\Math">
+      <UniqueIdentifier>{ae539342-6c4a-4273-8509-f1837ebcbcb7}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="M386_字典序排数.cpp">
@@ -71,6 +74,9 @@
     </ClCompile>
     <ClCompile Include="Q868_二进制间距.cpp">
       <Filter>源文件\LeetCode</Filter>
+    </ClCompile>
+    <ClCompile Include="M883_三维形体投影面积.cpp">
+      <Filter>源文件\LeetCode\Math</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

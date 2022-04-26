@@ -3,7 +3,7 @@ using namespace std;
 #include <cstdlib>
 #include <iostream>
 
-#define OK 0
+#define OK 1
 #define ERROR -1
 #define OVERFLOW -2
 

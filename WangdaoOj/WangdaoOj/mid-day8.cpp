@@ -4,7 +4,7 @@ using namespace std;
 #include <iostream>
 #include <queue>
 
-#define OK 0
+#define OK 1
 #define ERROR -1
 #define OVERFLOW -2
 

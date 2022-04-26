@@ -93,6 +93,9 @@
     <ClCompile Include="mid-day8.cpp">
       <Filter>源文件\mid</Filter>
     </ClCompile>
+    <ClCompile Include="mid-day9.cpp">
+      <Filter>源文件\mid</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="SqStack.h">
