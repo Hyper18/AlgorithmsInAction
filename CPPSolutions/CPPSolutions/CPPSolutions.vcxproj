@@ -139,20 +139,49 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="ListNode.cpp" />
-    <ClCompile Include="M386_字典序排数.cpp" />
-    <ClCompile Include="M388_文件的最长绝对路径.cpp" />
-    <ClCompile Include="M396_旋转函数.cpp" />
-    <ClCompile Include="M821_字符的最短距离.cpp" />
-    <ClCompile Include="M883_三维形体投影面积.cpp" />
-    <ClCompile Include="Q105_从前序与中序遍历序列构造二叉树.cpp" />
-    <ClCompile Include="Q106_从中序与后序遍历序列构造二叉树.cpp" />
-    <ClCompile Include="Q107_二叉树的层序遍历II.cpp" />
-    <ClCompile Include="Q110_平衡二叉树.cpp" />
-    <ClCompile Include="Q111_二叉树的最小深度.cpp" />
-    <ClCompile Include="Q206_反转链表.cpp" />
-    <ClCompile Include="Q819_最常见的单词.cpp" />
-    <ClCompile Include="Q868_二进制间距.cpp" />
+    <ClCompile Include="ListNode.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="M386_字典序排数.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="M388_文件的最长绝对路径.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="M396_旋转函数.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="M417_太平洋大西洋水流问题.cpp" />
+    <ClCompile Include="M821_字符的最短距离.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="M883_三维形体投影面积.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Q105_从前序与中序遍历序列构造二叉树.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Q106_从中序与后序遍历序列构造二叉树.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Q107_二叉树的层序遍历II.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Q110_平衡二叉树.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Q111_二叉树的最小深度.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Q206_反转链表.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Q819_最常见的单词.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Q868_二进制间距.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

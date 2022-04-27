@@ -34,6 +34,9 @@
     <Filter Include="源文件\LeetCode\Math">
       <UniqueIdentifier>{ae539342-6c4a-4273-8509-f1837ebcbcb7}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\LeetCode\Graph">
+      <UniqueIdentifier>{ad27dacb-a3e5-4c8d-ae31-1b6c79717033}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="M386_字典序排数.cpp">
@@ -77,6 +80,9 @@
     </ClCompile>
     <ClCompile Include="M883_三维形体投影面积.cpp">
       <Filter>源文件\LeetCode\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="M417_太平洋大西洋水流问题.cpp">
+      <Filter>源文件\LeetCode\Graph</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
