@@ -54,16 +54,16 @@ public class Q417_太平洋大西洋水流问题 {
         return res;
     }
 
-    private void dfs(int row, int col, boolean[][] reachable) {
-        reachable[row][col] = true;
+    private void dfs(int x, int y, boolean[][] reachable) {
+        reachable[x][y] = true;
         for (int[] dir : dirs) {
-            int currRow = row + dir[0];
-            int currCol = col + dir[1];
-            if (currRow < 0 || currRow >= m || currCol < 0 || currCol >= n) {
+            int nx = x + dir[0];
+            int ny = y + dir[1];
+            if (nx < 0 || nx >= m || ny < 0 || ny >= n) {
                 continue;
             }
-            if (grid[row][col] <= grid[currRow][currCol] && !reachable[currRow][currCol]) {
-                dfs(currRow, currCol, reachable);
+            if (grid[x][y] <= grid[nx][ny] && !reachable[nx][ny]) {
+                dfs(nx, ny, reachable);
             }
         }
     }
