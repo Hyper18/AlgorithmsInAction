@@ -37,6 +37,9 @@
     <Filter Include="源文件\LeetCode\Graph">
       <UniqueIdentifier>{ad27dacb-a3e5-4c8d-ae31-1b6c79717033}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\LeetCode\TwoPointer">
+      <UniqueIdentifier>{e159d2ad-2d4b-4f4e-9777-c0f83570ed9c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="M386_字典序排数.cpp">
@@ -83,6 +86,9 @@
     </ClCompile>
     <ClCompile Include="M417_太平洋大西洋水流问题.cpp">
       <Filter>源文件\LeetCode\Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="M905_按奇偶排序数组.cpp">
+      <Filter>源文件\LeetCode\TwoPointer</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
