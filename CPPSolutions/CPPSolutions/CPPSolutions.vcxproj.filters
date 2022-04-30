@@ -105,5 +105,8 @@
     <ClCompile Include="Q3346_你知道你的ABC吗.cpp">
       <Filter>源文件\AcWing\Spring2022\Week1</Filter>
     </ClCompile>
+    <ClCompile Include="Q3358_放养但没有完全放养.cpp">
+      <Filter>源文件\AcWing\Spring2022\Week1</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
