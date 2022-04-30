@@ -40,6 +40,15 @@
     <Filter Include="源文件\LeetCode\TwoPointer">
       <UniqueIdentifier>{e159d2ad-2d4b-4f4e-9777-c0f83570ed9c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\AcWing">
+      <UniqueIdentifier>{f8a6879d-f387-4513-9f3e-0096685392ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\AcWing\Spring2022">
+      <UniqueIdentifier>{9e67406a-3645-4bb9-9ad5-dc0ba07b0812}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\AcWing\Spring2022\Week1">
+      <UniqueIdentifier>{93502017-2b46-4a8f-bcaf-da12f5d7d85e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="M386_字典序排数.cpp">
@@ -92,6 +101,9 @@
     </ClCompile>
     <ClCompile Include="M908_最小差值I.cpp">
       <Filter>源文件\LeetCode\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Q3346_你知道你的ABC吗.cpp">
+      <Filter>源文件\AcWing\Spring2022\Week1</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
