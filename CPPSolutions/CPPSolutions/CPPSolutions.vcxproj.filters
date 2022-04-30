@@ -90,5 +90,8 @@
     <ClCompile Include="M905_按奇偶排序数组.cpp">
       <Filter>源文件\LeetCode\TwoPointer</Filter>
     </ClCompile>
+    <ClCompile Include="M908_最小差值I.cpp">
+      <Filter>源文件\LeetCode\Math</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
