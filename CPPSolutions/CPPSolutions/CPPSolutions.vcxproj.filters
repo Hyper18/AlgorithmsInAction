@@ -49,6 +49,9 @@
     <Filter Include="源文件\AcWing\Spring2022\Week1">
       <UniqueIdentifier>{93502017-2b46-4a8f-bcaf-da12f5d7d85e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\AcWing\Algorithm_BasicLevel">
+      <UniqueIdentifier>{5a3e4f3c-13cd-4f03-9644-ab6de23747aa}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="M386_字典序排数.cpp">
@@ -107,6 +110,12 @@
     </ClCompile>
     <ClCompile Include="Q3358_放养但没有完全放养.cpp">
       <Filter>源文件\AcWing\Spring2022\Week1</Filter>
+    </ClCompile>
+    <ClCompile Include="Q785_快速排序.cpp">
+      <Filter>源文件\AcWing\Algorithm_BasicLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="Q1305_两棵二叉搜索树中的所有元素.cpp">
+      <Filter>源文件\LeetCode\Tree</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
