@@ -14,7 +14,6 @@ public class Q787_归并排序 {
     private static final int N = 100000 + 10;
     private static int[] q = new int[N];
     private static int[] tmp = new int[N];
-    static int n;
 
     public static void main(String[] args) throws IOException {
         int n = nextInt();
