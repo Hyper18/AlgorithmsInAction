@@ -120,5 +120,8 @@
     <ClCompile Include="Q3370_牛年.cpp">
       <Filter>源文件\AcWing\Spring2022\Week1</Filter>
     </ClCompile>
+    <ClCompile Include="Q3745_牛的学术圈I.cpp">
+      <Filter>源文件\AcWing\Spring2022\Week1</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -194,6 +194,7 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="Q3370_牛年.cpp" />
+    <ClCompile Include="Q3745_牛的学术圈I.cpp" />
     <ClCompile Include="Q785_快速排序.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
