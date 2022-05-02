@@ -7,6 +7,13 @@ import java.util.Map;
 /**
  * @author Hyperspace
  * @date 2022/05/01
+ * <p>
+ * 思路
+ * 模拟
+ * 比较费劲的一道题
+ * 一开始考虑用图论 - 链式向前星 解决，
+ * 但是发现题干已经给出"每一次新出现的牛必定已在先前出现过"的限制条件
+ * 故可以直接对其生肖差进行模拟
  */
 public class Q3370_牛年 {
     public static BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
