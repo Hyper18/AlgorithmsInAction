@@ -198,6 +198,9 @@
     <ClCompile Include="Q785_快速排序.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="Q786_第k个数.cpp" />
+    <ClCompile Include="Q786_第k个数2.cpp" />
+    <ClCompile Include="Q787_归并排序.cpp" />
     <ClCompile Include="Q819_最常见的单词.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>

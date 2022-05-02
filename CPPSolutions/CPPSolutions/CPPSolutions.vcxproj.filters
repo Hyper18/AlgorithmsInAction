@@ -123,5 +123,14 @@
     <ClCompile Include="Q3745_牛的学术圈I.cpp">
       <Filter>源文件\AcWing\Spring2022\Week1</Filter>
     </ClCompile>
+    <ClCompile Include="Q786_第k个数.cpp">
+      <Filter>源文件\AcWing\Algorithm_BasicLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="Q786_第k个数2.cpp">
+      <Filter>源文件\AcWing\Algorithm_BasicLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="Q787_归并排序.cpp">
+      <Filter>源文件\AcWing\Algorithm_BasicLevel</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
