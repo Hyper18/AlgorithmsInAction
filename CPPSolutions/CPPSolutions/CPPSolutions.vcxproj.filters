@@ -117,5 +117,8 @@
     <ClCompile Include="Q1305_两棵二叉搜索树中的所有元素.cpp">
       <Filter>源文件\LeetCode\Tree</Filter>
     </ClCompile>
+    <ClCompile Include="Q3370_牛年.cpp">
+      <Filter>源文件\AcWing\Spring2022\Week1</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
