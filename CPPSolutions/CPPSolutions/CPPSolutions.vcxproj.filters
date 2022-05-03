@@ -52,6 +52,9 @@
     <Filter Include="源文件\AcWing\Algorithm_BasicLevel">
       <UniqueIdentifier>{5a3e4f3c-13cd-4f03-9644-ab6de23747aa}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\Model">
+      <UniqueIdentifier>{4c821fc5-c106-4f85-a740-ab79d390d83f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="M386_字典序排数.cpp">
@@ -133,6 +136,18 @@
       <Filter>源文件\AcWing\Algorithm_BasicLevel</Filter>
     </ClCompile>
     <ClCompile Include="Q788_逆序对的数量.cpp">
+      <Filter>源文件\AcWing\Algorithm_BasicLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="M3整数二分.h">
+      <Filter>头文件\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="M1快速排序.h">
+      <Filter>头文件\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="M2归并排序.h">
+      <Filter>头文件\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Q789_数的范围.cpp">
       <Filter>源文件\AcWing\Algorithm_BasicLevel</Filter>
     </ClCompile>
   </ItemGroup>

@@ -142,6 +142,8 @@
     <ClCompile Include="ListNode.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="M1快速排序.h" />
+    <ClCompile Include="M2归并排序.h" />
     <ClCompile Include="M386_字典序排数.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
@@ -202,6 +204,8 @@
     <ClCompile Include="Q786_第k个数2.cpp" />
     <ClCompile Include="Q787_归并排序.cpp" />
     <ClCompile Include="Q788_逆序对的数量.cpp" />
+    <ClCompile Include="M3整数二分.h" />
+    <ClCompile Include="Q789_数的范围.cpp" />
     <ClCompile Include="Q819_最常见的单词.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
