@@ -132,5 +132,8 @@
     <ClCompile Include="Q787_归并排序.cpp">
       <Filter>源文件\AcWing\Algorithm_BasicLevel</Filter>
     </ClCompile>
+    <ClCompile Include="Q788_逆序对的数量.cpp">
+      <Filter>源文件\AcWing\Algorithm_BasicLevel</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
