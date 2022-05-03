@@ -150,5 +150,13 @@
     <ClCompile Include="Q789_数的范围.cpp">
       <Filter>源文件\AcWing\Algorithm_BasicLevel</Filter>
     </ClCompile>
+    <ClCompile Include="Q790_数的三次方根.cpp">
+      <Filter>源文件\AcWing\Algorithm_BasicLevel</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="M4浮点数二分.h">
+      <Filter>头文件\Model</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
