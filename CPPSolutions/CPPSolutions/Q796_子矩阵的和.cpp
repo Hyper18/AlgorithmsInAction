@@ -1,7 +1,7 @@
 using namespace std;
 #include <iostream>
 
-const int N = 10e3 + 10;
+const int N = 1e3 + 10;
 int pre[N][N];
 int n, m, q, x1, y1, x2, y2;
 

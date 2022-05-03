@@ -1,7 +1,7 @@
 using namespace std;
 #include <iostream>
 
-const int N = 10e5 + 10;
+const int N = 1e5 + 10;
 int n;
 int q[N], tmp[N];
 
