@@ -9,6 +9,7 @@ import java.util.Arrays;
  * 思路
  * 最初考虑先分组在自定义排序
  * 后来发现可直接在自定义排序中处理
+ * Arrays.sort() 重写比较器 思路@songhouhou
  * 作分类讨论，共有4种可能的情况
  */
 public class M937_重新排列日志文件 {
