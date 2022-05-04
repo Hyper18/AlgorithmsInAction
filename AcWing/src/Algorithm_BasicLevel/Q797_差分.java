@@ -7,9 +7,9 @@ import java.util.StringTokenizer;
  * @author Hyperspace
  * @date 2022/05/03
  * <p>
- * Ë¼Â·
+ * æ€è·¯
  */
-public class Q797_²î·Ö {
+public class Q797_å·®åˆ† {
     public static BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
     public static StringTokenizer tk = new StringTokenizer("");
     public static PrintWriter out = new PrintWriter(new BufferedOutputStream(System.out));
@@ -20,24 +20,24 @@ public class Q797_²î·Ö {
     public static void main(String[] args) throws IOException {
         int n = nextInt(), m = nextInt();
         for (int i = 1; i <= n; i++) {
-            // ³õÊ¼»¯Ô­Êı×é
+            // åˆå§‹åŒ–åŸæ•°ç»„
             a[i] = nextInt();
-            // ³õÊ¼»¯²î·ÖÊı×é£¬²î·ÖÊı×éµÄ¶¨Òå£ºb[i] = a[i] - a[i - 1]
-            // ÏÂÃæÁ½ÖÖĞ´·¨µÄĞ§¹ûÊÇµÈÍ¬µÄ£º
-            // 1. Ä¬ÈÏa[i]ÎªÎ´¸³ÖµµÄ×´Ì¬¼´¿ªÊ¼½øĞĞ²î·Ö
+            // åˆå§‹åŒ–å·®åˆ†æ•°ç»„ï¼Œå·®åˆ†æ•°ç»„çš„å®šä¹‰ï¼šb[i] = a[i] - a[i - 1]
+            // ä¸‹é¢ä¸¤ç§å†™æ³•çš„æ•ˆæœæ˜¯ç­‰åŒçš„ï¼š
+            // 1. é»˜è®¤a[i]ä¸ºæœªèµ‹å€¼çš„çŠ¶æ€å³å¼€å§‹è¿›è¡Œå·®åˆ†
             // insert(i, i, a[i]);
-            // 2. ´Ó¶¨ÒåÈëÊÖµÄĞ´·¨
+            // 2. ä»å®šä¹‰å…¥æ‰‹çš„å†™æ³•
             b[i] = a[i] - a[i - 1];
         }
 
         while (m-- > 0) {
             int l = nextInt(), r = nextInt(), c = nextInt();
-            // ½øĞĞ²î·Ö²Ù×÷
+            // è¿›è¡Œå·®åˆ†æ“ä½œ
             insert(l, r, c);
         }
 
         for (int i = 1; i <= n; i++) {
-            // ×îÖÕĞòÁĞ£»È¡²î·ÖÊı×éµÄÇ°×ººÍ
+            // æœ€ç»ˆåºåˆ—ï¼›å–å·®åˆ†æ•°ç»„çš„å‰ç¼€å’Œ
             b[i] += b[i - 1];
             out.print(b[i] + " ");
         }
@@ -46,9 +46,9 @@ public class Q797_²î·Ö {
     }
 
     private static void insert(int l, int r, int c) {
-        // Îª´Ól¿ªÊ¼µÄÇø¼ä¼ÓÉÏ²î·ÖÖµc
+        // ä¸ºä»lå¼€å§‹çš„åŒºé—´åŠ ä¸Šå·®åˆ†å€¼c
         b[l] += c;
-        // Îª´ÓrÍùºóµÄÇø¼ä»Ö¸´²î·Ö
+        // ä¸ºä»rå¾€åçš„åŒºé—´æ¢å¤å·®åˆ†
         b[r + 1] -= c;
     }
 

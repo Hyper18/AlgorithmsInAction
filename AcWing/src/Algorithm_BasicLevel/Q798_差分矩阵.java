@@ -7,7 +7,7 @@ import java.util.StringTokenizer;
  * @author Hyperspace
  * @date 2022/05/03
  */
-public class Q798_²î·Ö¾ØÕó {
+public class Q798_å·®åˆ†çŸ©é˜µ {
     public static BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
     public static StringTokenizer tk = new StringTokenizer("");
     public static PrintWriter out = new PrintWriter(new BufferedOutputStream(System.out));
