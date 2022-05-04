@@ -12,20 +12,20 @@ public class Q3_完全背包问题 {
     public static StringTokenizer token = new StringTokenizer("");
     public static PrintWriter out = new PrintWriter(new BufferedOutputStream(System.out));
     private static final int MAX = 1000 + 10;
-    private static int[] dp = new int[MAX];
+    private static int[] f = new int[MAX];
 
     public static void main(String[] args) throws IOException {
-        int N = nextInt();
-        int V = nextInt();
-        for (int i = 1; i <= N; i++) {
+        int n = nextInt();
+        int m = nextInt();
+        for (int i = 1; i <= n; i++) {
             int v = nextInt();
             int w = nextInt();
-            for (int j = v; j <= V; j++) {
-                dp[j] = Math.max(dp[j], dp[j - v] + w);
+            for (int j = v; j <= m; j++) {
+                f[j] = Math.max(f[j], f[j - v] + w);
             }
         }
 
-        out.println(dp[V]);
+        out.println(f[m]);
 
         close();
     }
