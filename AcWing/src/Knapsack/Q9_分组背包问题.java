@@ -13,31 +13,31 @@ public class Q9_分组背包问题 {
     public static StringTokenizer token = new StringTokenizer("");
     public static PrintWriter out = new PrintWriter(new BufferedOutputStream(System.out));
     private static final int MAX = 100 + 10;
-    private static int[] dp = new int[MAX];
+    private static int[] f = new int[MAX];
     private static int[] v = new int[MAX];
     private static int[] w = new int[MAX];
 
     public static void main(String[] args) throws IOException {
-        int N = nextInt();
-        int V = nextInt();
-        for (int i = 1; i <= N; i++) {
-            int S = nextInt();
-            for (int j = 1; j <= S; j++) {
+        int n = nextInt();
+        int m = nextInt();
+        for (int i = 1; i <= n; i++) {
+            int s = nextInt();
+            for (int j = 1; j <= s; j++) {
                 v[j] = nextInt();
                 w[j] = nextInt();
             }
-            for (int j = V; j >= 0; j--) {
-                for (int k = 1; k <= S; k++) {
+            for (int j = m; j >= 0; j--) {
+                for (int k = 1; k <= s; k++) {
                     // 区分循环条件与终止条件
                     if (v[k] > j) {
                         continue;
                     }
-                    dp[j] = Math.max(dp[j], dp[j - v[k]] + w[k]);
+                    f[j] = Math.max(f[j], f[j - v[k]] + w[k]);
                 }
             }
         }
 
-        out.println(dp[V]);
+        out.println(f[m]);
 
         close();
     }
