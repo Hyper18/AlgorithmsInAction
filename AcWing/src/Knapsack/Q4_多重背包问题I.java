@@ -13,23 +13,23 @@ public class Q4_多重背包问题I {
     private static StringTokenizer token = new StringTokenizer("");
     private static PrintWriter out = new PrintWriter(new BufferedOutputStream(System.out));
     private static final int MAX = 100 + 10;
-    private static int[] dp = new int[MAX];
+    private static int[] f = new int[MAX];
 
     public static void main(String[] args) throws IOException {
-        int N = nextInt();
-        int V = nextInt();
-        for (int i = 1; i <= N; i++) {
+        int n = nextInt();
+        int m = nextInt();
+        for (int i = 1; i <= n; i++) {
             int v = nextInt();
             int w = nextInt();
             int s = nextInt();
-            for (int j = V; j >= v; j--) {
+            for (int j = m; j >= v; j--) {
                 for (int k = 1; k <= s && k * v <= j; k++) {
-                    dp[j] = Math.max(dp[j], dp[j - k * v] + k * w);
+                    f[j] = Math.max(f[j], f[j - k * v] + k * w);
                 }
             }
         }
 
-        out.println(dp[V]);
+        out.println(f[m]);
 
         close();
     }
