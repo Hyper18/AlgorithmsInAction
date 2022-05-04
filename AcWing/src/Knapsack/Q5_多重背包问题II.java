@@ -27,14 +27,14 @@ public class Q5_多重背包问题II {
     public static StringTokenizer token = new StringTokenizer("");
     public static PrintWriter out = new PrintWriter(new BufferedOutputStream(System.out));
     private static final int MAX = 2000 + 10;
-    private static int[] dp = new int[MAX];
+    private static int[] f = new int[MAX];
 
     public static void main(String[] args) throws IOException {
-        int N = nextInt();
-        int V = nextInt();
+        int n = nextInt();
+        int m = nextInt();
 
         List<Good> list = new ArrayList<>();
-        for (int i = 0; i < N; i++) {
+        for (int i = 0; i < n; i++) {
             int v = nextInt();
             int w = nextInt();
             int s = nextInt();
@@ -48,12 +48,12 @@ public class Q5_多重背包问题II {
         }
 
         for (Good good : list) {
-            for (int j = V; j >= good.v; j--) {
-                dp[j] = Math.max(dp[j], dp[j - good.v] + good.w);
+            for (int j = m; j >= good.v; j--) {
+                f[j] = Math.max(f[j], f[j - good.v] + good.w);
             }
         }
 
-        out.println(dp[V]);
+        out.println(f[m]);
 
         close();
     }
