@@ -15,28 +15,28 @@ public class Q2_01背包问题 {
     private static final int MAX = 1000 + 10;
     private static int[] v = new int[MAX];
     private static int[] w = new int[MAX];
-    private static int[][] dp = new int[MAX][MAX];
+    private static int[][] f = new int[MAX][MAX];
 
     public static void main(String[] args) throws IOException {
-        int N = nextInt();
-        int V = nextInt();
-        for (int i = 1; i <= N; i++) {
+        int n = nextInt();
+        int m = nextInt();
+        for (int i = 1; i <= n; i++) {
             v[i] = nextInt();
             w[i] = nextInt();
         }
 
-        for (int i = 1; i <= N; i++) {
-            for (int j = 0; j <= V; j++) {
-                dp[i][j] = dp[i - 1][j];
+        for (int i = 1; i <= n; i++) {
+            for (int j = 0; j <= m; j++) {
+                f[i][j] = f[i - 1][j];
                 if (j >= v[i]) {
-                    dp[i][j] = Math.max(dp[i - 1][j], dp[i - 1][j - v[i]] + w[i]);
+                    f[i][j] = Math.max(f[i - 1][j], f[i - 1][j - v[i]] + w[i]);
                 }
             }
         }
 
         int res = 0;
-        for (int i = 0; i <= V; i++) {
-            res = Math.max(res, dp[N][i]);
+        for (int i = 0; i <= m; i++) {
+            res = Math.max(res, f[n][i]);
         }
 
         out.println(res);

@@ -153,9 +153,33 @@
     <ClCompile Include="Q790_数的三次方根.cpp">
       <Filter>源文件\AcWing\Algorithm_BasicLevel</Filter>
     </ClCompile>
+    <ClCompile Include="Q795_前缀和.cpp">
+      <Filter>源文件\AcWing\Algorithm_BasicLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="Q796_子矩阵的和.cpp">
+      <Filter>源文件\AcWing\Algorithm_BasicLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="Q797_差分.cpp">
+      <Filter>源文件\AcWing\Algorithm_BasicLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="Q798_差分矩阵.cpp">
+      <Filter>源文件\AcWing\Algorithm_BasicLevel</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="M4浮点数二分.h">
+      <Filter>头文件\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="M5一维前缀和.h">
+      <Filter>头文件\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="M6二维前缀和.h">
+      <Filter>头文件\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="M7一维差分.h">
+      <Filter>头文件\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="M8二维差分.h">
       <Filter>头文件\Model</Filter>
     </ClInclude>
   </ItemGroup>

@@ -207,6 +207,10 @@
     <ClCompile Include="M3整数二分.h" />
     <ClCompile Include="Q789_数的范围.cpp" />
     <ClCompile Include="Q790_数的三次方根.cpp" />
+    <ClCompile Include="Q795_前缀和.cpp" />
+    <ClCompile Include="Q796_子矩阵的和.cpp" />
+    <ClCompile Include="Q797_差分.cpp" />
+    <ClCompile Include="Q798_差分矩阵.cpp" />
     <ClCompile Include="Q819_最常见的单词.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
@@ -216,6 +220,10 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="M4浮点数二分.h" />
+    <ClInclude Include="M5一维前缀和.h" />
+    <ClInclude Include="M6二维前缀和.h" />
+    <ClInclude Include="M7一维差分.h" />
+    <ClInclude Include="M8二维差分.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
