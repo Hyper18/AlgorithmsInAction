@@ -55,11 +55,17 @@
     <Filter Include="头文件\Model">
       <UniqueIdentifier>{4c821fc5-c106-4f85-a740-ab79d390d83f}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\AcWing\Knapsack">
+    <Filter Include="源文件\AcWing\DP">
+      <UniqueIdentifier>{2817978b-94f7-430c-b456-0f7ac0117d6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\AcWing\DP\Knapsack">
       <UniqueIdentifier>{3300ea7f-6184-4775-a889-62a9064ba785}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\AcWing\LinearDP">
+    <Filter Include="源文件\AcWing\DP\LinearDP">
       <UniqueIdentifier>{3bb8260c-ea68-4f52-b19a-1a58d105aabf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\AcWing\DP\ScopeDP">
+      <UniqueIdentifier>{1bbeee42-6886-4a62-a2f3-727293e7f1b8}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -172,37 +178,52 @@
       <Filter>源文件\AcWing\Algorithm_BasicLevel</Filter>
     </ClCompile>
     <ClCompile Include="Q2_01背包问题.cpp">
-      <Filter>源文件\AcWing\Knapsack</Filter>
+      <Filter>源文件\AcWing\DP\Knapsack</Filter>
     </ClCompile>
     <ClCompile Include="Q2_01背包问题_2.cpp">
-      <Filter>源文件\AcWing\Knapsack</Filter>
+      <Filter>源文件\AcWing\DP\Knapsack</Filter>
     </ClCompile>
     <ClCompile Include="Q3_完全背包问题.cpp">
-      <Filter>源文件\AcWing\Knapsack</Filter>
+      <Filter>源文件\AcWing\DP\Knapsack</Filter>
     </ClCompile>
     <ClCompile Include="Q3_完全背包问题_2.cpp">
-      <Filter>源文件\AcWing\Knapsack</Filter>
+      <Filter>源文件\AcWing\DP\Knapsack</Filter>
     </ClCompile>
     <ClCompile Include="Q4_多重背包问题I.cpp">
-      <Filter>源文件\AcWing\Knapsack</Filter>
+      <Filter>源文件\AcWing\DP\Knapsack</Filter>
     </ClCompile>
     <ClCompile Include="Q3_完全背包问题_3.cpp">
-      <Filter>源文件\AcWing\Knapsack</Filter>
+      <Filter>源文件\AcWing\DP\Knapsack</Filter>
     </ClCompile>
     <ClCompile Include="Q5_多重背包问题II.cpp">
-      <Filter>源文件\AcWing\Knapsack</Filter>
+      <Filter>源文件\AcWing\DP\Knapsack</Filter>
     </ClCompile>
     <ClCompile Include="Q9_分组背包问题.cpp">
-      <Filter>源文件\AcWing\Knapsack</Filter>
+      <Filter>源文件\AcWing\DP\Knapsack</Filter>
     </ClCompile>
     <ClCompile Include="Q898_数字三角形.cpp">
-      <Filter>源文件\AcWing\LinearDP</Filter>
+      <Filter>源文件\AcWing\DP\LinearDP</Filter>
     </ClCompile>
     <ClCompile Include="Q896_最长上升子序列II.cpp">
-      <Filter>源文件\AcWing\LinearDP</Filter>
+      <Filter>源文件\AcWing\DP\LinearDP</Filter>
     </ClCompile>
     <ClCompile Include="Q895_最长上升子序列.cpp">
-      <Filter>源文件\AcWing\LinearDP</Filter>
+      <Filter>源文件\AcWing\DP\LinearDP</Filter>
+    </ClCompile>
+    <ClCompile Include="Q897_最长公共子序列.cpp">
+      <Filter>源文件\AcWing\DP\LinearDP</Filter>
+    </ClCompile>
+    <ClCompile Include="Q902_最短编辑距离.cpp">
+      <Filter>源文件\AcWing\DP\LinearDP</Filter>
+    </ClCompile>
+    <ClCompile Include="Q899_编辑距离.cpp">
+      <Filter>源文件\AcWing\DP\LinearDP</Filter>
+    </ClCompile>
+    <ClCompile Include="Q282_石子合并.cpp">
+      <Filter>源文件\AcWing\DP\ScopeDP</Filter>
+    </ClCompile>
+    <ClCompile Include="Q801_二进制中1的个数.cpp">
+      <Filter>源文件\AcWing\Algorithm_BasicLevel</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
