@@ -1,7 +1,6 @@
 package LinearDP;
 
 import java.io.*;
-import java.util.Arrays;
 import java.util.StringTokenizer;
 
 /**
@@ -43,7 +42,7 @@ public class Q897_最长公共子序列 {
                 }
             }
         }
-        out.println(Arrays.stream(f[n]).max().getAsInt());
+        out.println(f[n][m]);
         close();
     }
 
