@@ -32,12 +32,12 @@ public class Q902_最短编辑距离 {
         a = next().toCharArray();
         int m = nextInt();
         b = next().toCharArray();
-        // 初始化：f[0][i]需进行新增操作i次，f[i][0]需进行删除操作i次
-        for (int i = 0; i <= m; i++) {
-            f[0][i] = i;
-        }
+        // 初始化：f[0][j]需进行新增操作i次，f[i][0]需进行删除操作i次
         for (int i = 0; i <= n; i++) {
             f[i][0] = i;
+        }
+        for (int j = 0; j <= m; j++) {
+            f[0][j] = j;
         }
 
         for (int i = 1; i <= n; i++) {

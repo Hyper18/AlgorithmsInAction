@@ -8,11 +8,11 @@ int n, m;
 
 int main() {
 	scanf("%d%s%d%s", &n, a + 1, &m, b + 1);
-	for (int i = 0; i <= m; i++) {
-		f[0][i] = i;
-	}
 	for (int i = 0; i <= n; i++) {
 		f[i][0] = i;
+	}
+	for (int j = 0; j <= m; j++) {
+		f[0][j] = j;
 	}
 
 	for (int i = 1; i <= n; i++) {
