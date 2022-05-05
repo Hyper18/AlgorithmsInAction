@@ -186,9 +186,11 @@
     <ClCompile Include="Q1305_两棵二叉搜索树中的所有元素.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="Q2_01背包问题_2.cpp" />
     <ClCompile Include="Q206_反转链表.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="Q2_01背包问题.cpp" />
     <ClCompile Include="Q3346_你知道你的ABC吗.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
@@ -197,6 +199,11 @@
     </ClCompile>
     <ClCompile Include="Q3370_牛年.cpp" />
     <ClCompile Include="Q3745_牛的学术圈I.cpp" />
+    <ClCompile Include="Q3_完全背包问题.cpp" />
+    <ClCompile Include="Q3_完全背包问题_2.cpp" />
+    <ClCompile Include="Q3_完全背包问题_3.cpp" />
+    <ClCompile Include="Q4_多重背包问题I.cpp" />
+    <ClCompile Include="Q5_多重背包问题II.cpp" />
     <ClCompile Include="Q785_快速排序.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
@@ -217,6 +224,10 @@
     <ClCompile Include="Q868_二进制间距.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="Q895_最长上升子序列.cpp" />
+    <ClCompile Include="Q896_最长上升子序列II.cpp" />
+    <ClCompile Include="Q898_数字三角形.cpp" />
+    <ClCompile Include="Q9_分组背包问题.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="M4浮点数二分.h" />
