@@ -30,7 +30,7 @@ public class Main {
         out.close();
     }
 
-    public static String nextString() throws IOException {
+    public static String next() throws IOException {
         while (!tk.hasMoreTokens()) {
             tk = new StringTokenizer(in.readLine());
         }
