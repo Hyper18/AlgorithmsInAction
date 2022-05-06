@@ -225,6 +225,9 @@
     <ClCompile Include="Q801_二进制中1的个数.cpp">
       <Filter>源文件\AcWing\Algorithm_BasicLevel</Filter>
     </ClCompile>
+    <ClCompile Include="Q799_最长连续不重复子序列.cpp">
+      <Filter>源文件\AcWing\Algorithm_BasicLevel</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="M4浮点数二分.h">
