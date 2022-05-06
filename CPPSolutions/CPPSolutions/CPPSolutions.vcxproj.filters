@@ -67,6 +67,9 @@
     <Filter Include="源文件\AcWing\DP\ScopeDP">
       <UniqueIdentifier>{1bbeee42-6886-4a62-a2f3-727293e7f1b8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\AcWing\DP\CountDP">
+      <UniqueIdentifier>{5fb7741f-b2bb-48c9-95aa-23b09c299980}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="M386_字典序排数.cpp">
@@ -233,6 +236,9 @@
     </ClCompile>
     <ClCompile Include="Q2816_判断子序列.cpp">
       <Filter>源文件\AcWing\Algorithm_BasicLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="Q900_整数划分.cpp">
+      <Filter>源文件\AcWing\DP\CountDP</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

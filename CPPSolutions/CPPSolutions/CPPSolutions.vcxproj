@@ -234,6 +234,7 @@
     <ClCompile Include="Q897_最长公共子序列.cpp" />
     <ClCompile Include="Q898_数字三角形.cpp" />
     <ClCompile Include="Q899_编辑距离.cpp" />
+    <ClCompile Include="Q900_整数划分.cpp" />
     <ClCompile Include="Q902_最短编辑距离.cpp" />
     <ClCompile Include="Q9_分组背包问题.cpp" />
   </ItemGroup>
