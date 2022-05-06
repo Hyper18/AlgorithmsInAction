@@ -228,6 +228,12 @@
     <ClCompile Include="Q799_最长连续不重复子序列.cpp">
       <Filter>源文件\AcWing\Algorithm_BasicLevel</Filter>
     </ClCompile>
+    <ClCompile Include="Q800_数组元素的目标和.cpp">
+      <Filter>源文件\AcWing\Algorithm_BasicLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="Q2816_判断子序列.cpp">
+      <Filter>源文件\AcWing\Algorithm_BasicLevel</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="M4浮点数二分.h">

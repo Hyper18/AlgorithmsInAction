@@ -186,6 +186,7 @@
     <ClCompile Include="Q1305_两棵二叉搜索树中的所有元素.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="Q2816_判断子序列.cpp" />
     <ClCompile Include="Q282_石子合并.cpp" />
     <ClCompile Include="Q2_01背包问题_2.cpp" />
     <ClCompile Include="Q206_反转链表.cpp">
@@ -220,6 +221,7 @@
     <ClCompile Include="Q797_差分.cpp" />
     <ClCompile Include="Q798_差分矩阵.cpp" />
     <ClCompile Include="Q799_最长连续不重复子序列.cpp" />
+    <ClCompile Include="Q800_数组元素的目标和.cpp" />
     <ClCompile Include="Q801_二进制中1的个数.cpp" />
     <ClCompile Include="Q819_最常见的单词.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
