@@ -6,6 +6,15 @@ import java.util.StringTokenizer;
 /**
  * @author Hyperspace
  * @date 2022/05/09
+ * <p>
+ * 思路 线性dp
+ * 1. 状态表示
+ * 集合：f[i]是从起始景点到当前编号为i景点所经过的最大景点数目
+ * 属性：Max
+ * <p>
+ * 2. 状态计算
+ * 只要能够识别出问题属于LIS问题，则此列问题的状态转移方程均相同
+ * f[i] = max(f[i], f[j] + 1)
  */
 public class Q1014_登山 {
     public static BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
