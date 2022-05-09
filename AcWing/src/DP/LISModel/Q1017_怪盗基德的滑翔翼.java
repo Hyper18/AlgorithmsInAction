@@ -38,7 +38,9 @@ public class Q1017_怪盗基德的滑翔翼 {
             for (int i = 1; i <= n; i++) {
                 f[i] = 1;
                 for (int j = 1; j < i; j++) {
-                    if (h[i] < h[j]) {
+                    // 做Q1014才发现本题条件大于、小于都可以过，很神奇
+                    // 可以理解为统计个数，正三角、倒三角次序对结果没有影响
+                    if (h[i] > h[j]) {
                         f[i] = Math.max(f[i], f[j] + 1);
                     }
                 }
@@ -49,7 +51,7 @@ public class Q1017_怪盗基德的滑翔翼 {
             for (int i = n; i >= 1; i--) {
                 f[i] = 1;
                 for (int j = n; j > i; j--) {
-                    if (h[i] < h[j]) {
+                    if (h[i] > h[j]) {
                         f[i] = Math.max(f[i], f[j] + 1);
                     }
                 }
