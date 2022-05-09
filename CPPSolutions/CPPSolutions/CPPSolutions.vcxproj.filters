@@ -73,6 +73,9 @@
     <Filter Include="源文件\AcWing\BFS">
       <UniqueIdentifier>{c837a44f-6a8a-482e-bae1-b9c72f2e466a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\AcWing\DP\TriangleDP">
+      <UniqueIdentifier>{df674735-c47e-48c3-b7fe-cf5262b838ae}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="M386_字典序排数.cpp">
@@ -245,6 +248,18 @@
     </ClCompile>
     <ClCompile Include="Q842_排列数字.cpp">
       <Filter>源文件\AcWing\BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="Q843_n皇后问题.cpp">
+      <Filter>源文件\AcWing\BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="Q843_n皇后问题_2.cpp">
+      <Filter>源文件\AcWing\BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="Q338_计数问题.cpp">
+      <Filter>源文件\AcWing\DP\CountDP</Filter>
+    </ClCompile>
+    <ClCompile Include="Q1015_摘花生.cpp">
+      <Filter>源文件\AcWing\DP\TriangleDP</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
