@@ -13,6 +13,11 @@ import java.util.StringTokenizer;
  * 2) 集合: 所有物品的总价值最小Min
  * 2. 状态转移
  * f[i][j] = min(f[i - 1][j], f[i][j - 1]) + w[i][j]
+ * <p>
+ * 2n-1的时间限制，实际说明了不能走回头路
+ * 因为最短路所需时间也为1 + 2 * (n - 1) = 2n-1
+ * <p>
+ * 另需注意，不同于求最大的问题，最小需要初始化一个大值并特判起点
  */
 public class Q1018_最低通行费 {
     public static BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
