@@ -8,7 +8,7 @@ int n, ans;
 void dfs(int u, int su, int sd) {
 	if (su + sd >= ans) return;
 	if (u == n) {
-		ans = min(ans, su + sd);
+		ans = su + sd;
 		return;
 	}
 
