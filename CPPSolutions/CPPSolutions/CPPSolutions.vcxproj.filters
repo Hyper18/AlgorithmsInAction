@@ -76,6 +76,9 @@
     <Filter Include="源文件\AcWing\DP\TriangleDP">
       <UniqueIdentifier>{df674735-c47e-48c3-b7fe-cf5262b838ae}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\AcWing\DP\LISModel">
+      <UniqueIdentifier>{e2cc5686-afe8-4dc2-b110-18019bf52783}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="M386_字典序排数.cpp">
@@ -260,6 +263,24 @@
     </ClCompile>
     <ClCompile Include="Q1015_摘花生.cpp">
       <Filter>源文件\AcWing\DP\TriangleDP</Filter>
+    </ClCompile>
+    <ClCompile Include="Q1018_最低通行费.cpp">
+      <Filter>源文件\AcWing\DP\TriangleDP</Filter>
+    </ClCompile>
+    <ClCompile Include="Q1027_方格取数.cpp">
+      <Filter>源文件\AcWing\DP\TriangleDP</Filter>
+    </ClCompile>
+    <ClCompile Include="Q1017_怪盗基德的滑翔翼.cpp">
+      <Filter>源文件\AcWing\DP\LISModel</Filter>
+    </ClCompile>
+    <ClCompile Include="Q1014_登山.cpp">
+      <Filter>源文件\AcWing\DP\LISModel</Filter>
+    </ClCompile>
+    <ClCompile Include="Q482_合唱队形.cpp">
+      <Filter>源文件\AcWing\DP\LISModel</Filter>
+    </ClCompile>
+    <ClCompile Include="Q1012_友好城市.cpp">
+      <Filter>源文件\AcWing\DP\LISModel</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
