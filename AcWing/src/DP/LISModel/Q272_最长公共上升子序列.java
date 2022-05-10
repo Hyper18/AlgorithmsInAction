@@ -8,13 +8,17 @@ import java.util.StringTokenizer;
  * @author Hyperspace
  * @date 2022/05/10
  * <p>
- * 思路 线性dp
+ * 思路 线性dp -- O(n^2)
  * 1. 状态表示
  * 集合：f[i][j]代表所有a[1 ~ i]和b[1 ~ j]中以b[j]结尾的公共上升子序列的集合
  * 属性：等于该集合的子序列中长度的最大值Max
  * 2. 状态计算
  * 1）不包含a[i]的子集，最大值是f[i - 1][j]
  * 2）包含a[i]的子集
+ * 继续划分，依据是子序列的倒数第二个元素在b[]中是哪个数
+ * preMax是满足a[i] > b[k]的f[i - 1][j] + 1的前缀最大值
+ * <p>
+ * 待回看
  */
 public class Q272_最长公共上升子序列 {
     public static BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
@@ -37,11 +41,9 @@ public class Q272_最长公共上升子序列 {
             int preMax = 1;
             for (int j = 1; j <= n; j++) {
                 f[i][j] = f[i - 1][j];
-                // 求公共
                 if (a[i] == b[j]) {
                     f[i][j] = Math.max(f[i][j], preMax);
                 }
-                // 求最长
                 if (a[i] > b[j]) {
                     preMax = Math.max(preMax, f[i - 1][j] + 1);
                 }
