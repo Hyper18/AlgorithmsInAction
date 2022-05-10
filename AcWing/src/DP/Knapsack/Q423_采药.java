@@ -6,6 +6,14 @@ import java.util.StringTokenizer;
 /**
  * @author Hyperspace
  * @date 2022/05/10
+ * <p>
+ * 思路 01背包问题 -- O(n^2)
+ * 注意这题在处理输入时，交换了物品和体积的输入顺序
+ * 1. 状态表示
+ * 集合：f[j]表示总采药时长为j时，所能采得的草药的最大价值
+ * 属性：Max
+ * 2. 状态计算
+ * f[j] = max(f[j], f[j - v] + w)
  */
 public class Q423_采药 {
     public static BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
