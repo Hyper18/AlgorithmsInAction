@@ -21,6 +21,9 @@ import java.util.StringTokenizer;
  * 2. 状态计算
  * 不选i（全不选，1） ~ 选n个i（不变， n）
  * f[j] |= f[j - a[i]]
+ * <p>
+ * 注：与f[j] += f[j - a[i]]的区别
+ * 前者是可行性背包，求解状态的真值，后者是背包方案数，求解状态的可达方案数。
  */
 public class Q532_货币系统 {
     public static BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
