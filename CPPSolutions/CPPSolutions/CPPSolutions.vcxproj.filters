@@ -282,6 +282,33 @@
     <ClCompile Include="Q1012_友好城市.cpp">
       <Filter>源文件\AcWing\DP\LISModel</Filter>
     </ClCompile>
+    <ClCompile Include="Q1016_最大上升子序列和.cpp">
+      <Filter>源文件\AcWing\DP\LISModel</Filter>
+    </ClCompile>
+    <ClCompile Include="Q1010_拦截导弹.cpp">
+      <Filter>源文件\AcWing\DP\LISModel</Filter>
+    </ClCompile>
+    <ClCompile Include="Q187_导弹防御系统.cpp">
+      <Filter>源文件\AcWing\DP\LISModel</Filter>
+    </ClCompile>
+    <ClCompile Include="Q272_最长公共上升子序列.cpp">
+      <Filter>源文件\AcWing\DP\LISModel</Filter>
+    </ClCompile>
+    <ClCompile Include="Q423_采药.cpp">
+      <Filter>源文件\AcWing\DP\Knapsack</Filter>
+    </ClCompile>
+    <ClCompile Include="Q1024_装箱问题.cpp">
+      <Filter>源文件\AcWing\DP\Knapsack</Filter>
+    </ClCompile>
+    <ClCompile Include="Q1022_宠物小精灵之收服.cpp">
+      <Filter>源文件\AcWing\DP\Knapsack</Filter>
+    </ClCompile>
+    <ClCompile Include="Q11_背包问题求方案数.cpp">
+      <Filter>源文件\AcWing\DP\Knapsack</Filter>
+    </ClCompile>
+    <ClCompile Include="Q278_数字组合.cpp">
+      <Filter>源文件\AcWing\DP\Knapsack</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="M4浮点数二分.h">
