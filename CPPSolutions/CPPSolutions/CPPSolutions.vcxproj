@@ -175,7 +175,10 @@
     <ClCompile Include="Q1016_最大上升子序列和.cpp" />
     <ClCompile Include="Q1017_怪盗基德的滑翔翼.cpp" />
     <ClCompile Include="Q1018_最低通行费.cpp" />
+    <ClCompile Include="Q1020_潜水员.cpp" />
+    <ClCompile Include="Q1021_货币系统.cpp" />
     <ClCompile Include="Q1022_宠物小精灵之收服.cpp" />
+    <ClCompile Include="Q1023_买书.cpp" />
     <ClCompile Include="Q1024_装箱问题.cpp" />
     <ClCompile Include="Q1027_方格取数.cpp" />
     <ClCompile Include="Q105_从前序与中序遍历序列构造二叉树.cpp">
@@ -222,6 +225,7 @@
     <ClCompile Include="Q423_采药.cpp" />
     <ClCompile Include="Q482_合唱队形.cpp" />
     <ClCompile Include="Q4_多重背包问题I.cpp" />
+    <ClCompile Include="Q532_货币系统.cpp" />
     <ClCompile Include="Q5_多重背包问题II.cpp" />
     <ClCompile Include="Q785_快速排序.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
@@ -254,6 +258,7 @@
     <ClCompile Include="Q897_最长公共子序列.cpp" />
     <ClCompile Include="Q898_数字三角形.cpp" />
     <ClCompile Include="Q899_编辑距离.cpp" />
+    <ClCompile Include="Q8_二维费用的背包问题.cpp" />
     <ClCompile Include="Q900_整数划分.cpp" />
     <ClCompile Include="Q902_最短编辑距离.cpp" />
     <ClCompile Include="Q9_分组背包问题.cpp" />
