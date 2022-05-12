@@ -12,25 +12,20 @@ public class Q4_多重背包问题I {
     private static BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
     private static StringTokenizer token = new StringTokenizer("");
     private static PrintWriter out = new PrintWriter(new BufferedOutputStream(System.out));
-    private static final int MAX = 100 + 10;
-    private static int[] f = new int[MAX];
+    private static final int N = 100 + 10;
+    private static int[] f = new int[N];
 
     public static void main(String[] args) throws IOException {
-        int n = nextInt();
-        int m = nextInt();
-        for (int i = 1; i <= n; i++) {
-            int v = nextInt();
-            int w = nextInt();
-            int s = nextInt();
+        int n = nextInt(), m = nextInt();
+        for (int i = 0; i < n; i++) {
+            int v = nextInt(), w = nextInt(), s = nextInt();
             for (int j = m; j >= v; j--) {
                 for (int k = 1; k <= s && k * v <= j; k++) {
                     f[j] = Math.max(f[j], f[j - k * v] + k * w);
                 }
             }
         }
-
         out.println(f[m]);
-
         close();
     }
 
