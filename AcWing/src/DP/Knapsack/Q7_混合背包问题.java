@@ -8,34 +8,35 @@ import java.util.StringTokenizer;
 /**
  * @author Hyperspace
  * @date 2022/03/18
+ * 混合背包问题
+ * <p>
+ * 思路 -- 方案一
+ * 1. 拆分多重背包为01背包
+ * 2. 分别处理01背包和完全背包
  */
 public class Q7_混合背包问题 {
     private static BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
     private static StringTokenizer token = new StringTokenizer("");
     private static PrintWriter out = new PrintWriter(new BufferedOutputStream(System.out));
-    private static final int MAX = 1000 + 10;
-    private static int[] dp = new int[MAX];
+    private static final int N = 1000 + 10;
+    private static int[] f = new int[N];
 
     private static class Thing {
-        int kind;
-        int v;
-        int w;
+        int k, v, w;
 
-        public Thing(int kind, int v, int w) {
-            this.kind = kind;
+        public Thing(int k, int v, int w) {
+            this.k = k;
             this.v = v;
             this.w = w;
         }
     }
 
     public static void main(String[] args) throws IOException {
-        int N = nextInt();
-        int V = nextInt();
+        int n = nextInt(), m = nextInt();
+
         List<Thing> list = new ArrayList<>();
-        for (int i = 1; i <= N; i++) {
-            int v = nextInt();
-            int w = nextInt();
-            int s = nextInt();
+        for (int i = 0; i < n; i++) {
+            int v = nextInt(), w = nextInt(), s = nextInt();
             if (s == -1 || s == 0) {
                 list.add(new Thing(s, v, w));
             } else {
@@ -48,20 +49,19 @@ public class Q7_混合背包问题 {
                 }
             }
         }
-
         for (Thing thing : list) {
-            if (thing.kind == -1) {
-                for (int j = V; j >= thing.v; j--) {
-                    dp[j] = Math.max(dp[j], dp[j - thing.v] + thing.w);
+            if (thing.k == -1) {
+                for (int j = m; j >= thing.v; j--) {
+                    f[j] = Math.max(f[j], f[j - thing.v] + thing.w);
                 }
             } else {
-                for (int j = thing.v; j <= V; j++) {
-                    dp[j] = Math.max(dp[j], dp[j - thing.v] + thing.w);
+                for (int j = thing.v; j <= m; j++) {
+                    f[j] = Math.max(f[j], f[j - thing.v] + thing.w);
                 }
             }
         }
 
-        out.println(dp[V]);
+        out.println(f[m]);
 
         close();
     }
