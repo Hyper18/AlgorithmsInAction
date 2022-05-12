@@ -12,15 +12,13 @@ public class Q9_分组背包问题 {
     public static BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
     public static StringTokenizer token = new StringTokenizer("");
     public static PrintWriter out = new PrintWriter(new BufferedOutputStream(System.out));
-    private static final int MAX = 100 + 10;
-    private static int[] f = new int[MAX];
-    private static int[] v = new int[MAX];
-    private static int[] w = new int[MAX];
+    private static final int N = 100 + 10;
+    private static int[] v = new int[N], w = new int[N];
+    private static int[] f = new int[N];
 
     public static void main(String[] args) throws IOException {
-        int n = nextInt();
-        int m = nextInt();
-        for (int i = 1; i <= n; i++) {
+        int n = nextInt(), m = nextInt();
+        for (int i = 0; i < n; i++) {
             int s = nextInt();
             for (int j = 1; j <= s; j++) {
                 v[j] = nextInt();
@@ -36,9 +34,7 @@ public class Q9_分组背包问题 {
                 }
             }
         }
-
         out.println(f[m]);
-
         close();
     }
 

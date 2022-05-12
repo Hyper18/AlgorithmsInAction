@@ -1,29 +1,18 @@
 using namespace std;
 #include <iostream>
 
-const int N = 1e2 + 10;
-int v[N][N], w[N][N], s[N];
+const int N = 110;
+int v[N], w[N];
 int f[N];
 int n, m;
 
 int main() {
-	scanf("%d %d", &n, &m);
+	scanf("%d%d", &n, &m);
 	for (int i = 1; i <= n; i++) {
-		scanf("%d", &s[i]);
-		for (int j = 0; j < s[i]; j++) {
-			scanf("%d %d", &v[i][j], &w[i][j]);
-		}
+		int s;
+		scanf("%d", &s);
+		for (int j = 1; j <= s; j++) scanf("%d%d", &v[j], &w[j]);
+		for (int j = m; j >= 0; j--) for (int k = 1; k <= s; k++) if (v[k] <= j) f[j] = max(f[j], f[j - v[k]] + w[k]);
 	}
-
-	for (int i = 1; i <= n; i++) {
-		for (int j = m; j >= 0; j--) {
-			for (int k = 0; k < s[i]; k++) {
-				if (v[i][k] <= j) {
-					f[j] = max(f[j], f[j - v[i][k]] + w[i][k]);
-				}
-			}
-		}
-	}
-
 	printf("%d", f[m]);
 }
