@@ -170,11 +170,13 @@
     </ClCompile>
     <ClCompile Include="Q1010_拦截导弹.cpp" />
     <ClCompile Include="Q1012_友好城市.cpp" />
+    <ClCompile Include="Q1013_机器分配.cpp" />
     <ClCompile Include="Q1014_登山.cpp" />
     <ClCompile Include="Q1015_摘花生.cpp" />
     <ClCompile Include="Q1016_最大上升子序列和.cpp" />
     <ClCompile Include="Q1017_怪盗基德的滑翔翼.cpp" />
     <ClCompile Include="Q1018_最低通行费.cpp" />
+    <ClCompile Include="Q1019_庆功会.cpp" />
     <ClCompile Include="Q1020_潜水员.cpp" />
     <ClCompile Include="Q1021_货币系统.cpp" />
     <ClCompile Include="Q1022_宠物小精灵之收服.cpp" />
@@ -223,10 +225,12 @@
     <ClCompile Include="Q3_完全背包问题_2.cpp" />
     <ClCompile Include="Q3_完全背包问题_3.cpp" />
     <ClCompile Include="Q423_采药.cpp" />
+    <ClCompile Include="Q426_开心的金明.cpp" />
     <ClCompile Include="Q482_合唱队形.cpp" />
     <ClCompile Include="Q4_多重背包问题I.cpp" />
     <ClCompile Include="Q532_货币系统.cpp" />
     <ClCompile Include="Q5_多重背包问题II.cpp" />
+    <ClCompile Include="Q6_多重背包问题III.cpp" />
     <ClCompile Include="Q785_快速排序.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
@@ -242,6 +246,7 @@
     <ClCompile Include="Q797_差分.cpp" />
     <ClCompile Include="Q798_差分矩阵.cpp" />
     <ClCompile Include="Q799_最长连续不重复子序列.cpp" />
+    <ClCompile Include="Q7_混合背包问题.cpp" />
     <ClCompile Include="Q800_数组元素的目标和.cpp" />
     <ClCompile Include="Q801_二进制中1的个数.cpp" />
     <ClCompile Include="Q819_最常见的单词.cpp">

@@ -324,6 +324,21 @@
     <ClCompile Include="Q1020_潜水员.cpp">
       <Filter>源文件\AcWing\DP\Knapsack</Filter>
     </ClCompile>
+    <ClCompile Include="Q6_多重背包问题III.cpp">
+      <Filter>源文件\AcWing\DP\Knapsack</Filter>
+    </ClCompile>
+    <ClCompile Include="Q1019_庆功会.cpp">
+      <Filter>源文件\AcWing\DP\Knapsack</Filter>
+    </ClCompile>
+    <ClCompile Include="Q7_混合背包问题.cpp">
+      <Filter>源文件\AcWing\DP\Knapsack</Filter>
+    </ClCompile>
+    <ClCompile Include="Q1013_机器分配.cpp">
+      <Filter>源文件\AcWing\DP\Knapsack</Filter>
+    </ClCompile>
+    <ClCompile Include="Q426_开心的金明.cpp">
+      <Filter>源文件\AcWing\DP\Knapsack</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="M4浮点数二分.h">
