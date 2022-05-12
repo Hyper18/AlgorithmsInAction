@@ -6,6 +6,13 @@ import java.util.StringTokenizer;
 /**
  * @author Hyperspace
  * @date 2022/05/12
+ * <p>
+ * 思路 多重背包问题
+ * 1. 状态表示
+ * 集合：f[i][j]表示考虑前i个物品，背包体积为j时所能获取的最大价值
+ * 属性：Max
+ * 2. 状态计算
+ * f[j] = max(f[j], f[j - k * v] + k * w)
  */
 public class Q1019_庆功会 {
     public static BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
