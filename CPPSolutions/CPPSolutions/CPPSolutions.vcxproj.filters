@@ -79,6 +79,9 @@
     <Filter Include="源文件\AcWing\DP\LISModel">
       <UniqueIdentifier>{e2cc5686-afe8-4dc2-b110-18019bf52783}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\AcWing\DP\StMachineModel">
+      <UniqueIdentifier>{7613cb5b-5d3a-42d3-a934-2251dccb462f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="M386_字典序排数.cpp">
@@ -338,6 +341,15 @@
     </ClCompile>
     <ClCompile Include="Q426_开心的金明.cpp">
       <Filter>源文件\AcWing\DP\Knapsack</Filter>
+    </ClCompile>
+    <ClCompile Include="Q12_背包问题求具体方案.cpp">
+      <Filter>源文件\AcWing\DP\Knapsack</Filter>
+    </ClCompile>
+    <ClCompile Include="Q1049_大盗阿福.cpp">
+      <Filter>源文件\AcWing\DP\StMachineModel</Filter>
+    </ClCompile>
+    <ClCompile Include="Q1057_股票买卖IV.cpp">
+      <Filter>源文件\AcWing\DP\StMachineModel</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

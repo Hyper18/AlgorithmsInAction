@@ -183,6 +183,8 @@
     <ClCompile Include="Q1023_买书.cpp" />
     <ClCompile Include="Q1024_装箱问题.cpp" />
     <ClCompile Include="Q1027_方格取数.cpp" />
+    <ClCompile Include="Q1049_大盗阿福.cpp" />
+    <ClCompile Include="Q1057_股票买卖IV.cpp" />
     <ClCompile Include="Q105_从前序与中序遍历序列构造二叉树.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
@@ -199,6 +201,7 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="Q11_背包问题求方案数.cpp" />
+    <ClCompile Include="Q12_背包问题求具体方案.cpp" />
     <ClCompile Include="Q1305_两棵二叉搜索树中的所有元素.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
