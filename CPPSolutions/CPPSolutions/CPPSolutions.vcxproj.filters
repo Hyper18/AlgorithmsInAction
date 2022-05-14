@@ -351,6 +351,9 @@
     <ClCompile Include="Q1057_股票买卖IV.cpp">
       <Filter>源文件\AcWing\DP\StMachineModel</Filter>
     </ClCompile>
+    <ClCompile Include="Q1058_股票买卖V.cpp">
+      <Filter>源文件\AcWing\DP\StMachineModel</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="M4浮点数二分.h">

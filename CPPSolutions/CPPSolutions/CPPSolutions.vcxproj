@@ -185,6 +185,7 @@
     <ClCompile Include="Q1027_方格取数.cpp" />
     <ClCompile Include="Q1049_大盗阿福.cpp" />
     <ClCompile Include="Q1057_股票买卖IV.cpp" />
+    <ClCompile Include="Q1058_股票买卖V.cpp" />
     <ClCompile Include="Q105_从前序与中序遍历序列构造二叉树.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
