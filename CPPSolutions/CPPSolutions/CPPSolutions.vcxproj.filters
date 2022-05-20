@@ -82,6 +82,9 @@
     <Filter Include="源文件\AcWing\DP\StMachineModel">
       <UniqueIdentifier>{7613cb5b-5d3a-42d3-a934-2251dccb462f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\AcWing\DP\StCompressingModel">
+      <UniqueIdentifier>{3fdf7831-bf2d-4c44-8268-6495637dc0b1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="M386_字典序排数.cpp">
@@ -353,6 +356,12 @@
     </ClCompile>
     <ClCompile Include="Q1058_股票买卖V.cpp">
       <Filter>源文件\AcWing\DP\StMachineModel</Filter>
+    </ClCompile>
+    <ClCompile Include="Q1064_小国王.cpp">
+      <Filter>源文件\AcWing\DP\StCompressingModel</Filter>
+    </ClCompile>
+    <ClCompile Include="Q327_玉米田.cpp">
+      <Filter>源文件\AcWing\DP\StCompressingModel</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

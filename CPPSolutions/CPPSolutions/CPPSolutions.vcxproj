@@ -189,6 +189,7 @@
     <ClCompile Include="Q105_从前序与中序遍历序列构造二叉树.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="Q1064_小国王.cpp" />
     <ClCompile Include="Q106_从中序与后序遍历序列构造二叉树.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
@@ -216,6 +217,7 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="Q2_01背包问题.cpp" />
+    <ClCompile Include="Q327_玉米田.cpp" />
     <ClCompile Include="Q3346_你知道你的ABC吗.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
