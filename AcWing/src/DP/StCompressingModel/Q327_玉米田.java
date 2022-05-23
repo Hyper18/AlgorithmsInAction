@@ -19,7 +19,7 @@ public class Q327_玉米田 {
     public static BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
     public static StringTokenizer tk = new StringTokenizer("");
     public static PrintWriter out = new PrintWriter(new BufferedOutputStream(System.out));
-    private static final int N = 12 + 3, M = 1 << 12, MOD = 100000000;
+    private static final int N = 12 + 3, M = 1 << 12, MOD = (int) 1e8;
     private static List<Integer> states = new ArrayList<>();
     private static ArrayList<Integer>[] head = new ArrayList[M];
     private static int[] w = new int[N];
@@ -33,12 +33,11 @@ public class Q327_玉米田 {
         for (int i = 1; i <= n; i++) {
             for (int j = 0; j < m; j++) {
                 int t = nextInt();
-                if (t * (1 << j) == 0) {
-                    w[i]++;
-                }
+                w[i] += (1 - t) << j;
             }
         }
         for (int i = 0; i < 1 << m; i++) {
+            head[i] = new ArrayList<>();
             if (check(i)) {
                 states.add(i);
             }
@@ -47,9 +46,6 @@ public class Q327_玉米田 {
             for (int j = 0; j < states.size(); j++) {
                 int a = states.get(i), b = states.get(j);
                 if ((a & b) == 0) {
-                    if (head[i] == null) {
-                        head[i] = new ArrayList<>();
-                    }
                     head[i].add(j);
                 }
             }
@@ -58,8 +54,8 @@ public class Q327_玉米田 {
         f[0][0] = 1;
         for (int i = 1; i <= n + 1; i++) {
             for (int j = 0; j < states.size(); j++) {
-                if ((states.get(j) & w[i]) == 0) {
-                    for (int k : head[j]) {
+                for (int k : head[j]) {
+                    if ((states.get(j) & w[i]) == 0) {
                         f[i][j] = (f[i][j] + f[i - 1][k]) % MOD;
                     }
                 }
@@ -71,9 +67,9 @@ public class Q327_玉米田 {
         close();
     }
 
-    private static boolean check(int state) {
-        for (int i = 0; i + 1 < m; i++) {
-            if ((state >> i & 1) != 0 && (state >> i + 1 & 1) != 0) {
+    private static boolean check(int st) {
+        for (int i = 0; i < m; i++) {
+            if (((st >> i) & (st >> i + 1)) == 1) {
                 return false;
             }
         }
