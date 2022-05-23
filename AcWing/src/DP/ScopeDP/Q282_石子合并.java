@@ -18,8 +18,6 @@ import java.util.StringTokenizer;
  * 左边这堆的最小代价 + 右边 + 最后一步的最小代价
  * 区间内的元素个数 k = j - i + 1
  * 采用前缀和求总和，再分别求区间和
- * <p>
- * 待回看
  */
 public class Q282_石子合并 {
     public static BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
