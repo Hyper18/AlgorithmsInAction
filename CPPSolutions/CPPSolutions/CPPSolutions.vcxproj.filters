@@ -363,6 +363,12 @@
     <ClCompile Include="Q327_玉米田.cpp">
       <Filter>源文件\AcWing\DP\StCompressingModel</Filter>
     </ClCompile>
+    <ClCompile Include="Q1068_环形石子合并.cpp">
+      <Filter>源文件\AcWing\DP\ScopeDP</Filter>
+    </ClCompile>
+    <ClCompile Include="Q320_能量项链.cpp">
+      <Filter>源文件\AcWing\DP\ScopeDP</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="M4浮点数二分.h">
