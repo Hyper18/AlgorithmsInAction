@@ -9,7 +9,11 @@ import java.util.StringTokenizer;
  * @date 2022/05/24
  * <p>
  * 思路
- * 通过数组建立邻接表
+ * 通过数组建立邻接链表
+ * e[i]：存储从1 ~ n的结点编号
+ * idx：指示结点的下标，即在数组中的索引位置
+ * ne[i]：存储下标为i的下一个结点的下标
+ * h[i]：存储编号为i的下一个结点的下标
  */
 public class Q846_树的重心 {
     public static BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
