@@ -7,7 +7,7 @@ import java.util.*;
  * @date 2022/04/23
  * 1. DFS
  * 虚假的自底向上（API）
- * 2. BFS
+ * 2. DFS
  * 逐层迭代至最深位置，头插法，结果顺次弹栈
  */
 public class Q107_二叉树的层序遍历II {

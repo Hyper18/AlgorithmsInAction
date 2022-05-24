@@ -70,7 +70,7 @@
     <Filter Include="源文件\AcWing\DP\CountDP">
       <UniqueIdentifier>{5fb7741f-b2bb-48c9-95aa-23b09c299980}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\AcWing\BFS">
+    <Filter Include="源文件\AcWing\DFS">
       <UniqueIdentifier>{c837a44f-6a8a-482e-bae1-b9c72f2e466a}</UniqueIdentifier>
     </Filter>
     <Filter Include="源文件\AcWing\DP\TriangleDP">
@@ -256,13 +256,13 @@
       <Filter>源文件\AcWing\DP\CountDP</Filter>
     </ClCompile>
     <ClCompile Include="Q842_排列数字.cpp">
-      <Filter>源文件\AcWing\BFS</Filter>
+      <Filter>源文件\AcWing\DFS</Filter>
     </ClCompile>
     <ClCompile Include="Q843_n皇后问题.cpp">
-      <Filter>源文件\AcWing\BFS</Filter>
+      <Filter>源文件\AcWing\DFS</Filter>
     </ClCompile>
     <ClCompile Include="Q843_n皇后问题_2.cpp">
-      <Filter>源文件\AcWing\BFS</Filter>
+      <Filter>源文件\AcWing\DFS</Filter>
     </ClCompile>
     <ClCompile Include="Q338_计数问题.cpp">
       <Filter>源文件\AcWing\DP\CountDP</Filter>
@@ -370,6 +370,12 @@
       <Filter>源文件\AcWing\DP\ScopeDP</Filter>
     </ClCompile>
     <ClCompile Include="Q479_加分二叉树.cpp">
+      <Filter>源文件\AcWing\DP\ScopeDP</Filter>
+    </ClCompile>
+    <ClCompile Include="Q1069_凸多边形的划分.cpp">
+      <Filter>源文件\AcWing\DP\ScopeDP</Filter>
+    </ClCompile>
+    <ClCompile Include="Q321_棋盘分割.cpp">
       <Filter>源文件\AcWing\DP\ScopeDP</Filter>
     </ClCompile>
   </ItemGroup>

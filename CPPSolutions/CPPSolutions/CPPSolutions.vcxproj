@@ -191,6 +191,7 @@
     </ClCompile>
     <ClCompile Include="Q1064_小国王.cpp" />
     <ClCompile Include="Q1068_环形石子合并.cpp" />
+    <ClCompile Include="Q1069_凸多边形的划分.cpp" />
     <ClCompile Include="Q106_从中序与后序遍历序列构造二叉树.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
@@ -219,6 +220,7 @@
     </ClCompile>
     <ClCompile Include="Q2_01背包问题.cpp" />
     <ClCompile Include="Q320_能量项链.cpp" />
+    <ClCompile Include="Q321_棋盘分割.cpp" />
     <ClCompile Include="Q327_玉米田.cpp" />
     <ClCompile Include="Q3346_你知道你的ABC吗.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
