@@ -70,9 +70,6 @@
     <Filter Include="源文件\AcWing\DP\CountDP">
       <UniqueIdentifier>{5fb7741f-b2bb-48c9-95aa-23b09c299980}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\AcWing\DFS">
-      <UniqueIdentifier>{c837a44f-6a8a-482e-bae1-b9c72f2e466a}</UniqueIdentifier>
-    </Filter>
     <Filter Include="源文件\AcWing\DP\TriangleDP">
       <UniqueIdentifier>{df674735-c47e-48c3-b7fe-cf5262b838ae}</UniqueIdentifier>
     </Filter>
@@ -84,6 +81,12 @@
     </Filter>
     <Filter Include="源文件\AcWing\DP\StCompressingModel">
       <UniqueIdentifier>{3fdf7831-bf2d-4c44-8268-6495637dc0b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\AcWing\DFS">
+      <UniqueIdentifier>{c837a44f-6a8a-482e-bae1-b9c72f2e466a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\AcWing\DP\TreeDP">
+      <UniqueIdentifier>{d0b93260-0641-4754-a54a-edddda0eefc1}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -377,6 +380,12 @@
     </ClCompile>
     <ClCompile Include="Q321_棋盘分割.cpp">
       <Filter>源文件\AcWing\DP\ScopeDP</Filter>
+    </ClCompile>
+    <ClCompile Include="Q846_树的重心.cpp">
+      <Filter>源文件\AcWing\DFS</Filter>
+    </ClCompile>
+    <ClCompile Include="Q1072_树的最长路径.cpp">
+      <Filter>源文件\AcWing\DP\TreeDP</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

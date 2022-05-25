@@ -195,6 +195,7 @@
     <ClCompile Include="Q106_从中序与后序遍历序列构造二叉树.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="Q1072_树的最长路径.cpp" />
     <ClCompile Include="Q107_二叉树的层序遍历II.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
@@ -266,6 +267,7 @@
     <ClCompile Include="Q842_排列数字.cpp" />
     <ClCompile Include="Q843_n皇后问题.cpp" />
     <ClCompile Include="Q843_n皇后问题_2.cpp" />
+    <ClCompile Include="Q846_树的重心.cpp" />
     <ClCompile Include="Q868_二进制间距.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
