@@ -46,11 +46,12 @@ public class Q10_有依赖的背包问题 {
     }
 
     private static void dfs(int u) {
+
         for (int i = h[u]; i != -1; i = ne[i]) { // 物品
             dfs(e[i]);
 
             // 分组背包
-            for (int j = m - v[u]; j > 0; j--) { // 体积
+            for (int j = m - v[u]; j >= 0; j--) { // 体积
                 for (int k = 0; k <= j; k++) { // 决策
                     f[u][j] = Math.max(f[u][j], f[u][j - k] + f[e[i]][k]);
                 }
