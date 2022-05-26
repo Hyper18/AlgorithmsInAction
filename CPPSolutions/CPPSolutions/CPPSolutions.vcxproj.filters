@@ -387,6 +387,12 @@
     <ClCompile Include="Q1072_树的最长路径.cpp">
       <Filter>源文件\AcWing\DP\TreeDP</Filter>
     </ClCompile>
+    <ClCompile Include="Q1073_树的中心.cpp">
+      <Filter>源文件\AcWing\DP\TreeDP</Filter>
+    </ClCompile>
+    <ClCompile Include="Q1075_数字转换.cpp">
+      <Filter>源文件\AcWing\DP\TreeDP</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="M4浮点数二分.h">
