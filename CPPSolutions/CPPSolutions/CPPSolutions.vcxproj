@@ -197,6 +197,7 @@
     </ClCompile>
     <ClCompile Include="Q1072_树的最长路径.cpp" />
     <ClCompile Include="Q1073_树的中心.cpp" />
+    <ClCompile Include="Q1074_二叉苹果树.cpp" />
     <ClCompile Include="Q1075_数字转换.cpp" />
     <ClCompile Include="Q107_二叉树的层序遍历II.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
