@@ -202,6 +202,7 @@
     <ClCompile Include="Q107_二叉树的层序遍历II.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="Q10_有依赖的背包问题.cpp" />
     <ClCompile Include="Q110_平衡二叉树.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
@@ -218,6 +219,7 @@
     <ClCompile Include="Q278_数字组合.cpp" />
     <ClCompile Include="Q2816_判断子序列.cpp" />
     <ClCompile Include="Q282_石子合并.cpp" />
+    <ClCompile Include="Q285_没有上司的舞会.cpp" />
     <ClCompile Include="Q2_01背包问题_2.cpp" />
     <ClCompile Include="Q206_反转链表.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
@@ -270,6 +272,7 @@
     <ClCompile Include="Q842_排列数字.cpp" />
     <ClCompile Include="Q843_n皇后问题.cpp" />
     <ClCompile Include="Q843_n皇后问题_2.cpp" />
+    <ClCompile Include="Q844_走迷宫.cpp" />
     <ClCompile Include="Q846_树的重心.cpp" />
     <ClCompile Include="Q868_二进制间距.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>

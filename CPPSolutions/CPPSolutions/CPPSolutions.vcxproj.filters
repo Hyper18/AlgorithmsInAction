@@ -88,6 +88,9 @@
     <Filter Include="源文件\AcWing\DP\TreeDP">
       <UniqueIdentifier>{d0b93260-0641-4754-a54a-edddda0eefc1}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\AcWing\BFS">
+      <UniqueIdentifier>{f96ab730-bf42-46e4-b966-e68be365080b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="M386_字典序排数.cpp">
@@ -395,6 +398,15 @@
     </ClCompile>
     <ClCompile Include="Q1074_二叉苹果树.cpp">
       <Filter>源文件\AcWing\DP\TreeDP</Filter>
+    </ClCompile>
+    <ClCompile Include="Q10_有依赖的背包问题.cpp">
+      <Filter>源文件\AcWing\DP\Knapsack</Filter>
+    </ClCompile>
+    <ClCompile Include="Q285_没有上司的舞会.cpp">
+      <Filter>源文件\AcWing\DP\TreeDP</Filter>
+    </ClCompile>
+    <ClCompile Include="Q844_走迷宫.cpp">
+      <Filter>源文件\AcWing\BFS</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
