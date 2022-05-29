@@ -16,7 +16,7 @@
     <Filter Include="源文件\LeetCode">
       <UniqueIdentifier>{230284aa-3c76-4436-832f-90cb6634e10e}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\LeetCode\DFS">
+    <Filter Include="源文件\LeetCode\Graph.DFS">
       <UniqueIdentifier>{2b3cfe52-3b04-4812-8869-6aa77f0962f2}</UniqueIdentifier>
     </Filter>
     <Filter Include="源文件\LeetCode\String">
@@ -82,19 +82,19 @@
     <Filter Include="源文件\AcWing\DP\StCompressingModel">
       <UniqueIdentifier>{3fdf7831-bf2d-4c44-8268-6495637dc0b1}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\AcWing\DFS">
+    <Filter Include="源文件\AcWing\Graph.DFS">
       <UniqueIdentifier>{c837a44f-6a8a-482e-bae1-b9c72f2e466a}</UniqueIdentifier>
     </Filter>
     <Filter Include="源文件\AcWing\DP\TreeDP">
       <UniqueIdentifier>{d0b93260-0641-4754-a54a-edddda0eefc1}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\AcWing\BFS">
+    <Filter Include="源文件\AcWing\Graph.BFS">
       <UniqueIdentifier>{f96ab730-bf42-46e4-b966-e68be365080b}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="M386_字典序排数.cpp">
-      <Filter>源文件\LeetCode\DFS</Filter>
+      <Filter>源文件\LeetCode\Graph.DFS</Filter>
     </ClCompile>
     <ClCompile Include="Q819_最常见的单词.cpp">
       <Filter>源文件\LeetCode\String</Filter>
@@ -103,7 +103,7 @@
       <Filter>源文件\LeetCode\String</Filter>
     </ClCompile>
     <ClCompile Include="M388_文件的最长绝对路径.cpp">
-      <Filter>源文件\LeetCode\DFS</Filter>
+      <Filter>源文件\LeetCode\Graph.DFS</Filter>
     </ClCompile>
     <ClCompile Include="Q206_反转链表.cpp">
       <Filter>源文件\LeetCode\LinkedList</Filter>
@@ -262,13 +262,13 @@
       <Filter>源文件\AcWing\DP\CountDP</Filter>
     </ClCompile>
     <ClCompile Include="Q842_排列数字.cpp">
-      <Filter>源文件\AcWing\DFS</Filter>
+      <Filter>源文件\AcWing\Graph.DFS</Filter>
     </ClCompile>
     <ClCompile Include="Q843_n皇后问题.cpp">
-      <Filter>源文件\AcWing\DFS</Filter>
+      <Filter>源文件\AcWing\Graph.DFS</Filter>
     </ClCompile>
     <ClCompile Include="Q843_n皇后问题_2.cpp">
-      <Filter>源文件\AcWing\DFS</Filter>
+      <Filter>源文件\AcWing\Graph.DFS</Filter>
     </ClCompile>
     <ClCompile Include="Q338_计数问题.cpp">
       <Filter>源文件\AcWing\DP\CountDP</Filter>
@@ -385,7 +385,7 @@
       <Filter>源文件\AcWing\DP\ScopeDP</Filter>
     </ClCompile>
     <ClCompile Include="Q846_树的重心.cpp">
-      <Filter>源文件\AcWing\DFS</Filter>
+      <Filter>源文件\AcWing\Graph.DFS</Filter>
     </ClCompile>
     <ClCompile Include="Q1072_树的最长路径.cpp">
       <Filter>源文件\AcWing\DP\TreeDP</Filter>
@@ -406,10 +406,10 @@
       <Filter>源文件\AcWing\DP\TreeDP</Filter>
     </ClCompile>
     <ClCompile Include="Q844_走迷宫.cpp">
-      <Filter>源文件\AcWing\BFS</Filter>
+      <Filter>源文件\AcWing\Graph.BFS</Filter>
     </ClCompile>
     <ClCompile Include="Q845_八数码.cpp">
-      <Filter>源文件\AcWing\BFS</Filter>
+      <Filter>源文件\AcWing\Graph.BFS</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

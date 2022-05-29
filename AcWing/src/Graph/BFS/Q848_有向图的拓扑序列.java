@@ -1,4 +1,4 @@
-package BFS;
+package Graph.BFS;
 
 import java.io.*;
 import java.util.Arrays;

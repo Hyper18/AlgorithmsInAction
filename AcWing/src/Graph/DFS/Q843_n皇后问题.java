@@ -1,4 +1,4 @@
-package DFS;
+package Graph.DFS;
 
 import java.io.*;
 import java.util.StringTokenizer;
