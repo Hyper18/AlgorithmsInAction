@@ -273,6 +273,7 @@
     <ClCompile Include="Q843_n皇后问题.cpp" />
     <ClCompile Include="Q843_n皇后问题_2.cpp" />
     <ClCompile Include="Q844_走迷宫.cpp" />
+    <ClCompile Include="Q845_八数码.cpp" />
     <ClCompile Include="Q846_树的重心.cpp" />
     <ClCompile Include="Q868_二进制间距.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
