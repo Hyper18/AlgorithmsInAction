@@ -42,6 +42,7 @@ public class Q847_图中点的层次 {
     }
 
     private static int bfs() {
+        // 根据题意，当找不到最短路径时，默认应返回-1
         Arrays.fill(d, -1);
         d[1] = 0;
         Queue<Integer> q = new LinkedList<>();
@@ -59,6 +60,7 @@ public class Q847_图中点的层次 {
             }
         }
 
+        // 从编号为1的结点~n号结点的最短距离
         return d[n];
     }
 
