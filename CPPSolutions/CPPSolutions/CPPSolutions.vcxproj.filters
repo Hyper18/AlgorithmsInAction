@@ -426,6 +426,12 @@
     <ClCompile Include="Q853_有边数限制的最短路.cpp">
       <Filter>源文件\AcWing\Graph</Filter>
     </ClCompile>
+    <ClCompile Include="Q851_spfa求最短路.cpp">
+      <Filter>源文件\AcWing\Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="Q852_spfa判断负环.cpp">
+      <Filter>源文件\AcWing\Graph</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="M4浮点数二分.h">

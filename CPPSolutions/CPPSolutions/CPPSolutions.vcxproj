@@ -278,6 +278,8 @@
     <ClCompile Include="Q847_图中点的层次.cpp" />
     <ClCompile Include="Q848_有向图的拓扑序列.cpp" />
     <ClCompile Include="Q849_Dijkstra求最短路I.cpp" />
+    <ClCompile Include="Q851_spfa求最短路.cpp" />
+    <ClCompile Include="Q852_spfa判断负环.cpp" />
     <ClCompile Include="Q853_有边数限制的最短路.cpp" />
     <ClCompile Include="Q868_二进制间距.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
