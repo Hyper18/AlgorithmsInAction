@@ -438,6 +438,9 @@
     <ClCompile Include="Q850_Dijkstra求最短路II.cpp">
       <Filter>源文件\AcWing\Graph</Filter>
     </ClCompile>
+    <ClCompile Include="Q858_Prim算法求最小生成树.cpp">
+      <Filter>源文件\AcWing\Graph</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="M4浮点数二分.h">
