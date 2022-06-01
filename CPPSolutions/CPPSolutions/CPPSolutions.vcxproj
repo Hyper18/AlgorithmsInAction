@@ -269,6 +269,8 @@
     <ClCompile Include="Q819_最常见的单词.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="Q836_合并集合.cpp" />
+    <ClCompile Include="Q837_连通块中点的数量.cpp" />
     <ClCompile Include="Q842_排列数字.cpp" />
     <ClCompile Include="Q843_n皇后问题.cpp" />
     <ClCompile Include="Q843_n皇后问题_2.cpp" />
@@ -284,6 +286,8 @@
     <ClCompile Include="Q853_有边数限制的最短路.cpp" />
     <ClCompile Include="Q854_Floyd求最短路.cpp" />
     <ClCompile Include="Q858_Prim算法求最小生成树.cpp" />
+    <ClCompile Include="Q859_Kruskal算法求最小生成树.cpp" />
+    <ClCompile Include="Q860_染色法判定二分图.cpp" />
     <ClCompile Include="Q868_二进制间距.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>

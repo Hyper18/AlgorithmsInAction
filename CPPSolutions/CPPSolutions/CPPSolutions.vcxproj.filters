@@ -94,6 +94,9 @@
     <Filter Include="源文件\AcWing\Graph\BFS">
       <UniqueIdentifier>{f96ab730-bf42-46e4-b966-e68be365080b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\AcWing\DS">
+      <UniqueIdentifier>{dbbd6770-9bec-4054-92cd-222176b86f78}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="M386_字典序排数.cpp">
@@ -439,6 +442,18 @@
       <Filter>源文件\AcWing\Graph</Filter>
     </ClCompile>
     <ClCompile Include="Q858_Prim算法求最小生成树.cpp">
+      <Filter>源文件\AcWing\Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="Q836_合并集合.cpp">
+      <Filter>源文件\AcWing\DS</Filter>
+    </ClCompile>
+    <ClCompile Include="Q837_连通块中点的数量.cpp">
+      <Filter>源文件\AcWing\DS</Filter>
+    </ClCompile>
+    <ClCompile Include="Q859_Kruskal算法求最小生成树.cpp">
+      <Filter>源文件\AcWing\Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="Q860_染色法判定二分图.cpp">
       <Filter>源文件\AcWing\Graph</Filter>
     </ClCompile>
   </ItemGroup>
