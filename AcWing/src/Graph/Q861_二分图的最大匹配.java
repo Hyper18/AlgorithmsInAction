@@ -7,6 +7,7 @@ import java.util.StringTokenizer;
 /**
  * @author Hyperspace
  * @date 2022/06/01
+ * 匈牙利算法
  */
 public class Q861_二分图的最大匹配 {
     public static BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
