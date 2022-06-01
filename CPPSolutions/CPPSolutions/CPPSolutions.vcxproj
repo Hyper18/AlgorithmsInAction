@@ -288,6 +288,7 @@
     <ClCompile Include="Q858_Prim算法求最小生成树.cpp" />
     <ClCompile Include="Q859_Kruskal算法求最小生成树.cpp" />
     <ClCompile Include="Q860_染色法判定二分图.cpp" />
+    <ClCompile Include="Q861_二分图的最大匹配.cpp" />
     <ClCompile Include="Q868_二进制间距.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>

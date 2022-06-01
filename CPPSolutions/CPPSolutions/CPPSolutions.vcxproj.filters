@@ -456,6 +456,9 @@
     <ClCompile Include="Q860_染色法判定二分图.cpp">
       <Filter>源文件\AcWing\Graph</Filter>
     </ClCompile>
+    <ClCompile Include="Q861_二分图的最大匹配.cpp">
+      <Filter>源文件\AcWing\Graph</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="M4浮点数二分.h">
