@@ -209,6 +209,9 @@
     <ClCompile Include="Q111_二叉树的最小深度.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="Q1128_信使.cpp" />
+    <ClCompile Include="Q1129_热浪.cpp" />
+    <ClCompile Include="Q1129_热浪_2.cpp" />
     <ClCompile Include="Q11_背包问题求方案数.cpp" />
     <ClCompile Include="Q12_背包问题求具体方案.cpp" />
     <ClCompile Include="Q1305_两棵二叉搜索树中的所有元素.cpp">

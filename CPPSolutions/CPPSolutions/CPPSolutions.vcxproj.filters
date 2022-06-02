@@ -97,6 +97,12 @@
     <Filter Include="源文件\AcWing\DS">
       <UniqueIdentifier>{dbbd6770-9bec-4054-92cd-222176b86f78}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\AcWing\Graph\ShortestPath">
+      <UniqueIdentifier>{9e27c23a-3e14-43f3-9e1d-7ea9e7d5c740}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\AcWing\Graph\ShortestPath\Single">
+      <UniqueIdentifier>{066a68b7-cde8-46c2-a6df-90f9cc15070f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="M386_字典序排数.cpp">
@@ -458,6 +464,15 @@
     </ClCompile>
     <ClCompile Include="Q861_二分图的最大匹配.cpp">
       <Filter>源文件\AcWing\Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="Q1129_热浪_2.cpp">
+      <Filter>源文件\AcWing\Graph\ShortestPath\Single</Filter>
+    </ClCompile>
+    <ClCompile Include="Q1129_热浪.cpp">
+      <Filter>源文件\AcWing\Graph\ShortestPath\Single</Filter>
+    </ClCompile>
+    <ClCompile Include="Q1128_信使.cpp">
+      <Filter>源文件\AcWing\Graph\ShortestPath\Single</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
