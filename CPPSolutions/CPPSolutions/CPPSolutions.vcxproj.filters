@@ -474,6 +474,9 @@
     <ClCompile Include="Q1128_信使.cpp">
       <Filter>源文件\AcWing\Graph\ShortestPath\Single</Filter>
     </ClCompile>
+    <ClCompile Include="Q1127_香甜的黄油.cpp">
+      <Filter>源文件\AcWing\Graph\ShortestPath\Single</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="M4浮点数二分.h">
