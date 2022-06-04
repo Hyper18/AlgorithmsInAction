@@ -480,6 +480,9 @@
     <ClCompile Include="Q1126_最小花费.cpp">
       <Filter>源文件\AcWing\Graph\ShortestPath\Single</Filter>
     </ClCompile>
+    <ClCompile Include="Q920_最优乘车.cpp">
+      <Filter>源文件\AcWing\Graph\ShortestPath\Single</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="M4浮点数二分.h">
