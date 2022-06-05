@@ -38,8 +38,8 @@ string move0(string state) {
 // 操作二：将最右侧列插入到最左侧
 string move1(string state) {
 	set(state);
-	int v0 = g[0][3], v1 = g[1][3]; // 手动swap，保存最后一列的两个数
-	for (int i = 3; i >= 0; i--) {
+	char v0 = g[0][3], v1 = g[1][3]; // 手动swap，保存最后一列的两个数
+	for (int i = 3; i > 0; i--) {
 		g[0][i] = g[0][i - 1];
 		g[1][i] = g[1][i - 1];
 	}
@@ -50,7 +50,7 @@ string move1(string state) {
 // 操作三：将中央的4个数作顺时针旋转
 string move2(string state) {
 	set(state);
-	int v = g[0][1]; // 同上
+	char v = g[0][1]; // 同上
 	g[0][1] = g[1][1]; // 向上转
 	g[1][1] = g[1][2]; // 向右转
 	g[1][2] = g[0][2]; // 向下转
