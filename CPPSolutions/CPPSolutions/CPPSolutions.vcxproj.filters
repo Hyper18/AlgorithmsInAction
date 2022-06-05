@@ -103,6 +103,9 @@
     <Filter Include="源文件\AcWing\Graph\ShortestPath\Single">
       <UniqueIdentifier>{066a68b7-cde8-46c2-a6df-90f9cc15070f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\AcWing\Graph\BFS\FloodFill">
+      <UniqueIdentifier>{d11fc7a9-112f-46f1-b743-8e8989c5e6c4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="M386_字典序排数.cpp">
@@ -482,6 +485,15 @@
     </ClCompile>
     <ClCompile Include="Q920_最优乘车.cpp">
       <Filter>源文件\AcWing\Graph\ShortestPath\Single</Filter>
+    </ClCompile>
+    <ClCompile Include="Q903_昂贵的聘礼.cpp">
+      <Filter>源文件\AcWing\Graph\ShortestPath\Single</Filter>
+    </ClCompile>
+    <ClCompile Include="Q903_昂贵的聘礼_2.cpp">
+      <Filter>源文件\AcWing\Graph\ShortestPath\Single</Filter>
+    </ClCompile>
+    <ClCompile Include="1097. 池塘计数.cpp">
+      <Filter>源文件\AcWing\Graph\BFS\FloodFill</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
