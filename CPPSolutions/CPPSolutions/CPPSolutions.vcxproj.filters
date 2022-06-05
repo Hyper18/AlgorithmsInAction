@@ -106,6 +106,9 @@
     <Filter Include="源文件\AcWing\Graph\BFS\FloodFill">
       <UniqueIdentifier>{d11fc7a9-112f-46f1-b743-8e8989c5e6c4}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\AcWing\Graph\ShortestPath\Model">
+      <UniqueIdentifier>{a04c5edc-168b-44c4-8457-c65b1a2dbf73}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="M386_字典序排数.cpp">
@@ -494,6 +497,21 @@
     </ClCompile>
     <ClCompile Include="1097. 池塘计数.cpp">
       <Filter>源文件\AcWing\Graph\BFS\FloodFill</Filter>
+    </ClCompile>
+    <ClCompile Include="Q1098_城堡问题.cpp">
+      <Filter>源文件\AcWing\Graph\BFS\FloodFill</Filter>
+    </ClCompile>
+    <ClCompile Include="Q1106_山峰和山谷.cpp">
+      <Filter>源文件\AcWing\Graph\BFS\FloodFill</Filter>
+    </ClCompile>
+    <ClCompile Include="Q1076_迷宫问题.cpp">
+      <Filter>源文件\AcWing\Graph\ShortestPath\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Q188_武士风度的牛.cpp">
+      <Filter>源文件\AcWing\Graph\ShortestPath\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Q1100_抓住那头牛.cpp">
+      <Filter>源文件\AcWing\Graph\ShortestPath\Model</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

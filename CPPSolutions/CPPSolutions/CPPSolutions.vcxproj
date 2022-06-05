@@ -200,10 +200,14 @@
     <ClCompile Include="Q1073_树的中心.cpp" />
     <ClCompile Include="Q1074_二叉苹果树.cpp" />
     <ClCompile Include="Q1075_数字转换.cpp" />
+    <ClCompile Include="Q1076_迷宫问题.cpp" />
     <ClCompile Include="Q107_二叉树的层序遍历II.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="Q1098_城堡问题.cpp" />
     <ClCompile Include="Q10_有依赖的背包问题.cpp" />
+    <ClCompile Include="Q1100_抓住那头牛.cpp" />
+    <ClCompile Include="Q1106_山峰和山谷.cpp" />
     <ClCompile Include="Q110_平衡二叉树.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
@@ -221,6 +225,7 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="Q187_导弹防御系统.cpp" />
+    <ClCompile Include="Q188_武士风度的牛.cpp" />
     <ClCompile Include="Q272_最长公共上升子序列.cpp" />
     <ClCompile Include="Q278_数字组合.cpp" />
     <ClCompile Include="Q2816_判断子序列.cpp" />
