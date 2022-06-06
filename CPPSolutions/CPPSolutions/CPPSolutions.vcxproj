@@ -208,6 +208,7 @@
     <ClCompile Include="Q10_有依赖的背包问题.cpp" />
     <ClCompile Include="Q1100_抓住那头牛.cpp" />
     <ClCompile Include="Q1106_山峰和山谷.cpp" />
+    <ClCompile Include="Q1107_魔板.cpp" />
     <ClCompile Include="Q110_平衡二叉树.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
@@ -224,6 +225,7 @@
     <ClCompile Include="Q1305_两棵二叉搜索树中的所有元素.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="Q173_矩阵距离.cpp" />
     <ClCompile Include="Q187_导弹防御系统.cpp" />
     <ClCompile Include="Q188_武士风度的牛.cpp" />
     <ClCompile Include="Q272_最长公共上升子序列.cpp" />

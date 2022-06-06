@@ -109,6 +109,12 @@
     <Filter Include="源文件\AcWing\Graph\ShortestPath\Model">
       <UniqueIdentifier>{a04c5edc-168b-44c4-8457-c65b1a2dbf73}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\AcWing\Graph\BFS\Multi">
+      <UniqueIdentifier>{69f61f3f-f6d6-4551-a037-682fed9cdbe0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\AcWing\Graph\BFS\Model">
+      <UniqueIdentifier>{e4262656-9523-4743-b780-922fa0cda068}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="M386_字典序排数.cpp">
@@ -512,6 +518,12 @@
     </ClCompile>
     <ClCompile Include="Q1100_抓住那头牛.cpp">
       <Filter>源文件\AcWing\Graph\ShortestPath\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Q173_矩阵距离.cpp">
+      <Filter>源文件\AcWing\Graph\BFS\Multi</Filter>
+    </ClCompile>
+    <ClCompile Include="Q1107_魔板.cpp">
+      <Filter>源文件\AcWing\Graph\BFS\Model</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
