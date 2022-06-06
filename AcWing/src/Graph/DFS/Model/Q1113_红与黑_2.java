@@ -25,21 +25,21 @@ public class Q1113_红与黑_2 {
             n = nextInt();
             m = nextInt();
             if (n == 0 && m == 0) {
-                close();
-                System.exit(0);
+                break;
             }
             int sx = 0, sy = 0;
             for (int i = 0; i < m; i++) {
-                String input = next();
-                g[i] = input.toCharArray();
-                if (input.indexOf('@') != -1) {
+                String l = next();
+                g[i] = l.toCharArray();
+                if (l.indexOf('@') != -1) {
                     sx = i;
-                    sy = input.indexOf('@');
+                    sy = l.indexOf('@');
                 }
             }
             vis = new boolean[N][N];
             out.println(dfs(sx, sy));
         }
+        close();
     }
 
     private static int dfs(int x, int y) {
