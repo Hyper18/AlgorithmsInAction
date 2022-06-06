@@ -9,6 +9,10 @@ import java.util.StringTokenizer;
 /**
  * @author Hyperspace
  * @date 2022/06/06
+ * <p>
+ * 思路
+ * 双端队列广搜
+ * 待回看
  */
 public class Q175_电路维修 {
     public static BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
@@ -16,6 +20,9 @@ public class Q175_电路维修 {
     public static PrintWriter out = new PrintWriter(new BufferedOutputStream(System.out));
     private static final int N = 500 + 10, INF = 0x3f3f3f3f;
     private static final int[] dx = new int[]{-1, -1, 1, 1}, dy = new int[]{-1, 1, 1, -1};
+    /**
+     * ix iy维护边的关系
+     */
     private static final int[] ix = new int[]{-1, -1, 0, 0}, iy = new int[]{-1, 0, 0, -1};
     /**
      * 注意反斜杠默认用于转义，则在字符串中出现应为“\\”
