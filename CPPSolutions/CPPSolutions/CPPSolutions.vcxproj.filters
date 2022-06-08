@@ -115,6 +115,9 @@
     <Filter Include="源文件\AcWing\Graph\BFS\Model">
       <UniqueIdentifier>{e4262656-9523-4743-b780-922fa0cda068}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\AcWing\Graph\DFS\Model">
+      <UniqueIdentifier>{e2786266-2299-4bae-9a6a-c57b1b7dc855}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="M386_字典序排数.cpp">
@@ -524,6 +527,21 @@
     </ClCompile>
     <ClCompile Include="Q1107_魔板.cpp">
       <Filter>源文件\AcWing\Graph\BFS\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Q175_电路维修.cpp">
+      <Filter>源文件\AcWing\Graph\BFS\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Q1112_迷宫.cpp">
+      <Filter>源文件\AcWing\Graph\DFS\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Q1113_红与黑.cpp">
+      <Filter>源文件\AcWing\Graph\DFS\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Q1113_红与黑_2.cpp">
+      <Filter>源文件\AcWing\Graph\DFS\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Q1113_红与黑_3.cpp">
+      <Filter>源文件\AcWing\Graph\DFS\Model</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

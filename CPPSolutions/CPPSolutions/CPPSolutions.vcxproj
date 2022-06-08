@@ -212,6 +212,10 @@
     <ClCompile Include="Q110_平衡二叉树.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="Q1112_迷宫.cpp" />
+    <ClCompile Include="Q1113_红与黑.cpp" />
+    <ClCompile Include="Q1113_红与黑_2.cpp" />
+    <ClCompile Include="Q1113_红与黑_3.cpp" />
     <ClCompile Include="Q111_二叉树的最小深度.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
@@ -226,6 +230,7 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="Q173_矩阵距离.cpp" />
+    <ClCompile Include="Q175_电路维修.cpp" />
     <ClCompile Include="Q187_导弹防御系统.cpp" />
     <ClCompile Include="Q188_武士风度的牛.cpp" />
     <ClCompile Include="Q272_最长公共上升子序列.cpp" />
