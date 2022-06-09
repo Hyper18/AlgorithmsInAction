@@ -546,6 +546,12 @@
     <ClCompile Include="Q1116_马走日.cpp">
       <Filter>源文件\AcWing\Graph\DFS\Model</Filter>
     </ClCompile>
+    <ClCompile Include="Q1117_单词接龙.cpp">
+      <Filter>源文件\AcWing\Graph\DFS\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Q1118_分成互质组.cpp">
+      <Filter>源文件\AcWing\Graph\DFS\Model</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="M4浮点数二分.h">
