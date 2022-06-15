@@ -1,6 +1,5 @@
 using namespace std;
 #include <iostream>
-#include <cstring>
 
 const int N = 40010;
 
