@@ -118,6 +118,9 @@
     <Filter Include="源文件\AcWing\Graph\DFS\Model">
       <UniqueIdentifier>{e2786266-2299-4bae-9a6a-c57b1b7dc855}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\AcWing\Graph\DFS\Model\Prune">
+      <UniqueIdentifier>{83cbd9d2-b1e1-4094-9806-ca7d9d7309ac}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="M386_字典序排数.cpp">
@@ -551,6 +554,9 @@
     </ClCompile>
     <ClCompile Include="Q1118_分成互质组.cpp">
       <Filter>源文件\AcWing\Graph\DFS\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Q165_小猫爬山.cpp">
+      <Filter>源文件\AcWing\Graph\DFS\Model\Prune</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
