@@ -228,6 +228,8 @@
     <ClCompile Include="Q1129_热浪.cpp" />
     <ClCompile Include="Q1129_热浪_2.cpp" />
     <ClCompile Include="Q11_背包问题求方案数.cpp" />
+    <ClCompile Include="Q1250_格子游戏.cpp" />
+    <ClCompile Include="Q1252_搭配购买.cpp" />
     <ClCompile Include="Q12_背包问题求具体方案.cpp" />
     <ClCompile Include="Q1305_两棵二叉搜索树中的所有元素.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
@@ -237,6 +239,7 @@
     <ClCompile Include="Q175_电路维修.cpp" />
     <ClCompile Include="Q187_导弹防御系统.cpp" />
     <ClCompile Include="Q188_武士风度的牛.cpp" />
+    <ClCompile Include="Q237_程序自动分析.cpp" />
     <ClCompile Include="Q272_最长公共上升子序列.cpp" />
     <ClCompile Include="Q278_数字组合.cpp" />
     <ClCompile Include="Q2816_判断子序列.cpp" />

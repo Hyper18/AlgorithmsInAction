@@ -121,6 +121,9 @@
     <Filter Include="源文件\AcWing\Graph\DFS\Model\Prune">
       <UniqueIdentifier>{83cbd9d2-b1e1-4094-9806-ca7d9d7309ac}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\AcWing\DS\DisJointSet">
+      <UniqueIdentifier>{c35dd9ae-40be-4843-8375-44102acee7c8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="M386_字典序排数.cpp">
@@ -557,6 +560,15 @@
     </ClCompile>
     <ClCompile Include="Q165_小猫爬山.cpp">
       <Filter>源文件\AcWing\Graph\DFS\Model\Prune</Filter>
+    </ClCompile>
+    <ClCompile Include="Q1250_格子游戏.cpp">
+      <Filter>源文件\AcWing\DS\DisJointSet</Filter>
+    </ClCompile>
+    <ClCompile Include="Q1252_搭配购买.cpp">
+      <Filter>源文件\AcWing\DS\DisJointSet</Filter>
+    </ClCompile>
+    <ClCompile Include="Q237_程序自动分析.cpp">
+      <Filter>源文件\AcWing\DS\DisJointSet</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
