@@ -247,9 +247,11 @@
     <ClCompile Include="mid-day9.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="binarySearch.h" />
     <ClInclude Include="BinaryTree.h" />
     <ClInclude Include="LinkQueue.h" />
     <ClInclude Include="LinkStack.h" />
+    <ClInclude Include="SearchSeq.h" />
     <ClInclude Include="SqQueue.h" />
     <ClInclude Include="SqStack.h" />
     <ClInclude Include="Status.h" />

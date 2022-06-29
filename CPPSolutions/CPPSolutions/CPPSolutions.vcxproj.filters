@@ -124,6 +124,9 @@
     <Filter Include="源文件\AcWing\DS\DisJointSet">
       <UniqueIdentifier>{c35dd9ae-40be-4843-8375-44102acee7c8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\AcWing\Summer2022">
+      <UniqueIdentifier>{0e4b81a8-16e2-469f-9bb6-dc9a16e0fffa}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="M386_字典序排数.cpp">
@@ -569,6 +572,12 @@
     </ClCompile>
     <ClCompile Include="Q237_程序自动分析.cpp">
       <Filter>源文件\AcWing\DS\DisJointSet</Filter>
+    </ClCompile>
+    <ClCompile Include="Q4268_性感素数.cpp">
+      <Filter>源文件\AcWing\Summer2022</Filter>
+    </ClCompile>
+    <ClCompile Include="Q4269_校庆.cpp">
+      <Filter>源文件\AcWing\Summer2022</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

@@ -266,6 +266,8 @@
     <ClCompile Include="Q3_完全背包问题_2.cpp" />
     <ClCompile Include="Q3_完全背包问题_3.cpp" />
     <ClCompile Include="Q423_采药.cpp" />
+    <ClCompile Include="Q4268_性感素数.cpp" />
+    <ClCompile Include="Q4269_校庆.cpp" />
     <ClCompile Include="Q426_开心的金明.cpp" />
     <ClCompile Include="Q479_加分二叉树.cpp" />
     <ClCompile Include="Q482_合唱队形.cpp" />
