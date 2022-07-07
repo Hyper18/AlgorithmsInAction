@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/AcWing/AcWing.iml" filepath="$PROJECT_DIR$/AcWing/AcWing.iml" />
       <module fileurl="file://$PROJECT_DIR$/AlgorithmsInAction.iml" filepath="$PROJECT_DIR$/AlgorithmsInAction.iml" />
       <module fileurl="file://$PROJECT_DIR$/BlueBridgeCup/BlueBridgeCup.iml" filepath="$PROJECT_DIR$/BlueBridgeCup/BlueBridgeCup.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CSP/CSP.iml" filepath="$PROJECT_DIR$/CSP/CSP.iml" />
       <module fileurl="file://$PROJECT_DIR$/LeetCode/LeetCode.iml" filepath="$PROJECT_DIR$/LeetCode/LeetCode.iml" />
       <module fileurl="file://$PROJECT_DIR$/Luogu/Luogu.iml" filepath="$PROJECT_DIR$/Luogu/Luogu.iml" />
     </modules>

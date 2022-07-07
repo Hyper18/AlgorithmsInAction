@@ -249,6 +249,7 @@
   <ItemGroup>
     <ClInclude Include="binarySearch.h" />
     <ClInclude Include="BinaryTree.h" />
+    <ClInclude Include="InsertSort.h" />
     <ClInclude Include="LinkQueue.h" />
     <ClInclude Include="LinkStack.h" />
     <ClInclude Include="SearchSeq.h" />
