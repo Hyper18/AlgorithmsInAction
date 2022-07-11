@@ -125,10 +125,22 @@
     <ClInclude Include="SearchSeq.h">
       <Filter>头文件\Search</Filter>
     </ClInclude>
-    <ClInclude Include="binarySearch.h">
+    <ClInclude Include="BinarySearch.h">
       <Filter>头文件\Search</Filter>
     </ClInclude>
     <ClInclude Include="InsertSort.h">
+      <Filter>头文件\Sort</Filter>
+    </ClInclude>
+    <ClInclude Include="BinaryInsertSort.h">
+      <Filter>头文件\Sort</Filter>
+    </ClInclude>
+    <ClInclude Include="ShellSort.h">
+      <Filter>头文件\Sort</Filter>
+    </ClInclude>
+    <ClInclude Include="BubbleSort.h">
+      <Filter>头文件\Sort</Filter>
+    </ClInclude>
+    <ClInclude Include="QuickSort.h">
       <Filter>头文件\Sort</Filter>
     </ClInclude>
   </ItemGroup>
