@@ -251,11 +251,13 @@
     <ClInclude Include="BinarySearch.h" />
     <ClInclude Include="BinaryTree.h" />
     <ClInclude Include="BubbleSort.h" />
+    <ClInclude Include="BuildMaxHeap.h" />
     <ClInclude Include="InsertSort.h" />
     <ClInclude Include="LinkQueue.h" />
     <ClInclude Include="LinkStack.h" />
     <ClInclude Include="QuickSort.h" />
     <ClInclude Include="SearchSeq.h" />
+    <ClInclude Include="SelectSort.h" />
     <ClInclude Include="ShellSort.h" />
     <ClInclude Include="SqQueue.h" />
     <ClInclude Include="SqStack.h" />

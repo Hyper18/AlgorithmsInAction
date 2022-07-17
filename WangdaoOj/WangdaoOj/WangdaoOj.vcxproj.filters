@@ -34,6 +34,9 @@
     <Filter Include="头文件\Sort">
       <UniqueIdentifier>{be1b8971-a168-447c-90f2-c7d413a3d1e2}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\Heap">
+      <UniqueIdentifier>{63adb1d4-d09b-47d0-b69b-e0274c2aaf69}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="low-day1.c">
@@ -142,6 +145,12 @@
     </ClInclude>
     <ClInclude Include="QuickSort.h">
       <Filter>头文件\Sort</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectSort.h">
+      <Filter>头文件\Sort</Filter>
+    </ClInclude>
+    <ClInclude Include="BuildMaxHeap.h">
+      <Filter>头文件\Heap</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
