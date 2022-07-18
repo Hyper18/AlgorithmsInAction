@@ -255,7 +255,9 @@
     <ClInclude Include="InsertSort.h" />
     <ClInclude Include="LinkQueue.h" />
     <ClInclude Include="LinkStack.h" />
+    <ClInclude Include="MergeSort.h" />
     <ClInclude Include="QuickSort.h" />
+    <ClInclude Include="RadixSort.h" />
     <ClInclude Include="SearchSeq.h" />
     <ClInclude Include="SelectSort.h" />
     <ClInclude Include="ShellSort.h" />
