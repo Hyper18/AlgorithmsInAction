@@ -40,8 +40,7 @@ public class Q826_单链表 {
         int m = nextInt();
         init();
         while (m-- > 0) {
-            String s = next();
-            switch (s) {
+            switch (next()) {
                 case "H":
                     add(nextInt());
                     break;
@@ -56,7 +55,6 @@ public class Q826_单链表 {
                         remove(k - 1);
                     }
                     break;
-                default:
             }
         }
 

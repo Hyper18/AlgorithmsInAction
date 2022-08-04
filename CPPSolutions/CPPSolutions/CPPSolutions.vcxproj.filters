@@ -579,6 +579,9 @@
     <ClCompile Include="Q4269_校庆.cpp">
       <Filter>源文件\AcWing\Summer2022</Filter>
     </ClCompile>
+    <ClCompile Include="Q826_单链表.cpp">
+      <Filter>源文件\AcWing\DS</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="M4浮点数二分.h">

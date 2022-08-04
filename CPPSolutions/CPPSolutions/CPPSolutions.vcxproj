@@ -296,6 +296,7 @@
     <ClCompile Include="Q819_最常见的单词.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="Q826_单链表.cpp" />
     <ClCompile Include="Q836_合并集合.cpp" />
     <ClCompile Include="Q837_连通块中点的数量.cpp" />
     <ClCompile Include="Q842_排列数字.cpp" />
