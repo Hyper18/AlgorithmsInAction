@@ -582,6 +582,9 @@
     <ClCompile Include="Q826_单链表.cpp">
       <Filter>源文件\AcWing\DS</Filter>
     </ClCompile>
+    <ClCompile Include="Q827_双链表.cpp">
+      <Filter>源文件\AcWing\DS</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="M4浮点数二分.h">
