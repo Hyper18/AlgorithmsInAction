@@ -140,9 +140,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="1097. 池塘计数.cpp" />
+    <ClCompile Include="33_搜索旋转排序数组.cpp" />
     <ClCompile Include="ListNode.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="M1470_重新排列数组.cpp" />
     <ClCompile Include="M1快速排序.h" />
     <ClCompile Include="M2归并排序.h" />
     <ClCompile Include="M386_字典序排数.cpp">

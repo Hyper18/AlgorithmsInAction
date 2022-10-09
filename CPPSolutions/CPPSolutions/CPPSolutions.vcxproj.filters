@@ -127,6 +127,9 @@
     <Filter Include="源文件\AcWing\Summer2022">
       <UniqueIdentifier>{0e4b81a8-16e2-469f-9bb6-dc9a16e0fffa}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\LeetCode\Array">
+      <UniqueIdentifier>{074e43f5-0fb2-4a1f-8c12-dcb469d63652}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="M386_字典序排数.cpp">
@@ -584,6 +587,12 @@
     </ClCompile>
     <ClCompile Include="Q827_双链表.cpp">
       <Filter>源文件\AcWing\DS</Filter>
+    </ClCompile>
+    <ClCompile Include="M1470_重新排列数组.cpp">
+      <Filter>源文件\LeetCode\Array</Filter>
+    </ClCompile>
+    <ClCompile Include="33_搜索旋转排序数组.cpp">
+      <Filter>源文件\LeetCode\Array</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
