@@ -252,6 +252,7 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="Q2_01背包问题.cpp" />
+    <ClCompile Include="Q300_最长递增子序列.cpp" />
     <ClCompile Include="Q320_能量项链.cpp" />
     <ClCompile Include="Q321_棋盘分割.cpp" />
     <ClCompile Include="Q327_玉米田.cpp" />

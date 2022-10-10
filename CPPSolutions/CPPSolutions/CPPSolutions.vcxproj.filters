@@ -130,6 +130,9 @@
     <Filter Include="源文件\LeetCode\Array">
       <UniqueIdentifier>{074e43f5-0fb2-4a1f-8c12-dcb469d63652}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\LeetCode\DP">
+      <UniqueIdentifier>{739e6e05-e710-415e-8988-d431ed8a4a32}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="M386_字典序排数.cpp">
@@ -593,6 +596,9 @@
     </ClCompile>
     <ClCompile Include="33_搜索旋转排序数组.cpp">
       <Filter>源文件\LeetCode\Array</Filter>
+    </ClCompile>
+    <ClCompile Include="Q300_最长递增子序列.cpp">
+      <Filter>源文件\LeetCode\DP</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
