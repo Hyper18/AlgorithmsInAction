@@ -133,6 +133,9 @@
     <Filter Include="源文件\LeetCode\DP">
       <UniqueIdentifier>{739e6e05-e710-415e-8988-d431ed8a4a32}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\LeetCode\BinarySearch">
+      <UniqueIdentifier>{3522da9d-119c-42de-8c62-c7f5bbb14312}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="M386_字典序排数.cpp">
@@ -599,6 +602,9 @@
     </ClCompile>
     <ClCompile Include="Q300_最长递增子序列.cpp">
       <Filter>源文件\LeetCode\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="Q69_x的平方根.cpp">
+      <Filter>源文件\LeetCode\BinarySearch</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
