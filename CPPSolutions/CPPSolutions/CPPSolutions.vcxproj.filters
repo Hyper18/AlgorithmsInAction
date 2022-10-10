@@ -606,6 +606,9 @@
     <ClCompile Include="Q69_x的平方根.cpp">
       <Filter>源文件\LeetCode\BinarySearch</Filter>
     </ClCompile>
+    <ClCompile Include="M801_使序列递增的最小交换次数.cpp">
+      <Filter>源文件\LeetCode\DP</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="M4浮点数二分.h">
