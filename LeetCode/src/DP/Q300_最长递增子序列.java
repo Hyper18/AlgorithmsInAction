@@ -23,10 +23,10 @@ package DP;
  */
 public class Q300_最长递增子序列 {
     public int lengthOfLIS(int[] nums) {
-        int len = nums.length;
-        int[] f = new int[len];
+        int n = nums.length;
+        int[] f = new int[n];
         int ans = 0;
-        for (int i = 0; i < len; i++) {
+        for (int i = 0; i < n; i++) {
             f[i] = 1;
             for (int j = 0; j < i; j++) {
                 if (nums[i] > nums[j]) {
@@ -40,10 +40,10 @@ public class Q300_最长递增子序列 {
     }
 
     public int lengthOfLIS2(int[] nums) {
-        int len = nums.length;
-        int[] f = new int[len];
+        int n = nums.length;
+        int[] f = new int[n];
         int ans = 0;
-        for (int i = 0; i < len; i++) {
+        for (int i = 0; i < n; i++) {
             // 指定二分的遍历区间为[0， ans)
             int low = 0, high = ans;
             while (low < high) {
