@@ -161,6 +161,7 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="M801_使序列递增的最小交换次数.cpp" />
+    <ClCompile Include="M817_链表组件.cpp" />
     <ClCompile Include="M821_字符的最短距离.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
@@ -244,7 +245,9 @@
     <ClCompile Include="Q175_电路维修.cpp" />
     <ClCompile Include="Q187_导弹防御系统.cpp" />
     <ClCompile Include="Q188_武士风度的牛.cpp" />
+    <ClCompile Include="Q209_长度最小的子数组.cpp" />
     <ClCompile Include="Q237_程序自动分析.cpp" />
+    <ClCompile Include="Q240_搜索二维矩阵II.cpp" />
     <ClCompile Include="Q272_最长公共上升子序列.cpp" />
     <ClCompile Include="Q278_数字组合.cpp" />
     <ClCompile Include="Q2816_判断子序列.cpp" />

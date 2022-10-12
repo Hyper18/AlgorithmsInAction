@@ -136,6 +136,9 @@
     <Filter Include="源文件\LeetCode\BinarySearch">
       <UniqueIdentifier>{3522da9d-119c-42de-8c62-c7f5bbb14312}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\LeetCode\Matrix">
+      <UniqueIdentifier>{6c63d4c7-8a2e-4aca-86eb-987187e28c80}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="M386_字典序排数.cpp">
@@ -614,6 +617,15 @@
     </ClCompile>
     <ClCompile Include="Q162_寻找峰值.cpp">
       <Filter>源文件\LeetCode\BinarySearch</Filter>
+    </ClCompile>
+    <ClCompile Include="M817_链表组件.cpp">
+      <Filter>源文件\LeetCode\LinkedList</Filter>
+    </ClCompile>
+    <ClCompile Include="Q209_长度最小的子数组.cpp">
+      <Filter>源文件\LeetCode\Array</Filter>
+    </ClCompile>
+    <ClCompile Include="Q240_搜索二维矩阵II.cpp">
+      <Filter>源文件\LeetCode\Matrix</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
