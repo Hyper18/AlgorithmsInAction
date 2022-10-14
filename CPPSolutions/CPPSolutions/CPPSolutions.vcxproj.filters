@@ -627,6 +627,12 @@
     <ClCompile Include="Q240_搜索二维矩阵II.cpp">
       <Filter>源文件\LeetCode\Matrix</Filter>
     </ClCompile>
+    <ClCompile Include="M769_最多能完成排序的块.cpp">
+      <Filter>源文件\LeetCode\Array</Filter>
+    </ClCompile>
+    <ClCompile Include="Q230_二叉搜索树中第K小的元素.cpp">
+      <Filter>源文件\LeetCode\Tree</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="M4浮点数二分.h">
