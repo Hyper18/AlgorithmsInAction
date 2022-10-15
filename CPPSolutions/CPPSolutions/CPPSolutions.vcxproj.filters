@@ -139,6 +139,9 @@
     <Filter Include="源文件\LeetCode\Matrix">
       <UniqueIdentifier>{6c63d4c7-8a2e-4aca-86eb-987187e28c80}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\LeetCode\Stack_Queue">
+      <UniqueIdentifier>{8aaef2ab-5f1c-402b-a8af-1b955ff2cc1f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="M386_字典序排数.cpp">
@@ -635,6 +638,9 @@
     </ClCompile>
     <ClCompile Include="Q718_最长重复子数组.cpp">
       <Filter>源文件\LeetCode\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="M1441_用栈操作构建数组.cpp">
+      <Filter>源文件\LeetCode\Stack_Queue</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
