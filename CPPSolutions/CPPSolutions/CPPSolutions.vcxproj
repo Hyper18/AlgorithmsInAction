@@ -287,6 +287,7 @@
     <ClCompile Include="Q5_多重背包问题II.cpp" />
     <ClCompile Include="Q69_x的平方根.cpp" />
     <ClCompile Include="Q6_多重背包问题III.cpp" />
+    <ClCompile Include="Q718_最长重复子数组.cpp" />
     <ClCompile Include="Q785_快速排序.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
