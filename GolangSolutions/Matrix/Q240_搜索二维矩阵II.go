@@ -2,14 +2,13 @@ package Matrix
 
 import "sort"
 
-func searchMatrix(matrix [][]int, target int) (flag bool) {
+func searchMatrix2(matrix [][]int, target int) bool {
 	for _, row := range matrix {
 		i := sort.SearchInts(row, target)
 		if i < len(row) && row[i] == target {
-			flag = true
-			return
+			return true
 		}
 	}
 
-	return
+	return false
 }
