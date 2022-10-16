@@ -273,6 +273,7 @@
     </ClCompile>
     <ClCompile Include="Q3370_牛年.cpp" />
     <ClCompile Include="Q338_计数问题.cpp" />
+    <ClCompile Include="Q34_在排序数组中查找元素的第一个和最后一个位置.cpp" />
     <ClCompile Include="Q3745_牛的学术圈I.cpp" />
     <ClCompile Include="Q3_完全背包问题.cpp" />
     <ClCompile Include="Q3_完全背包问题_2.cpp" />
@@ -289,6 +290,7 @@
     <ClCompile Include="Q69_x的平方根.cpp" />
     <ClCompile Include="Q6_多重背包问题III.cpp" />
     <ClCompile Include="Q718_最长重复子数组.cpp" />
+    <ClCompile Include="Q74_搜索二维矩阵.cpp" />
     <ClCompile Include="Q785_快速排序.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>

@@ -642,6 +642,12 @@
     <ClCompile Include="M1441_用栈操作构建数组.cpp">
       <Filter>源文件\LeetCode\Stack_Queue</Filter>
     </ClCompile>
+    <ClCompile Include="Q34_在排序数组中查找元素的第一个和最后一个位置.cpp">
+      <Filter>源文件\LeetCode\BinarySearch</Filter>
+    </ClCompile>
+    <ClCompile Include="Q74_搜索二维矩阵.cpp">
+      <Filter>源文件\LeetCode\Matrix</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="M4浮点数二分.h">

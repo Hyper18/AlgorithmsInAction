@@ -53,13 +53,12 @@ public class Q860_染色法判定二分图 {
         color[u] = c;
         for (int i = h[u]; i != -1; i = ne[i]) {
             int j = e[i];
+            // j点的颜色与u点相同
+            if (color[j] == c) {
+                return false;
+            }
             // 若j尚未被染色，判断染3-c色是否合适（对于c=1，3-c=2）
-            if (color[j] == 0) {
-                if (!dfs(j, 3 - c)) {
-                    return false;
-                }
-            } else if (color[j] == c) {
-                // j点的颜色与u点相同
+            if (color[j] == 0 && !dfs(j, 3 - c)) {
                 return false;
             }
         }
