@@ -170,6 +170,8 @@
     <ClCompile Include="M883_三维形体投影面积.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="M886_可能的二分法.cpp" />
+    <ClCompile Include="M904_水果成篮.cpp" />
     <ClCompile Include="M905_按奇偶排序数组.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>

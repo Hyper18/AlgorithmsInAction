@@ -25,9 +25,6 @@
     <Filter Include="源文件\LeetCode\LinkedList">
       <UniqueIdentifier>{4e587c97-b49a-4637-b28d-298b42a5c38a}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\LeetCode\SVM">
-      <UniqueIdentifier>{32380770-644d-451e-a10a-240a509b0f54}</UniqueIdentifier>
-    </Filter>
     <Filter Include="源文件\LeetCode\Tree">
       <UniqueIdentifier>{adcbc177-a624-4379-bc17-b57fdf2ef1f0}</UniqueIdentifier>
     </Filter>
@@ -142,6 +139,12 @@
     <Filter Include="源文件\LeetCode\Stack_Queue">
       <UniqueIdentifier>{8aaef2ab-5f1c-402b-a8af-1b955ff2cc1f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\LeetCode\Graph\Bipartite">
+      <UniqueIdentifier>{b8c36058-5173-4793-ae46-6750279ddc28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\LeetCode\SWM">
+      <UniqueIdentifier>{32380770-644d-451e-a10a-240a509b0f54}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="M386_字典序排数.cpp">
@@ -163,7 +166,7 @@
       <Filter>源文件\LeetCode\LinkedList</Filter>
     </ClCompile>
     <ClCompile Include="M396_旋转函数.cpp">
-      <Filter>源文件\LeetCode\SVM</Filter>
+      <Filter>源文件\LeetCode\SWM</Filter>
     </ClCompile>
     <ClCompile Include="Q110_平衡二叉树.cpp">
       <Filter>源文件\LeetCode\Tree</Filter>
@@ -647,6 +650,12 @@
     </ClCompile>
     <ClCompile Include="Q74_搜索二维矩阵.cpp">
       <Filter>源文件\LeetCode\Matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="M886_可能的二分法.cpp">
+      <Filter>源文件\LeetCode\Graph\Bipartite</Filter>
+    </ClCompile>
+    <ClCompile Include="M904_水果成篮.cpp">
+      <Filter>源文件\LeetCode\SWM</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
