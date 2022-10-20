@@ -657,6 +657,9 @@
     <ClCompile Include="M904_水果成篮.cpp">
       <Filter>源文件\LeetCode\SWM</Filter>
     </ClCompile>
+    <ClCompile Include="M1700_无法吃午餐的学生数量.cpp">
+      <Filter>源文件\LeetCode\Array</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="M4浮点数二分.h">
