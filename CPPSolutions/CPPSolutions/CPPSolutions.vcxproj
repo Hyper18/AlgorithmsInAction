@@ -163,6 +163,7 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="M769_最多能完成排序的块.cpp" />
+    <ClCompile Include="M779_第K个语法符号.cpp" />
     <ClCompile Include="M801_使序列递增的最小交换次数.cpp" />
     <ClCompile Include="M817_链表组件.cpp" />
     <ClCompile Include="M821_字符的最短距离.cpp">
@@ -172,6 +173,7 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="M886_可能的二分法.cpp" />
+    <ClCompile Include="M901_股票价格跨度.cpp" />
     <ClCompile Include="M904_水果成篮.cpp" />
     <ClCompile Include="M905_按奇偶排序数组.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
