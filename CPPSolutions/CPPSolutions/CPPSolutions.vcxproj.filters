@@ -666,6 +666,9 @@
     <ClCompile Include="M901_股票价格跨度.cpp">
       <Filter>源文件\LeetCode\Stack_Queue</Filter>
     </ClCompile>
+    <ClCompile Include="M1235_规划兼职工作.cpp">
+      <Filter>源文件\LeetCode\DP</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="M4浮点数二分.h">
