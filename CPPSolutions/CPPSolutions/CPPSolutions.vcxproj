@@ -148,6 +148,7 @@
     <ClCompile Include="M1441_用栈操作构建数组.cpp" />
     <ClCompile Include="M1470_重新排列数组.cpp" />
     <ClCompile Include="M1700_无法吃午餐的学生数量.cpp" />
+    <ClCompile Include="M1768_交替合并字符串.cpp" />
     <ClCompile Include="M1790_仅执行一次字符串交换能否使两个字符串相等.cpp" />
     <ClCompile Include="M1快速排序.h" />
     <ClCompile Include="M2归并排序.h" />
@@ -182,6 +183,7 @@
     <ClCompile Include="M908_最小差值I.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="M915_分割数组.cpp" />
     <ClCompile Include="Q1010_拦截导弹.cpp" />
     <ClCompile Include="Q1012_友好城市.cpp" />
     <ClCompile Include="Q1013_机器分配.cpp" />
