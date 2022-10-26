@@ -30,17 +30,3 @@ func partitionDisjoint2(nums []int) int {
 
 	return idx + 1
 }
-
-func min(a, b int) int {
-	if b < a {
-		return b
-	}
-	return a
-}
-
-func max(a, b int) int {
-	if b > a {
-		return b
-	}
-	return a
-}

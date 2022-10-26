@@ -37,7 +37,7 @@ public class M862_和至少为K的最短子数组 {
     public int shortestSubarray2(int[] nums, int k) {
         int n = nums.length;
         // 维护long数组记录前缀和
-        long[] preSum = new long[n + 10];
+        long[] preSum = new long[n + 1];
         // preSum[0] = 0;
         for (int i = 1; i <= n; i++) {
             preSum[i] = preSum[i - 1] + nums[i - 1];
