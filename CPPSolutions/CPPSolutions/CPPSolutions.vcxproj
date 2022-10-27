@@ -171,6 +171,7 @@
     <ClCompile Include="M821_字符的最短距离.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="M862_和至少为K的最短子数组.cpp" />
     <ClCompile Include="M883_三维形体投影面积.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
@@ -264,6 +265,7 @@
     <ClCompile Include="Q2816_判断子序列.cpp" />
     <ClCompile Include="Q282_石子合并.cpp" />
     <ClCompile Include="Q285_没有上司的舞会.cpp" />
+    <ClCompile Include="Q287_寻找重复数.cpp" />
     <ClCompile Include="Q2_01背包问题_2.cpp" />
     <ClCompile Include="Q206_反转链表.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>

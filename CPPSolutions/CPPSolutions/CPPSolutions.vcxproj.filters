@@ -675,6 +675,12 @@
     <ClCompile Include="M915_分割数组.cpp">
       <Filter>源文件\LeetCode\Array</Filter>
     </ClCompile>
+    <ClCompile Include="M862_和至少为K的最短子数组.cpp">
+      <Filter>源文件\LeetCode\Array</Filter>
+    </ClCompile>
+    <ClCompile Include="Q287_寻找重复数.cpp">
+      <Filter>源文件\LeetCode\BinarySearch</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="M4浮点数二分.h">
