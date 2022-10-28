@@ -681,6 +681,9 @@
     <ClCompile Include="Q287_寻找重复数.cpp">
       <Filter>源文件\LeetCode\BinarySearch</Filter>
     </ClCompile>
+    <ClCompile Include="M907_子数组的最小值之和.cpp">
+      <Filter>源文件\LeetCode\Stack_Queue</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="M4浮点数二分.h">

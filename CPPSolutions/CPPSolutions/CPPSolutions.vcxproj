@@ -181,6 +181,7 @@
     <ClCompile Include="M905_按奇偶排序数组.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="M907_子数组的最小值之和.cpp" />
     <ClCompile Include="M908_最小差值I.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
