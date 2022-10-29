@@ -687,6 +687,9 @@
     <ClCompile Include="Q153_寻找旋转排序数组中的最小值.cpp">
       <Filter>源文件\LeetCode\BinarySearch</Filter>
     </ClCompile>
+    <ClCompile Include="M1773_统计匹配检索规则的物品数量.cpp">
+      <Filter>源文件\LeetCode\Array</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="M4浮点数二分.h">
