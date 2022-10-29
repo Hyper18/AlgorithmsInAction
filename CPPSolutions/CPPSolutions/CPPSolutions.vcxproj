@@ -251,6 +251,7 @@
     <ClCompile Include="Q1305_两棵二叉搜索树中的所有元素.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="Q153_寻找旋转排序数组中的最小值.cpp" />
     <ClCompile Include="Q162_寻找峰值.cpp" />
     <ClCompile Include="Q165_小猫爬山.cpp" />
     <ClCompile Include="Q173_矩阵距离.cpp" />
