@@ -690,6 +690,12 @@
     <ClCompile Include="M1773_统计匹配检索规则的物品数量.cpp">
       <Filter>源文件\LeetCode\Array</Filter>
     </ClCompile>
+    <ClCompile Include="Q167_两数之和II输入有序数组.cpp">
+      <Filter>源文件\LeetCode\Array</Filter>
+    </ClCompile>
+    <ClCompile Include="Q349_两个数组的交集.cpp">
+      <Filter>源文件\LeetCode\Array</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="M4浮点数二分.h">
