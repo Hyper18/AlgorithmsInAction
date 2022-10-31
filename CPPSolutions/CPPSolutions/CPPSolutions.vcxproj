@@ -165,8 +165,10 @@
     <ClCompile Include="M417_太平洋大西洋水流问题.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="M481_神奇字符串.cpp" />
     <ClCompile Include="M769_最多能完成排序的块.cpp" />
     <ClCompile Include="M779_第K个语法符号.cpp" />
+    <ClCompile Include="M784_字母大小写全排列.cpp" />
     <ClCompile Include="M801_使序列递增的最小交换次数.cpp" />
     <ClCompile Include="M817_链表组件.cpp" />
     <ClCompile Include="M821_字符的最短距离.cpp">

@@ -145,6 +145,9 @@
     <Filter Include="源文件\LeetCode\SWM">
       <UniqueIdentifier>{32380770-644d-451e-a10a-240a509b0f54}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\LeetCode\BackTracking">
+      <UniqueIdentifier>{03d3cb8f-5c65-404c-9b17-a77b0f13ec44}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="M386_字典序排数.cpp">
@@ -695,6 +698,12 @@
     </ClCompile>
     <ClCompile Include="Q349_两个数组的交集.cpp">
       <Filter>源文件\LeetCode\Array</Filter>
+    </ClCompile>
+    <ClCompile Include="M784_字母大小写全排列.cpp">
+      <Filter>源文件\LeetCode\BackTracking</Filter>
+    </ClCompile>
+    <ClCompile Include="M481_神奇字符串.cpp">
+      <Filter>源文件\LeetCode\String</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
