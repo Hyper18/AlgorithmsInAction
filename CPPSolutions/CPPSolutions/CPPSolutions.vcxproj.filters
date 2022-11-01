@@ -148,6 +148,9 @@
     <Filter Include="源文件\LeetCode\BackTracking">
       <UniqueIdentifier>{03d3cb8f-5c65-404c-9b17-a77b0f13ec44}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\LeetCode\DP\Knapsack">
+      <UniqueIdentifier>{af85ea0d-1d52-4c5c-bb4e-5817bf53917c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="M386_字典序排数.cpp">
@@ -704,6 +707,12 @@
     </ClCompile>
     <ClCompile Include="M481_神奇字符串.cpp">
       <Filter>源文件\LeetCode\String</Filter>
+    </ClCompile>
+    <ClCompile Include="M1662_检查两个字符串数组是否相等.cpp">
+      <Filter>源文件\LeetCode\String</Filter>
+    </ClCompile>
+    <ClCompile Include="Q887_鸡蛋掉落.cpp">
+      <Filter>源文件\LeetCode\DP\Knapsack</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

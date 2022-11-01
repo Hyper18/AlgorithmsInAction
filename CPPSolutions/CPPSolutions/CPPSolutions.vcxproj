@@ -147,6 +147,7 @@
     <ClCompile Include="M1235_规划兼职工作.cpp" />
     <ClCompile Include="M1441_用栈操作构建数组.cpp" />
     <ClCompile Include="M1470_重新排列数组.cpp" />
+    <ClCompile Include="M1662_检查两个字符串数组是否相等.cpp" />
     <ClCompile Include="M1700_无法吃午餐的学生数量.cpp" />
     <ClCompile Include="M1768_交替合并字符串.cpp" />
     <ClCompile Include="M1773_统计匹配检索规则的物品数量.cpp" />
@@ -354,6 +355,7 @@
     <ClCompile Include="Q868_二进制间距.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="Q887_鸡蛋掉落.cpp" />
     <ClCompile Include="Q895_最长上升子序列.cpp" />
     <ClCompile Include="Q896_最长上升子序列II.cpp" />
     <ClCompile Include="Q897_最长公共子序列.cpp" />
