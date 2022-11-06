@@ -714,6 +714,9 @@
     <ClCompile Include="Q887_鸡蛋掉落.cpp">
       <Filter>源文件\LeetCode\DP\Knapsack</Filter>
     </ClCompile>
+    <ClCompile Include="M1678_设计Goal解析器.cpp">
+      <Filter>源文件\LeetCode\String</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="M4浮点数二分.h">

@@ -148,6 +148,7 @@
     <ClCompile Include="M1441_用栈操作构建数组.cpp" />
     <ClCompile Include="M1470_重新排列数组.cpp" />
     <ClCompile Include="M1662_检查两个字符串数组是否相等.cpp" />
+    <ClCompile Include="M1678_设计Goal解析器.cpp" />
     <ClCompile Include="M1700_无法吃午餐的学生数量.cpp" />
     <ClCompile Include="M1768_交替合并字符串.cpp" />
     <ClCompile Include="M1773_统计匹配检索规则的物品数量.cpp" />
