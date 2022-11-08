@@ -717,6 +717,9 @@
     <ClCompile Include="M1678_设计Goal解析器.cpp">
       <Filter>源文件\LeetCode\String</Filter>
     </ClCompile>
+    <ClCompile Include="M816_模糊坐标.cpp">
+      <Filter>源文件\LeetCode\String</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="M4浮点数二分.h">
