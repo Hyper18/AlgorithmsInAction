@@ -151,6 +151,9 @@
     <Filter Include="源文件\LeetCode\DP\Knapsack">
       <UniqueIdentifier>{af85ea0d-1d52-4c5c-bb4e-5817bf53917c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\LeetCode\Greedy">
+      <UniqueIdentifier>{bbb811af-8d0c-4aa5-ae9a-00891a670c2f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="M386_字典序排数.cpp">
@@ -720,6 +723,18 @@
     <ClCompile Include="M816_模糊坐标.cpp">
       <Filter>源文件\LeetCode\String</Filter>
     </ClCompile>
+    <ClCompile Include="M1704_判断字符串的两半是否相似.cpp">
+      <Filter>源文件\LeetCode\String</Filter>
+    </ClCompile>
+    <ClCompile Include="M790_多米诺和托米诺平铺.cpp">
+      <Filter>源文件\LeetCode\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="M791_自定义字符串排序.cpp">
+      <Filter>源文件\LeetCode\String</Filter>
+    </ClCompile>
+    <ClCompile Include="M1710_卡车上的最大单元数.cpp">
+      <Filter>源文件\LeetCode\Greedy</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="M4浮点数二分.h">
@@ -729,13 +744,4 @@
       <Filter>头文件\Model</Filter>
     </ClInclude>
     <ClInclude Include="M6二维前缀和.h">
-      <Filter>头文件\Model</Filter>
-    </ClInclude>
-    <ClInclude Include="M7一维差分.h">
-      <Filter>头文件\Model</Filter>
-    </ClInclude>
-    <ClInclude Include="M8二维差分.h">
-      <Filter>头文件\Model</Filter>
-    </ClInclude>
-  </ItemGroup>
-</Project>
+      <

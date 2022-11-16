@@ -150,6 +150,8 @@
     <ClCompile Include="M1662_检查两个字符串数组是否相等.cpp" />
     <ClCompile Include="M1678_设计Goal解析器.cpp" />
     <ClCompile Include="M1700_无法吃午餐的学生数量.cpp" />
+    <ClCompile Include="M1704_判断字符串的两半是否相似.cpp" />
+    <ClCompile Include="M1710_卡车上的最大单元数.cpp" />
     <ClCompile Include="M1768_交替合并字符串.cpp" />
     <ClCompile Include="M1773_统计匹配检索规则的物品数量.cpp" />
     <ClCompile Include="M1790_仅执行一次字符串交换能否使两个字符串相等.cpp" />
@@ -171,6 +173,8 @@
     <ClCompile Include="M769_最多能完成排序的块.cpp" />
     <ClCompile Include="M779_第K个语法符号.cpp" />
     <ClCompile Include="M784_字母大小写全排列.cpp" />
+    <ClCompile Include="M790_多米诺和托米诺平铺.cpp" />
+    <ClCompile Include="M791_自定义字符串排序.cpp" />
     <ClCompile Include="M801_使序列递增的最小交换次数.cpp" />
     <ClCompile Include="M816_模糊坐标.cpp" />
     <ClCompile Include="M817_链表组件.cpp" />
@@ -379,6 +383,4 @@
     <ClInclude Include="M8二维差分.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
-  <ImportGroup Label="ExtensionTargets">
-  </ImportGroup>
-</Project>
+  <
