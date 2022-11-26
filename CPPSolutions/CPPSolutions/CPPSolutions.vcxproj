@@ -152,6 +152,7 @@
     <ClCompile Include="M1700_无法吃午餐的学生数量.cpp" />
     <ClCompile Include="M1704_判断字符串的两半是否相似.cpp" />
     <ClCompile Include="M1710_卡车上的最大单元数.cpp" />
+    <ClCompile Include="M1732_找到最高海拔.cpp" />
     <ClCompile Include="M1768_交替合并字符串.cpp" />
     <ClCompile Include="M1773_统计匹配检索规则的物品数量.cpp" />
     <ClCompile Include="M1790_仅执行一次字符串交换能否使两个字符串相等.cpp" />
@@ -175,6 +176,7 @@
     <ClCompile Include="M784_字母大小写全排列.cpp" />
     <ClCompile Include="M790_多米诺和托米诺平铺.cpp" />
     <ClCompile Include="M791_自定义字符串排序.cpp" />
+    <ClCompile Include="M792_匹配子序列的单词数.cpp" />
     <ClCompile Include="M801_使序列递增的最小交换次数.cpp" />
     <ClCompile Include="M816_模糊坐标.cpp" />
     <ClCompile Include="M817_链表组件.cpp" />
@@ -186,6 +188,7 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="M886_可能的二分法.cpp" />
+    <ClCompile Include="M891_子序列宽度之和.cpp" />
     <ClCompile Include="M901_股票价格跨度.cpp" />
     <ClCompile Include="M904_水果成篮.cpp" />
     <ClCompile Include="M905_按奇偶排序数组.cpp">
@@ -231,6 +234,7 @@
     <ClCompile Include="Q107_二叉树的层序遍历II.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="Q1081_度的数量.cpp" />
     <ClCompile Include="Q1098_城堡问题.cpp" />
     <ClCompile Include="Q10_有依赖的背包问题.cpp" />
     <ClCompile Include="Q1100_抓住那头牛.cpp" />
@@ -361,7 +365,14 @@
     <ClCompile Include="Q868_二进制间距.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="Q875_快速幂.cpp" />
+    <ClCompile Include="Q876_快速幂求逆元.cpp" />
+    <ClCompile Include="M882_细分图中的可到达节点.cpp" />
+    <ClCompile Include="Q885_求组合数I.cpp" />
+    <ClCompile Include="Q886_求组合数II.cpp" />
+    <ClCompile Include="Q887_求组合数III.cpp" />
     <ClCompile Include="Q887_鸡蛋掉落.cpp" />
+    <ClCompile Include="Q888_求组合数IV.cpp" />
     <ClCompile Include="Q895_最长上升子序列.cpp" />
     <ClCompile Include="Q896_最长上升子序列II.cpp" />
     <ClCompile Include="Q897_最长公共子序列.cpp" />
@@ -383,4 +394,6 @@
     <ClInclude Include="M8二维差分.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
-  <
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

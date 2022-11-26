@@ -154,6 +154,21 @@
     <Filter Include="源文件\LeetCode\Greedy">
       <UniqueIdentifier>{bbb811af-8d0c-4aa5-ae9a-00891a670c2f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\AcWing\Algorithm_BasicLevel\Math">
+      <UniqueIdentifier>{eca55ca0-db9b-4a38-8901-bd38c55180d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\AcWing\Algorithm_BasicLevel\Math\Combination">
+      <UniqueIdentifier>{76d2200a-fd08-4c02-ac5b-01b9aa17f503}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\AcWing\Algorithm_BasicLevel\Math\QuickPow">
+      <UniqueIdentifier>{d1a09476-03d7-4b15-bdb1-356fea0a5170}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\LeetCode\Graph\ShortestPath">
+      <UniqueIdentifier>{6a6b23b3-3340-4b76-9eff-96a408ae54b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\AcWing\DP\DigitDP">
+      <UniqueIdentifier>{f54c9f51-9806-4787-8d61-c633b94c8ff9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="M386_字典序排数.cpp">
@@ -735,6 +750,39 @@
     <ClCompile Include="M1710_卡车上的最大单元数.cpp">
       <Filter>源文件\LeetCode\Greedy</Filter>
     </ClCompile>
+    <ClCompile Include="M792_匹配子序列的单词数.cpp">
+      <Filter>源文件\LeetCode\String</Filter>
+    </ClCompile>
+    <ClCompile Include="M891_子序列宽度之和.cpp">
+      <Filter>源文件\LeetCode\Array</Filter>
+    </ClCompile>
+    <ClCompile Include="M1732_找到最高海拔.cpp">
+      <Filter>源文件\LeetCode\Array</Filter>
+    </ClCompile>
+    <ClCompile Include="Q885_求组合数I.cpp">
+      <Filter>源文件\AcWing\Algorithm_BasicLevel\Math\Combination</Filter>
+    </ClCompile>
+    <ClCompile Include="Q886_求组合数II.cpp">
+      <Filter>源文件\AcWing\Algorithm_BasicLevel\Math\Combination</Filter>
+    </ClCompile>
+    <ClCompile Include="Q875_快速幂.cpp">
+      <Filter>源文件\AcWing\Algorithm_BasicLevel\Math\QuickPow</Filter>
+    </ClCompile>
+    <ClCompile Include="Q876_快速幂求逆元.cpp">
+      <Filter>源文件\AcWing\Algorithm_BasicLevel\Math\QuickPow</Filter>
+    </ClCompile>
+    <ClCompile Include="M882_细分图中的可到达节点.cpp">
+      <Filter>源文件\LeetCode\Graph\ShortestPath</Filter>
+    </ClCompile>
+    <ClCompile Include="Q887_求组合数III.cpp">
+      <Filter>源文件\AcWing\Algorithm_BasicLevel\Math\Combination</Filter>
+    </ClCompile>
+    <ClCompile Include="Q888_求组合数IV.cpp">
+      <Filter>源文件\AcWing\Algorithm_BasicLevel\Math\Combination</Filter>
+    </ClCompile>
+    <ClCompile Include="Q1081_度的数量.cpp">
+      <Filter>源文件\AcWing\DP\DigitDP</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="M4浮点数二分.h">
@@ -744,4 +792,13 @@
       <Filter>头文件\Model</Filter>
     </ClInclude>
     <ClInclude Include="M6二维前缀和.h">
-      <
+      <Filter>头文件\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="M7一维差分.h">
+      <Filter>头文件\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="M8二维差分.h">
+      <Filter>头文件\Model</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
