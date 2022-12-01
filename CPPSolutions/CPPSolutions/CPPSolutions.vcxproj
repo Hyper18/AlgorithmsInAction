@@ -153,6 +153,7 @@
     <ClCompile Include="M1704_判断字符串的两半是否相似.cpp" />
     <ClCompile Include="M1710_卡车上的最大单元数.cpp" />
     <ClCompile Include="M1732_找到最高海拔.cpp" />
+    <ClCompile Include="M1752_检查数组是否经排序和轮转得到.cpp" />
     <ClCompile Include="M1768_交替合并字符串.cpp" />
     <ClCompile Include="M1773_统计匹配检索规则的物品数量.cpp" />
     <ClCompile Include="M1790_仅执行一次字符串交换能否使两个字符串相等.cpp" />

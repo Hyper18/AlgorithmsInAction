@@ -783,6 +783,9 @@
     <ClCompile Include="Q1081_度的数量.cpp">
       <Filter>源文件\AcWing\DP\DigitDP</Filter>
     </ClCompile>
+    <ClCompile Include="M1752_检查数组是否经排序和轮转得到.cpp">
+      <Filter>源文件\LeetCode\Array</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="M4浮点数二分.h">
