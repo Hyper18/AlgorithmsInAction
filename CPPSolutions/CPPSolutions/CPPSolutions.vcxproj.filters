@@ -786,6 +786,9 @@
     <ClCompile Include="M1752_检查数组是否经排序和轮转得到.cpp">
       <Filter>源文件\LeetCode\Array</Filter>
     </ClCompile>
+    <ClCompile Include="Q291_蒙德里安的梦想.cpp">
+      <Filter>源文件\AcWing\DP\StCompressingModel</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="M4浮点数二分.h">

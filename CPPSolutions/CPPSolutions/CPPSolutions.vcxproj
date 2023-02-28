@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Q291_蒙德里安的梦想.cpp" />
     <ClCompile Include="1097. 池塘计数.cpp" />
     <ClCompile Include="33_搜索旋转排序数组.cpp" />
     <ClCompile Include="ListNode.cpp">
