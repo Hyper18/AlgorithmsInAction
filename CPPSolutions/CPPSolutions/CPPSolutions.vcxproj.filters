@@ -789,6 +789,36 @@
     <ClCompile Include="Q291_蒙德里安的梦想.cpp">
       <Filter>源文件\AcWing\DP\StCompressingModel</Filter>
     </ClCompile>
+    <ClCompile Include="M2363_合并相似的物品.cpp">
+      <Filter>源文件\LeetCode\Array</Filter>
+    </ClCompile>
+    <ClCompile Include="Q485_最大连续1的个数.cpp">
+      <Filter>源文件\LeetCode\Array</Filter>
+    </ClCompile>
+    <ClCompile Include="Q1004_最大连续1的个数III.cpp">
+      <Filter>源文件\LeetCode\Array</Filter>
+    </ClCompile>
+    <ClCompile Include="Q3_无重复字符的最长子串.cpp">
+      <Filter>源文件\LeetCode\SWM</Filter>
+    </ClCompile>
+    <ClCompile Include="Q239_滑动窗口最大值.cpp">
+      <Filter>源文件\LeetCode\SWM</Filter>
+    </ClCompile>
+    <ClCompile Include="Q76_最小覆盖子串.cpp">
+      <Filter>源文件\LeetCode\SWM</Filter>
+    </ClCompile>
+    <ClCompile Include="Q395_至少有K个重复字符的最长子串.cpp">
+      <Filter>源文件\LeetCode\TwoPointer</Filter>
+    </ClCompile>
+    <ClCompile Include="Q567_字符串的排列.cpp">
+      <Filter>源文件\LeetCode\SWM</Filter>
+    </ClCompile>
+    <ClCompile Include="Q1438_绝对差不超过限制的最长连续子数组.cpp">
+      <Filter>源文件\LeetCode\SWM</Filter>
+    </ClCompile>
+    <ClCompile Include="Q1658_将x减到0的最小操作数.cpp">
+      <Filter>源文件\LeetCode\Array</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="M4浮点数二分.h">

@@ -139,6 +139,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="M2363_合并相似的物品.cpp" />
+    <ClCompile Include="Q1004_最大连续1的个数III.cpp" />
+    <ClCompile Include="Q1438_绝对差不超过限制的最长连续子数组.cpp" />
+    <ClCompile Include="Q1658_将x减到0的最小操作数.cpp" />
+    <ClCompile Include="Q239_滑动窗口最大值.cpp" />
     <ClCompile Include="Q291_蒙德里安的梦想.cpp" />
     <ClCompile Include="1097. 池塘计数.cpp" />
     <ClCompile Include="33_搜索旋转排序数组.cpp" />
@@ -305,22 +310,27 @@
     <ClCompile Include="Q349_两个数组的交集.cpp" />
     <ClCompile Include="Q34_在排序数组中查找元素的第一个和最后一个位置.cpp" />
     <ClCompile Include="Q3745_牛的学术圈I.cpp" />
+    <ClCompile Include="Q395_至少有K个重复字符的最长子串.cpp" />
     <ClCompile Include="Q3_完全背包问题.cpp" />
     <ClCompile Include="Q3_完全背包问题_2.cpp" />
     <ClCompile Include="Q3_完全背包问题_3.cpp" />
+    <ClCompile Include="Q3_无重复字符的最长子串.cpp" />
     <ClCompile Include="Q423_采药.cpp" />
     <ClCompile Include="Q4268_性感素数.cpp" />
     <ClCompile Include="Q4269_校庆.cpp" />
     <ClCompile Include="Q426_开心的金明.cpp" />
     <ClCompile Include="Q479_加分二叉树.cpp" />
     <ClCompile Include="Q482_合唱队形.cpp" />
+    <ClCompile Include="Q485_最大连续1的个数.cpp" />
     <ClCompile Include="Q4_多重背包问题I.cpp" />
     <ClCompile Include="Q532_货币系统.cpp" />
+    <ClCompile Include="Q567_字符串的排列.cpp" />
     <ClCompile Include="Q5_多重背包问题II.cpp" />
     <ClCompile Include="Q69_x的平方根.cpp" />
     <ClCompile Include="Q6_多重背包问题III.cpp" />
     <ClCompile Include="Q718_最长重复子数组.cpp" />
     <ClCompile Include="Q74_搜索二维矩阵.cpp" />
+    <ClCompile Include="Q76_最小覆盖子串.cpp" />
     <ClCompile Include="Q785_快速排序.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>

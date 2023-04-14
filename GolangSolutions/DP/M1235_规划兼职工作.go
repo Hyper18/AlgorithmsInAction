@@ -22,10 +22,3 @@ func jobScheduling(startTime []int, endTime []int, profit []int) int {
 
 	return f[n]
 }
-
-func max(a, b int) int {
-	if b > a {
-		return b
-	}
-	return a
-}

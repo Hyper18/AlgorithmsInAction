@@ -5,7 +5,11 @@ import java.util.Map;
 
 /**
  * @author Hyperspace
- * @date 2022/02/24
+ * @date 2022/02/24，2023/02/28
+ * <p>
+ * 思路 SWM
+ * 1. hash
+ * 2. string
  */
 public class Q3_无重复字符的最长子串 {
     public int lengthOfLongestSubstring(String s) {
@@ -22,5 +26,24 @@ public class Q3_无重复字符的最长子串 {
         }
 
         return cnt;
+    }
+
+    public int lengthOfLongestSubstring2(String s) {
+        int n = s.length();
+        int ans = 0, l = 0, r = 0;
+        String t = "";
+        while (r < n) {
+            char c = s.charAt(r);
+            int idx = t.indexOf(c);
+            if (idx >= 0) {
+                l = idx + 1;
+                t = t.substring(l);
+            }
+            t += c;
+            ans = Math.max(ans, t.length());
+            r++;
+        }
+
+        return ans;
     }
 }
