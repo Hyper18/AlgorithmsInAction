@@ -819,6 +819,9 @@
     <ClCompile Include="Q1658_将x减到0的最小操作数.cpp">
       <Filter>源文件\LeetCode\Array</Filter>
     </ClCompile>
+    <ClCompile Include="M1376_通知所有员工所需的时间.cpp">
+      <Filter>源文件\LeetCode\Tree</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="M4浮点数二分.h">

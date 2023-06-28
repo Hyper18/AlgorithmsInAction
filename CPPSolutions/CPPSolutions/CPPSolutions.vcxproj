@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="M1376_通知所有员工所需的时间.cpp" />
     <ClCompile Include="M2363_合并相似的物品.cpp" />
     <ClCompile Include="Q1004_最大连续1的个数III.cpp" />
     <ClCompile Include="Q1438_绝对差不超过限制的最长连续子数组.cpp" />
