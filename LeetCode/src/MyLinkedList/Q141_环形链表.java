@@ -5,7 +5,7 @@ import java.util.Set;
 
 /**
  * @author Hyperspace
- * @date 2022/02/19
+ * @date 2022/02/19，2023/07/29
  * <p>
  * 1. set验重 -- O(n)
  * 2. 快慢指针
@@ -20,6 +20,7 @@ public class Q141_环形链表 {
             }
             cur = cur.next;
         }
+
         return false;
     }
 
@@ -27,8 +28,7 @@ public class Q141_环形链表 {
         if (head == null || head.next == null) {
             return false;
         }
-        ListNode slow = head;
-        ListNode fast = head.next;
+        ListNode slow = head, fast = head.next;
         while (slow != fast) {
             if (fast == null || fast.next == null) {
                 return false;
@@ -36,6 +36,7 @@ public class Q141_环形链表 {
             slow = slow.next;
             fast = fast.next.next;
         }
+
         return true;
     }
 }

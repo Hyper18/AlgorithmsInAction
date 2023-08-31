@@ -21,7 +21,6 @@ public class Main {
         while (!tk.hasMoreTokens()) {
             tk = new StringTokenizer(in.readLine());
         }
-
         return Integer.parseInt(tk.nextToken());
     }
 
@@ -34,7 +33,6 @@ public class Main {
         while (!tk.hasMoreTokens()) {
             tk = new StringTokenizer(in.readLine());
         }
-
         return tk.nextToken();
     }
 
@@ -42,7 +40,6 @@ public class Main {
         while (!tk.hasMoreTokens()) {
             tk = new StringTokenizer(in.readLine());
         }
-
         return Long.parseLong(tk.nextToken());
     }
 
@@ -50,7 +47,6 @@ public class Main {
         while (!tk.hasMoreTokens()) {
             tk = new StringTokenizer(in.readLine());
         }
-
         return Double.parseDouble(tk.nextToken());
     }
 }

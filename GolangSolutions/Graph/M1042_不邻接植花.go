@@ -4,7 +4,7 @@
 	@file M1042_不邻接植花.go
 */
 
-package main
+package Graph
 
 func gardenNoAdj(n int, paths [][]int) []int {
 	N := int(1e4 + 5)

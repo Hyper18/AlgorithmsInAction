@@ -7,7 +7,8 @@ import java.util.Map;
  * @author Vincent
  * 解题思路
  * 1.嵌套循环暴力求解 -- 时间复杂度O(n^2)
- * 2.使用Hashmap -- 时间复杂度O(n)
+ * 2.使用HashMap -- 时间复杂度O(n)
+ * 3.使用HashMap，优化循环 -- 时间复杂度O(n)
  */
 public class Q1_两数之和 {
     public int[] twoSum(int[] nums, int target) {
@@ -40,6 +41,22 @@ public class Q1_两数之和 {
                 map.put(nums[i], i);
             }
         }
+        return res;
+    }
+
+    public int[] twoSum3(int[] nums, int target) {
+        int n = nums.length;
+        int[] res = new int[2];
+        Map<Integer, Integer> mp = new HashMap<>();
+        for (int i = 0; i < n; i++) {
+            int num1 = nums[i], num2 = target - num1;
+            if (mp.containsKey(num2)) {
+                res = new int[]{mp.get(num2), i};
+                break;
+            }
+            mp.put(num1, i);
+        }
+
         return res;
     }
 }

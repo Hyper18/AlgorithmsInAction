@@ -1,5 +1,6 @@
 #include <cstdio>
 #include <unordered_set>
+#include "ListNode.h"
 
 using namespace std;
 
@@ -28,12 +29,4 @@ public:
 
 		return ans;
 	}
-};
-
-struct ListNode {
-	int val;
-	ListNode* next;
-	ListNode() : val(0), next(nullptr) {}
-	ListNode(int x) : val(x), next(nullptr) {}
-	ListNode(int x, ListNode* next) : val(x), next(next) {}
 };

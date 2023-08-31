@@ -2,7 +2,7 @@ package MyLinkedList;
 
 /**
  * @author Hyperspace
- * @date 2022/02/20
+ * @date 2022/02/20，2023/07/02
  * <p>
  * 思路
  * 模拟，同位数字直接相加
@@ -75,5 +75,29 @@ public class Q2_两数相加 {
         }
 
         return dummy.next;
+    }
+
+    public ListNode addTwoNumbers3(ListNode l1, ListNode l2) {
+        ListNode h = new ListNode(), cur = h;
+        int c = 0;
+        while (l1 != null || l2 != null) {
+            int v1 = l1 == null ? 0 : l1.val;
+            int v2 = l2 == null ? 0 : l2.val;
+            int sum = v1 + v2 + c;
+            cur.next = new ListNode(sum % 10);
+            c = sum / 10;
+            cur = cur.next;
+            if (l1 != null) {
+                l1 = l1.next;
+            }
+            if (l2 != null) {
+                l2 = l2.next;
+            }
+        }
+        if (c > 0) {
+            cur.next = new ListNode(c);
+        }
+
+        return h.next;
     }
 }

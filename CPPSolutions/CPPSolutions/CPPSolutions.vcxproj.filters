@@ -169,6 +169,9 @@
     <Filter Include="源文件\AcWing\DP\DigitDP">
       <UniqueIdentifier>{f54c9f51-9806-4787-8d61-c633b94c8ff9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\Model\LinkedList">
+      <UniqueIdentifier>{e058f45b-d424-4997-b9a0-1e875a19eeba}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="M386_字典序排数.cpp">
@@ -184,9 +187,6 @@
       <Filter>源文件\LeetCode\DFS</Filter>
     </ClCompile>
     <ClCompile Include="Q206_反转链表.cpp">
-      <Filter>源文件\LeetCode\LinkedList</Filter>
-    </ClCompile>
-    <ClCompile Include="ListNode.cpp">
       <Filter>源文件\LeetCode\LinkedList</Filter>
     </ClCompile>
     <ClCompile Include="M396_旋转函数.cpp">
@@ -228,9 +228,6 @@
     <ClCompile Include="Q3358_放养但没有完全放养.cpp">
       <Filter>源文件\AcWing\Spring2022\Week1</Filter>
     </ClCompile>
-    <ClCompile Include="Q785_快速排序.cpp">
-      <Filter>源文件\AcWing\Algorithm_BasicLevel</Filter>
-    </ClCompile>
     <ClCompile Include="Q1305_两棵二叉搜索树中的所有元素.cpp">
       <Filter>源文件\LeetCode\Tree</Filter>
     </ClCompile>
@@ -239,12 +236,6 @@
     </ClCompile>
     <ClCompile Include="Q3745_牛的学术圈I.cpp">
       <Filter>源文件\AcWing\Spring2022\Week1</Filter>
-    </ClCompile>
-    <ClCompile Include="Q786_第k个数.cpp">
-      <Filter>源文件\AcWing\Algorithm_BasicLevel</Filter>
-    </ClCompile>
-    <ClCompile Include="Q786_第k个数2.cpp">
-      <Filter>源文件\AcWing\Algorithm_BasicLevel</Filter>
     </ClCompile>
     <ClCompile Include="Q787_归并排序.cpp">
       <Filter>源文件\AcWing\Algorithm_BasicLevel</Filter>
@@ -630,7 +621,7 @@
     <ClCompile Include="M1470_重新排列数组.cpp">
       <Filter>源文件\LeetCode\Array</Filter>
     </ClCompile>
-    <ClCompile Include="33_搜索旋转排序数组.cpp">
+    <ClCompile Include="Q33_搜索旋转排序数组.cpp">
       <Filter>源文件\LeetCode\Array</Filter>
     </ClCompile>
     <ClCompile Include="Q300_最长递增子序列.cpp">
@@ -821,6 +812,63 @@
     </ClCompile>
     <ClCompile Include="M1376_通知所有员工所需的时间.cpp">
       <Filter>源文件\LeetCode\Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="M2_两数相加.cpp">
+      <Filter>源文件\LeetCode\LinkedList</Filter>
+    </ClCompile>
+    <ClCompile Include="ListNode.h">
+      <Filter>头文件\Model\LinkedList</Filter>
+    </ClCompile>
+    <ClCompile Include="M1_两数之和.cpp">
+      <Filter>源文件\LeetCode\Array</Filter>
+    </ClCompile>
+    <ClCompile Include="M2679_矩阵中的和.cpp">
+      <Filter>源文件\LeetCode\Array</Filter>
+    </ClCompile>
+    <ClCompile Include="M15_三数之和.cpp">
+      <Filter>源文件\LeetCode\Array</Filter>
+    </ClCompile>
+    <ClCompile Include="M16_最接近的三数之和.cpp">
+      <Filter>源文件\LeetCode\TwoPointer</Filter>
+    </ClCompile>
+    <ClCompile Include="M2208_将数组和减半的最少操作次数.cpp">
+      <Filter>源文件\LeetCode\Greedy</Filter>
+    </ClCompile>
+    <ClCompile Include="M771_宝石与石头.cpp">
+      <Filter>源文件\LeetCode\String</Filter>
+    </ClCompile>
+    <ClCompile Include="M42_接雨水.cpp">
+      <Filter>源文件\LeetCode\Array</Filter>
+    </ClCompile>
+    <ClCompile Include="Q785_快速排序.cpp">
+      <Filter>源文件\AcWing\Algorithm_BasicLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="Q786_第k个数.cpp">
+      <Filter>源文件\AcWing\Algorithm_BasicLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="Q786_第k个数2.cpp">
+      <Filter>源文件\AcWing\Algorithm_BasicLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="Q344_反转字符串.cpp">
+      <Filter>源文件\LeetCode\TwoPointer</Filter>
+    </ClCompile>
+    <ClCompile Include="M24_两两交换链表中的节点.cpp">
+      <Filter>源文件\LeetCode\LinkedList</Filter>
+    </ClCompile>
+    <ClCompile Include="Q21_合并两个有序链表.cpp">
+      <Filter>源文件\LeetCode\LinkedList</Filter>
+    </ClCompile>
+    <ClCompile Include="M1749_任意子数组和的绝对值的最大值.cpp">
+      <Filter>源文件\LeetCode\Array</Filter>
+    </ClCompile>
+    <ClCompile Include="M1281_整数的各位积和之差.cpp">
+      <Filter>源文件\LeetCode\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="M2682_找出转圈游戏输家.cpp">
+      <Filter>源文件\LeetCode\Array</Filter>
+    </ClCompile>
+    <ClCompile Include="M2337_移动片段得到字符串.cpp">
+      <Filter>源文件\LeetCode\TwoPointer</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
