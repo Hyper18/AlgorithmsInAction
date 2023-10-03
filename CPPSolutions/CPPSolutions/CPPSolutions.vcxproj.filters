@@ -870,6 +870,9 @@
     <ClCompile Include="M2337_移动片段得到字符串.cpp">
       <Filter>源文件\LeetCode\TwoPointer</Filter>
     </ClCompile>
+    <ClCompile Include="M1333_餐厅过滤器.cpp">
+      <Filter>源文件\LeetCode\Array</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="M4浮点数二分.h">

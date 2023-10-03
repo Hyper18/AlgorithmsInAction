@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 /**
  * @author Hyperspace
- * @date 2022/03/08
+ * @date 2022/03/08，2023/09/17
  * dp -- O(n)
  * 对比Q198，主要问题在于环的解决
  * 一开始考虑设置标志位，首位选择则末位不选，反之亦然（若需要时，择较大者）
@@ -29,13 +29,13 @@ public class Q213_打家劫舍II {
     }
 
     private int subRob(int[] nums) {
-        int tmp, pre = 0, curr = 0;
+        int tmp, pre = 0, cur = 0;
         for (int num : nums) {
-            tmp = max(curr, pre + num);
-            pre = curr;
-            curr = tmp;
+            tmp = max(cur, pre + num);
+            pre = cur;
+            cur = tmp;
         }
 
-        return curr;
+        return cur;
     }
 }
