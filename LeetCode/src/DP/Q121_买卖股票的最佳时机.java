@@ -2,7 +2,7 @@ package DP;
 
 /**
  * @author Hyperspace
- * @date 2022/02/13
+ * @date 2022/02/13，2023/10/01
  * <p>
  * 思路
  * 1. 单变量记录历史低点，遍历找从买入后可获得的最大利润 -- O(n)
@@ -66,5 +66,16 @@ public class Q121_买卖股票的最佳时机 {
         }
 
         return maxProfit;
+    }
+
+    public int maxProfit4(int[] prices) {
+        int n = prices.length;
+        int s1 = -prices[0], s2 = 0;
+        for (int i = 1; i < n; i++) {
+            s2 = Math.max(s2, s1 + prices[i]);
+            s1 = Math.max(s1, -prices[i]);
+        }
+
+        return s2;
     }
 }

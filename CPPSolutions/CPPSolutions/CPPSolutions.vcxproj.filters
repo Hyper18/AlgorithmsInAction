@@ -873,6 +873,9 @@
     <ClCompile Include="M1333_餐厅过滤器.cpp">
       <Filter>源文件\LeetCode\Array</Filter>
     </ClCompile>
+    <ClCompile Include="M2316_统计无向图中无法互相到达点对数.cpp">
+      <Filter>源文件\LeetCode\Graph</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="M4浮点数二分.h">
