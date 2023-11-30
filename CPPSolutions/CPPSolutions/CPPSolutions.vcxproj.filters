@@ -172,6 +172,9 @@
     <Filter Include="头文件\Model\LinkedList">
       <UniqueIdentifier>{e058f45b-d424-4997-b9a0-1e875a19eeba}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\LeetCode\Design">
+      <UniqueIdentifier>{c7e40352-d825-4abc-b126-ad80ba31edac}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="M386_字典序排数.cpp">
@@ -875,6 +878,9 @@
     </ClCompile>
     <ClCompile Include="M2316_统计无向图中无法互相到达点对数.cpp">
       <Filter>源文件\LeetCode\Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="M1670_设计前中后队列.cpp">
+      <Filter>源文件\LeetCode\Design</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

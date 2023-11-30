@@ -13,7 +13,7 @@ public class M2569_更新数组后处理求和查询 {
     static int N = 100010;
     private int[] nums;
 
-    class Node {
+    private class Node {
         int l, r;
         long sum, add;
 
