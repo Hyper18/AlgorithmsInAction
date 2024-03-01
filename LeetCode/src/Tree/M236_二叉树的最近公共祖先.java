@@ -2,7 +2,7 @@ package Tree;
 
 /**
  * @author Hyperspace
- * @date 2023/09/06
+ * @date 2023/09/06，2024/02/09
  * @file M236_二叉树的最近公共祖先.java
  * <p>
  * 思路
@@ -27,5 +27,17 @@ public class M236_二叉树的最近公共祖先 {
         } else {
             return r;
         }
+    }
+
+    public TreeNode lowestCommonAncestor2(TreeNode root, TreeNode p, TreeNode q) {
+        if (root == null || root == p || root == q) {
+            return root;
+        }
+        TreeNode l = lowestCommonAncestor(root.left, p, q), r = lowestCommonAncestor(root.right, p, q);
+        if (l != null && r != null) {
+            return root;
+        }
+
+        return l != null ? l : r;
     }
 }

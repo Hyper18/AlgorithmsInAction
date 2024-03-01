@@ -882,6 +882,9 @@
     <ClCompile Include="M1670_设计前中后队列.cpp">
       <Filter>源文件\LeetCode\Design</Filter>
     </ClCompile>
+    <ClCompile Include="M2369_检查数组是否存在有效划分.cpp">
+      <Filter>源文件\LeetCode\DP</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="M4浮点数二分.h">

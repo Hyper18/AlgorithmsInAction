@@ -4,7 +4,7 @@ import java.util.*;
 
 /**
  * @author Hyperspace
- * @date 2022/02/18
+ * @date 2022/02/18，2024/02/10
  * <p>
  * 思路
  * 1. 递归
@@ -31,7 +31,6 @@ public class Q94_二叉树的中序遍历 {
         List<Integer> res = new ArrayList<>();
         Stack<TreeNode> stk = new Stack<>();
         TreeNode cur = root;
-
         while (cur != null || !stk.isEmpty()) {
             if (cur != null) {
                 stk.push(cur);
@@ -41,6 +40,23 @@ public class Q94_二叉树的中序遍历 {
                 res.add(cur.val);
                 cur = cur.right;
             }
+        }
+
+        return res;
+    }
+
+    public List<Integer> inorderTraversal3(TreeNode root) {
+        List<Integer> res = new ArrayList<>();
+        Deque<TreeNode> stk = new ArrayDeque<>();
+        TreeNode cur = root;
+        while (cur != null || !stk.isEmpty()) {
+            while (cur != null) {
+                stk.push(cur);
+                cur = cur.left;
+            }
+            cur = stk.pop();
+            res.add(cur.val);
+            cur = cur.right;
         }
 
         return res;

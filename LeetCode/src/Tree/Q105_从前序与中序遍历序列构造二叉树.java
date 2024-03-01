@@ -25,26 +25,26 @@ public class Q105_从前序与中序遍历序列构造二叉树 {
         return build(0, n - 1, 0, n - 1);
     }
 
-    private TreeNode build(int preorderLeft, int preorderRight, int inorderLeft, int inorderRight) {
-        if (preorderLeft > preorderRight) {
+    private TreeNode build(int preLeft, int preRight, int inLeft, int inRight) {
+        if (preLeft > preRight) {
             return null;
         }
         init(preorder, inorder);
 
-        int preorderRoot = preorderLeft;
+        int preorderRoot = preLeft;
         TreeNode root = new TreeNode(preorder[preorderRoot]);
         int inorderRoot = 0;
-        for (int i = inorderLeft; i <= inorderRight; i++) {
+        for (int i = inLeft; i <= inRight; i++) {
             if (preorder[preorderRoot] == inorder[i]) {
                 inorderRoot = i;
                 break;
             }
         }
 
-        int leftSubtreeSize = inorderRoot - inorderLeft;
+        int leftSubtreeSize = inorderRoot - inLeft;
 
-        root.left = build(preorderLeft + 1, preorderLeft + leftSubtreeSize, inorderLeft, inorderRoot - 1);
-        root.right = build(preorderLeft + leftSubtreeSize + 1, preorderRight, inorderRoot + 1, inorderRight);
+        root.left = build(preLeft + 1, preLeft + leftSubtreeSize, inLeft, inorderRoot - 1);
+        root.right = build(preLeft + leftSubtreeSize + 1, preRight, inorderRoot + 1, inRight);
 
         return root;
     }

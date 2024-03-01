@@ -40,8 +40,8 @@ public class Q106_从中序与后序遍历序列构造二叉树 {
         return build(0, inorder.length - 1);
     }
 
-    private TreeNode build(int inorderLeft, int inorderRight) {
-        if (inorderLeft > inorderRight) {
+    private TreeNode build(int inLeft, int inRight) {
+        if (inLeft > inRight) {
             return null;
         }
 
@@ -51,8 +51,8 @@ public class Q106_从中序与后序遍历序列构造二叉树 {
         int idx = idxMap.get(rootVal);
         postIdx--;
 
-        root.right = build(idx + 1, inorderRight);
-        root.left = build(inorderLeft, idx - 1);
+        root.right = build(idx + 1, inRight);
+        root.left = build(inLeft, idx - 1);
 
         return root;
     }

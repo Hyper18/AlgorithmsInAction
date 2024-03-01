@@ -173,6 +173,7 @@
     <ClCompile Include="M2363_合并相似的物品.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="M2369_检查数组是否存在有效划分.cpp" />
     <ClCompile Include="M24_两两交换链表中的节点.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
