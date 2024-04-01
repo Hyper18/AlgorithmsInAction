@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="M1261_在受污染的二叉树中查找元素.cpp" />
     <ClCompile Include="M1281_整数的各位积和之差.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
@@ -177,15 +178,20 @@
     <ClCompile Include="M24_两两交换链表中的节点.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="M2575_找出字符串的可整除数组.cpp" />
     <ClCompile Include="M2679_矩阵中的和.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="M2682_找出转圈游戏输家.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="M2789_合并后数组中的最大元素.cpp" />
+    <ClCompile Include="M2864_最大二进制奇数.cpp" />
+    <ClCompile Include="M2917_找出数组中的K_or值.cpp" />
     <ClCompile Include="M2_两数相加.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="M303_区域和检索_数组不可变.cpp" />
     <ClCompile Include="M42_接雨水.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>

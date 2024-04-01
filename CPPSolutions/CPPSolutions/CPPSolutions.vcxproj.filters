@@ -885,6 +885,24 @@
     <ClCompile Include="M2369_检查数组是否存在有效划分.cpp">
       <Filter>源文件\LeetCode\DP</Filter>
     </ClCompile>
+    <ClCompile Include="M2917_找出数组中的K_or值.cpp">
+      <Filter>源文件\LeetCode\Array</Filter>
+    </ClCompile>
+    <ClCompile Include="M2575_找出字符串的可整除数组.cpp">
+      <Filter>源文件\LeetCode\Array</Filter>
+    </ClCompile>
+    <ClCompile Include="M1261_在受污染的二叉树中查找元素.cpp">
+      <Filter>源文件\LeetCode\Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="M2864_最大二进制奇数.cpp">
+      <Filter>源文件\LeetCode\String</Filter>
+    </ClCompile>
+    <ClCompile Include="M2789_合并后数组中的最大元素.cpp">
+      <Filter>源文件\LeetCode\Greedy</Filter>
+    </ClCompile>
+    <ClCompile Include="M303_区域和检索_数组不可变.cpp">
+      <Filter>源文件\LeetCode\Array</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="M4浮点数二分.h">
