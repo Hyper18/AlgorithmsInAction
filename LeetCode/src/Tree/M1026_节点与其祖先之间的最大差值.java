@@ -2,7 +2,7 @@ package Tree;
 
 /**
  * @author Hyperspace
- * @date 2023/04/18
+ * @date 2024/04/05
  * @file M1026_节点与其祖先之间的最大差值.java
  * <p>
  * 思路
