@@ -692,6 +692,7 @@
     <ClCompile Include="Q790_数的三次方根.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="Q791_高精度加法 .cpp" />
     <ClCompile Include="Q795_前缀和.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>

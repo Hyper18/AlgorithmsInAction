@@ -903,6 +903,9 @@
     <ClCompile Include="M303_区域和检索_数组不可变.cpp">
       <Filter>源文件\LeetCode\Array</Filter>
     </ClCompile>
+    <ClCompile Include="Q791_高精度加法 .cpp">
+      <Filter>源文件\AcWing\Algorithm_BasicLevel</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="M4浮点数二分.h">
