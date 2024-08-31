@@ -1,4 +1,3 @@
-#include <cstdio>
 #include <cmath>
 
 using namespace std;
@@ -9,18 +8,17 @@ public:
         if (x == 0)
             return 0;
         int ans = exp(0.5 * log(x));
-        return ((long long)(ans + 1) * (ans + 1) <= x ? ans + 1 : ans);
+        return ((long long) (ans + 1) * (ans + 1) <= x ? ans + 1 : ans);
     }
 
     int mySqrt2(int x) {
         int low = 0, high = x, ans = -1;
         while (low <= high) {
             int mid = low + (high - low) / 2;
-            if ((long long)mid * mid <= x) {
+            if ((long long) mid * mid <= x) {
                 ans = mid;
                 low = mid + 1;
-            }
-            else {
+            } else {
                 high = mid - 1;
             }
         }

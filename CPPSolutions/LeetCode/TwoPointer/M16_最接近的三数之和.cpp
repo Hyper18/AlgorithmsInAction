@@ -5,7 +5,7 @@ using namespace std;
 
 class Solution {
 public:
-	int threeSumClosest(vector<int>& nums, int target) {
+    int threeSumClosest(vector<int> &nums, int target) {
         int n = nums.size();
         sort(nums.begin(), nums.end());
         int ans = 0, diff = INT_MAX;
@@ -34,8 +34,7 @@ public:
                         ans = s;
                     }
                     high--;
-                }
-                else {
+                } else {
                     if (target - s < diff) {
                         diff = target - s;
                         ans = s;
@@ -46,5 +45,5 @@ public:
         }
 
         return ans;
-	}
+    }
 };

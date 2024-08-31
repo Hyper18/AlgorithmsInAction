@@ -9,7 +9,7 @@ LL f[N];
 
 class Solution {
 public:
-    int sumSubseqWidths(vector<int>& nums) {
+    int sumSubseqWidths(vector<int> &nums) {
         int n = nums.size();
         sort(nums.begin(), nums.end());
         f[0] = 1;

@@ -7,7 +7,7 @@ class Solution {
 public:
     int ans = 0;
 
-    int numOfMinutes(int n, int headID, vector<int>& manager, vector<int>& informTime) {
+    int numOfMinutes(int n, int headID, vector<int> &manager, vector<int> &informTime) {
         vector<vector<int>> g(n);
         for (int i = 0; i < n; i++)
             if (manager[i] > -1)
@@ -17,10 +17,10 @@ public:
         return ans;
     }
 
-    void dfs(vector<vector<int>>& g, vector<int>& informTime, int cur, int sum) {
+    void dfs(vector<vector<int>> &g, vector<int> &informTime, int cur, int sum) {
         sum += informTime[cur];
         ans = max(ans, sum);
-        for (int e : g[cur])
+        for (int e: g[cur])
             dfs(g, informTime, e, sum);
     }
 };

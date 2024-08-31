@@ -1,4 +1,3 @@
-#include <cstdio>
 #include <vector>
 #include <cstring>
 
@@ -16,9 +15,9 @@ public:
         e[idx] = b, ne[idx] = h[a], h[a] = idx++;
     }
 
-    bool possibleBipartition(int n, vector<vector<int>>& dislikes) {
+    bool possibleBipartition(int n, vector<vector<int>> &dislikes) {
         memset(h, -1, sizeof h);
-        for (auto& d : dislikes) {
+        for (auto &d: dislikes) {
             int a = d[0], b = d[1];
             addEdge(a, b), addEdge(b, a);
         }

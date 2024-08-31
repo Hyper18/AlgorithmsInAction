@@ -9,7 +9,7 @@ public:
     vector<int> divisibilityArray(string word, int m) {
         vector<int> res;
         LL num = 0;
-        for (auto& w : word) {
+        for (auto &w: word) {
             num = (num * 10 + w - '0') % m;
             res.push_back(num == 0 ? 1 : 0);
         }

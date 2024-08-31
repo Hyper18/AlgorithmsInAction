@@ -1,5 +1,6 @@
 #pragma once
 using namespace std;
+
 #include <iostream>
 
 const int N = 10e5 + 10;
@@ -17,11 +18,10 @@ void merge_sort(int q[], int l, int r) {
     while (i <= mid && j <= r) {
         if (q[i] <= q[j]) {
             tmp[k++] = q[i++];
-        }
-        else {
+        } else {
             tmp[k++] = q[j++];
         }
-    } 
+    }
     while (i <= mid) {
         tmp[k++] = q[i++];
     }

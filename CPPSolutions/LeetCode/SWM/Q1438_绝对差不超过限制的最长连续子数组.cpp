@@ -4,7 +4,7 @@ using namespace std;
 
 class Solution {
 public:
-    int longestSubarray(vector<int>& nums, int limit) {
+    int longestSubarray(vector<int> &nums, int limit) {
         int n = nums.size();
         deque<int> qMin, qMax;
         int ans = 0, l = 0, r = 0;

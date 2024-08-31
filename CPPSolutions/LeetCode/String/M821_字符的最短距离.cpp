@@ -1,4 +1,5 @@
 using namespace std;
+
 #include <vector>
 #include <string>
 #include <list>
@@ -21,7 +22,7 @@ public:
                 continue;
             }
             int min = len;
-            for (auto& idx : pos) {
+            for (auto &idx: pos) {
                 int cur = abs(idx - i);
                 if (cur < min) {
                     min = cur;
@@ -39,12 +40,11 @@ public:
         int last = -len;
         for (int i = 0; i < len; i++) {
             if (s[i] == c) {
-                for (int j = i;j >= max(0, (i + last - 1) / 2); j--) {
+                for (int j = i; j >= max(0, (i + last - 1) / 2); j--) {
                     ans[j] = min(ans[j], i - j);
                 }
                 last = i;
-            }
-            else {
+            } else {
                 ans[i] = min(ans[i], i - last);
             }
         }

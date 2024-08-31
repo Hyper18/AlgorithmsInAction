@@ -4,7 +4,7 @@ using namespace std;
 
 class Solution {
 public:
-    int largestAltitude(vector<int>& gain) {
+    int largestAltitude(vector<int> &gain) {
         int n = gain.size();
         int ans = 0, h = 0;
         for (int i = 0; i < n; i++) {

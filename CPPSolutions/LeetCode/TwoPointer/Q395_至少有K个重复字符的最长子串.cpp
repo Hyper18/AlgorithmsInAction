@@ -26,7 +26,7 @@ public:
     }
 
     bool check(int k) {
-        for (auto& cnt : cnts) {
+        for (auto &cnt: cnts) {
             if (cnt != 0 && cnt < k) {
                 return false;
             }

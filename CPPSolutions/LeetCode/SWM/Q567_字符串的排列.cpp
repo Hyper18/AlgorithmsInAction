@@ -20,10 +20,11 @@ public:
     }
 
     int cnt1[26], cnt2[26];
+
     bool checkInclusion2(string s1, string s2) {
         if (s1.length() > s2.length()) return false;
         int n1 = s1.length(), n2 = s2.length();
-        for (auto& c : s1) cnt1[c - 'a']++;
+        for (auto &c: s1) cnt1[c - 'a']++;
         int cnt = 0, l = 0, r = 0;
         while (r < n2) {
             if (cnt1[s2[r] - 'a'])
@@ -31,7 +32,7 @@ public:
                     cnt++;
             if (r - l + 1 == n1) {
                 int size = 0;
-                for (auto& c : cnt1)
+                for (auto &c: cnt1)
                     if (c)
                         size++;
                 if (cnt == size) return true;
@@ -50,7 +51,7 @@ public:
         if (s1.length() > s2.length()) return false;
         int n1 = s1.length(), n2 = s2.length();
         unordered_map<char, int> cnt1, cnt2;
-        for (auto& c : s1) cnt1[c]++;
+        for (auto &c: s1) cnt1[c]++;
         int cnt = 0, l = 0, r = 0;
         while (r < n2) {
             if (cnt1.find(s2[r]) != cnt1.end())

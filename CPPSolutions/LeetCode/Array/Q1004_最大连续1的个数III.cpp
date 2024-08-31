@@ -7,7 +7,7 @@ int pre[N];
 
 class Solution {
 public:
-    int longestOnes(vector<int>& nums, int k) {
+    int longestOnes(vector<int> &nums, int k) {
         int n = nums.size();
         int ans = 0, cnt = 0, l = 0, r = 0;
         while (r < n) {
@@ -27,7 +27,7 @@ public:
         return ans;
     }
 
-    int longestOnes2(vector<int>& nums, int k) {
+    int longestOnes2(vector<int> &nums, int k) {
         int n = nums.size();
         for (int i = 1; i <= n; i++) pre[i] = pre[i - 1] + nums[i - 1];
         int ans = 0;

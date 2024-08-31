@@ -7,9 +7,9 @@ public:
     string customSortString(string order, string s) {
         int cnt[26];
         memset(cnt, 0, sizeof cnt);
-        for (auto& c : s) cnt[c - 'a']++;
+        for (auto &c: s) cnt[c - 'a']++;
         string res;
-        for (auto& c : order) while (cnt[c - 'a']-- > 0) res += c;
+        for (auto &c: order) while (cnt[c - 'a']-- > 0) res += c;
         for (int i = 0; i < 26; i++) while (cnt[i]-- > 0) res += i + 'a';
 
         return res;
@@ -19,9 +19,9 @@ public:
     string customSortString2(string order, string s) {
         int cnt[26];
         memset(cnt, 0, sizeof cnt);
-        for (auto& c : s) cnt[c - 'a']++;
+        for (auto &c: s) cnt[c - 'a']++;
         string res;
-        for (auto& c : order) {
+        for (auto &c: order) {
             if (cnt[c - 'a'] > 0) {
                 res += string(cnt[c - 'a'], c);
                 cnt[c - 'a'] = 0;
@@ -40,9 +40,9 @@ public:
     // 换用vector定义
     string customSortString3(string order, string s) {
         vector<int> cnt(26);
-        for (auto& c : s) cnt[c - 'a']++;
+        for (auto &c: s) cnt[c - 'a']++;
         string res;
-        for (auto& c : order) while (cnt[c - 'a']-- > 0) res += c;
+        for (auto &c: order) while (cnt[c - 'a']-- > 0) res += c;
         for (int i = 0; i < 26; i++) while (cnt[i]-- > 0) res += i + 'a';
 
         return res;

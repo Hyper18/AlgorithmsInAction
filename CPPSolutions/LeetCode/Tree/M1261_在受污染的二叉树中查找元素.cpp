@@ -1,4 +1,3 @@
-#include <bits\stdc++.h>
 #include <unordered_set>
 #include "../../Headers/Tree/TreeNode.h"
 
@@ -8,11 +7,11 @@ class FindElements {
 public:
     unordered_set<int> set;
 
-    FindElements(TreeNode* root) {
+    FindElements(TreeNode *root) {
         dfs(root, 0);
     }
 
-    void dfs(TreeNode* root, int x) {
+    void dfs(TreeNode *root, int x) {
         if (root == nullptr) {
             return;
         }

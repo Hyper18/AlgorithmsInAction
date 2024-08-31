@@ -37,8 +37,7 @@ int f(int n) {
                 if (last > K) {
                     break;
                 }
-            }
-            else {
+            } else {
                 if (K - last - 1 >= 0) {
                     ans += c[i][K - last - 1];
                 }

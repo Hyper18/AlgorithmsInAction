@@ -1,5 +1,6 @@
 #pragma once
 using namespace std;
+
 #include <iostream>
 
 bool check(int x) {}
@@ -10,8 +11,7 @@ int bsearch_1(int l, int r) {
         int mid = l + ((r - l) >> 1);
         if (check(mid)) {
             r = mid;
-        }
-        else {
+        } else {
             l = mid + 1;
         }
     }
@@ -25,8 +25,7 @@ int bsearch_2(int l, int r) {
         int mid = l + ((r - l + 1) >> 1);
         if (check(mid)) {
             l = mid;
-        }
-        else {
+        } else {
             r = mid - 1;
         }
     }

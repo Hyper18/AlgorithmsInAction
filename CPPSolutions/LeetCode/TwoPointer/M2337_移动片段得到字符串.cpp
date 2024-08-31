@@ -13,15 +13,13 @@ public:
             if (i < n && j < n) {
                 if (start[i] != target[j] || (i < j && start[i] == 'L') || (i > j && target[j] == 'R')) return false;
                 i++, j++;
-            }
-            else if (i < n) {
+            } else if (i < n) {
                 while (i < n) {
                     if (start[i] != '_')
                         return false;
                     i++;
                 }
-            }
-            else {
+            } else {
                 while (j < n) {
                     if (target[j] != '_')
                         return false;

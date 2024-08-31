@@ -1,17 +1,20 @@
 using namespace std;
-#include<vector>
-#include<iostream>
 
-static const int dirs[4][2] = {{-1, 0}, {1, 0}, {0, -1}, {0, 1}};
+#include <vector>
+
+static const int dirs[4][2] = {{-1, 0},
+                               {1,  0},
+                               {0,  -1},
+                               {0,  1}};
 
 class Solution {
 public:
     vector<vector<int>> grid;
     int m, n;
 
-    void dfs(int x, int y, vector<vector<bool>>& reachable) {
+    void dfs(int x, int y, vector<vector<bool>> &reachable) {
         reachable[x][y] = true;
-        for (auto& dir : dirs) {
+        for (auto &dir: dirs) {
             int nx = x + dir[0];
             int ny = y + dir[1];
             if (nx < 0 || nx >= m || ny < 0 || ny >= n) {
@@ -23,12 +26,12 @@ public:
         }
     }
 
-    vector<vector<int>> pacificAtlantic(vector<vector<int>>& heights) {
+    vector<vector<int>> pacificAtlantic(vector<vector<int>> &heights) {
         this->grid = heights;
         m = grid.size();
         n = grid[0].size();
-        vector<vector<bool>> reachP(m, vector<bool>(n, false));
-        vector<vector<bool>> reachA(m, vector<bool>(n, false));
+        vector <vector<bool>> reachP(m, vector<bool>(n, false));
+        vector <vector<bool>> reachA(m, vector<bool>(n, false));
 
         int len = m > n ? m : n;
         for (int i = 0; i < len; i++) {
@@ -42,7 +45,7 @@ public:
             }
         }
 
-        vector<vector<int>> res;
+        vector <vector<int>> res;
         for (int i = 0; i < m; i++) {
             for (int j = 0; j < n; j++) {
                 if (reachP[i][j] && reachA[i][j]) {

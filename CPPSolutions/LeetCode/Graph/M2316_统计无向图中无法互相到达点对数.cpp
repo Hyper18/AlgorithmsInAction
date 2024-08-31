@@ -6,10 +6,10 @@ typedef long long LL;
 
 class Solution {
 public:
-    LL countPairs(int n, vector<vector<int>>& edges) {
+    LL countPairs(int n, vector<vector<int>> &edges) {
         vector<vector<int>> g(n);
         vector<bool> vis(n);
-        for (auto& e : edges) g[e[0]].push_back(e[1]), g[e[1]].push_back(e[0]);
+        for (auto &e: edges) g[e[0]].push_back(e[1]), g[e[1]].push_back(e[0]);
         LL ans = 0;
         for (int i = 0; i < n; i++) {
             if (vis[i]) continue;
@@ -21,7 +21,7 @@ public:
                 auto p = q.front();
                 cnt++;
                 q.pop();
-                for (int ne : g[p]) {
+                for (int ne: g[p]) {
                     if (vis[ne]) continue;
                     vis[ne] = true;
                     q.push(ne);

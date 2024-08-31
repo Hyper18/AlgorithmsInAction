@@ -10,8 +10,7 @@ public:
         if (front.size() > back.size()) {
             back.push_front(front.back());
             front.pop_back();
-        }
-        else if (front.size() + 1 < back.size()) {
+        } else if (front.size() + 1 < back.size()) {
             front.push_back(back.front());
             back.pop_front();
         }
@@ -38,8 +37,7 @@ public:
         if (front.empty()) {
             val = back.front();
             back.pop_front();
-        }
-        else {
+        } else {
             val = front.front();
             front.pop_front();
         }
@@ -54,8 +52,7 @@ public:
         if (front.size() == back.size()) {
             val = front.back();
             front.pop_back();
-        }
-        else {
+        } else {
             val = back.front();
             back.pop_front();
         }

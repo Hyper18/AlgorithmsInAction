@@ -5,14 +5,13 @@ using namespace std;
 
 class Solution {
 public:
-    ListNode* mergeTwoLists(ListNode* list1, ListNode* list2) {
-        ListNode* l = new ListNode(), *cur = l;
+    ListNode *mergeTwoLists(ListNode *list1, ListNode *list2) {
+        ListNode *l = new ListNode(), *cur = l;
         while (list1 != nullptr && list2 != nullptr) {
             if (list1->val <= list2->val) {
                 cur->next = list1;
                 list1 = list1->next;
-            }
-            else {
+            } else {
                 cur->next = list2;
                 list2 = list2->next;
             }

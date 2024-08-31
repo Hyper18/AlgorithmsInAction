@@ -1,12 +1,14 @@
 using namespace std;
-#include <cstdio>
+
 #include <string>
 #include <cstring>
+
 #define MAX 10010
 
 class Solution {
 public:
     int dirs[MAX];
+
     int lengthLongestPath(string input) {
         memset(dirs, -1, sizeof(dirs));
         int n = input.length();
@@ -27,12 +29,11 @@ public:
                 }
             }
             int cur = j - i;
-            int prev = level - 1 >= 0 ? dirs[level-1] : -1;
+            int prev = level - 1 >= 0 ? dirs[level - 1] : -1;
             int path = prev + 1 + cur;
             if (isDir) {
                 dirs[level] = path;
-            }
-            else if (path > ans) {
+            } else if (path > ans) {
                 ans = path;
             }
             i = j + 1;

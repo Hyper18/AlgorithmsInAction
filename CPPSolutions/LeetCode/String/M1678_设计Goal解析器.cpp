@@ -9,12 +9,10 @@ public:
         for (int i = 0; i < cmd.size(); i++) {
             if (cmd[i] == 'G') {
                 res += "G";
-            }
-            else if (cmd[i] == '(') {
+            } else if (cmd[i] == '(') {
                 if (cmd[i + 1] == 'a') {
                     res += "al";
-                }
-                else {
+                } else {
                     res += "o";
                 }
             }

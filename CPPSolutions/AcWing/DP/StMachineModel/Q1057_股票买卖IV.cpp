@@ -1,4 +1,5 @@
 using namespace std;
+
 #include <iostream>
 
 const int N = 1e5 + 10, M = 105, INF = 10e6;
@@ -7,8 +8,8 @@ int f[N][M][2];
 int n, m;
 
 int main() {
-	scanf("%d%d", &n, &m);
-	for (int i = 1; i <= n; i++) scanf("%d", &w[i]);
+    scanf("%d%d", &n, &m);
+    for (int i = 1; i <= n; i++) scanf("%d", &w[i]);
 
     for (int i = 0; i < N; i++) {
         for (int j = 0; j < M; j++) {

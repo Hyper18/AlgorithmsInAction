@@ -1,4 +1,5 @@
 using namespace std;
+
 #include <vector>
 
 class Solution {
@@ -10,8 +11,7 @@ public:
             res[i] = num;
             if (num * 10 <= n) {
                 num *= 10;
-            }
-            else {
+            } else {
                 while (num % 10 == 9 || num + 1 > n) {
                     num /= 10;
                 }

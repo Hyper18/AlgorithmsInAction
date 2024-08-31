@@ -4,7 +4,7 @@ using namespace std;
 
 class Solution {
 public:
-    vector<vector<int>> threeSum(vector<int>& nums) {
+    vector<vector<int>> threeSum(vector<int> &nums) {
         int n = nums.size();
         vector<vector<int>> res;
         sort(nums.begin(), nums.end());
@@ -15,12 +15,11 @@ public:
             while (l < r) {
                 int sum = nums[i] + nums[l] + nums[r];
                 if (sum == 0) {
-                    res.push_back({ nums[i], nums[l], nums[r] });
+                    res.push_back({nums[i], nums[l], nums[r]});
                     while (l < r && nums[l] == nums[l + 1]) l++;
                     while (l < r && nums[r] == nums[r - 1]) r--;
                     l++, r--;
-                }
-                else if (sum < 0) l++;
+                } else if (sum < 0) l++;
                 else r--;
             }
         }

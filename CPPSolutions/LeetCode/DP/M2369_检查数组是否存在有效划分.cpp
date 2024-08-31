@@ -9,7 +9,7 @@ public:
     vector<int> nums;
     bool f[N];
 
-    bool validPartition(vector<int>& nums) {
+    bool validPartition(vector<int> &nums) {
         this->nums = nums;
         int n = nums.size();
         f[0] = true;

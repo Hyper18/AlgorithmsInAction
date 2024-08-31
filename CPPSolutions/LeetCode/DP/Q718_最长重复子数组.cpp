@@ -1,4 +1,3 @@
-#include <cstdio>
 #include <vector>
 
 using namespace std;
@@ -8,7 +7,7 @@ int f[N][N];
 
 class Solution {
 public:
-    int findLength(vector<int>& nums1, vector<int>& nums2) {
+    int findLength(vector<int> &nums1, vector<int> &nums2) {
         int n1 = nums1.size(), n2 = nums2.size();
         int ans = 0;
         for (int i = n1 - 1; i >= 0; i--) {

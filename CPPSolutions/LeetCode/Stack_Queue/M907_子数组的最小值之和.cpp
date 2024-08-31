@@ -6,7 +6,7 @@ const int MOD = 1e9 + 7;
 
 class Solution {
 public:
-    int sumSubarrayMins(vector<int>& arr) {
+    int sumSubarrayMins(vector<int> &arr) {
         int n = arr.size();
         vector<int> q, l(n, -1), r(n, n);
         for (int i = 0; i < n; i++) {
@@ -29,7 +29,7 @@ public:
         int ans = 0;
         for (int i = 0; i < n; i++) {
             int a = i - l[i], b = r[i] - i;
-            ans += (((long)a * b) % MOD * arr[i]) % MOD;
+            ans += (((long) a * b) % MOD * arr[i]) % MOD;
             ans %= MOD;
         }
 

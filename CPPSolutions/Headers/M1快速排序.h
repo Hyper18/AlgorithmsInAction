@@ -1,5 +1,6 @@
 #pragma once
 using namespace std;
+
 #include <iostream>
 
 void quick_sort(int q[], int l, int r) {

@@ -5,7 +5,8 @@ using namespace std;
 class Solution {
 public:
     int pre[100010] = {0};
-    int minOperations(vector<int>& nums, int x) {
+
+    int minOperations(vector<int> &nums, int x) {
         int n = nums.size();
         if (nums[0] > x && nums[n - 1] > x) return -1;
         for (int i = 1; i <= n; i++) pre[i] = pre[i - 1] + nums[i - 1];
@@ -17,11 +18,9 @@ public:
                 if (pre[mid] == x) {
                     l = mid;
                     break;
-                }
-                else if (pre[mid] > x) {
+                } else if (pre[mid] > x) {
                     high = mid - 1;
-                }
-                else {
+                } else {
                     low = mid + 1;
                 }
             }

@@ -5,17 +5,17 @@ using namespace std;
 
 class Solution {
 public:
-    ListNode* swapPairs(ListNode* head) {
+    ListNode *swapPairs(ListNode *head) {
         if (head == nullptr || head->next == nullptr) return head;
-        ListNode* dummy = head->next;
+        ListNode *dummy = head->next;
         head->next = swapPairs(dummy->next);
         dummy->next = head;
 
         return dummy;
     }
 
-    ListNode* swapPairs2(ListNode* head) {
-        ListNode* dummy = new ListNode(), *cur = dummy;
+    ListNode *swapPairs2(ListNode *head) {
+        ListNode *dummy = new ListNode(), *cur = dummy;
         if (head != nullptr && head->next == nullptr) return head;
         while (head != nullptr && head->next != nullptr) {
             cur->next = head->next;

@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include <vector>
 
 using namespace std;
@@ -9,7 +8,7 @@ class Solution {
     int f[N], ans;
 
 public:
-    int lengthOfLIS(vector<int>& nums) {
+    int lengthOfLIS(vector<int> &nums) {
         int len = nums.size();
         for (int i = 0; i < len; i++) {
             f[i] = 1;
@@ -22,7 +21,7 @@ public:
         return ans;
     }
 
-    int lengthOfLIS2(vector<int>& nums) {
+    int lengthOfLIS2(vector<int> &nums) {
         int len = nums.size();
         for (int i = 0; i < len; i++) {
             int low = 0, high = ans;

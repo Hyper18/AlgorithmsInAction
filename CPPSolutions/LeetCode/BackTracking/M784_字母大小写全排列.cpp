@@ -11,7 +11,7 @@ public:
         return res;
     }
 
-    void backtrack(string &s,int idx, vector<string> &res) {
+    void backtrack(string &s, int idx, vector<string> &res) {
         while (idx < s.size() && isdigit(s[idx])) {
             idx++;
         }

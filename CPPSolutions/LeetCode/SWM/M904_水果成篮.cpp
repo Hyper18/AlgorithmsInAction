@@ -1,4 +1,3 @@
-#include <cstdio>
 #include <vector>
 #include <unordered_map>
 
@@ -6,7 +5,7 @@ using namespace std;
 
 class Solution {
 public:
-    int totalFruit(vector<int>& fruits) {
+    int totalFruit(vector<int> &fruits) {
         unordered_map<int, int> cnt;
         int n = fruits.size();
         int ans = 0;

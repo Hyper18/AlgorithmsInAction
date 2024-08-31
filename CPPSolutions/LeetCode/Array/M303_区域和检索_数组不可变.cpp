@@ -6,7 +6,7 @@ class NumArray {
 public:
     vector<int> pre;
 
-    NumArray(vector<int>& nums) {
+    NumArray(vector<int> &nums) {
         int n = nums.size();
         pre.resize(n + 1);
         for (int i = 1; i <= n; i++) pre[i] = pre[i - 1] + nums[i - 1];

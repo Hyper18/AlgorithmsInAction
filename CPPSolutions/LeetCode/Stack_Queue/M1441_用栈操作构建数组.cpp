@@ -1,4 +1,3 @@
-#include <cstdio>
 #include <vector>
 #include <string>
 
@@ -6,7 +5,7 @@ using namespace std;
 
 class Solution {
 public:
-    vector<string> buildArray(vector<int>& target, int n) {
+    vector<string> buildArray(vector<int> &target, int n) {
         vector<string> res;
         int len = target.size();
         int cnt = 0, num = 1;
@@ -14,8 +13,7 @@ public:
             res.push_back("Push");
             if (target[cnt] == num) {
                 cnt++;
-            }
-            else {
+            } else {
                 res.push_back("Pop");
             }
             num++;
@@ -24,13 +22,13 @@ public:
         return res;
     }
 
-    vector<string> buildArray2(vector<int>& target, int n) {
+    vector<string> buildArray2(vector<int> &target, int n) {
         vector<string> res;
         int len = target.size();
         int pre = 0;
         for (int i = 0; i < len; i++) {
             int num = target[i];
-            for (int j = 0; j < num-pre-1; j++) {
+            for (int j = 0; j < num - pre - 1; j++) {
                 res.push_back("Push");
                 res.push_back("Pop");
             }

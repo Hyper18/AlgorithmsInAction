@@ -8,7 +8,7 @@ public:
     string minWindow(string s, string t) {
         int n1 = s.size(), n2 = t.size();
         unordered_map<char, int> mp1, mp2;
-        for (auto& c : t) mp2[c]++;
+        for (auto &c: t) mp2[c]++;
         string ans;
         int cnt = 0, l = 0, r = 0;
         while (r < n1) {

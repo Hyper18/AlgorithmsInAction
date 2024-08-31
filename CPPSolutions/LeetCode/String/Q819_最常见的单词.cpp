@@ -1,4 +1,5 @@
 using namespace std;
+
 #include <string>
 #include <vector>
 #include <unordered_set>
@@ -6,9 +7,9 @@ using namespace std;
 
 class Solution {
 public:
-    string mostCommonWord(string paragraph, vector<string>& banned) {
-        unordered_set<string> bannedSet;
-        for (auto& word : banned) {
+    string mostCommonWord(string paragraph, vector<string> &banned) {
+        unordered_set <string> bannedSet;
+        for (auto &word: banned) {
             bannedSet.emplace(word);
         }
         int maxF = 0;
@@ -18,8 +19,7 @@ public:
         for (int i = 0; i <= len; i++) {
             if (i < len && isalpha(paragraph[i])) {
                 word.push_back(tolower(paragraph[i]));
-            }
-            else if (word.size() > 0){
+            } else if (word.size() > 0) {
                 if (!bannedSet.count(word)) {
                     res[word]++;
                     maxF = max(maxF, res[word]);
@@ -28,7 +28,7 @@ public:
             }
         }
         string mostF = "";
-        for (auto & [word, frequency] : res) {
+        for (auto &[word, frequency]: res) {
             if (frequency == maxF) {
                 mostF = word;
                 break;

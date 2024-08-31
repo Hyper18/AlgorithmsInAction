@@ -1,4 +1,3 @@
-#include <cstdio>
 #include <string>
 
 using namespace std;
@@ -14,10 +13,10 @@ public:
             if (s1[i] != s2[i])
                 if (t1 == ' ')
                     t1 = s1[i], t2 = s2[i];
-            else if (!flag && t1 == s2[i] && t2 == s1[i])
-                flag = true;
-            else 
-                return false;
+                else if (!flag && t1 == s2[i] && t2 == s1[i])
+                    flag = true;
+                else
+                    return false;
         }
 
         return flag;
@@ -32,7 +31,7 @@ public:
                     i = idx;
                 else if (j < 0)
                     j = idx;
-                else 
+                else
                     return false;
             }
         }

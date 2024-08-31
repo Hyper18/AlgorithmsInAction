@@ -5,7 +5,7 @@ using namespace std;
 class Solution {
 public:
     int magicalString(int n) {
-        vector<int> s = { 1, 2, 2 };
+        vector<int> s = {1, 2, 2};
         int i = 2;
         while (s.size() < n) {
             int lastNum = s[s.size() - 1];

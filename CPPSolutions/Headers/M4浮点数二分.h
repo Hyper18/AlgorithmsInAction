@@ -1,4 +1,5 @@
 #pragma once
+
 bool check(double x) {}
 
 double bsearch_3(double l, double r) {
@@ -7,8 +8,7 @@ double bsearch_3(double l, double r) {
         double mid = (l + r) / 2;
         if (check(mid)) {
             r = mid;
-        }
-        else {
+        } else {
             l = mid;
         }
     }

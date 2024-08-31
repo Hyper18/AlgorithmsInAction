@@ -14,7 +14,7 @@ public:
         int cnt = 0;
         while (f[k] < n) {
             cnt++;
-            for (int i = k; i >= 1; i--) 
+            for (int i = k; i >= 1; i--)
                 f[i] = f[i] + f[i - 1] + 1;
         }
 

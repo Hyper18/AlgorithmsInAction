@@ -5,9 +5,9 @@ using namespace std;
 
 class Solution {
 public:
-    ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
-        ListNode* h = new ListNode();
-        ListNode* cur = h;
+    ListNode *addTwoNumbers(ListNode *l1, ListNode *l2) {
+        ListNode *h = new ListNode();
+        ListNode *cur = h;
         int c = 0;
         while (l1 != nullptr || l2 != nullptr) {
             int v1 = l1 == nullptr ? 0 : l1->val;

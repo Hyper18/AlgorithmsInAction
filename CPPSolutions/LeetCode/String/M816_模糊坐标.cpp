@@ -10,8 +10,8 @@ public:
         int n = s.length();
         for (int i = 1; i < n; i++) {
             vector<string> sx = split(s.substr(0, i)), sy = split(s.substr(i));
-            for (auto& x : sx) {
-                for (auto& y : sy) {
+            for (auto &x: sx) {
+                for (auto &y: sy) {
                     res.push_back("(" + x + ", " + y + ")");
                 }
             }

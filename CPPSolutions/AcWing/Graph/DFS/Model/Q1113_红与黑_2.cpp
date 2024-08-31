@@ -1,9 +1,10 @@
 using namespace std;
+
 #include <iostream>
 #include <cstring>
 
 const int N = 23;
-const int dx[] = { -1, 0, 1, 0 }, dy[] = { 0, -1, 0, 1 };
+const int dx[] = {-1, 0, 1, 0}, dy[] = {0, -1, 0, 1};
 
 int n, m;
 char g[N][N];
