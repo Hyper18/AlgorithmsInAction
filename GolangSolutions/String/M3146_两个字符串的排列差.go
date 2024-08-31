@@ -1,10 +1,11 @@
+/*
+	@author Hyperspace
+	@date 2024/08/24
+	@file M3146_两个字符串的排列差.go
+*/
+
 package String
 
-/*
-@author Hyperspace
-@date 2024/08/24
-@file M3146_两个字符串的排列差.go
-*/
 func findPermutationDifference(s string, t string) (ans int) {
 	pos := make([]int, 26)
 	for i, v := range s {

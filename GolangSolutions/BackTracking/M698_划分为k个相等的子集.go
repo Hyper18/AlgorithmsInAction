@@ -1,12 +1,13 @@
+/*
+	@author Hyperspace
+	@date 2024/08/25
+	@file M698_划分为k个相等的子集.go
+*/
+
 package BackTracking
 
 import "sort"
 
-/*
-@author Hyperspace
-@date 2024/08/25
-@file M698_划分为k个相等的子集.go
-*/
 func canPartitionKSubsets(nums []int, k int) bool {
 	sum := 0
 	for _, v := range nums {

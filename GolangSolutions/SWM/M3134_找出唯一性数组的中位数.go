@@ -1,10 +1,11 @@
+/*
+	@author Hyperspace
+	@date 2024/08/27
+	@file M3134_找出唯一性数组的中位数.go
+*/
+
 package SWM
 
-/*
-@author Hyperspace
-@date 2024/08/27
-@file M3134_找出唯一性数组的中位数.go
-*/
 func medianOfUniquenessArray(nums []int) int {
 	n := len(nums)
 	tot := (n*(n+1)/2 + 1) / 2

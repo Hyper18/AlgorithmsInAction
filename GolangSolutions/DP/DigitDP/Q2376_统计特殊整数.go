@@ -1,12 +1,13 @@
+/*
+	@author Hyperspace
+	@date 2024/08/21
+	@file Q2376_统计特殊整数.go
+*/
+
 package DigitDP
 
 import "strconv"
 
-/*
-@author Hyperspace
-@date 2024/08/21
-@file Q2376_统计特殊整数.go
-*/
 func countSpecialNumbers(n int) int {
 	s := strconv.Itoa(n)
 	m := len(s)

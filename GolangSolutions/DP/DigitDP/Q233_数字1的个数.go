@@ -1,12 +1,13 @@
+/*
+	@author Hyperspace
+	@date 2024/08/23
+	@file Q233_数字1的个数.go
+*/
+
 package DigitDP
 
 import "strconv"
 
-/*
-@author Hyperspace
-@date 2024/08/23
-@file Q233_数字1的个数.go
-*/
 func countDigitOne(n int) int {
 	s := strconv.Itoa(n)
 	m := len(s)

@@ -1,10 +1,11 @@
+/*
+	@author Hyperspace
+	@date 2024/08/30
+	@file M3153_所有数对中数位不同之和.go
+*/
+
 package Math
 
-/*
-@author Hyperspace
-@date 2024/08/30
-@file M3153_所有数对中数位不同之和.go
-*/
 func sumDigitDifferences(nums []int) (ans int64) {
 	for nums[0] > 0 {
 		mp := make([]int, 10)

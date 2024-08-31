@@ -1,10 +1,11 @@
+/*
+	@author Hyperspace
+	@date 2024/08/28
+	@file M3144_分割字符频率相等的最少子字符串.go
+*/
+
 package DP
 
-/*
-@author Hyperspace
-@date 2024/08/28
-@file M3144_分割字符频率相等的最少子字符串.go
-*/
 func minimumSubstringsInPartition(s string) int {
 	f, freq := make([]int, len(s)), make([]int, 26)
 	for i := range f {

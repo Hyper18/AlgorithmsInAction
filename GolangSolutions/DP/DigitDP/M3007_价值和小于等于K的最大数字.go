@@ -1,3 +1,9 @@
+/*
+	@author Hyperspace
+	@date 2024/08/21
+	@file M3007_价值和小于等于K的最大数字.go
+*/
+
 package DigitDP
 
 import (
@@ -5,11 +11,6 @@ import (
 	"sort"
 )
 
-/*
-@author Hyperspace
-@date 2024/08/21
-@file M3007_价值和小于等于K的最大数字.go
-*/
 func findMaximumNumber(k int64, x int) int64 {
 	ans := sort.Search(int(k+1)<<x, func(num int) bool {
 		num++
