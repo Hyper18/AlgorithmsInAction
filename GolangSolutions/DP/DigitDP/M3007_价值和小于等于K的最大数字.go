@@ -45,8 +45,10 @@ func findMaximumNumber(k int64, x int) int64 {
 				}
 				ans += f(i-1, c, isLimit && d == up)
 			}
+
 			return
 		}
+
 		return f(n-1, 0, true) > int(k)
 	})
 

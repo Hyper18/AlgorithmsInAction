@@ -39,7 +39,7 @@ public class M3007_价值和小于等于K的最大数字2 {
 
     private long check(long num) {
         this.num = num;
-        int m = 64 - Long.numberOfLeadingZeros(num);
+        int m = Long.SIZE - Long.numberOfLeadingZeros(num);
         memo = new long[m][m];
         for (long[] row : memo) {
             Arrays.fill(row, -1);

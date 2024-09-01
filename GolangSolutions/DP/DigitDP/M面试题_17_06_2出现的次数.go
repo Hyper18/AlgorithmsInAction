@@ -1,18 +1,18 @@
 /*
 	@author Hyperspace
-	@date 2024/08/23
-	@file Q233_数字1的个数.go
+	@date 2024/09/01
+	@file M面试题_17_06_2出现的次数.go
 */
 
 package DigitDP
 
 import "strconv"
 
-func countDigitOne(n int) int {
+func numberOf2sInRange(n int) int {
 	s := strconv.Itoa(n)
 	m := len(s)
 	memo := make([][]int, m)
-	for i := range memo {
+	for i := 0; i < m; i++ {
 		memo[i] = make([]int, m)
 		for j := range memo[i] {
 			memo[i][j] = -1
@@ -28,7 +28,9 @@ func countDigitOne(n int) int {
 			if *p != -1 {
 				return *p
 			}
-			defer func() { *p = ans }()
+			defer func() {
+				*p = ans
+			}()
 		}
 		up := 9
 		if isLimit {
@@ -36,7 +38,7 @@ func countDigitOne(n int) int {
 		}
 		for d := 0; d <= up; d++ {
 			c := cnt
-			if d == 1 {
+			if d == 2 {
 				c++
 			}
 			ans += f(i+1, c, isLimit && d == up)

@@ -14,9 +14,8 @@ import java.util.Arrays;
  * 由于题干中k给定的范围为2^15，需要注意爆int
  */
 public class M3007_价值和小于等于K的最大数字 {
-    long k;
+    long k, num;
     int x;
-    long num;
     long[][] memo;
 
     public long findMaximumNumber(long k, int x) {
@@ -40,7 +39,7 @@ public class M3007_价值和小于等于K的最大数字 {
 
     private long check(long num) {
         this.num = num;
-        int m = 64 - Long.numberOfLeadingZeros(num);
+        int m = Long.SIZE - Long.numberOfLeadingZeros(num);
         memo = new long[m][m];
         for (long[] row : memo) {
             Arrays.fill(row, -1);

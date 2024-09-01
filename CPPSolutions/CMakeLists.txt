@@ -14,6 +14,5 @@ add_executable(CPPSolutions
         Headers/M6二维前缀和.h
         Headers/M7一维差分.h
         Headers/M8二维差分.h
-        AcWing/Algorithm_BasicLevel/Q794_高精度除法.cpp
-        LeetCode/Math/M3153_所有数对中数位不同之和.cpp
+        LeetCode/DP/DigitDP/Q902_最大为N的数字组合.cpp
 )

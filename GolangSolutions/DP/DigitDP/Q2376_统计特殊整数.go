@@ -27,7 +27,7 @@ func countSpecialNumbers(n int) int {
 		}
 		if !isLimit && isNum {
 			p := &memo[i][mask]
-			if *p >= 0 {
+			if *p != -1 {
 				return *p
 			}
 			defer func() { *p = ans }()
@@ -48,6 +48,7 @@ func countSpecialNumbers(n int) int {
 				ans += f(i+1, mask|1<<d, isLimit && d == up, true)
 			}
 		}
+
 		return
 	}
 

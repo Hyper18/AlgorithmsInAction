@@ -2,16 +2,14 @@
 
 using namespace std;
 
-typedef long long LL;
-
 /**
  * @author Hyperspace
- * @date 2024/08/23
- * @file Q233_数字1的个数.cpp
+ * @date 2024/09/01
+ * @file M面试题_17_06_2出现的次数.cpp
  */
 class Solution {
 public:
-    int countDigitOne(int n) {
+    int numberOf2sInRange(int n) {
         auto s = to_string(n);
         int m = s.length(), memo[m][m];
         memset(memo, -1, sizeof(memo));
@@ -21,7 +19,7 @@ public:
             int ans = 0;
             int up = isLimit ? s[i] - '0' : 9;
             for (int d = 0; d <= up; d++)
-                ans += f(i + 1, cnt + (d == 1), isLimit && d == up);
+                ans += f(i + 1, cnt + (d == 2), isLimit && d == up);
             if (!isLimit) memo[i][cnt] = ans;
 
             return ans;
