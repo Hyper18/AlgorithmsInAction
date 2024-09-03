@@ -10,8 +10,5 @@
         <module name="CSP" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="CSP" target="8" />
-    </bytecodeTargetLevel>
   </component>
 </project>

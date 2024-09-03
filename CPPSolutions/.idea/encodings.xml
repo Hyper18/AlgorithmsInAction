@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
-    <file url="file://$PROJECT_DIR$/AcWing/Algorithm_BasicLevel/Math/QuickPow/Q875_快速幂.cpp" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/AcWing/DP/CountDP/Q338_计数问题.cpp" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/AcWing/DP/Knapsack/Q5_多重背包问题II.cpp" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/AcWing/DP/LISModel/Q187_导弹防御系统.cpp" charset="UTF-8" />
@@ -9,6 +8,7 @@
     <file url="file://$PROJECT_DIR$/AcWing/DP/StCompressingModel/Q291_蒙德里安的梦想.cpp" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/AcWing/DS/DisJointSet/Q1250_格子游戏.cpp" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/AcWing/DS/DisJointSet/Q237_程序自动分析.cpp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/AcWing/Fundamentals/QuickPow/Q875_快速幂.cpp" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/AcWing/Graph/BFS/Model/Q1107_魔板.cpp" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/AcWing/Graph/DFS/Model/Q1116_马走日.cpp" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/AcWing/Graph/DFS/Model/Q1117_单词接龙.cpp" charset="UTF-8" />
