@@ -18,5 +18,5 @@ add_executable(CPPSolutions
         Headers/M6二维前缀和.h
         Headers/M7一维差分.h
         Headers/M8二维差分.h
-        AcWing/Fundamentals/MergeIntervals/Q803_区间合并.cpp
+        LeetCode/Array/M2860_让所有学生保持开心的分组方法数.cpp
 )
