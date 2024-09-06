@@ -19,4 +19,5 @@ add_executable(CPPSolutions
         Headers/M7一维差分.h
         Headers/M8二维差分.h
         LeetCode/Array/M2860_让所有学生保持开心的分组方法数.cpp
+        LeetCode/String/M3174_清除数字.cpp
 )

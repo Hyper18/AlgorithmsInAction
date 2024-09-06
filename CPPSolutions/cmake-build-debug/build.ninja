@@ -55,6 +55,12 @@ build CMakeFiles/CPPSolutions.dir/LeetCode/Array/M2860_让所有学生保持开�
   OBJECT_DIR = CMakeFiles\CPPSolutions.dir
   OBJECT_FILE_DIR = CMakeFiles\CPPSolutions.dir\LeetCode\Array
 
+build CMakeFiles/CPPSolutions.dir/LeetCode/String/M3174_清除数字.cpp.obj: CXX_COMPILER__CPPSolutions_unscanned_Debug D$:/Documents/IdeaProjects/AlgorithmsInAction/CPPSolutions/LeetCode/String/M3174_清除数字.cpp || cmake_object_order_depends_target_CPPSolutions
+  DEP_FILE = CMakeFiles\CPPSolutions.dir\LeetCode\String\M3174_清除数字.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\CPPSolutions.dir
+  OBJECT_FILE_DIR = CMakeFiles\CPPSolutions.dir\LeetCode\String
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target CPPSolutions
@@ -63,7 +69,7 @@ build CMakeFiles/CPPSolutions.dir/LeetCode/Array/M2860_让所有学生保持开�
 #############################################
 # Link the executable CPPSolutions.exe
 
-build CPPSolutions.exe: CXX_EXECUTABLE_LINKER__CPPSolutions_Debug CMakeFiles/CPPSolutions.dir/LeetCode/Array/M2860_让所有学生保持开心的分组方法数.cpp.obj
+build CPPSolutions.exe: CXX_EXECUTABLE_LINKER__CPPSolutions_Debug CMakeFiles/CPPSolutions.dir/LeetCode/Array/M2860_让所有学生保持开心的分组方法数.cpp.obj CMakeFiles/CPPSolutions.dir/LeetCode/String/M3174_清除数字.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\CPPSolutions.dir
