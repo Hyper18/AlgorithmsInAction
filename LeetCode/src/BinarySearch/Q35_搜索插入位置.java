@@ -8,11 +8,7 @@ package BinarySearch;
  * 重点：未找到，返回按序插入位置
  */
 public class Q35_搜索插入位置 {
-    public static void main(String[] args) {
-        searchInsert(new int[]{1, 3, 5, 6}, 7);
-    }
-
-    public static int searchInsert(int[] nums, int target) {
+    public int searchInsert(int[] nums, int target) {
         int low = 0;
         int high = nums.length - 1;
 

@@ -51,11 +51,7 @@ public class Q76_最小覆盖子串 {
         return minR == n1 ? "" : s.substring(minL, minR + 1);
     }
 
-    public static void main(String[] args) {
-        System.out.println(minWindow2("abc", "b"));
-    }
-
-    public static String minWindow2(String s, String t) {
+    public String minWindow2(String s, String t) {
         int n1 = s.length(), n2 = t.length();
         int[] cnt1 = new int[58], cnt2 = new int[58];
         for (char c : t.toCharArray()) {

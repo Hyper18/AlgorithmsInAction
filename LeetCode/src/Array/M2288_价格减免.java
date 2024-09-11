@@ -45,12 +45,7 @@ public class M2288_价格减免 {
         return true;
     }
 
-    public static void main(String[] args) {
-        String s = "1$2";
-        System.out.println(discountPrices2(s, 21));
-    }
-
-    public static String discountPrices2(String s, int discount) {
+    public String discountPrices2(String s, int discount) {
         s = " " + s + " ";
         int i = 0, j = 0;
         while (i < s.length() && j < s.length()) {

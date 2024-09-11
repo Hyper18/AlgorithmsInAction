@@ -18,5 +18,5 @@ add_executable(CPPSolutions
         Headers/M6二维前缀和.h
         Headers/M7一维差分.h
         Headers/M8二维差分.h
-        LeetCode/LinkedList/M2181_合并零之间的节点.cpp
+        LeetCode/SWM/M2555_两个线段获得的最多奖品.cpp
 )

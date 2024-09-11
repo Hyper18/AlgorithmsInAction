@@ -15,11 +15,7 @@ import java.util.Set;
  * 2. SVM，set去重，随遍历不断移除窗口左侧的外部元素 -- O(n)
  */
 public class Q219_存在重复元素II {
-    public static void main(String[] args) {
-        System.out.println(containsNearbyDuplicate(new int[]{1, 2, 3, 1, 2, 3}, 2));
-    }
-
-    public static boolean containsNearbyDuplicate(int[] nums, int k) {
+    public boolean containsNearbyDuplicate(int[] nums, int k) {
         int len = nums.length;
         for (int i = 0; i < len; i++) {
             for (int j = i + 1; Math.abs(i - j) <= k && j < len; j++) {
@@ -32,7 +28,7 @@ public class Q219_存在重复元素II {
         return false;
     }
 
-    public static boolean containsNearbyDuplicate2(int[] nums, int k) {
+    public boolean containsNearbyDuplicate2(int[] nums, int k) {
         int len = nums.length;
         Map<Integer, Integer> map = new HashMap<>();
         for (int i = 0; i < len; i++) {
@@ -47,7 +43,7 @@ public class Q219_存在重复元素II {
         return false;
     }
 
-    public static boolean containsNearbyDuplicate3(int[] nums, int k) {
+    public boolean containsNearbyDuplicate3(int[] nums, int k) {
         int len = nums.length;
         Set<Integer> set = new HashSet<>();
         for (int i = 0; i < len; i++) {
