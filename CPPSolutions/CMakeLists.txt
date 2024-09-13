@@ -18,5 +18,5 @@ add_executable(CPPSolutions
         Headers/M6二维前缀和.h
         Headers/M7一维差分.h
         Headers/M8二维差分.h
-        LeetCode/SWM/M2555_两个线段获得的最多奖品.cpp
+        LeetCode/TwoPointer/M2398_预算内的最多机器人数目.cpp
 )
