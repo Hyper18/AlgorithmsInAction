@@ -18,5 +18,5 @@ add_executable(CPPSolutions
         Headers/M6二维前缀和.h
         Headers/M7一维差分.h
         Headers/M8二维差分.h
-        LeetCode/Graph/M815_公交路线.cpp
+        LeetCode/Greedy/M2332_坐上公交的最晚时间.cpp
 )
