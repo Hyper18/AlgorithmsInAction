@@ -18,5 +18,5 @@ add_executable(CPPSolutions
         Headers/M6二维前缀和.h
         Headers/M7一维差分.h
         Headers/M8二维差分.h
-        LeetCode/DP/M2414_最长的字母序连续子字符串的长度.cpp
+        LeetCode/Graph/M997_找到小镇的法官.cpp
 )
