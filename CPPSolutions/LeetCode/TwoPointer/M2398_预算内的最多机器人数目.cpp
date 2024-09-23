@@ -9,7 +9,6 @@ typedef long long LL;
  * @date 2024/09/13
  * @file M2398_预算内的最多机器人数目.cpp
  */
-
 class Solution {
 public:
     int maximumRobots(vector<int> &chargeTimes, vector<int> &runningCosts, LL budget) {

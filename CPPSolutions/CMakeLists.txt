@@ -18,6 +18,5 @@ add_executable(CPPSolutions
         Headers/M6二维前缀和.h
         Headers/M7一维差分.h
         Headers/M8二维差分.h
-        LeetCode/Graph/M997_找到小镇的法官.cpp
-        LeetCode/Array/M1014_最佳观光组合.cpp
+        LeetCode/DP/Q63_不同路径II.cpp
 )
