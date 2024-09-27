@@ -18,5 +18,5 @@ add_executable(CPPSolutions
         Headers/M6二维前缀和.h
         Headers/M7一维差分.h
         Headers/M8二维差分.h
-        LeetCode/String/M2306_公司命名.cpp
+        LeetCode/SWM/M2516_每种字符至少取K个.cpp
 )
