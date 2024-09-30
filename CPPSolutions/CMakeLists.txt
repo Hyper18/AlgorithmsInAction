@@ -18,5 +18,5 @@ add_executable(CPPSolutions
         Headers/M6二维前缀和.h
         Headers/M7一维差分.h
         Headers/M8二维差分.h
-        LeetCode/Array/M2073_买票需要的时间.cpp
+        LeetCode/Design/M1845_座位预约管理系统.cpp
 )

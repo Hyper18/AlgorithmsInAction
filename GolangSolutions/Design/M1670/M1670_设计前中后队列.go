@@ -4,7 +4,7 @@
 	@file M1670_设计前中后队列.go
 */
 
-package Design
+package M1670
 
 import "container/list"
 
