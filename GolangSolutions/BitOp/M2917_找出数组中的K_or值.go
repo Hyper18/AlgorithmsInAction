@@ -4,7 +4,7 @@
 	@file M2917_找出数组中的K_or值.go
 */
 
-package Array
+package BitOp
 
 func findKOr(nums []int, k int) (ans int) {
 	for i := 0; i < 31; i++ {
