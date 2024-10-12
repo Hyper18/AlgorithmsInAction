@@ -18,5 +18,5 @@ add_executable(CPPSolutions
         Headers/M6二维前缀和.h
         Headers/M7一维差分.h
         Headers/M8二维差分.h
-        LeetCode/Array/M3164_优质数对的总数II.cpp
+        LeetCode/BitOp/M3158_求出出现两次数字的XOR值.cpp
 )
