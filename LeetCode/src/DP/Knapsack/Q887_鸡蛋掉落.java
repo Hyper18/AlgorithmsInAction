@@ -2,10 +2,10 @@ package DP.Knapsack;
 
 /**
  * @author Hyperspace
- * @date 2022/11/01
+ * @date 2022/11/01，2024/10/14
  * <p>
- * 思路
- * 01背包，来自@Missionary
+ * 思路@Missionary
+ * 01背包
  * 1. 状态表示
  * 集合：f[i][j]表示到第i层楼梯时，扔出j个鸡蛋所能确定的安全楼层数目
  * 属性：cnt
