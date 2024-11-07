@@ -1,17 +1,15 @@
-package Array;
+package SWM;
 
 import java.util.Arrays;
 
 /**
  * @author Hyperspace
- * @date 2024/11/06
- * @file M3254_长度为K的子数组的能量值I.java
+ * @date 2024/11/07
+ * @file M3255_长度为K的子数组的能量值II.java
  * <p>
- * 思路
- * SWM
- * 固定左端点
+ * 同M3254，题目扩大了n的数据范围，卡纯暴力解法
  */
-public class M3254_长度为K的子数组的能量值I {
+public class M3255_长度为K的子数组的能量值II {
     public int[] resultsArray(int[] nums, int k) {
         int n = nums.length;
         if (k == 1) {
