@@ -44,7 +44,7 @@ public class M743_网络延迟时间 {
         d[k] = 0;
         PriorityQueue<int[]> q = new PriorityQueue<>(n, Comparator.comparingInt(a -> a[1]));
         q.offer(new int[]{k, 0});
-        int ans = 0, cnt = 1;
+        int ans = 0, cnt = 0;
         while (!q.isEmpty()) {
             int[] p = q.poll();
             int u = p[0], dis = p[1];
