@@ -1,14 +1,14 @@
-package Array;
+package SWM;
 
 /**
  * @author Hyperspace
  * @date 2024/11/26
- * @file M320_交替组I.java
+ * @file M3206_交替组I.java
  * <p>
  * 思路
  * 模拟
  */
-public class M320_交替组I {
+public class M3206_交替组I {
     public int numberOfAlternatingGroups(int[] colors) {
         int n = colors.length;
         int ans = 0;
