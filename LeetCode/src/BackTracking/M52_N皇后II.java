@@ -1,26 +1,20 @@
-package Graph.DFS;
-
-import java.util.ArrayList;
-import java.util.List;
+package BackTracking;
 
 /**
  * @author Hyperspace
- * @date 2024/12/01
- * @file M51_N皇后.java
+ * @date 2024/12/02
+ * @file M52_N皇后II.java
  * <p>
  * 思路
- * 全排列 -- O(n * n!)
- * 要注意开判断对角线是否有皇后的数组大小为两倍
- * 因为为防止udg数组出现负数，人为添加了n，使得数组下标可以超过10
+ * 同Q51
  */
-public class M51_N皇后 {
+public class M52_N皇后II {
     private final int N = 10;
     private char[][] g = new char[N][N];
     private boolean[] col = new boolean[N], dg = new boolean[N << 1], udg = new boolean[N << 1];
-    private List<List<String>> res = new ArrayList<>();
-    private int n;
+    private int n, ans;
 
-    public List<List<String>> solveNQueens(int n) {
+    public int totalNQueens(int n) {
         this.n = n;
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < n; j++) {
@@ -29,21 +23,12 @@ public class M51_N皇后 {
         }
         backtrack(0);
 
-        return res;
+        return ans;
     }
 
     private void backtrack(int k) {
         if (k == n) {
-            List<String> row = new ArrayList<>();
-            StringBuilder sb;
-            for (int i = 0; i < n; i++) {
-                sb = new StringBuilder();
-                for (int j = 0; j < n; j++) {
-                    sb.append(g[i][j]);
-                }
-                row.add(sb.toString());
-            }
-            res.add(row);
+            ans++;
             return;
         }
         for (int i = 0; i < n; i++) {

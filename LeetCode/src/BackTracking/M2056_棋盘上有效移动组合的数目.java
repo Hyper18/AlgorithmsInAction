@@ -1,4 +1,4 @@
-package Graph.DFS;
+package BackTracking;
 
 /**
  * @author Hyperspace
