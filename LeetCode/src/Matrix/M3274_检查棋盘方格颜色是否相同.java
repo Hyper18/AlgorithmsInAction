@@ -1,4 +1,4 @@
-package Array;
+package Matrix;
 
 /**
  * @author Hyperspace
