@@ -18,5 +18,5 @@ add_executable(CPPSolutions
         Headers/M6二维前缀和.h
         Headers/M7一维差分.h
         Headers/M8二维差分.h
-        LeetCode/BitOp/M3158_求出出现两次数字的XOR值.cpp
+        AcWing/Fundamentals/KMP/Q831_KMP字符串.cpp
 )

@@ -1,4 +1,4 @@
-package BinarySearch;
+package BinarySearch.Offline;
 
 import java.util.Arrays;
 import java.util.Comparator;
