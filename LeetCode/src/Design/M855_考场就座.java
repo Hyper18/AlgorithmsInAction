@@ -24,8 +24,7 @@ public class M855_考场就座 {
 
         public int seat() {
             int[] pos = new int[]{-1, n + 1, 0};
-            for (int i = 0; i < n; i++) {
-                int l = i;
+            for (int l = 0; l < n; l++) {
                 while (l < n && isSeated[l]) {
                     l++;
                 }
@@ -46,7 +45,7 @@ public class M855_考场就座 {
                         pos = new int[]{l, r, d};
                     }
                 }
-                i = r;
+                l = r;
             }
             int p;
             if (pos[0] == 0 && pos[1] == pos[0] + pos[2]) {
