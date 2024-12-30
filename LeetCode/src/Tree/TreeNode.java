@@ -2,8 +2,6 @@ package Tree;
 
 /**
  * Definition for a binary tree node.
- *
- * @author Vincent
  */
 public class TreeNode {
     int val;
