@@ -19,7 +19,7 @@ public class M729_我的日程安排表I {
         }
 
         public boolean book(int startTime, int endTime) {
-            if ((mp.floorEntry(startTime) != null && mp.floorEntry(startTime).getValue() > startTime) || (mp.ceilingEntry(startTime) != null && mp.ceilingEntry(startTime).getKey() < endTime)) {
+            if ((mp.floorEntry(startTime) != null && mp.floorEntry(startTime).getValue() > startTime) || (mp.ceilingEntry(startTime) != null && mp.ceilingKey(startTime) < endTime)) {
                 return false;
             }
 
