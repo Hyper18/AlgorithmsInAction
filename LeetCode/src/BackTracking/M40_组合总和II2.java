@@ -1,0 +1,43 @@
+package BackTracking;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.LinkedList;
+import java.util.List;
+
+/**
+ * @author Hyperspace
+ * @date 2025/01/26
+ * @file M40_组合总和II.java
+ * <p>
+ * 思路
+ * 回溯
+ * 优化去重处理
+ */
+public class M40_组合总和II2 {
+    private int[] candidates;
+    private List<List<Integer>> res = new LinkedList<>();
+    private List<Integer> path = new LinkedList<>();
+
+    public List<List<Integer>> combinationSum2(int[] candidates, int target) {
+        Arrays.sort(candidates);
+        this.candidates = candidates;
+        backtrack(target, 0);
+        return res;
+    }
+
+    public void backtrack(int target, int i) {
+        if (target == 0) {
+            res.add(new ArrayList<>(path));
+            return;
+        }
+        for (int j = i; j < candidates.length && candidates[j] <= target; j++) {
+            if (j > i && candidates[j] == candidates[j - 1]) {
+                continue;
+            }
+            path.add(candidates[j]);
+            backtrack(target - candidates[j], j + 1);
+            path.remove(path.size() - 1);
+        }
+    }
+}
