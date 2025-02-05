@@ -3,7 +3,7 @@ package Array;
 import java.util.Arrays;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/09/26
  * @file M2535_数组元素和与数字和的绝对差.java
  */

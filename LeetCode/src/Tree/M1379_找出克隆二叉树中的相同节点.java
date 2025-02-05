@@ -1,7 +1,7 @@
 package Tree;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/04/03
  * @file M1379_找出克隆二叉树中的相同节点.java
  * <p>

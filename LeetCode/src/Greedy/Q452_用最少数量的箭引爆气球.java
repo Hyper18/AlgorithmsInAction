@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Comparator;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/03/27
  * 贪心法
  * 先将所有的points点集按照右边界从小到大顺序排序

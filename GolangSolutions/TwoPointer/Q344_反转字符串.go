@@ -1,5 +1,5 @@
 /*
-	@author Hyperspace
+	@author Hyper
 	@date 2023/08/07
 	@file Q344_反转字符串.go
 */

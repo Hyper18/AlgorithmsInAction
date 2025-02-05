@@ -1,7 +1,7 @@
 package Tree;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2023/08/25
  * @file M1448_统计二叉树中好节点的数目.java
  * <p>

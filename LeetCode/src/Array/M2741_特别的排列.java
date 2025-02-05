@@ -3,7 +3,7 @@ package Array;
 import java.util.Arrays;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/06/26
  * @file M2741_特别的排列.java
  * <p>

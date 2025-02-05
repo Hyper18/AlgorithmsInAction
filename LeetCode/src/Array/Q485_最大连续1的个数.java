@@ -1,7 +1,7 @@
 package Array;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2023/02/28
  * @file Q485_最大连续1的个数.java
  */

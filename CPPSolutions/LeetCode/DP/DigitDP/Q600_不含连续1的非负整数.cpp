@@ -3,7 +3,7 @@
 using namespace std;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/09/01
  * @file Q600_不含连续1的非负整数.cpp
  */

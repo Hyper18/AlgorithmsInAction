@@ -3,7 +3,7 @@ package Week16;
 import java.util.Scanner;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/10/17
  * @file Q113_国际象棋.java
  * <p>

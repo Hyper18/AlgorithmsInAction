@@ -3,7 +3,7 @@ package Design;
 import java.util.*;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2023/09/23
  * @file M1993_树上的操作.java
  * <p>

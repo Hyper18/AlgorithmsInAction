@@ -5,7 +5,7 @@ import java.util.Comparator;
 import java.util.Scanner;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/03/31
  * 思路来自@wow_awsl_qwq
  * 线段树+扫描线，供学习

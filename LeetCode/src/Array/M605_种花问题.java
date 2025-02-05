@@ -1,7 +1,7 @@
 package Array;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2023/09/29
  * @file M605_种花问题.java
  * <p>

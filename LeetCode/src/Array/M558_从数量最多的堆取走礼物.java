@@ -4,7 +4,7 @@ import java.util.Comparator;
 import java.util.PriorityQueue;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2023/10/28
  * @file M558_从数量最多的堆取走礼物.java
  * <p>

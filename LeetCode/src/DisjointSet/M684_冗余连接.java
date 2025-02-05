@@ -1,7 +1,7 @@
 package DisjointSet;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/10/27
  * @file M684_冗余连接.java
  * <p>

@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/04/26
  * @file M1146_快照数组.java
  * <p>

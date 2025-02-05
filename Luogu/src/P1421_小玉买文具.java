@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 /**
- * @author Vincent
+ * @author Hyper
  */
 public class P1421_小玉买文具 {
     public static final int PEN_A = 1;

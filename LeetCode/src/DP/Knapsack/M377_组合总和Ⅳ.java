@@ -1,7 +1,7 @@
 package DP.Knapsack;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/04/22
  * @file M377_组合总和Ⅳ.java
  * <p>

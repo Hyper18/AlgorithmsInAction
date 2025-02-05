@@ -4,7 +4,7 @@ import java.io.*;
 import java.util.StringTokenizer;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/03/17
  * @time 312ms
  * 转化为01背包问题

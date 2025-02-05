@@ -7,7 +7,7 @@ import java.util.StringTokenizer;
  * 提交代码不要加入import 包名！！
  * JDK8下引用包仍需正常导入
  *
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/02/09
  * <p>
  * 主类必须用Main！！

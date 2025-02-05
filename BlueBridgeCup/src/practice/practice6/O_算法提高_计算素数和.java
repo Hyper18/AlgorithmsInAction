@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.StringTokenizer;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/03/22
  * @time 62ms
  * 埃氏筛

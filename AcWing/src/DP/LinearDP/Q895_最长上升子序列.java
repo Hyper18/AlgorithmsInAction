@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.StringTokenizer;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/05/04
  */
 public class Q895_最长上升子序列 {

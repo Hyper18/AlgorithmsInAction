@@ -3,7 +3,7 @@ package Week17;
 import java.util.Scanner;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/11/06
  * @file Q116_小欧的卡牌.java
  * <p>

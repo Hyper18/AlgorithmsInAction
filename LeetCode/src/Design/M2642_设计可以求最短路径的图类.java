@@ -5,7 +5,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/03/26
  * @file M2642_设计可以求最短路径的图类.java
  * <p>

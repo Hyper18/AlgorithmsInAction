@@ -4,7 +4,7 @@ import java.io.*;
 import java.util.StringTokenizer;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/03/31
  * @time 78ms
  * 容易想到求最小公倍数+完全背包

@@ -1,7 +1,7 @@
 package DP;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2023/04/19
  * @file M1043_分隔数组以得到最大和.java
  * <p>

@@ -3,7 +3,7 @@ package DP;
 import java.util.Arrays;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/03/08，2024/09/23
  * @file Q62_不同路径.java
  * <p>

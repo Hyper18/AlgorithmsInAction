@@ -4,7 +4,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/03/06
  * <p>
  * 思路

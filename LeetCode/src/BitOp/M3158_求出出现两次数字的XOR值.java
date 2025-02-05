@@ -6,7 +6,7 @@ import java.util.Map;
 import java.util.Set;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/10/12
  * @file M3158_求出出现两次数字的XOR值.java
  */

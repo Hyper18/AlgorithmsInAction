@@ -1,7 +1,7 @@
 package Array;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/07/25
  * @file M2844_生成特殊数字的最少操作.java
  * <p>

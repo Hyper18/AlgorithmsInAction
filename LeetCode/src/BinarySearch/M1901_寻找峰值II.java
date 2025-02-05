@@ -1,7 +1,7 @@
 package BinarySearch;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2023/12/19
  * @file M1901_寻找峰值II.java
  * <p>

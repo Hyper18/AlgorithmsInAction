@@ -1,7 +1,7 @@
 package Matrix;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2025/02/02
  * @file M598_区间加法II.java
  */

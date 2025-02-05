@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/09/07
  * @file M3177_求出最长好子序列II.java
  */

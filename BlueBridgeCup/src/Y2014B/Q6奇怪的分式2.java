@@ -1,7 +1,7 @@
 package Y2014B;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/03/20
  * 更保险的方式：
  * 分别比较分子、分组与两个结果的最大公约数的商是否一致

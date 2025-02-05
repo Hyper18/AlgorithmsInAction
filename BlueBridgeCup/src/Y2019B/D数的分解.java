@@ -5,7 +5,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/04/06
  */
 public class D数的分解 {

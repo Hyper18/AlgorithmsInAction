@@ -5,7 +5,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2023/11/30
  * @file M1657_确定两个字符串是否接近.java
  * <p>

@@ -7,7 +7,7 @@ import java.util.Deque;
 import java.util.StringTokenizer;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/06/06
  * <p>
  * 思路

@@ -3,7 +3,7 @@ package Graph.Bipartite;
 import java.util.Arrays;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/10/16
  * <p>
  * 思路

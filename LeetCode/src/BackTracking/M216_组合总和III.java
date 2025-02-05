@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/04/21
  * @file M216_组合总和III.java
  * <p>

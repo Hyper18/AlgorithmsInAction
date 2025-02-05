@@ -1,7 +1,7 @@
 package DP;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/11/01
  * @file M3259_超级饮料的最大强化能量.java
  * <p>

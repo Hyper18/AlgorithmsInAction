@@ -1,7 +1,7 @@
 package Matrix;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/07/05
  * @file M3033_修改矩阵.java
  */

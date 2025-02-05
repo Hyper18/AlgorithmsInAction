@@ -1,7 +1,7 @@
 package DP;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/02/13，2023/10/01
  * <p>
  * 思路

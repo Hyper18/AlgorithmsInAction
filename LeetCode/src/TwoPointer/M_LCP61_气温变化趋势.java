@@ -1,7 +1,7 @@
 package TwoPointer;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/06/21
  * @file M_LCP61_气温变化趋势.java
  * <p>

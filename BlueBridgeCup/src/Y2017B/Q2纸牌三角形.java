@@ -1,7 +1,7 @@
 package Y2017B;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/04/01
  * <p>
  * 启发我们全排列去重可以从数学角度入手比较快

@@ -1,7 +1,7 @@
 package Tree;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/04/24
  * @file M2385_感染二叉树需要的总时间.java
  * <p>

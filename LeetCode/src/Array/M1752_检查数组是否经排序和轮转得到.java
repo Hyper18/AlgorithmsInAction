@@ -1,7 +1,7 @@
 package Array;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/11/27
  * @file M1752_检查数组是否经排序和轮转得到.java
  * <p>

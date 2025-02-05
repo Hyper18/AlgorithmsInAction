@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.PriorityQueue;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/05/01
  * @file M2462_雇佣K位工人的总代价.java
  * <p>

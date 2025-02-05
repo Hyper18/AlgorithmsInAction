@@ -3,7 +3,7 @@ package TwoPointer;
 import java.util.Arrays;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2023/07/10
  * @file M16_最接近的三数之和.java
  */

@@ -3,7 +3,7 @@ package Math;
 import java.util.TreeMap;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/07/09
  * @file M3102_最小化曼哈顿距离.java
  * <p>

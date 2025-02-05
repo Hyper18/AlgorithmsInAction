@@ -7,7 +7,7 @@ import java.io.PrintWriter;
 import java.util.Scanner;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/02/17
  */
 public class A_基础练习_序列求和 {

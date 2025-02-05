@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/12/27
  * @file M3159_查询数组中元素的出现位置.java
  * <p>

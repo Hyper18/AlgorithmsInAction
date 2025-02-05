@@ -1,5 +1,5 @@
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2023/12/29
  * @file M2706_购买两块巧克力.java
  * <p>

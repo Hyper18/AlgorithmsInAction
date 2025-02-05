@@ -3,7 +3,7 @@ package Stack_Queue;
 import java.util.*;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/02/20
  * <p>
  * 思路

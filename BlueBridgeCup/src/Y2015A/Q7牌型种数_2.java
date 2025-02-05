@@ -1,7 +1,7 @@
 package Y2015A;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/03/22
  * 纯纯的暴力
  */

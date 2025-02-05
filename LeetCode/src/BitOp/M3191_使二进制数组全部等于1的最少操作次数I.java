@@ -1,7 +1,7 @@
 package BitOp;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/10/18
  * @file M3191_使二进制数组全部等于1的最少操作次数I.java
  * <p>

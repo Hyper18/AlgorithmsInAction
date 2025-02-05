@@ -1,9 +1,10 @@
 package Array;
 
-import java.util.*;
+import java.util.HashMap;
+import java.util.Map;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/12/28
  * @file M3046_分割数组.java
  */

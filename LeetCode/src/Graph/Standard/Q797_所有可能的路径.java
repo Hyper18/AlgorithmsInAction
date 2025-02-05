@@ -3,7 +3,7 @@ package Graph.Standard;
 import java.util.*;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/03/12
  * 1. dfs
  * 使用双端队列作替代时，应指定插入和删除的位置

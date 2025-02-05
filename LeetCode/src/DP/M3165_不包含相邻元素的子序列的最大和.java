@@ -1,7 +1,7 @@
 package DP;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/10/31
  * @file M3165_不包含相邻元素的子序列的最大和.java
  * <p>

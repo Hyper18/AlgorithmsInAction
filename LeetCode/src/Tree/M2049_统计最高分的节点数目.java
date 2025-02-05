@@ -3,7 +3,7 @@ package Tree;
 import java.util.Arrays;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/03/11
  */
 public class M2049_统计最高分的节点数目 {

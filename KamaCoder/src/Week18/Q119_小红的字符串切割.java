@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.Scanner;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/11/07
  * @file Q119_小红的字符串切割.java
  * <p>

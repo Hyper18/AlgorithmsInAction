@@ -3,7 +3,7 @@ package BackTracking;
 import java.util.*;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2025/02/05
  * @file M90_子集II.java
  * <p>

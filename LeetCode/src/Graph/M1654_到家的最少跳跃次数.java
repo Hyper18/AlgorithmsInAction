@@ -3,7 +3,7 @@ package Graph;
 import java.util.*;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2023/08/30
  * @file M1654_到家的最少跳跃次数.java
  * <p>

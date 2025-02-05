@@ -3,7 +3,7 @@
 using namespace std;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/09/23
  * @file Q62_不同路径.cpp
  */

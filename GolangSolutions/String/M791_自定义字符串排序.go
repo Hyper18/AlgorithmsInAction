@@ -1,5 +1,5 @@
 /*
-   @author Hyperspace
+   @author Hyper
    @date 2022/11/13
    @file M791_自定义字符串排序.go
 */

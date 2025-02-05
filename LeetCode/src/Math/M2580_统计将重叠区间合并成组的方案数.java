@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Comparator;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/03/27
  * @file M2580_统计将重叠区间合并成组的方案数.java
  * <p>

@@ -3,7 +3,7 @@ package practice.practice1;
 import java.io.*;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/02/17
  */
 public class B_基础练习_圆的面积 {

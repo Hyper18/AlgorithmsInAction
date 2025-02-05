@@ -3,7 +3,7 @@ package Math;
 import java.util.Arrays;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/08/02
  * @file M3128_直角三角形.java
  * <p>

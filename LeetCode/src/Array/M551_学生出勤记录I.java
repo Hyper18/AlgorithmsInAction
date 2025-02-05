@@ -1,7 +1,7 @@
 package Array;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/08/18
  * @file M551_学生出勤记录I.java
  */

@@ -1,7 +1,7 @@
 package BinarySearch;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/02/14，2024/11/10
  * <p>
  * 思路

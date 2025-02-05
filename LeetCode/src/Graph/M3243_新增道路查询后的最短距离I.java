@@ -5,7 +5,7 @@ import java.util.Comparator;
 import java.util.PriorityQueue;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/11/19
  * @file M3243_新增道路查询后的最短距离I.java
  * <p>

@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2025/01/23
  * @file M2920_收集所有金币可获得的最大积分.java
  */

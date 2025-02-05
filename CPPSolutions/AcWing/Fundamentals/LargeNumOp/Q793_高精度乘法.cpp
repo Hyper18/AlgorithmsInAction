@@ -3,7 +3,7 @@
 using namespace std;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/08/29
  * @file Q793_高精度乘法.cpp
  *

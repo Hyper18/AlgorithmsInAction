@@ -3,7 +3,7 @@ package Array;
 import java.util.List;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/11/21
  * @file M3248_矩阵中的蛇.java
  */

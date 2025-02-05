@@ -3,7 +3,7 @@ package DP.Knapsack;
 import java.util.Arrays;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/03/19
  * 01背包问题
  * 首先找dp含义

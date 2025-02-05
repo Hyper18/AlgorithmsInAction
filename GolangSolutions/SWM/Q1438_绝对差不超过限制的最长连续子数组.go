@@ -1,5 +1,5 @@
 /*
-	@author Hyperspace
+	@author Hyper
 	@date 2023/03/04
 	@file Q1438_绝对差不超过限制的最长连续子数组.go
 */

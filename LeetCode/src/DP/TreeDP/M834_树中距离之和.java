@@ -3,7 +3,7 @@ package DP.TreeDP;
 import java.util.Arrays;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2023/07/16
  * @file M834_树中距离之和.java
  * <p>

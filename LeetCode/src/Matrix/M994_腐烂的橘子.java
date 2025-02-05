@@ -4,7 +4,7 @@ import java.util.ArrayDeque;
 import java.util.Queue;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/05/13
  * @file M994_腐烂的橘子.java
  * <p>

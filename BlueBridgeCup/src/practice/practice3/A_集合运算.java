@@ -6,7 +6,7 @@ import java.io.PrintWriter;
 import java.util.*;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/02/28
  */
 public class A_集合运算 {

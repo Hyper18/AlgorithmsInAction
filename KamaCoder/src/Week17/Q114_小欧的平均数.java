@@ -3,7 +3,7 @@ package Week17;
 import java.util.Scanner;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/11/06
  * @file Q114_小欧的平均数.java
  * <p>

@@ -1,7 +1,7 @@
 package SWM;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/11/12
  * @file M3261_统计满足K约束的子字符串数量II.java
  * <p>

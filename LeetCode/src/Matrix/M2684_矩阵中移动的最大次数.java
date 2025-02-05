@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/03/16
  * @file M2684_矩阵中移动的最大次数.java
  * <p>

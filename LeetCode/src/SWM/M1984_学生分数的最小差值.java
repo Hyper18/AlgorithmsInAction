@@ -3,7 +3,7 @@ package SWM;
 import java.util.Arrays;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/02/11
  * 思路
  * 滑动窗口，k作为窗口宽度

@@ -4,7 +4,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2023/07/19
  * @file M874_模拟行走机器人.java
  * <p>

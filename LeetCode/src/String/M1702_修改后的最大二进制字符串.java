@@ -1,7 +1,7 @@
 package String;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/04/10
  * @file M1702_修改后的最大二进制字符串.java
  * <p>

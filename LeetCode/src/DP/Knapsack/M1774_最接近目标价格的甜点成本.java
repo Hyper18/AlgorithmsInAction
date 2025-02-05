@@ -3,7 +3,7 @@ package DP.Knapsack;
 import java.util.Arrays;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/12/04
  * @file M1774_最接近目标价格的甜点成本.java
  */

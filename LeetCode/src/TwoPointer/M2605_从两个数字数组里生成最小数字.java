@@ -3,7 +3,7 @@ package TwoPointer;
 import java.util.Arrays;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2023/09/05
  * @file M2605_从两个数字数组里生成最小数字.java
  * <p>

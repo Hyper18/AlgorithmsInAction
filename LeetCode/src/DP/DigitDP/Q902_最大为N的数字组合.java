@@ -3,7 +3,7 @@ package DP.DigitDP;
 import java.util.Arrays;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/08/24
  * @file Q902_最大为N的数字组合.java
  * <p>

@@ -1,7 +1,7 @@
 package Tree;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/03/01
  * <p>
  * 1. 递归写法

@@ -5,7 +5,7 @@ import java.util.Comparator;
 import java.util.PriorityQueue;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/12/12
  * @file M2931_购买物品的最大开销.java
  * <p>

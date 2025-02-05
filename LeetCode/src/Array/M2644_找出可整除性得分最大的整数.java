@@ -1,7 +1,7 @@
 package Array;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/05/18
  * @file M2644_找出可整除性得分最大的整数.java
  * <p>

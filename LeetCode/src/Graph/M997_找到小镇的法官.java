@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/09/22
  * @file M997_找到小镇的法官.java
  * <p>

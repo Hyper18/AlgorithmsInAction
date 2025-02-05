@@ -1,7 +1,7 @@
 package Array;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2023/09/20
  * @file M_LCP06_拿硬币.java
  * <p>

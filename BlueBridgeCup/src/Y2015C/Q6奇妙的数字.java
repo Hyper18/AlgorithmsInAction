@@ -4,7 +4,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/03/25
  * 奇妙的数字
  * <p>

@@ -3,7 +3,7 @@ package Week21;
 import java.util.Scanner;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/12/02
  * @file Q128_小美的排列询问.java
  * <p>

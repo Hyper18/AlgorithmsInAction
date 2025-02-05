@@ -3,7 +3,7 @@
 using namespace std;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/09/01
  * @file M面试题_17_06_2出现的次数.cpp
  */

@@ -3,7 +3,7 @@ package Array;
 import java.util.*;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/07/23
  * @file M3098_求出所有子序列的能量和.java
  * <p>

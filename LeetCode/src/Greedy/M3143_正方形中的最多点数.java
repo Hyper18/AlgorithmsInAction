@@ -5,7 +5,7 @@ import java.util.Comparator;
 import java.util.List;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/08/03
  * @file M3143_正方形中的最多点数.java
  * <p>

@@ -1,7 +1,7 @@
 package Competition.ComD72;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/02/19
  */
 public class Q5997_找到和为给定整数的三个连续整数 {

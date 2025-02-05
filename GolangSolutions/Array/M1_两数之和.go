@@ -1,5 +1,5 @@
 /*
-	@author Hyperspace
+	@author Hyper
 	@date 2023/07/01
 	@file M1_两数之和.go
 */

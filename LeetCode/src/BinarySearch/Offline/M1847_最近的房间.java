@@ -5,7 +5,7 @@ import java.util.Comparator;
 import java.util.TreeMap;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/12/16
  * @file M1847_最近的房间.java
  * <p>

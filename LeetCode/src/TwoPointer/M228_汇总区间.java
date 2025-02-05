@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2023/08/26
  * @file M228_汇总区间.java
  * <p>

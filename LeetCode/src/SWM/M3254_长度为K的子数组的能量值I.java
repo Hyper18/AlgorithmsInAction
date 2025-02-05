@@ -3,7 +3,7 @@ package SWM;
 import java.util.Arrays;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/11/06
  * @file M3254_长度为K的子数组的能量值I.java
  * <p>

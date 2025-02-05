@@ -1,7 +1,7 @@
 package Greedy;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2025/01/25
  * @file M2412_完成所有交易的初始最少钱数.java
  * <p>

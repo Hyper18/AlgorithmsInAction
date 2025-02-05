@@ -3,7 +3,7 @@ package Greedy;
 import java.util.Arrays;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2023/10/22
  * @file M1402_做菜顺序.java
  * <p>

@@ -1,7 +1,7 @@
 package String;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/04/01
  * @file M2810_故障键盘.java
  * <p>

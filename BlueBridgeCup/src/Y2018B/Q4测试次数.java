@@ -1,7 +1,7 @@
 package Y2018B;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/04/05
  * <p>
  * 第一下想到二分，但这个思路是走不通的

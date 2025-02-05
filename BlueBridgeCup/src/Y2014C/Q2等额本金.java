@@ -1,7 +1,7 @@
 package Y2014C;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/03/21
  */
 public class Q2等额本金 {

@@ -3,7 +3,7 @@ package Tree;
 import java.util.*;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2023/10/31
  * @file M2003_每棵子树内缺失的最小基因值.java
  * <p>

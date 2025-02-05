@@ -3,7 +3,7 @@ package Array;
 import java.util.Arrays;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/03/09
  * @file M2386_找出数组的第K大和.java
  * <p>

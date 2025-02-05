@@ -1,7 +1,7 @@
 package Y2015A;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/03/22
  * 方法一：13张牌，先抓一张牌
  * 递归：规模减一，然后交给其他人。

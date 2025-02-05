@@ -1,7 +1,7 @@
 package Array;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/08/22
  * @file M3133_数组最后一个元素的最小值.java
  * <p>

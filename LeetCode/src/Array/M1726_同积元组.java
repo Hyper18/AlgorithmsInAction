@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2023/10/19
  * @file M1726_同积元组.java
  * <p>

@@ -3,7 +3,7 @@ package Week18;
 import java.util.Scanner;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/11/07
  * @file Q118_小y删数字.java
  * <p>

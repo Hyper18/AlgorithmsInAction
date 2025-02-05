@@ -1,7 +1,7 @@
 package DisjointSet;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/03/12
  * <p>
  * 使用rank对合并过程进行优化

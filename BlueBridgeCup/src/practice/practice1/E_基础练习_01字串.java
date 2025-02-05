@@ -4,7 +4,7 @@ import java.io.OutputStreamWriter;
 import java.io.PrintWriter;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/02/17
  */
 public class E_基础练习_01字串 {

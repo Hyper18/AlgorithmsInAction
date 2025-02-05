@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/02/24
  * @file M2476_二叉搜索树最近节点查询.java
  * <p>

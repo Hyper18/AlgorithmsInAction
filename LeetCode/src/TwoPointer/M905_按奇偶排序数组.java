@@ -1,7 +1,7 @@
 package TwoPointer;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/04/28
  * <p>
  * 思路

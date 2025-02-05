@@ -1,7 +1,7 @@
 package Array;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2023/10/25
  * @file M2698_求一个整数的惩罚数.java
  * <p>

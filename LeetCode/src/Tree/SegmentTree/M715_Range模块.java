@@ -1,7 +1,7 @@
 package Tree.SegmentTree;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2023/11/12
  * @file M715_Range模块.java
  * <p>

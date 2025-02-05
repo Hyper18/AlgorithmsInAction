@@ -3,7 +3,7 @@ package Y2016A;
 import java.io.IOException;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/03/25
  */
 public class Q7剪邮票 {

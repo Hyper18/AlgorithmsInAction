@@ -3,7 +3,7 @@
 using namespace std;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/09/01
  * @file Q902_最大为N的数字组合.cpp
  */

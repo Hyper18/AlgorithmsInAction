@@ -1,7 +1,7 @@
 package DP;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2023/08/10
  * @file M1289_下降路径最小和II.java
  * <p>

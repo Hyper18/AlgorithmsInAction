@@ -3,7 +3,7 @@ package Graph.DFS;
 import java.util.Arrays;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/04/20
  */
 public class M388_文件的最长绝对路径 {

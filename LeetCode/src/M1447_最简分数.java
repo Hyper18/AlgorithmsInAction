@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/02/10
  * 思路
  * 暴力嵌套循环枚举，分子和分母的最大公约数为1表示其互质，是为最简分数。

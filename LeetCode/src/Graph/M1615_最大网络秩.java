@@ -1,7 +1,7 @@
 package Graph;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2023/03/15
  * @file M1615_最大网络秩.java
  * <p>

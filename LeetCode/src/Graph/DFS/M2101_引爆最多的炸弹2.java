@@ -3,7 +3,7 @@ package Graph.DFS;
 import java.util.Arrays;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/07/22
  * @file M2101_引爆最多的炸弹2.java
  */

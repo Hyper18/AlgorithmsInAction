@@ -3,7 +3,7 @@ package TwoPointer;
 import java.util.Arrays;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/11/17
  * @file M825_适龄的朋友.java
  * <p>

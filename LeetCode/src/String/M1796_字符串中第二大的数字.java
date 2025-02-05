@@ -1,7 +1,7 @@
 package String;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/12/03
  * @file M1796_字符串中第二大的数字.java
  * <p>

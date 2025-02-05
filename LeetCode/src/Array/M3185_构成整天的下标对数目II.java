@@ -1,7 +1,7 @@
 package Array;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/10/23
  * @file M3185_构成整天的下标对数目II.java
  * <p>

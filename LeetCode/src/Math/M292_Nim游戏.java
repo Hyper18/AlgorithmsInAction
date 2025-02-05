@@ -1,7 +1,7 @@
 package Math;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/02/04
  * @file M292_Nim游戏.java
  */

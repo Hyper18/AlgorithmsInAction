@@ -6,7 +6,7 @@ import java.util.Map;
 import java.util.Set;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/07/16
  * @file M2956_找到两个数组中的公共元素.java
  * <p>

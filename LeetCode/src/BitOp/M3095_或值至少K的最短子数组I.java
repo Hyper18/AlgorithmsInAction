@@ -1,7 +1,7 @@
 package BitOp;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2025/01/16
  * @file M3095_或值至少K的最短子数组I.java
  * <p>

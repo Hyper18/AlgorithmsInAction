@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.StringTokenizer;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/11/23
  * @file Q1081_度的数量.java
  * <p>

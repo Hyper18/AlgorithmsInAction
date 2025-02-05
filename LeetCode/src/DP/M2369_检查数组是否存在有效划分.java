@@ -1,7 +1,7 @@
 package DP;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/03/01
  * @file M2369_检查数组是否存在有效划分.java
  * <p>

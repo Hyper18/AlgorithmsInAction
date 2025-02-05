@@ -1,7 +1,7 @@
 package Array;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/06/18
  * @file M2288_价格减免.java
  * <p>

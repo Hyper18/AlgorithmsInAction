@@ -1,7 +1,7 @@
 package Y2015C;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/03/24
  * 注意最后一位需要四舍五入
  */

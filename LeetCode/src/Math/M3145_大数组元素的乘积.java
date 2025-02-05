@@ -1,7 +1,7 @@
 package Math;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/08/23
  * @file M3145_大数组元素的乘积.java
  * <p>

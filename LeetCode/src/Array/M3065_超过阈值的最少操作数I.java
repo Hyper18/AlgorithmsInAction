@@ -1,7 +1,7 @@
 package Array;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2025/01/14
  * @file M3065_超过阈值的最少操作数I.java
  */

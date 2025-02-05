@@ -3,7 +3,7 @@ package Design;
 import java.util.Arrays;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/04/15
  * @file M706_设计哈希映射.java
  * <p>

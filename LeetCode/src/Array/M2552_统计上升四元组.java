@@ -1,7 +1,7 @@
 package Array;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/09/10
  * @file M2552_统计上升四元组.java
  * <p>

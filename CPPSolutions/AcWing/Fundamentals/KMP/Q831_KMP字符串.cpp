@@ -3,7 +3,7 @@
 using namespace std;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/12/18
  * @file Q831_KMP字符串.cpp
  *

@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/02/13
  * 周赛时没完全pass，主要难点在于处理nums[i - 1] != nums[i]条件
  * <p>

@@ -3,7 +3,7 @@ package BackTracking;
 import java.util.Arrays;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/08/19
  * @file M552_学生出勤记录II.java
  * <p>

@@ -1,7 +1,7 @@
 package Matrix;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2023/08/11
  * @file M1572_矩阵对角线元素的和.java
  * <p>

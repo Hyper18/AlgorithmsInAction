@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2023/07/09
  * @file M15_三数之和.java
  * <p>

@@ -1,7 +1,7 @@
 package Array;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2023/09/02
  * @file M2511_最多可以摧毁的敌人城堡数目.java
  * <p>

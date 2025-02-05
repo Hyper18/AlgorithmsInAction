@@ -3,7 +3,7 @@ package String;
 import java.util.Arrays;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/03/13
  * @file M2864_最大二进制奇数.java
  * <p>

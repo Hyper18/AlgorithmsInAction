@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/03/31
  * @file M331_验证二叉树的前序序列化.java
  * <p>

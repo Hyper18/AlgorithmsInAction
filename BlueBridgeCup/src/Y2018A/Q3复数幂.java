@@ -3,7 +3,7 @@ package Y2018A;
 import java.math.BigInteger;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/04/03
  */
 public class Q3复数幂 {

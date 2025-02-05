@@ -3,7 +3,7 @@ package Design;
 import java.util.PriorityQueue;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2023/11/30
  * @file M2336_无限集中的最小数字.java
  * <p>

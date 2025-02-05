@@ -1,5 +1,5 @@
 /*
-	@author Hyperspace
+	@author Hyper
 	@date 2023/03/04
 	@file Q567_字符串的排列.go
 */

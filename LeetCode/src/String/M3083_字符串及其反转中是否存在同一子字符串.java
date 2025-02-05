@@ -1,7 +1,7 @@
 package String;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/12/26
  * @file M3083_字符串及其反转中是否存在同一子字符串.java
  */

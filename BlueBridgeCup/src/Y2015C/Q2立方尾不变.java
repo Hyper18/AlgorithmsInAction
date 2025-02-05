@@ -1,7 +1,7 @@
 package Y2015C;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/03/24
  * 坑点在于int值的三次方在4位数后会爆int
  * 需要强转为long处理

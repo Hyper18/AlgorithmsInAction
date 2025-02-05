@@ -4,7 +4,7 @@ import java.math.BigInteger;
 import java.util.Arrays;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/10/26
  * @file M3181_执行操作可获得的最大总奖励II.java
  * <p>

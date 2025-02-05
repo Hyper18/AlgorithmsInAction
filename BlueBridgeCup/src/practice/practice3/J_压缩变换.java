@@ -4,7 +4,7 @@ import java.io.*;
 import java.util.*;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/03/07
  * <p>
  * 1. 暴力模拟 50/100，内存会超

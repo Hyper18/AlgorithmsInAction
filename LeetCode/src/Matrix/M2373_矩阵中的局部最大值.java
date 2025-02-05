@@ -1,7 +1,7 @@
 package Matrix;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2023/03/02
  * @file M2373_矩阵中的局部最大值.java
  * <p>

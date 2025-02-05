@@ -1,7 +1,7 @@
 package Graph;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/03/08
  * dfs
  * 相较于普通岛屿问题，还多了一层筛选条件：

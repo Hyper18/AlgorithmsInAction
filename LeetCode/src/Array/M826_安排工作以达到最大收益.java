@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.PriorityQueue;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/05/18
  * @file M826_安排工作以达到最大收益.java
  * <p>

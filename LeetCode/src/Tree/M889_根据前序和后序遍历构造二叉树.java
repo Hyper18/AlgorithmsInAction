@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/02/22
  * @file M889_根据前序和后序遍历构造二叉树.java
  * <p>

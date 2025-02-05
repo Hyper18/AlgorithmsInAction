@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2023/09/14
  * @file M1222_可以攻击国王的皇后.java
  * <p>

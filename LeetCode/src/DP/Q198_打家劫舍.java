@@ -1,7 +1,7 @@
 package DP;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/03/08，2023/09/16
  * <p>
  * 主要思考点在于找到状态转移方程

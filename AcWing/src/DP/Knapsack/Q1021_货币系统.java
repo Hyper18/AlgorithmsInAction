@@ -4,7 +4,7 @@ import java.io.*;
 import java.util.StringTokenizer;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/05/11
  * <p>
  * 注：没考虑数据量上限WA了，实际会爆int

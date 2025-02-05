@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/06/04
  * @file M3067_在带权树网络中统计可连接服务器对数目.java
  * <p>

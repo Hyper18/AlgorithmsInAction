@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/03/04
  * @file M2368_受限条件下可到达节点的数目.java
  * <p>

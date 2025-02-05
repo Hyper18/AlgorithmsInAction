@@ -6,7 +6,7 @@ import java.util.Queue;
 import java.util.StringTokenizer;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/06/05
  * <p>
  * 在原有bfs问题的基础上，为了求出最短的两点之间的路线

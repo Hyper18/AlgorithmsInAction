@@ -3,7 +3,7 @@ package DP.DigitDP;
 import java.util.Arrays;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/08/21，2024/09/20
  * @file Q2376_统计特殊整数.java
  * <p>

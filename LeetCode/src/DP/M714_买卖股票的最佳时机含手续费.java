@@ -1,7 +1,7 @@
 package DP;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2023/10/06
  * @file M714_买卖股票的最佳时机含手续费.java
  * <p>

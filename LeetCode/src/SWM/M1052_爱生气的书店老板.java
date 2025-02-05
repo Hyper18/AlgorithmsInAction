@@ -4,7 +4,7 @@ import java.util.ArrayDeque;
 import java.util.Queue;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/04/23
  * @file M1052_爱生气的书店老板.java
  * <p>

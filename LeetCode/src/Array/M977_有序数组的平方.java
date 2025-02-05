@@ -3,7 +3,7 @@ package Array;
 import java.util.Arrays;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/02/12，2024/09/08
  * @file M977_有序数组的平方.java
  */

@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/02/20，2023/07/06
  * @file M2178_拆分成最多数目的正偶数之和.java
  * <p>

@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.TreeSet;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/10/16
  * @file M3194_最小元素和最大元素的最小平均值.java
  */

@@ -6,7 +6,7 @@ import java.util.Set;
 import java.util.StringTokenizer;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/06/24
  */
 public class Q4269_校庆 {

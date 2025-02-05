@@ -1,5 +1,5 @@
 /**
- * @author Vincent
+ * @author Hyper
  */
 public class P1000_超级玛丽游戏 {
     public static void main(String[] args) {

@@ -1,7 +1,7 @@
 package Matrix;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2023/03/14
  * @file M1605_给定行和列的和求可行矩阵.java
  * <p>

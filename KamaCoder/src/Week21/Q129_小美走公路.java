@@ -3,7 +3,7 @@ package Week21;
 import java.util.Scanner;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/12/02
  * @file Q129_小美走公路.java
  * <p>

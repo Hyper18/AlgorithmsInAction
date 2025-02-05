@@ -3,7 +3,7 @@ package Stack_Queue;
 import java.util.Stack;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/02/20
  */
 public class Q232_用栈实现队列 {

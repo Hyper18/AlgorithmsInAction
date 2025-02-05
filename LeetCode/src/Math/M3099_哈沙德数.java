@@ -1,7 +1,7 @@
 package Math;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/07/03
  * @file M3099_哈沙德数.java
  * <p>

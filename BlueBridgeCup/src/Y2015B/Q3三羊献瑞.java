@@ -1,7 +1,7 @@
 package Y2015B;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/03/23
  * 暴力模拟即可，很多时候不需要想太多
  * 直接嵌套for循环即可

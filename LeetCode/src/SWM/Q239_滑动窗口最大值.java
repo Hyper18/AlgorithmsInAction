@@ -3,7 +3,7 @@ package SWM;
 import java.util.PriorityQueue;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2023/02/28
  * @file Q239_滑动窗口最大值.java
  * <p>

@@ -3,7 +3,7 @@ package Week23;
 import java.util.*;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/12/16
  * @file Q136_获取连通的相邻节点列表.java
  * <p>

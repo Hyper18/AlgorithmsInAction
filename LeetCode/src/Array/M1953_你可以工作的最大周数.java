@@ -1,7 +1,7 @@
 package Array;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/05/18
  * @file M1953_你可以工作的最大周数.java
  * <p>

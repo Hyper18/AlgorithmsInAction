@@ -3,7 +3,7 @@ package Graph;
 import java.util.Arrays;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2023/04/15
  * @file M1042_不邻接植花.java
  * <p>

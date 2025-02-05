@@ -3,7 +3,7 @@ package DP;
 import java.util.Arrays;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/11/20
  * @file M799_香槟塔.java
  * <p>

@@ -1,7 +1,7 @@
 package Math;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/03/25
  * @file Q50.java
  * <p>

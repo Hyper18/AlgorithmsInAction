@@ -3,7 +3,7 @@
 using namespace std;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/10/09
  * @file M3171_找到按位或最接近K的子数组.cpp
  */

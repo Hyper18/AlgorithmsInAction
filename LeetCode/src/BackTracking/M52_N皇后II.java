@@ -1,7 +1,7 @@
 package BackTracking;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/12/02
  * @file M52_N皇后II.java
  * <p>

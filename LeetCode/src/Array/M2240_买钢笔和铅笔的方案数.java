@@ -1,7 +1,7 @@
 package Array;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2023/09/01
  * @file M2240_买钢笔和铅笔的方案数.java
  * <p>

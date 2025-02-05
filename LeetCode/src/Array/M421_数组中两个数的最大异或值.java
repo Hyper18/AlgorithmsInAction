@@ -4,7 +4,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2023/11/04
  * @file M421_数组中两个数的最大异或值.java
  * <p>

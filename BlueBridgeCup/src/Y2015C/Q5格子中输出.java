@@ -1,7 +1,7 @@
 package Y2015C;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/03/25
  * stringInGrid方法会在一个指定大小的格子中打印指定的字符串。
  * 要求字符串在水平、垂直两个方向上都居中。

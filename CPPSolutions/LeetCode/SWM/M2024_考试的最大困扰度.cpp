@@ -3,7 +3,7 @@
 using namespace std;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/09/02
  * @file M2024_考试的最大困扰度.cpp
  */

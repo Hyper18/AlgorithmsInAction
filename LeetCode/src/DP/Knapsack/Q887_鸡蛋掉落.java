@@ -1,7 +1,7 @@
 package DP.Knapsack;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/11/01，2024/10/14
  * <p>
  * 思路@Missionary

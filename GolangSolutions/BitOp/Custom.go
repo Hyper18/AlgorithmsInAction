@@ -1,5 +1,5 @@
 /*
-	@author Hyperspace
+	@author Hyper
 	@date 2024/10/09
 	@file Custom.go
 */

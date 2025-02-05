@@ -1,7 +1,7 @@
 package Graph.Standard;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/03/12
  * <p>
  * 主要要考虑是否有多余的线用于替换

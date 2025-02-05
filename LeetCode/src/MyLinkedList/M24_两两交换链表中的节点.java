@@ -1,7 +1,7 @@
 package MyLinkedList;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2023/08/06
  * @file M24_两两交换链表中的节点.java
  * <p>

@@ -1,7 +1,7 @@
 package Math;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/03/08
  * @file M2834_找出美丽数组的最小和.java
  * <p>

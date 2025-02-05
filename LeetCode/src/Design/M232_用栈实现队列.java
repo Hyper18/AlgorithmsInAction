@@ -3,7 +3,7 @@ package Design;
 import java.util.Stack;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/03/04
  * @file M232_用栈实现队列.java
  * <p>

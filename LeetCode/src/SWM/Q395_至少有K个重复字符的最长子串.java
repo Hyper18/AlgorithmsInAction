@@ -1,7 +1,7 @@
 package SWM;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2023/03/04
  * @file Q395_至少有K个重复字符的最长子串.java
  * <p>

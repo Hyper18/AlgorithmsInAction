@@ -1,7 +1,7 @@
 package Array;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/03/10
  * @file M299_猜数字游戏.java
  * <p>

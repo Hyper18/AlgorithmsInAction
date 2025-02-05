@@ -1,7 +1,7 @@
 package Array;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2023/10/23
  * @file M2678_老人的数目.java
  * <p>

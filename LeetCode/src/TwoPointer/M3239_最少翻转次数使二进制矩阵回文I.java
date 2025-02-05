@@ -1,7 +1,7 @@
 package TwoPointer;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/11/15
  * @file M3239_最少翻转次数使二进制矩阵回文I.java
  */

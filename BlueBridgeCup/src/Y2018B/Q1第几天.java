@@ -1,7 +1,7 @@
 package Y2018B;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/04/05
  */
 public class Q1第几天 {

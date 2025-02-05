@@ -1,7 +1,7 @@
 package DP.Knapsack;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/03/19
  * 这题相对比较好理解
  * 将原问题转化为二维背包问题

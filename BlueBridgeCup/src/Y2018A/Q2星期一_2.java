@@ -1,7 +1,7 @@
 package Y2018A;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/04/03
  * <p>
  * 标题：星期一

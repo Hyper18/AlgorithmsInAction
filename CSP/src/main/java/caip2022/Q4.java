@@ -1,7 +1,7 @@
 package caip2022;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/07/10
  */
 public class Q4 {

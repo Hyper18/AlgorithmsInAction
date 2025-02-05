@@ -3,7 +3,7 @@ package DP;
 import java.util.Arrays;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2023/03/04
  * @file M982_按位与为零的三元组.java
  * <p>

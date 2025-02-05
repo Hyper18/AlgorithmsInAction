@@ -4,7 +4,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/02/19，2023/07/29
  * <p>
  * 1. set验重 -- O(n)

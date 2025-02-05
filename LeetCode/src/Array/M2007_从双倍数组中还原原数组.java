@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/04/18
  * @file M2007_从双倍数组中还原原数组.java
  * <p>

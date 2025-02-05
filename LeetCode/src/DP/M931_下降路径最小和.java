@@ -3,7 +3,7 @@ package DP;
 import java.util.Arrays;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2023/07/13
  * @file M931_下降路径最小和.java
  * <p>

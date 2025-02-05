@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.HashSet;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2023/06/28
  * @file M1681_最小不兼容性.java
  * <p>

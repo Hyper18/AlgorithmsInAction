@@ -1,7 +1,7 @@
 package Greedy;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/07/27
  * @file M3106_满足距离约束且字典序最小的字符串.java
  * <p>

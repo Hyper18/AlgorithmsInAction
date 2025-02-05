@@ -4,7 +4,7 @@ import java.util.ArrayDeque;
 import java.util.Deque;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/10/21，2023/10/07
  * <p>
  * 思路

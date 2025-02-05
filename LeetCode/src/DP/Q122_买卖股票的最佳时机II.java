@@ -1,7 +1,7 @@
 package DP;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2023/10/02
  * @file Q122_买卖股票的最佳时机II.java
  * <p>

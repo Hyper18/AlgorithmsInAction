@@ -5,7 +5,7 @@ import java.util.Map;
 import java.util.TreeMap;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2023/10/08
  * @file M2034_股票价格波动.java
  * <p>

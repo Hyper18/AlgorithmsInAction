@@ -1,7 +1,7 @@
 package Array;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/09/01
  * @file M1450_在既定时间做作业的学生人数.java
  */

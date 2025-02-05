@@ -3,7 +3,7 @@ package Array;
 import java.util.PriorityQueue;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2025/01/14
  * @file M3066_超过阈值的最少操作数II.java
  * <p>

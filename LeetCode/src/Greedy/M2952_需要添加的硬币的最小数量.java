@@ -3,7 +3,7 @@ package Greedy;
 import java.util.Arrays;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/03/30
  * @file M2952_需要添加的硬币的最小数量.java
  * <p>

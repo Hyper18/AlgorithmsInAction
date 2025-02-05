@@ -1,7 +1,7 @@
 package Y2021BFinal;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/06/16
  */
 public class A_整数范围 {

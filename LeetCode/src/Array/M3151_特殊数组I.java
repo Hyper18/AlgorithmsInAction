@@ -1,7 +1,7 @@
 package Array;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/08/13
  * @file M3151_特殊数组I.java
  * <p>

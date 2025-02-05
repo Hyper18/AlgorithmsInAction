@@ -3,7 +3,7 @@ package Y2017C;
 import java.math.BigInteger;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/04/02
  * <p>
  * 标题：外星日历

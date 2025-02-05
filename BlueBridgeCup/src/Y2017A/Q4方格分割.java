@@ -1,7 +1,7 @@
 package Y2017A;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/03/31
  * <p>
  * 标题：方格分割

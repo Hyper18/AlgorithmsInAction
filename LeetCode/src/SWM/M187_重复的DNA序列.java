@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2023/11/06
  * @file M187_重复的DNA序列.java
  * <p>

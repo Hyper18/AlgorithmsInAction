@@ -3,7 +3,7 @@ package Week19;
 import java.util.Scanner;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/11/11
  * @file Q124_小红的数组构造.java
  * <p>

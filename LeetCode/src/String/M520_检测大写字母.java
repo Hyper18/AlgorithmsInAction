@@ -1,7 +1,7 @@
 package String;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/06/23
  * @file M520_检测大写字母.java
  * <p>

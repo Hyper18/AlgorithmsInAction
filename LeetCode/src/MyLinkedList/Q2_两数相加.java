@@ -1,7 +1,7 @@
 package MyLinkedList;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/02/20，2023/07/02
  * <p>
  * 思路

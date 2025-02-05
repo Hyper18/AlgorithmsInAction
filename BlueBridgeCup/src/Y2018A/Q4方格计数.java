@@ -1,7 +1,7 @@
 package Y2018A;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/04/03
  * 计算第一象限包含的右上顶点的个数 * 4
  * <p>

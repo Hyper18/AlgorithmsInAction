@@ -1,7 +1,7 @@
 package String;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2023/11/06
  * @file M318_最大单词长度乘积.java
  * <p>

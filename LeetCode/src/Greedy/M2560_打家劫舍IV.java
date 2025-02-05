@@ -3,7 +3,7 @@ package Greedy;
 import java.util.Arrays;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2023/09/19
  * @file M2560_打家劫舍IV.java
  * <p>

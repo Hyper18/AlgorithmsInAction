@@ -1,7 +1,7 @@
 package DP.Knapsack;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/10/07
  * @file M871_最低加油次数.java
  * <p>

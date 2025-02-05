@@ -3,7 +3,7 @@ package Array;
 import java.util.Arrays;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2025/01/06
  * @file M2274_不含特殊楼层的最大连续楼层数.java
  */

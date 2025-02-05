@@ -1,7 +1,7 @@
 package Tree;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/04/05
  * @file M1026_节点与其祖先之间的最大差值.java
  * <p>

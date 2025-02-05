@@ -1,7 +1,7 @@
 package BinarySearch;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/03/01
  */
 public class Q33_搜索旋转排序数组 {

@@ -1,7 +1,7 @@
 package String;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/03/11
  * @file M2129_将标题首字母大写.java
  * <p>

@@ -1,7 +1,7 @@
 package DP;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/09/06
  * @file M3176_求出最长好子序列I.java
  * <p>

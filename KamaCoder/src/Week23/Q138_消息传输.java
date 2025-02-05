@@ -6,7 +6,7 @@ import java.util.Queue;
 import java.util.Scanner;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/12/16
  * @file Q138_消息传输.java
  * <p>

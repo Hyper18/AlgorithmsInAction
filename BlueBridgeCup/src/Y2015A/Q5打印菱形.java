@@ -1,7 +1,7 @@
 package Y2015A;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/03/21
  * 挺有意思的一道题
  * 思路在于控制中间子串，左边累加. 右边补*

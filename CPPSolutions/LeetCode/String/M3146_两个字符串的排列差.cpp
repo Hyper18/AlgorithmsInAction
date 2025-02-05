@@ -5,7 +5,7 @@ using namespace std;
 typedef long long LL;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/08/24
  * @file M3146_两个字符串的排列差.cpp
  */

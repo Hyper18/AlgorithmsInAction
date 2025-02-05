@@ -3,7 +3,7 @@
 using namespace std;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/12/16
  * @file Q2070_每一个查询的最大美丽值.cpp
  */

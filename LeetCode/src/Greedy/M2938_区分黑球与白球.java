@@ -1,7 +1,7 @@
 package Greedy;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/06/06
  * @file M2938_区分黑球与白球.java
  * <p>

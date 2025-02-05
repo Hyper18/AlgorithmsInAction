@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.StringTokenizer;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/03/18
  * 混合背包问题
  * <p>

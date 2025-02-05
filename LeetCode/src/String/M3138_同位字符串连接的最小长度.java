@@ -3,7 +3,7 @@ package String;
 import java.util.Arrays;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/12/20
  * @file M3138_同位字符串连接的最小长度.java
  * <p>

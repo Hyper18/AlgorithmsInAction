@@ -1,7 +1,7 @@
 package Greedy;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2023/03/05
  * @file M1599_经营摩天轮的最大利润.java
  * <p>

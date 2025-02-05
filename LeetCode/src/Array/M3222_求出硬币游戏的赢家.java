@@ -1,7 +1,7 @@
 package Array;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/11/05
  * @file M3222_求出硬币游戏的赢家.java
  * <p>

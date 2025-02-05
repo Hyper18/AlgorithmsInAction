@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/08/27
  * @file M3134_找出唯一性数组的中位数.java
  * <p>

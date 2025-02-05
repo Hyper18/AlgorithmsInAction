@@ -1,7 +1,7 @@
 package Array;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/11/29
  * @file M1758_生成交替二进制字符串的最少操作数.java
  */

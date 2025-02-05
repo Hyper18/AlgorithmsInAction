@@ -5,7 +5,7 @@ import java.math.BigInteger;
 import java.util.StringTokenizer;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/03/29
  * <p>
  * 使用BigInteger的做法

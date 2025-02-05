@@ -1,7 +1,7 @@
 package SWM;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/11/26
  * @file M3206_交替组I.java
  * <p>

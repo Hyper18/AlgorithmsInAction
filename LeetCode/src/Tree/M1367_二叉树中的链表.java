@@ -1,7 +1,7 @@
 package Tree;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/12/30
  * @file M1367_二叉树中的链表.java
  * <p>

@@ -3,7 +3,7 @@ package Graph;
 import java.util.Arrays;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2023/12/05
  * @file M2477_到达首都的最少油耗.java
  * <p>

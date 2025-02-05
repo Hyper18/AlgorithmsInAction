@@ -1,7 +1,7 @@
 package TwoPointer;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/02/12
  * 思路
  * 双指针 --  O(n)

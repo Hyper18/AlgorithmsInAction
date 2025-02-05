@@ -1,7 +1,7 @@
 package String;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2023/04/17
  * @file M2409_统计共同度过的日子数.java
  * <p>

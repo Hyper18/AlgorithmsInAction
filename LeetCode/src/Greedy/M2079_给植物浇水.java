@@ -1,7 +1,7 @@
 package Greedy;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/05/08
  * @file M2079_给植物浇水.java
  * <p>

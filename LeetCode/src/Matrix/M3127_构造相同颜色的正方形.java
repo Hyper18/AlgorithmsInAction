@@ -1,7 +1,7 @@
 package Matrix;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/08/31
  * @file M3127_构造相同颜色的正方形.java
  */

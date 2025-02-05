@@ -3,7 +3,7 @@ package Y2013A;
 import java.math.BigInteger;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/03/13
  * BigInteger类的使用
  */

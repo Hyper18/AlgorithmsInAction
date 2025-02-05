@@ -1,7 +1,7 @@
 package Graph;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/04/16
  * @file M924_尽量减少恶意软件的传播.java
  * <p>

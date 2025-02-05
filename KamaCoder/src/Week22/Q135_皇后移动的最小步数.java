@@ -5,7 +5,7 @@ import java.util.Queue;
 import java.util.Scanner;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/12/11
  * @file Q135_皇后移动的最小步数.java
  * <p>

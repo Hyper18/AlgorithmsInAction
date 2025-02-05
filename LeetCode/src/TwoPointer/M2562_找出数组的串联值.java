@@ -1,7 +1,7 @@
 package TwoPointer;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2023/10/12
  * @file M2562_找出数组的串联值.java
  * <p>

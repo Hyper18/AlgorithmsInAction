@@ -3,7 +3,7 @@ package Y2014A;
 import java.util.Arrays;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/03/16
  * 主要坑在去重上
  * 首先满足乘法交换律的视为同一情况

@@ -1,7 +1,7 @@
 package Matrix;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2023/08/04
  * @file M980_不同路径III.java
  * <p>

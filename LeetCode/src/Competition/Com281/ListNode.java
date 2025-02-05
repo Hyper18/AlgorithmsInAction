@@ -1,7 +1,7 @@
 package Competition.Com281;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/02/20
  * Definition for singly-linked list.
  */

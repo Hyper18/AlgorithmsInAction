@@ -1,7 +1,7 @@
 package Tree.SegmentTree;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2023/07/26
  * @file M2569_更新数组后处理求和查询.java
  * <p>

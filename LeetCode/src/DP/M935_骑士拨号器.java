@@ -3,7 +3,7 @@ package DP;
 import java.util.Arrays;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/12/10
  * @file M935_骑士拨号器.java
  * <p>

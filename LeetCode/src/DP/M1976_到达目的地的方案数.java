@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.Deque;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/03/05
  * @file M1976_到达目的地的方案数.java
  * <p>

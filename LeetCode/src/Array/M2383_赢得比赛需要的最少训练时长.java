@@ -1,7 +1,7 @@
 package Array;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2023/03/14
  * @file M2383_赢得比赛需要的最少训练时长.java
  * <p>

@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.StringTokenizer;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/05/14
  * <p>
  * 思路 状压dp

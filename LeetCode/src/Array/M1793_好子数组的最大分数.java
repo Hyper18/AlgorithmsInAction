@@ -1,7 +1,7 @@
 package Array;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/03/19
  * @file M1793_好子数组的最大分数.java
  * <p>

@@ -5,7 +5,7 @@ import java.util.Collections;
 import java.util.List;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/03/08
  * 回溯算法 -- O(n×n!)
  * 参考官解

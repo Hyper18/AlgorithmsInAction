@@ -1,7 +1,7 @@
 package BinarySearch;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/02/11
  * 思路
  * BinarySearch，左闭右开型

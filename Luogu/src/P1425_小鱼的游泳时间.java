@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 /**
- * @author Vincent
+ * @author Hyper
  */
 public class P1425_小鱼的游泳时间 {
     public static void main(String[] args) {

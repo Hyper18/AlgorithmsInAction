@@ -3,7 +3,7 @@ package MyLinkedList;
 import java.util.Stack;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/02/20
  * <p>
  * 1. stack

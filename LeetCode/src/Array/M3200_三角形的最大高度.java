@@ -1,7 +1,7 @@
 package Array;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/10/15
  * @file M3200_三角形的最大高度.java
  * <p>

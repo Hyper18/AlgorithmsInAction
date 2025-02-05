@@ -1,7 +1,7 @@
 package Array;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/11/30
  * @file M3232_判断是否可以赢得数字游戏.java
  * <p>

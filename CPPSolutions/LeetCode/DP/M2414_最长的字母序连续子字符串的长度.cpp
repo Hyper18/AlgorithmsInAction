@@ -3,7 +3,7 @@
 using namespace std;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/09/19
  * @file M2414_最长的字母序连续子字符串的长度.cpp
  */

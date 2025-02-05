@@ -3,7 +3,7 @@ package DP.DigitDP;
 import java.util.Arrays;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/08/23
  * @file Q233_数字1的个数.java
  * <p>

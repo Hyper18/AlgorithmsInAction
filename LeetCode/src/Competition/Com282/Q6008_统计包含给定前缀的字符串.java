@@ -1,7 +1,7 @@
 package Competition.Com282;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/02/27
  */
 public class Q6008_统计包含给定前缀的字符串 {

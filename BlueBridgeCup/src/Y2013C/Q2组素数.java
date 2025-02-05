@@ -1,7 +1,7 @@
 package Y2013C;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/03/16
  */
 public class Q2组素数 {

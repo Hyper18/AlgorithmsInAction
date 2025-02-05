@@ -3,7 +3,7 @@ package BinarySearch;
 import java.util.Arrays;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/02/11
  * 1. 调内置API
  * 2. 手写二分查找

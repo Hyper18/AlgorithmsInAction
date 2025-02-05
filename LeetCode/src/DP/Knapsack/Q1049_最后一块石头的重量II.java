@@ -3,7 +3,7 @@ package DP.Knapsack;
 import java.util.Arrays;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/03/19
  * 发现这类题目题干信息都比较隐蔽
  * 需要考虑如何将原问题转化为背包问题

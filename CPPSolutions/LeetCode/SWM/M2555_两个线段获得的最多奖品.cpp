@@ -3,7 +3,7 @@
 using namespace std;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/09/11
  * @file M2555_两个线段获得的最多奖品.cpp
  */

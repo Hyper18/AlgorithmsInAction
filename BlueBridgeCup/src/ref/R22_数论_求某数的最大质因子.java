@@ -1,7 +1,7 @@
 package ref;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/03/20
  */
 public class R22_数论_求某数的最大质因子 {

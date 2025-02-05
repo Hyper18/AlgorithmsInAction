@@ -3,7 +3,7 @@ package DP;
 import java.util.Arrays;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/07/21
  * @file M1186_删除一次得到子数组最大和.java
  * <p>

@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.PriorityQueue;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/12/25
  * @file M3218_切蛋糕的最小总开销I.java
  * <p>

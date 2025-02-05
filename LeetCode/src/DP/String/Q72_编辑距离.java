@@ -1,7 +1,7 @@
 package DP.String;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/03/08
  */
 public class Q72_编辑距离 {

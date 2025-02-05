@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.StringTokenizer;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/05/11
  * <p>
  * 思路 求最大的线性无关组 -- 类似素数筛做法

@@ -5,7 +5,7 @@ using namespace std;
 typedef long long LL;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/09/25
  * @file M2306_公司命名.cpp
  */

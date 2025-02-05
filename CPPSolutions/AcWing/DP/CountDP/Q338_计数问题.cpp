@@ -4,7 +4,7 @@ using namespace std;
 #include <vector>
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/05/07
  * 思路 数位dp
  * 1. 状态表示

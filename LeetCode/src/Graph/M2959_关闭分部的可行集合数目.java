@@ -3,7 +3,7 @@ package Graph;
 import java.util.Arrays;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/07/17
  * @file M2959_关闭分部的可行集合数目.java
  * <p>

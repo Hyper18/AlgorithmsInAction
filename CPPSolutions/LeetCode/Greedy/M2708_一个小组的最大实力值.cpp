@@ -5,7 +5,7 @@ using namespace std;
 typedef long long LL;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/09/03
  * @file M2708_一个小组的最大实力值.cpp
  */

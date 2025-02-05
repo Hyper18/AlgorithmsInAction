@@ -3,7 +3,7 @@ package Y2015A;
 import java.util.Calendar;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/03/21
  */
 public class Q2星系炸弹 {

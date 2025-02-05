@@ -5,7 +5,7 @@
 //import java.util.StringTokenizer;
 //
 ///**
-// * @author Hyperspace
+// * @author Hyper
 // * @date 2022/04/06
 // * 二分+区间和 -- O(nlogn)
 // * 思路@白之月

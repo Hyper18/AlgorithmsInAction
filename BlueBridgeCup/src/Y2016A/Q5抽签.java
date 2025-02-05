@@ -1,7 +1,7 @@
 package Y2016A;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/03/25
  * <p>
  * X星球要派出一个5人组成的观察团前往W星。

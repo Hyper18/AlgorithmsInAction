@@ -1,7 +1,7 @@
 package Array;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/05/11
  * @file M2391_收集垃圾的最少总时间.java
  * <p>

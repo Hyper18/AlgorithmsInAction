@@ -4,7 +4,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/03/12
  * @file M1261_在受污染的二叉树中查找元素.java
  * <p>

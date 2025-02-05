@@ -3,7 +3,7 @@ package Tree;
 import java.util.*;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2023/09/04
  * @file M449_序列化和反序列化二叉搜索树.java
  * <p>

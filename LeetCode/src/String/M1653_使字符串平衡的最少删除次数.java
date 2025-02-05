@@ -1,7 +1,7 @@
 package String;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2023/03/06
  * @file M1653_使字符串平衡的最少删除次数.java
  * <p>

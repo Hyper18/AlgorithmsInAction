@@ -3,7 +3,7 @@ package Greedy;
 import java.util.Arrays;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/09/12
  * @file M2576_求出最多标记下标.java
  * <p>

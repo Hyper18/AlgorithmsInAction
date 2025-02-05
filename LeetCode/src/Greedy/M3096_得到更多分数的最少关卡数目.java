@@ -1,7 +1,7 @@
 package Greedy;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/07/19
  * @file M3096_得到更多分数的最少关卡数目.java
  * <p>

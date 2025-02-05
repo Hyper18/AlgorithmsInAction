@@ -3,7 +3,7 @@ package DP.DigitDP;
 import java.util.Arrays;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/08/31
  * @file Q600_不含连续1的非负整数.java
  * <p>

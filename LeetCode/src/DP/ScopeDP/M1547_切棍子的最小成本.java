@@ -3,7 +3,7 @@ package DP.ScopeDP;
 import java.util.Arrays;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/11/11
  * @file M1547_切棍子的最小成本.java
  * <p>

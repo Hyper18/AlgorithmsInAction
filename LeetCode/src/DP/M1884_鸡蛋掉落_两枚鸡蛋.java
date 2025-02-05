@@ -3,7 +3,7 @@ package DP;
 import java.util.Arrays;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/10/13
  * @file M1884_鸡蛋掉落_两枚鸡蛋.java
  * <p>

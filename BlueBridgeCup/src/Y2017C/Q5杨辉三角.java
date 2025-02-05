@@ -1,7 +1,7 @@
 package Y2017C;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/04/02
  * <p>
  * 标题： 杨辉三角

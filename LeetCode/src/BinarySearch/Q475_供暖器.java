@@ -3,7 +3,7 @@ package BinarySearch;
 import java.util.Arrays;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/03/01
  */
 public class Q475_供暖器 {

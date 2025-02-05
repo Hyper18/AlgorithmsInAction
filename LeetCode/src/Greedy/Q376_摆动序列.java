@@ -1,7 +1,7 @@
 package Greedy;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/03/28
  * 1. dp
  * 2. 状压dp

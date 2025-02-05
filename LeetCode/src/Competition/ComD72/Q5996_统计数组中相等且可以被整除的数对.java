@@ -1,7 +1,7 @@
 package Competition.ComD72;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/02/19
  */
 public class Q5996_统计数组中相等且可以被整除的数对 {

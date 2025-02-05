@@ -3,7 +3,7 @@ package Math;
 import java.util.Arrays;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/11/23
  * @file M1742_盒子中小球的最大数量.java
  * <p>

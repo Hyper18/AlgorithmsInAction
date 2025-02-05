@@ -1,7 +1,7 @@
 package Tree;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/02/25
  * @file M235_二叉搜索树的最近公共祖先.java
  * <p>

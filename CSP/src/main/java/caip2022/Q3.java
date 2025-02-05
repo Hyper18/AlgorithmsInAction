@@ -3,7 +3,7 @@ package caip2022;
 import java.io.*;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/07/10
  */
 public class Q3 {

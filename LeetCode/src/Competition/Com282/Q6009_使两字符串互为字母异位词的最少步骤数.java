@@ -1,7 +1,7 @@
 package Competition.Com282;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/02/27
  */
 public class Q6009_使两字符串互为字母异位词的最少步骤数 {

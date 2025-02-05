@@ -1,7 +1,7 @@
 package Array;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/12/02
  * @file M1769_移动所有球到每个盒子所需的最小操作数.java
  * <p>

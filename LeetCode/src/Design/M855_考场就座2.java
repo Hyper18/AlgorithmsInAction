@@ -3,7 +3,7 @@ package Design;
 import java.util.TreeSet;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/12/23
  * @file M855_考场就座.java
  * <p>

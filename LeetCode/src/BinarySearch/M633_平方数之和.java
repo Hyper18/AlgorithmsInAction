@@ -1,7 +1,7 @@
 package BinarySearch;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/11/04
  * @file M633_平方数之和.java
  * <p>

@@ -1,5 +1,5 @@
 /*
-	@author Hyperspace
+	@author Hyper
 	@date 2022/11/19
 	@file M1732_找到最高海拔.go
 */

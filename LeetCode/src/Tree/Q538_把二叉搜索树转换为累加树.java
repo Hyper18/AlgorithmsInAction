@@ -1,7 +1,7 @@
 package Tree;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2023/12/04
  * @file Q538_把二叉搜索树转换为累加树.java
  */

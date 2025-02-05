@@ -1,7 +1,7 @@
 package Array;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/04/09
  * @file M2529_正整数和负整数的最大计数.java
  * <p>

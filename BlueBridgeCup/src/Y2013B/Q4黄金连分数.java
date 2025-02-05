@@ -4,7 +4,7 @@ import java.math.BigDecimal;
 import java.math.BigInteger;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/03/15
  */
 public class Q4黄金连分数 {

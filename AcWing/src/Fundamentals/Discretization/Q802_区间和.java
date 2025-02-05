@@ -7,7 +7,7 @@ import java.util.StringTokenizer;
 import java.util.stream.Collectors;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/09/03
  * @file Q802_区间和.java
  */

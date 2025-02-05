@@ -1,7 +1,7 @@
 package Y2019B;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/04/06
  */
 public class C数列求值 {

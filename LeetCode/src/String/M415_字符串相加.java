@@ -1,7 +1,7 @@
 package String;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2023/07/17
  * @file M415_字符串相加.java
  * <p>

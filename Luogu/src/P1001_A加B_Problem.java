@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 /**
- * @author Vincent
+ * @author Hyper
  */
 public class P1001_A加B_Problem {
     public static void main(String[] args) {

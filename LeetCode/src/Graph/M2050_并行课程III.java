@@ -3,7 +3,7 @@ package Graph;
 import java.util.*;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2023/07/28
  * @file M2050_并行课程III.java
  * <p>

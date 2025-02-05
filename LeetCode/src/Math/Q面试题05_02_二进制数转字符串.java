@@ -1,7 +1,7 @@
 package Math;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2023/03/02
  * @file Q面试题05_02_二进制数转字符串.java
  * <p>

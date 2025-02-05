@@ -1,7 +1,7 @@
 package Graph;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/04/13
  * @file M2924_找到冠军II.java
  * <p>

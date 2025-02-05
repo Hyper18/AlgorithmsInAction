@@ -1,7 +1,7 @@
 package Matrix;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/12/09
  * @file M1812_判断国际象棋棋盘中一个格子的颜色.java
  * <p>

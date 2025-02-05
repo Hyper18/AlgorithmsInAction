@@ -1,5 +1,5 @@
 /*
-	@author Hyperspace
+	@author Hyper
 	@date 2023/08/05
 	@file Q21_合并两个有序链表.go
 */

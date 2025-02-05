@@ -1,7 +1,7 @@
 package Math;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2023/09/08
  * @file M2651_计算列车到站时间.java
  */

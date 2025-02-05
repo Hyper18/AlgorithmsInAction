@@ -1,7 +1,7 @@
 package TwoPointer;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/07/10
  * @file M2970_统计移除递增子数组的数目I.java
  * <p>

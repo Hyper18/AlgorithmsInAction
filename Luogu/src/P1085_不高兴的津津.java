@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 /**
- * @author Vincent
+ * @author Hyper
  */
 public class P1085_不高兴的津津 {
     private static final int UNHAPPY_THRESHOLD = 8;

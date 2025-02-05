@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.StringTokenizer;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/03/23
  * 无根图转化为有根图
  * 实际上可以把问题转化为一个树形动态规划问题

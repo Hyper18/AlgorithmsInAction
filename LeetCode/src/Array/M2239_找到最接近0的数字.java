@@ -1,7 +1,7 @@
 package Array;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2025/01/20
  * @file M2239_找到最接近0的数字.java
  */

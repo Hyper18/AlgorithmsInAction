@@ -1,7 +1,7 @@
 package Design;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2025/01/05
  * @file M2241_设计一个ATM机器.java
  * <p>

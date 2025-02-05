@@ -1,7 +1,7 @@
 package String;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2023/03/18
  * @file M1616_分割两个字符串得到回文串.java
  * <p>

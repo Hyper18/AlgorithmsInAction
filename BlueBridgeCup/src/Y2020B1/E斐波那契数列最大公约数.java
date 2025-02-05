@@ -3,7 +3,7 @@ package Y2020B1;
 import java.math.BigInteger;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/04/07
  */
 public class E斐波那契数列最大公约数 {

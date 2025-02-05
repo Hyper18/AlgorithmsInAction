@@ -1,5 +1,5 @@
 /*
-	@author Hyperspace
+	@author Hyper
 	@date 2023/02/28
 	@file M2363_合并相似的物品.go
 */

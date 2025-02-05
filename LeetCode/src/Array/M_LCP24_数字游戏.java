@@ -3,7 +3,7 @@ package Array;
 import java.util.PriorityQueue;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/02/01
  * @file M_LCP24_数字游戏.java
  * <p>

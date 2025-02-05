@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.StringTokenizer;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/06/11
  */
 public class Prob3 {

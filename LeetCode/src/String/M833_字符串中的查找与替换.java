@@ -3,7 +3,7 @@ package String;
 import java.util.Arrays;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2023/08/15
  * @file M833_字符串中的查找与替换.java
  * <p>

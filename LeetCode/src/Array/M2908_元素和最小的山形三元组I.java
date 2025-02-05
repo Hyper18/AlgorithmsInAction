@@ -1,7 +1,7 @@
 package Array;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/03/29
  * @file M2908_元素和最小的山形三元组I.java
  * <p>

@@ -1,5 +1,5 @@
 /*
-	@author Hyperspace
+	@author Hyper
 	@date 2023/07/02
 	@file Q2_两数相加.go
 */

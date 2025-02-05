@@ -1,7 +1,7 @@
 package Matrix;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/12/08
  * @file M782_变为棋盘.java
  * <p>

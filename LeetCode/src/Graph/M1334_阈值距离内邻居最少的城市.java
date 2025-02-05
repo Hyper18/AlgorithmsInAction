@@ -1,7 +1,7 @@
 package Graph;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2023/11/14
  * @file M1334_阈值距离内邻居最少的城市.java
  * <p>

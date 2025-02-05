@@ -3,7 +3,7 @@ package Greedy;
 import java.util.Arrays;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2023/10/27
  * @file M1465_切割后面积最大的蛋糕.java
  * <p>

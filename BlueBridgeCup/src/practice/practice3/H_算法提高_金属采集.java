@@ -6,7 +6,7 @@ import java.util.Stack;
 import java.util.StringTokenizer;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/03/07
  * @time 328ms
  * 链式向前星+动归

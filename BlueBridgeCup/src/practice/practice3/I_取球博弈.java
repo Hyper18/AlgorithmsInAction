@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.StringTokenizer;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/03/07
  * 递归深搜
  * 使用cache的目的：将之前遍历过的胜负结果存起来，

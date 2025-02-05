@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Comparator;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2023/11/10
  * @file M2300_咒语和药水的成功对数.java
  */

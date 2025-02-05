@@ -3,7 +3,7 @@ package DP.Knapsack;
 import java.util.List;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2025/01/21
  * @file M2218_从栈中取出K个硬币的最大面值和.java
  * <p>

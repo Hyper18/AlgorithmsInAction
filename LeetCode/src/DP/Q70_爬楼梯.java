@@ -1,7 +1,7 @@
 package DP;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/02/17
  * <p>
  * 1. 对重复子问题作记忆化递归

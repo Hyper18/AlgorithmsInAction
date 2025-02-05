@@ -3,7 +3,7 @@ package Tree;
 import java.util.*;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/02/23
  * @file M2583_二叉树中的第K大层和.java
  * <p>

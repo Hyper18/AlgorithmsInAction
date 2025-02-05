@@ -1,7 +1,7 @@
 package DP.Knapsack;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/03/19，2024/03/25
  * 完全背包求方案数
  * <p>

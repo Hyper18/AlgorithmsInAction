@@ -1,7 +1,7 @@
 package Array;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2023/10/20
  * @file M2525_根据规则将箱子分类.java
  * <p>

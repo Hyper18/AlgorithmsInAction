@@ -3,7 +3,7 @@ package Greedy;
 import java.util.Arrays;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2025/01/22
  * @file Q1561_你可以获得的最大硬币数目.java
  * <p>

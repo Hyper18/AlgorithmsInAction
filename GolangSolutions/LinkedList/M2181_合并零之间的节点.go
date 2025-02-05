@@ -1,5 +1,5 @@
 /*
-	@author Hyperspace
+	@author Hyper
 	@date 2024/09/09
 	@file M2181_合并零之间的节点.go
 */

@@ -3,7 +3,7 @@ package Y2018A;
 import java.util.Calendar;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/04/03
  * <p>
  * 标题：星期一

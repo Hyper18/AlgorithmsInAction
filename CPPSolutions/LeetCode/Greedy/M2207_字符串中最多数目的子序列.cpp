@@ -5,7 +5,7 @@ using namespace std;
 typedef long long LL;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/09/24
  * @file M2207_字符串中最多数目的子序列.cpp
  */

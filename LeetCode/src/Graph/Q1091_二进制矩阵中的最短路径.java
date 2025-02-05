@@ -4,7 +4,7 @@ import java.util.ArrayDeque;
 import java.util.Queue;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/03/10
  * <p>
  * 思路：bfs

@@ -1,7 +1,7 @@
 package Greedy;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2023/09/22
  * @file M2591_将钱分给最多的儿童.java
  * <p>

@@ -3,7 +3,7 @@
 using namespace std;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/10/08
  * @file M1436_旅行终点站.cpp
  */

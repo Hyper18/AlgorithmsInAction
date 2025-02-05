@@ -1,7 +1,7 @@
 package Greedy;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2023/07/05
  * @file M2600_K件物品的最大和.java
  * <p>

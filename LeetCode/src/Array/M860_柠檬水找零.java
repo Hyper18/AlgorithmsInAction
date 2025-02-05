@@ -1,7 +1,7 @@
 package Array;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2023/07/22
  * @file M860_柠檬水找零.java
  * <p>

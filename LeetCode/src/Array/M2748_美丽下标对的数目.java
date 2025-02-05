@@ -1,7 +1,7 @@
 package Array;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/06/20
  * @file M2748_美丽下标对的数目.java
  * <p>

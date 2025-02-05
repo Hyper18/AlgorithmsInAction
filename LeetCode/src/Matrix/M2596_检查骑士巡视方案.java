@@ -1,7 +1,7 @@
 package Matrix;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2023/09/13
  * @file M2596_检查骑士巡视方案.java
  * <p>

@@ -1,7 +1,7 @@
 package DP;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/11/12
  * @file M790_多米诺和托米诺平铺.java
  * <p>

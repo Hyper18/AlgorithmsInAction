@@ -3,7 +3,7 @@ package Week23;
 import java.util.Scanner;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/12/16
  * @file Q137_字符串处理器.java
  * <p>

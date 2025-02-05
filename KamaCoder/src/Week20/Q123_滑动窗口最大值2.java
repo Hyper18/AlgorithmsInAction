@@ -4,7 +4,7 @@ import java.util.Scanner;
 import java.util.TreeSet;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/11/19
  * @file Q123_滑动窗口最大值.java
  * <p>

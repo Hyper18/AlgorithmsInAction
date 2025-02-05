@@ -1,7 +1,7 @@
 package SWM;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2023/03/09
  * @file M2379_得到K个黑块的最少涂色次数.java
  * <p>

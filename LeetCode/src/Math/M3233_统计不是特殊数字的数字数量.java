@@ -1,7 +1,7 @@
 package Math;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/11/22
  * @file M3233_统计不是特殊数字的数字数量.java
  * <p>

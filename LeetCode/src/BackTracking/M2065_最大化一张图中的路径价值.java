@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/07/01
  * @file M2065_最大化一张图中的路径价值.java
  * <p>

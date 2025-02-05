@@ -1,7 +1,7 @@
 package DisjointSet;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/03/12
  * 并查集解法
  * 对相连的城市进行合并，

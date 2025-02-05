@@ -1,7 +1,7 @@
 package DP;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2023/07/11
  * @file M1911_最大子序列交替和.java
  * <p>

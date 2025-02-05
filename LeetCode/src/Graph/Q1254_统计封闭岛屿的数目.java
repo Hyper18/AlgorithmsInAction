@@ -1,7 +1,7 @@
 package Graph;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/03/08
  * 如果仅存在一行或一列，一定没有封闭岛屿，直接返回
  * 对大于2*2的矩阵，遍历时去掉四周

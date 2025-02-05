@@ -4,7 +4,7 @@ import java.util.ArrayDeque;
 import java.util.Deque;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/02/05
  * @file M1696_跳跃游戏VI.java
  * <p>

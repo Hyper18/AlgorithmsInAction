@@ -4,7 +4,7 @@ import java.io.*;
 import java.util.StringTokenizer;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/03/14
  * 回溯算法的运用：用于求取全排列
  * 如：输入3，得到1—3的全排列

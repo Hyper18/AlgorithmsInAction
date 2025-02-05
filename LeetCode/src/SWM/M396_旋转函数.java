@@ -3,7 +3,7 @@ package SWM;
 import java.util.Arrays;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/04/22
  * 思路
  * 1. 纯模拟（超时） -- O(n^2)

@@ -4,7 +4,7 @@ import java.io.*;
 import java.util.StringTokenizer;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/05/09
  * <p>
  * 有前面的铺垫，一遍AC了。同Q1014，仅有输出不同

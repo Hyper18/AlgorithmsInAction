@@ -1,5 +1,5 @@
 /*
-	@author Hyperspace
+	@author Hyper
 	@date 2024/08/28
 	@file M3144_分割字符频率相等的最少子字符串.go
 */

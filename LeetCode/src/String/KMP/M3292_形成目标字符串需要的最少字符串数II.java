@@ -3,7 +3,7 @@ package String.KMP;
 import java.util.Arrays;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/12/18
  * @file M3292_形成目标字符串需要的最少字符串数II.java
  * <p>

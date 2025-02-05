@@ -5,7 +5,7 @@ import java.util.Comparator;
 import java.util.PriorityQueue;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2023/07/25
  * @file M2208_将数组和减半的最少操作次数.java
  * <p>

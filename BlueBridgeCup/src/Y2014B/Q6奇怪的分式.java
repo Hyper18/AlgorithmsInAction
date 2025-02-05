@@ -1,7 +1,7 @@
 package Y2014B;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/03/20
  * 注意：这里必须强转类型！！
  * 原因：整数除法的精度不足

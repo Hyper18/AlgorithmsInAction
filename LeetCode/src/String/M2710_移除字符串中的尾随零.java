@@ -1,7 +1,7 @@
 package String;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/06/29
  * @file M2710_移除字符串中的尾随零.java
  */

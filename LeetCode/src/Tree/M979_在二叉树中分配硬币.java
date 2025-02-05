@@ -1,7 +1,7 @@
 package Tree;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2023/07/14
  * @file M979_在二叉树中分配硬币.java
  * <p>

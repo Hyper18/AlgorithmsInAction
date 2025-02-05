@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2023/03/10
  * @file M1590_使数组和能被P整除.java
  * <p>

@@ -1,5 +1,5 @@
 /*
-   @author Hyperspace
+   @author Hyper
    @date 2022/11/11
    @file M1704_判断字符串的两半是否相似.go
 */

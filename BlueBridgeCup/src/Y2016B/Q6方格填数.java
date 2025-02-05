@@ -1,7 +1,7 @@
 package Y2016B;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/03/28
  * 采用朴素的检查方法，直接枚举出所有可能的操作
  * 本质上还是在做全排列

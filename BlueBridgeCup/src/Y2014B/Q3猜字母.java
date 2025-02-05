@@ -1,7 +1,7 @@
 package Y2014B;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/03/20
  * 模拟即可
  */

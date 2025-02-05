@@ -1,7 +1,7 @@
 package Math;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/11/22
  * @file M878_第N个神奇数字.java
  * <p>

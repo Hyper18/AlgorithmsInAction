@@ -1,7 +1,7 @@
 package Array;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/06/03
  * @file M1103_分糖果II.java
  * <p>

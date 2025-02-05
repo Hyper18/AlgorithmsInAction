@@ -3,7 +3,7 @@ package Week22;
 import java.util.Scanner;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/12/11
  * @file Q133_夹吃棋.java
  * <p>

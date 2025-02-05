@@ -3,7 +3,7 @@ package String;
 import java.util.Arrays;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/02/19
  * <p>
  * 1. 快乐排序

@@ -1,7 +1,7 @@
 package Graph;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2023/08/31
  * @file M1761_一个图中连通三元组的最小度数.java
  * <p>

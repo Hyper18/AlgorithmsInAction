@@ -1,7 +1,7 @@
 package DP;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/03/08
  * <p>
  * 可将起始台阶为0/1开始的问题转化到最后统计结果时判断

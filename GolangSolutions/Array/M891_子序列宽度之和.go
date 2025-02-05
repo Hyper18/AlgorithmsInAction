@@ -1,5 +1,5 @@
 /*
-	@author Hyperspace
+	@author Hyper
 	@date 2022/11/18
 	@file M891_子序列宽度之和.go
 */

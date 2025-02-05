@@ -1,7 +1,7 @@
 package Array;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2023/08/08
  * @file M1749_任意子数组和的绝对值的最大值.java
  * <p>

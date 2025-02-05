@@ -3,7 +3,7 @@ package DP;
 import java.util.Arrays;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/03/19，2024/03/24
  * <p>
  * 这题主要难点在于dp的过程是求最小

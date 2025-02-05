@@ -1,7 +1,7 @@
 package Array;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2023/11/07
  * @file M2586_统计范围内的元音字符串数.java
  * <p>

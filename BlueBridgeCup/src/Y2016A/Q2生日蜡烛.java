@@ -1,7 +1,7 @@
 package Y2016A;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/03/25
  * 枚举
  * 得到此人从26开始过生日，到他年满33周岁为止正好是今年

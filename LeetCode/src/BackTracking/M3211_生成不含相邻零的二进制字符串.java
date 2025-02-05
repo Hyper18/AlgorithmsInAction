@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/10/29
  * @file M3211_生成不含相邻零的二进制字符串.java
  * <p>

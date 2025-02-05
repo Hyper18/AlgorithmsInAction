@@ -1,5 +1,5 @@
 /*
-	@author Hyperspace
+	@author Hyper
 	@date 2024/09/27
 	@file M2516_每种字符至少取K个.go
 */

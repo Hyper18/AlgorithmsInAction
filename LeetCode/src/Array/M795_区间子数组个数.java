@@ -1,7 +1,7 @@
 package Array;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/11/24
  * @file M795_区间子数组个数.java
  * <p>

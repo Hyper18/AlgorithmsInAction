@@ -3,7 +3,7 @@ package BitOp;
 import java.util.Arrays;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2025/01/12
  * @file M2275_按位与结果大于零的最长组合.java
  */

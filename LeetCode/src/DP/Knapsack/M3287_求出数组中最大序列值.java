@@ -1,7 +1,7 @@
 package DP.Knapsack;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2025/01/18
  * @file M3287_求出数组中最大序列值.java
  * <p>

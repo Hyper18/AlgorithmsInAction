@@ -1,7 +1,7 @@
 package SWM;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2025/01/09
  * @file M3297_统计重新排列后包含另一个字符串的子字符串数目I.java
  * <p>

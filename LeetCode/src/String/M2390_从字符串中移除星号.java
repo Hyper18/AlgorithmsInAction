@@ -1,7 +1,7 @@
 package String;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/09/14
  * @file M2390_从字符串中移除星号.java
  */

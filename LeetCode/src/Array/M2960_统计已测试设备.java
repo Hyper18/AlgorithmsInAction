@@ -1,7 +1,7 @@
 package Array;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/05/10
  * @file M2960_统计已测试设备.java
  * <p>

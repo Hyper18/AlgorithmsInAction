@@ -1,7 +1,7 @@
 package Y2016C;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/03/25
  * 全排列 + 剪枝
  */

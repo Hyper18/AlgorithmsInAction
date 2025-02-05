@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.Deque;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2023/11/27
  * @file M907_子数组的最小值之和.java
  * <p>

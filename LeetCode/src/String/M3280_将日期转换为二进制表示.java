@@ -1,7 +1,7 @@
 package String;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2025/01/01
  * @file M3280_将日期转换为二进制表示.java
  * <p>

@@ -8,7 +8,7 @@ import java.util.Map;
 import java.util.Scanner;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/03/02
  * <p>
  * 利用hash设定二元组

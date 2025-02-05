@@ -1,7 +1,7 @@
 package DP;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/02/03
  * @file M1690_石子游戏VII.java
  * <p>

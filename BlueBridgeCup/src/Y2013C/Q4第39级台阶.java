@@ -1,7 +1,7 @@
 package Y2013C;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/03/16
  * dp[i][j]在第i步采用j步（0：偶数步， 1奇数步）走楼梯
  * 注意最开始和结束均使用偶数步

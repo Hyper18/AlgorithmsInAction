@@ -1,7 +1,7 @@
 package Array;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/10/24
  * @file M3175_找到连续赢K场比赛的第一位玩家.java
  * <p>

@@ -3,7 +3,7 @@ package Array;
 import java.util.*;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2023/10/11
  * @file M2512_奖励最顶尖的K名学生.java
  * <p>

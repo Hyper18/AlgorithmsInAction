@@ -1,7 +1,7 @@
 package DP;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2023/07/20
  * @file M918_环形子数组的最大和.java
  * <p>

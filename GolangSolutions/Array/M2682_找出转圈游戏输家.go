@@ -1,5 +1,5 @@
 /*
-	@author Hyperspace
+	@author Hyper
 	@date 2023/08/16
 	@file M2682_找出转圈游戏输家.go
 */

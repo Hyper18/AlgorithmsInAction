@@ -4,7 +4,7 @@ import java.io.*;
 import java.util.StringTokenizer;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/03/31
  * @time 187ms
  * 枚举的优化：将O(n^2)优化为O(log2n)

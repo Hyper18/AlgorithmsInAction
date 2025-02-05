@@ -3,7 +3,7 @@ package Math;
 import java.util.Arrays;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/04/30，2024/10/20
  * <p>
  * 思路

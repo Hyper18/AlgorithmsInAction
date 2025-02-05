@@ -4,7 +4,7 @@ import java.util.ArrayDeque;
 import java.util.Deque;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2023/11/03
  * @file M117_填充每个节点的下一个右侧节点指针II.java
  * <p>

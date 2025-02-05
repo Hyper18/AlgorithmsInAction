@@ -3,7 +3,7 @@ package DP;
 import java.util.Arrays;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/03/08，2023/09/17
  * dp -- O(n)
  * 对比Q198，主要问题在于环的解决

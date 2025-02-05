@@ -1,7 +1,7 @@
 package Tree;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2023/11/25
  * @file M1457_二叉树中的伪回文路径.java
  * <p>

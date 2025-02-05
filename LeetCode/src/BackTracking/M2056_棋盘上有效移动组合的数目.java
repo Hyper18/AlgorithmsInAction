@@ -1,7 +1,7 @@
 package BackTracking;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/12/04
  * @file M2056_棋盘上有效移动组合的数目.java
  * <p>

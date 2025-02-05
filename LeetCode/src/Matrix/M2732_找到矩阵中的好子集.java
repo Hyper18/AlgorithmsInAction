@@ -3,7 +3,7 @@ package Matrix;
 import java.util.*;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/06/25
  * @file M2732_找到矩阵中的好子集.java
  * <p>

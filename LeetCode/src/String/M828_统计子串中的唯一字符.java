@@ -3,7 +3,7 @@ package String;
 import java.util.Arrays;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2023/11/26
  * @file M828_统计子串中的唯一字符.java
  * <p>

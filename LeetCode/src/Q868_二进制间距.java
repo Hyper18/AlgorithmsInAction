@@ -1,5 +1,5 @@
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/04/25
  * 思路
  * 1. 模拟进制转换

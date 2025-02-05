@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.StringTokenizer;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/03/18
  * <p>
  * 多重背包问题的二进制优化

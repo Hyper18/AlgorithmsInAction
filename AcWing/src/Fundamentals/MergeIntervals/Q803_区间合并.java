@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.StringTokenizer;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/09/03
  * @file Q803_区间合并.java
  */

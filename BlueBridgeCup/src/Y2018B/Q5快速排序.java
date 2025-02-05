@@ -3,7 +3,7 @@ package Y2018B;
 import java.util.Random;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/04/05
  * <p>
  * 标题：快速排序

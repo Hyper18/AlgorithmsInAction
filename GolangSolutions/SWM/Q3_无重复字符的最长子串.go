@@ -1,5 +1,5 @@
 /*
-	@author Hyperspace
+	@author Hyper
 	@date 2023/02/28
 	@file Q3_无重复字符的最长子串.go
 */

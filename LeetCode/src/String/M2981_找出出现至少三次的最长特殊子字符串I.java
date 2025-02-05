@@ -1,7 +1,7 @@
 package String;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/05/29
  * @file M2981_找出出现至少三次的最长特殊子字符串I.java
  * <p>

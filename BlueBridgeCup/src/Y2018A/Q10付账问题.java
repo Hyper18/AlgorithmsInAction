@@ -4,7 +4,7 @@ import java.io.*;
 import java.util.StringTokenizer;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/04/05
  * 贪心
  * 分为两堆，对小于b_avg的顾客，付其所能给出的最大值

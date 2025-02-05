@@ -4,7 +4,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/12/06
  * @file M1805_字符串中不同整数的数目.java
  * <p>

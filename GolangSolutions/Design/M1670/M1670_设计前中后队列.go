@@ -1,5 +1,5 @@
 /*
-	@author Hyperspace
+	@author Hyper
 	@date 2023/11/28
 	@file M1670_设计前中后队列.go
 */

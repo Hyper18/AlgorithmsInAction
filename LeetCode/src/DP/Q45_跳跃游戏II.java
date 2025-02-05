@@ -1,7 +1,7 @@
 package DP;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/03/08
  * <p>
  * 贪心 + dp + 双指针 -- O(n)

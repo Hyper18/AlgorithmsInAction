@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/07/04
  * @file M3086_拾起K个1需要的最少行动次数.java
  * <p>

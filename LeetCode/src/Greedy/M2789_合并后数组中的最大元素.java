@@ -1,7 +1,7 @@
 package Greedy;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/03/14
  * @file M2789_合并后数组中的最大元素.java
  * <p>

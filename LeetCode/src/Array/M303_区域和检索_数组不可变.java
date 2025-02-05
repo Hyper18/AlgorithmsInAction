@@ -1,7 +1,7 @@
 package Array;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/03/18
  * @file M303_区域和检索_数组不可变.java
  * <p>

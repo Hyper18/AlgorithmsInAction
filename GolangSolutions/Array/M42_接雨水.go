@@ -1,5 +1,5 @@
 /*
-	@author Hyperspace
+	@author Hyper
 	@date 2023/07/23
 	@file M42_接雨水.go
 */

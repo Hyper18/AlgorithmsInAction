@@ -1,5 +1,5 @@
 /*
-	@author Hyperspace
+	@author Hyper
 	@date 2023/08/09
 	@file M1281_整数的各位积和之差.go
 */

@@ -1,7 +1,7 @@
 package Math;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2023/10/17
  * @file M2652_倍数求和.java
  * <p>

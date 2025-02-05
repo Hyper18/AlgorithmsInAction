@@ -4,7 +4,7 @@ import java.util.ArrayDeque;
 import java.util.Queue;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/02/07
  * @file M2641_二叉树的堂兄弟节点II.java
  * <p>

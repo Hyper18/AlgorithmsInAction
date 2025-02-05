@@ -3,7 +3,7 @@ package Array;
 import java.util.Arrays;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2025/02/01
  * @file Q81_搜索旋转排序数组II.java
  */

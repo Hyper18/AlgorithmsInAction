@@ -1,7 +1,7 @@
 package MyLinkedList;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/02/19
  * Definition for singly-linked list.
  */

@@ -1,5 +1,5 @@
 /*
-	@author Hyperspace
+	@author Hyper
 	@date 2024/09/30
 	@file M1845_座位预约管理系统.go
 	学习写法@灵茶山艾府

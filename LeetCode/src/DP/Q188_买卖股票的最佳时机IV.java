@@ -1,7 +1,7 @@
 package DP;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/05/12
  */
 public class Q188_买卖股票的最佳时机IV {

@@ -3,7 +3,7 @@ package Tree;
 import java.util.*;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2023/09/21
  * @file M2603_收集树中金币.java
  * <p>

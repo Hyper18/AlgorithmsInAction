@@ -3,7 +3,7 @@ package DP;
 import java.util.Arrays;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2025/01/24
  * @file M2944_购买水果需要的最少金币数.java
  */

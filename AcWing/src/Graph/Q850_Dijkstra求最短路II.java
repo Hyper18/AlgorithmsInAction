@@ -7,7 +7,7 @@ import java.util.PriorityQueue;
 import java.util.StringTokenizer;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/05/30
  */
 public class Q850_Dijkstra求最短路II {

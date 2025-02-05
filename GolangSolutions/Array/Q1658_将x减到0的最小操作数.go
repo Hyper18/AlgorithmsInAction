@@ -1,5 +1,5 @@
 /*
-	@author Hyperspace
+	@author Hyper
 	@date 2023/03/05
 	@file Q1658_将x减到0的最小操作数.go
 */

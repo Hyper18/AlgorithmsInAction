@@ -1,7 +1,7 @@
 package Array;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/04/25
  * @file M2739_总行驶距离.java
  * <p>

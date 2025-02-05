@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/02/27
  * @file M2867_统计树中的合法路径数目.java
  * <p>

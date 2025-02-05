@@ -1,5 +1,5 @@
 /*
-	@author Hyperspace
+	@author Hyper
 	@date 2023/07/24
 	@file M771_宝石与石头.go
 */

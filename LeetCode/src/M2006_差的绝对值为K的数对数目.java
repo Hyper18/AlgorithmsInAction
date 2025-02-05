@@ -2,7 +2,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @author Vincent
+ * @author Hyper
  * 小结
  * 1. 暴力解法,two sum思路 -- 小数据量
  * 2. HashMap做法 --  大数据量

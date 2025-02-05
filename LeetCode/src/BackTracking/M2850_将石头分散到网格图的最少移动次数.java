@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/07/20
  * @file M2850_将石头分散到网格图的最少移动次数.java
  * <p>

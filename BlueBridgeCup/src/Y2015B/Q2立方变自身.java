@@ -1,7 +1,7 @@
 package Y2015B;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/03/23
  */
 public class Q2立方变自身 {

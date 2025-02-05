@@ -3,7 +3,7 @@ package Array;
 import java.util.Arrays;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/12/07
  * @file M1775_通过最少操作次数使数组的和相等.java
  * <p>

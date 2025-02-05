@@ -3,7 +3,7 @@ package Array;
 import java.util.PriorityQueue;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/12/14
  * @file M3266_K次乘运算后的最终数组II.java
  * <p>

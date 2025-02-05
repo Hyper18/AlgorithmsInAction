@@ -1,7 +1,7 @@
 package Tree;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2023/08/14
  * @file M617_合并二叉树.java
  * <p>

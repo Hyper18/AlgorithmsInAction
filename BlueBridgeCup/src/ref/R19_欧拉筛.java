@@ -1,7 +1,7 @@
 package ref;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/03/07
  */
 public class R19_欧拉筛 {

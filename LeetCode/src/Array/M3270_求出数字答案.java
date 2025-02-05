@@ -1,7 +1,7 @@
 package Array;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2025/01/11
  * @file M3270_求出数字答案.java
  */

@@ -1,5 +1,5 @@
 /*
-	@author Hyperspace
+	@author Hyper
 	@date 2023/07/25
 	@file M2208_将数组和减半的最少操作次数.go
 	参照官解，手写下优先队列

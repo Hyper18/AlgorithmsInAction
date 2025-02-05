@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/07/22
  * @file M2101_引爆最多的炸弹.java
  * <p>

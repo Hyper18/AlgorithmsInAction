@@ -1,7 +1,7 @@
 package Math;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/04/28
  * @file M1017_负二进制转换.java
  * <p>

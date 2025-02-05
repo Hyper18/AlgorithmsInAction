@@ -1,7 +1,7 @@
 package Math;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/03/20
  * @file M1969_数组元素的最小非零乘积.java
  * <p>

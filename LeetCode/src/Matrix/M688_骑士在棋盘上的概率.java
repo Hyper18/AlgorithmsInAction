@@ -1,7 +1,7 @@
 package Matrix;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/12/07
  * @file M688_骑士在棋盘上的概率.java
  * <p>

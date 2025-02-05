@@ -3,7 +3,7 @@ package Graph;
 import java.util.Arrays;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/04/29
  * @file M1329_将矩阵按对角线排序.java
  * <p>

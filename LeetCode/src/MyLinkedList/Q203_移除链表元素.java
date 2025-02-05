@@ -1,7 +1,7 @@
 package MyLinkedList;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/02/20
  */
 public class Q203_移除链表元素 {

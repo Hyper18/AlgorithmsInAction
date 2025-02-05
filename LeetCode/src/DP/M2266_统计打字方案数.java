@@ -1,7 +1,7 @@
 package DP;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2025/01/19
  * @file M2266_统计打字方案数.java
  * <p>

@@ -1,7 +1,7 @@
 package Array;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/02/13，2022/10/29，2023/07/08
  * <p>
  * 思路

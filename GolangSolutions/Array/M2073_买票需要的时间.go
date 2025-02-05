@@ -1,5 +1,5 @@
 /*
-	@author Hyperspace
+	@author Hyper
 	@date 2024/09/29
 	@file M2073_买票需要的时间.go
 */

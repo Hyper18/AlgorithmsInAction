@@ -7,7 +7,7 @@ import java.math.RoundingMode;
 import java.util.Scanner;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/03/03
  */
 public class R6_大数处理 {

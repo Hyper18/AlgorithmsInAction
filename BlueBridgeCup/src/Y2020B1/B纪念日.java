@@ -3,7 +3,7 @@ package Y2020B1;
 import java.util.Calendar;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/04/07
  */
 public class B纪念日 {

@@ -3,7 +3,7 @@ package DP.TreeDP;
 /**
  * Definition for a binary tree node.
  *
- * @author Vincent
+ * @author Hyper
  */
 public class TreeNode {
     int val;

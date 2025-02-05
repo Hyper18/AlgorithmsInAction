@@ -1,7 +1,7 @@
 package Math;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2023/07/12
  * @file M2544_交替数字和.java
  */

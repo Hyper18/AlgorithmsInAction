@@ -6,7 +6,7 @@ import java.util.Map;
 import java.util.TreeSet;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2023/10/13
  * @file M1488_避免洪水泛滥.java
  * <p>

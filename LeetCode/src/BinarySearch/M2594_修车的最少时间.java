@@ -1,7 +1,7 @@
 package BinarySearch;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2023/09/07
  * @file M2594_修车的最少时间.java
  * <p>

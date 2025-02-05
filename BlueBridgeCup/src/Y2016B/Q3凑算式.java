@@ -1,7 +1,7 @@
 package Y2016B;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/03/26
  * 注意分式的除法
  * 直接除会产生截断

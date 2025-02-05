@@ -1,7 +1,7 @@
 package DP;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/03/28
  * @file M1997_访问完所有房间的第一天.java
  * <p>

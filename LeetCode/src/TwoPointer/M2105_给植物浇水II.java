@@ -1,7 +1,7 @@
 package TwoPointer;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/05/09
  * @file M2105_给植物浇水II.java
  * <p>

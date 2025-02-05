@@ -1,7 +1,7 @@
 package Matrix;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/12/05
  * @file M3001_捕获黑皇后需要的最少移动次数.java
  * <p>

@@ -4,7 +4,7 @@ import java.io.*;
 import java.util.*;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/03/26
  * 首次出现 -- a -> -a
  * 非首次出现 -- 记录相同值在两次出现的间隔中的所有元素种数

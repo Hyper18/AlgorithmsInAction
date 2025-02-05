@@ -1,7 +1,7 @@
 package Array;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2023/09/26
  * @file M2582_递枕头.java
  * <p>

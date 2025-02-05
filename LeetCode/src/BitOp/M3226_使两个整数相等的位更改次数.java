@@ -1,7 +1,7 @@
 package BitOp;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/11/02
  * @file M3226_使两个整数相等的位更改次数.java
  * <p>

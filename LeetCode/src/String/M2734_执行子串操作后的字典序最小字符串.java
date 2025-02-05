@@ -1,7 +1,7 @@
 package String;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/06/27
  * @file M2734_执行子串操作后的字典序最小字符串.java
  * <p>

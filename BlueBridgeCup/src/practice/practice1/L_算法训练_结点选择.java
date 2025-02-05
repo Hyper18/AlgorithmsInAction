@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.StringTokenizer;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/03/02
  * <p>
  * 1. 首先考虑如何存放树结点 使用一个二维数组 通过 父 -- 子 保存 但是写完发现输入不是先父后子。。数码了

@@ -1,7 +1,7 @@
 package Math;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/03/23
  * @file M2549_统计桌面上的不同数字.java
  */

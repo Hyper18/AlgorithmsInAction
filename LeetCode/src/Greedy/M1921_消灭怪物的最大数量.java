@@ -3,7 +3,7 @@ package Greedy;
 import java.util.Arrays;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2023/09/03
  * @file M1921_消灭怪物的最大数量.java
  * <p>

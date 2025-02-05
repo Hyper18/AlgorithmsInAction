@@ -3,7 +3,7 @@ package ref;
 import java.io.*;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/02/09
  */
 public class R2_缓冲区输入输出 {

@@ -3,7 +3,7 @@
 using namespace std;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/08/21
  * @file Q2376_统计特殊整数.cpp
  */

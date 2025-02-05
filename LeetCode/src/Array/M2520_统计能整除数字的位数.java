@@ -1,7 +1,7 @@
 package Array;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2023/10/26
  * @file M2520_统计能整除数字的位数.java
  */

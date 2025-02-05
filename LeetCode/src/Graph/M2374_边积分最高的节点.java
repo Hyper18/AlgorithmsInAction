@@ -1,7 +1,7 @@
 package Graph;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/09/21
  * @file M2374_边积分最高的节点.java
  * <p>

@@ -1,7 +1,7 @@
 package TwoPointer;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/07/02
  * @file M3115_质数的最大距离.java
  * <p>

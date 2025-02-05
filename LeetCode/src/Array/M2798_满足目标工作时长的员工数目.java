@@ -3,7 +3,7 @@ package Array;
 import java.util.Arrays;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/04/30
  * @file M2798_满足目标工作时长的员工数目.java
  */

@@ -3,7 +3,7 @@ package Array;
 import java.util.HashMap;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/08/17
  * @file M3137_K周期字符串需要的最少操作次数.java
  * <p>

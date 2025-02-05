@@ -4,7 +4,7 @@ import java.util.ArrayDeque;
 import java.util.Queue;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/03/11
  * 思路
  * https://leetcode-cn.com/problems/shortest-bridge/solution/java-bfsyu-dfsshi-yong-by-ppppjqute-jvwv/

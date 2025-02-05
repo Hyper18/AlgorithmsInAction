@@ -1,7 +1,7 @@
 package Greedy;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/03/27
  * 贪心法
  * 从大到小枚举可能出现的最大数值，

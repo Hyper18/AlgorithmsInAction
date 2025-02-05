@@ -1,5 +1,5 @@
 /*
-	@author Hyperspace
+	@author Hyper
 	@date 2024/08/25
 	@file M698_划分为k个相等的子集.go
 */

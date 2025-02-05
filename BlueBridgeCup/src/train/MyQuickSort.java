@@ -1,7 +1,7 @@
 package train;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/03/02
  */
 public class MyQuickSort {

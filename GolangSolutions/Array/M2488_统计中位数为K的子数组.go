@@ -1,5 +1,5 @@
 /*
-	@author Hyperspace
+	@author Hyper
 	@date 2023/03/16
 	@file M2488_统计中位数为K的子数组.go
 */

@@ -1,7 +1,7 @@
 package Array;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2023/09/15
  * @file M_LCP50_宝石补给.java
  * <p>

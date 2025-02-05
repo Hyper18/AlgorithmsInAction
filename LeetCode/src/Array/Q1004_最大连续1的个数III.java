@@ -1,7 +1,7 @@
 package Array;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2023/02/28
  * @file Q1004_最大连续1的个数III.java
  * 思路

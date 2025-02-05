@@ -1,7 +1,7 @@
 package Array;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/10/10
  * @file M3162_优质数对的总数I.java
  */

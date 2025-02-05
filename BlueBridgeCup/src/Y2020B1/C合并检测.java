@@ -1,7 +1,7 @@
 package Y2020B1;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/04/07
  */
 public class C合并检测 {

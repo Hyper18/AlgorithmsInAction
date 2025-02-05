@@ -5,7 +5,7 @@ using namespace std;
 typedef pair<int, int> PII;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/09/02
  * @file Q802_区间和.cpp
  *

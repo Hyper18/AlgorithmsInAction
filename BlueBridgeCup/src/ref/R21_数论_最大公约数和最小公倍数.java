@@ -1,7 +1,7 @@
 package ref;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/03/16
  */
 public class R21_数论_最大公约数和最小公倍数 {

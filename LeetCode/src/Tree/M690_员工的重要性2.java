@@ -3,7 +3,7 @@ package Tree;
 import java.util.List;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/08/26
  * @file M690_员工的重要性2.java
  * <p>

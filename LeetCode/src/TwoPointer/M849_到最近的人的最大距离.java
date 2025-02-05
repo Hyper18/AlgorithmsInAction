@@ -1,7 +1,7 @@
 package TwoPointer;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2023/08/22
  * @file M849_到最近的人的最大距离.java
  * <p>

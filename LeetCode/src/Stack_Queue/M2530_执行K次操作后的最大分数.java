@@ -3,7 +3,7 @@ package Stack_Queue;
 import java.util.PriorityQueue;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2023/10/18
  * @file M2530_执行K次操作后的最大分数.java
  * <p>

@@ -3,7 +3,7 @@ package Greedy;
 import java.util.Arrays;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/09/18
  * @file M2332_坐上公交的最晚时间.java
  * <p>

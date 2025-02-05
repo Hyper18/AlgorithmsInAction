@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 /**
- * @author Vincent
+ * @author Hyper
  */
 public class P1422_小玉家的电费 {
     private static final int INDICATOR_1 = 150;

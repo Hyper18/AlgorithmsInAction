@@ -1,7 +1,7 @@
 package TwoPointer;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2023/08/21
  * @file M2337_移动片段得到字符串.java
  * <p>

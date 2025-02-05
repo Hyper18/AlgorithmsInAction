@@ -1,7 +1,7 @@
 package Graph;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/04/27
  * @file M2639_查询网格图中每一列的宽度.java
  * <p>

@@ -5,7 +5,7 @@ using namespace std;
 typedef long long LL;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/09/13
  * @file M2398_预算内的最多机器人数目.cpp
  */

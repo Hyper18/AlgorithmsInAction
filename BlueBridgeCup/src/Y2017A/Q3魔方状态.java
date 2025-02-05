@@ -3,7 +3,7 @@ package Y2017A;
 import java.util.HashSet;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/03/31
  * <p>
  * 非常麻烦的一道填空题

@@ -1,7 +1,7 @@
 package Y2013A;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/03/13
  * 快速排序变体：单 双 三指针
  * 确定主元，left right p

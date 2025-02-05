@@ -1,7 +1,7 @@
 package Y2017B;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/04/01
  * <p>
  * 标题：取数位

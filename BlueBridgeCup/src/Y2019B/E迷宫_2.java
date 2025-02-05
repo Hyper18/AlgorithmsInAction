@@ -7,7 +7,7 @@ import java.util.Deque;
 import java.util.LinkedList;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/04/06
  */
 public class E迷宫_2 {

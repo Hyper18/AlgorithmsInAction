@@ -3,7 +3,7 @@ package DP.Knapsack;
 import java.util.Arrays;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/10/25
  * @file M3180_执行操作可获得的最大总奖励I.java
  * <p>

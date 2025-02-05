@@ -1,7 +1,7 @@
 package TwoPointer;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2025/02/04
  * @file M922_按奇偶排序数组II.java
  */

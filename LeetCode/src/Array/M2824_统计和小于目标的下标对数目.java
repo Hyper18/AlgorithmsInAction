@@ -3,7 +3,7 @@ package Array;
 import java.util.List;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2023/11/24
  * @file M2824_统计和小于目标的下标对数目.java
  * <p>

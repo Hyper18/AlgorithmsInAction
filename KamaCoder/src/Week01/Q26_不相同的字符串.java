@@ -3,7 +3,7 @@ package Week01;
 import java.util.Scanner;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/12/26
  * @file Q26_不相同的字符串.java
  * <p>

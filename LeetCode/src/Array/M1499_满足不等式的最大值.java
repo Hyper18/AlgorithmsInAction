@@ -3,7 +3,7 @@ package Array;
 import java.util.PriorityQueue;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2023/07/21
  * @file M1499_满足不等式的最大值.java
  * <p>

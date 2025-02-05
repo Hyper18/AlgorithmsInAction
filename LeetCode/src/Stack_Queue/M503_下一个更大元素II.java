@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.Deque;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/06/24
  * @file M503_下一个更大元素II.java
  * <p>

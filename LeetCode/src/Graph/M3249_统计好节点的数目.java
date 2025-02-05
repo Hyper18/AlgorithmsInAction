@@ -3,7 +3,7 @@ package Graph;
 import java.util.Arrays;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/11/14
  * @file M3249_统计好节点的数目.java
  * <p>

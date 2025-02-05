@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Comparator;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/11/15
  * @file M1710_卡车上的最大单元数.java
  * <p>

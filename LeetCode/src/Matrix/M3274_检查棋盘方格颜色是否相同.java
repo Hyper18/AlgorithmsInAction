@@ -1,7 +1,7 @@
 package Matrix;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/12/03
  * @file M3274_检查棋盘方格颜色是否相同.java
  */

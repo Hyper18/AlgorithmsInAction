@@ -3,7 +3,7 @@ package DP.TreeDP;
 import java.util.Arrays;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2023/08/29
  * @file M823_带因子的二叉树.java
  * <p>

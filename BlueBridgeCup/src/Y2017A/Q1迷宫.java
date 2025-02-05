@@ -1,7 +1,7 @@
 package Y2017A;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/03/29
  * <p>
  * 标题：Y2017A.迷宫

@@ -1,7 +1,7 @@
 package Tree;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/08/04
  * @file M572_另一棵树的子树.java
  * <p>

@@ -1,7 +1,7 @@
 package Array;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/11/16
  * @file M775_全局倒置与局部倒置.java
  * <p>

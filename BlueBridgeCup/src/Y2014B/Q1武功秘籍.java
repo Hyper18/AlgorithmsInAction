@@ -1,7 +1,7 @@
 package Y2014B;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/03/20
  * 分析：
  * 题干重点：第一页是独页的

@@ -1,7 +1,7 @@
 package Math;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/03/28
  */
 public class M693_交替位二进制数 {

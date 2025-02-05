@@ -1,7 +1,7 @@
 package Y2014B;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/03/20
  * 可以通过结果反推
  * 正向考虑的话就是原式中最开始为+1， 相当于x多减去了1

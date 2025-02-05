@@ -3,7 +3,7 @@ package String;
 import java.util.List;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2023/12/20
  * @file M2828_判别首字母缩略词.java
  * <p>

@@ -1,7 +1,7 @@
 package Array;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/10/27
  */
 public class M1822_数组元素积的符号 {

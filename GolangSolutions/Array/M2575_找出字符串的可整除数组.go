@@ -1,5 +1,5 @@
 /*
-	@author Hyperspace
+	@author Hyper
 	@date 2024/03/07
 	@file M2575_找出字符串的可整除数组.go
 */

@@ -1,7 +1,7 @@
 package DP.Knapsack;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2023/10/24
  * @file M1155_掷骰子等于目标和的方法数.java
  * <p>

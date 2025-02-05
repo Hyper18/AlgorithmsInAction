@@ -1,7 +1,7 @@
 package Y2015C;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/03/24
  */
 public class Q1隔行变色 {

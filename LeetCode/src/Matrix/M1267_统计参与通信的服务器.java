@@ -1,7 +1,7 @@
 package Matrix;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2023/08/24
  * @file M1267_统计参与通信的服务器.java
  * <p>

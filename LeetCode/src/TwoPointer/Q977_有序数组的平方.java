@@ -3,7 +3,7 @@ package TwoPointer;
 import java.util.Arrays;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/02/12
  * 思路
  * 1. 快排 -- O(nlogn)

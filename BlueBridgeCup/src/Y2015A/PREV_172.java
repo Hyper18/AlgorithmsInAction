@@ -4,7 +4,7 @@ import java.io.*;
 import java.util.StringTokenizer;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/03/22
  * 除了不能相对的面，骰子剩下的四个面
  * 作为分类问题的四种可能性

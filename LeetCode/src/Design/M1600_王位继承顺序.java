@@ -3,7 +3,7 @@ package Design;
 import java.util.*;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/04/07
  * @file M1600_王位继承顺序.java
  * <p>

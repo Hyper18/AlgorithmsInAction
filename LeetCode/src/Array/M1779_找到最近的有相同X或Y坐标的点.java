@@ -1,7 +1,7 @@
 package Array;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/12/01
  * @file M1779_找到最近的有相同X或Y坐标的点.java
  * <p>

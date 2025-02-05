@@ -1,7 +1,7 @@
 package Greedy;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2023/11/11
  * @file M765_情侣牵手.java
  * <p>

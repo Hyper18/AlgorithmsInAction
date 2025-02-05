@@ -4,7 +4,7 @@ import java.util.Deque;
 import java.util.LinkedList;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/02/26
  * @file M938_二叉搜索树的范围和.java
  * <p>

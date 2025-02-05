@@ -3,7 +3,7 @@ package Y2015A;
 import java.util.Vector;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/03/21
  */
 public class Q4循环节长度 {

@@ -1,5 +1,5 @@
 /*
-	@author Hyperspace
+	@author Hyper
 	@date 2023/05/01
 	@file M1376_通知所有员工所需的时间.go
 */

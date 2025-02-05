@@ -1,7 +1,7 @@
 package String;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2023/11/08
  * @file M2609_最长平衡子字符串.java
  * <p>

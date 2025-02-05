@@ -1,7 +1,7 @@
 package Competition.Com280;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/02/13
  * 注意判断0的情况
  */

@@ -3,7 +3,7 @@ package Array;
 import java.util.Arrays;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/04/08
  * @file M2009_使数组连续的最少操作数.java
  * <p>

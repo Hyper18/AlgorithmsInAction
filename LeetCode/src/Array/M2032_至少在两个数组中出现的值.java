@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Set;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/12/29
  * @file M2032_至少在两个数组中出现的值.java
  * <p>

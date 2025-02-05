@@ -1,7 +1,7 @@
 package Matrix;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/08/29
  * @file M3142_判断矩阵是否满足条件.java
  */

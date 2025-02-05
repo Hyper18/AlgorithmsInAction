@@ -5,7 +5,7 @@ using namespace std;
 typedef long long LL;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/08/21
  * @file M3007_价值和小于等于K的最大数字.cpp
  */

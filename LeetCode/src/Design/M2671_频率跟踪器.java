@@ -1,7 +1,7 @@
 package Design;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/03/21
  * @file M2671_频率跟踪器.java
  * <p>

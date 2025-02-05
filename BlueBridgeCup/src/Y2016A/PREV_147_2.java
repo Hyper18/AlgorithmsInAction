@@ -6,7 +6,7 @@ import java.util.Map;
 import java.util.StringTokenizer;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/03/26
  * @time 265ms
  * 首次出现 -- a -> -a

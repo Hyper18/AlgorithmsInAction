@@ -3,7 +3,7 @@ package ref;
 import java.util.Scanner;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/02/09
  */
 public class R1_输入输出 {

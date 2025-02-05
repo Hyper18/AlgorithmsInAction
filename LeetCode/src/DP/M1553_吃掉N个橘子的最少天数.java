@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/05/12
  * @file M1553_吃掉N个橘子的最少天数.java
  * <p>

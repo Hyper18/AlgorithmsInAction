@@ -3,7 +3,7 @@ package Week16;
 import java.util.Scanner;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/10/16
  * @file Week16.Q111_构造二阶行列式.java
  * <p>

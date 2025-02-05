@@ -1,7 +1,7 @@
 package String;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2025/01/07
  * @file M3019_按键变更的次数.java
  */

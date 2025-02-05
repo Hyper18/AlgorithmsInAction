@@ -1,7 +1,7 @@
 package String;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2025/01/08
  * @file M2264_字符串中最大的3位相同数字.java
  */

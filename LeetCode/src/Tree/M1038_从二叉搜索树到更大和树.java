@@ -1,7 +1,7 @@
 package Tree;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2023/12/04
  * @file M1038_从二叉搜索树到更大和树.java
  * <p>

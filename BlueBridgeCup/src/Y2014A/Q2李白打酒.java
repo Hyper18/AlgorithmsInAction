@@ -1,7 +1,7 @@
 package Y2014A;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/03/16
  * 这题主要要注意，已经确定了最后一次遇到的是花
  * 因此递归的出口应为剩下一斗酒，碰到花

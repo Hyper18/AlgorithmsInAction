@@ -1,7 +1,7 @@
 package Matrix;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/12/06
  * @file M999_可以被一步捕获的棋子数.java
  * <p>

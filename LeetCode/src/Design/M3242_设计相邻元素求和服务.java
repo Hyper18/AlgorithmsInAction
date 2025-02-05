@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/11/09
  * @file M3242_设计相邻元素求和服务.java
  * <p>

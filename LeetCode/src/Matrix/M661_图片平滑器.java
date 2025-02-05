@@ -1,7 +1,7 @@
 package Matrix;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/11/18
  * @file M661_图片平滑器.java
  * <p>

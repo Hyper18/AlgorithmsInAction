@@ -3,7 +3,7 @@ package DP.Knapsack;
 import java.util.Arrays;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/06/28
  * @file M2742_给墙壁刷油漆.java
  * <p>

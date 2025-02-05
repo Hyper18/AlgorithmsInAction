@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/11/17
  * @file M792_匹配子序列的单词数.java
  * <p>

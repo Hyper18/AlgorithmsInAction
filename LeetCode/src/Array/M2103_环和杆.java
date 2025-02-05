@@ -1,7 +1,7 @@
 package Array;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2023/11/02
  * @file M2103_环和杆.java
  * <p>

@@ -1,9 +1,9 @@
 package Array;
 
-import java.util.*;
+import java.util.Arrays;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/12/29
  * @file M1366_通过投票对团队排名.java
  * <p>

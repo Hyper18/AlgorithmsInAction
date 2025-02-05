@@ -3,7 +3,7 @@ package Graph;
 import java.util.*;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2023/10/21
  * @file M2316_统计无向图中无法互相到达点对数.java
  * <p>

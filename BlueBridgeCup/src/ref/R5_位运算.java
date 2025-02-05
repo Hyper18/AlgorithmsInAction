@@ -1,7 +1,7 @@
 package ref;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/02/10
  */
 public class R5_位运算 {

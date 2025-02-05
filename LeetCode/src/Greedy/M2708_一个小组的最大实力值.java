@@ -3,7 +3,7 @@ package Greedy;
 import java.util.Arrays;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/09/03
  * @file M2708_一个小组的最大实力值.java
  * <p>

@@ -1,7 +1,7 @@
 package DP;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2023/03/08
  * @file M剑指Offer47_礼物的最大价值.java
  * <p>

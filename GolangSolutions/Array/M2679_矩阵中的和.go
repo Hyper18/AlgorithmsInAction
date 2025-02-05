@@ -1,5 +1,5 @@
 /*
-	@author Hyperspace
+	@author Hyper
 	@date 2023/07/08
 	@file M2679_矩阵中的和.go
 */

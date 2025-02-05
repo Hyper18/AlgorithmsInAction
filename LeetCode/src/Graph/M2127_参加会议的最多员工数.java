@@ -3,7 +3,7 @@ package Graph;
 import java.util.*;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2023/11/01
  * @file M2127_参加会议的最多员工数.java
  * <p>

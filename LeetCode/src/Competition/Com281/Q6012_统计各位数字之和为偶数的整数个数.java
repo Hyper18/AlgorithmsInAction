@@ -1,7 +1,7 @@
 package Competition.Com281;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/02/20
  */
 public class Q6012_统计各位数字之和为偶数的整数个数 {

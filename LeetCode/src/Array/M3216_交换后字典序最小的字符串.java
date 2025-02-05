@@ -1,7 +1,7 @@
 package Array;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/10/30
  * @file M3216_交换后字典序最小的字符串.java
  */

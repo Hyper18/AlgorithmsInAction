@@ -1,7 +1,7 @@
 package Y2015A;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/03/21
  */
 public class Q3九数分三组 {

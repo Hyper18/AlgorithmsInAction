@@ -1,7 +1,7 @@
 package Math;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/08/30
  * @file M3153_所有数对中数位不同之和.java
  * <p>

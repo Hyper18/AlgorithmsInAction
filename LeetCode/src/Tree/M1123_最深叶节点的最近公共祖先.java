@@ -1,7 +1,7 @@
 package Tree;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2023/09/06
  * @file M1123_最深叶节点的最近公共祖先.java
  * <p>

@@ -3,7 +3,7 @@ package Graph;
 import java.util.TreeSet;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/11/20
  * @file M3244_新增道路查询后的最短距离II.java
  * <p>

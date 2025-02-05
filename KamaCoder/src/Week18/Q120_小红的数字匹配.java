@@ -3,7 +3,7 @@ package Week18;
 import java.util.Scanner;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/11/07
  * @file Q120_小红的数字匹配.java
  * <p>

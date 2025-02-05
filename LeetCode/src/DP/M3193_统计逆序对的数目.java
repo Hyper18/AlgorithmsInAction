@@ -3,7 +3,7 @@ package DP;
 import java.util.Arrays;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/10/17
  * @file M3193_统计逆序对的数目.java
  * <p>

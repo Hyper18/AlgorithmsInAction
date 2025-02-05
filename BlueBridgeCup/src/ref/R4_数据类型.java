@@ -6,7 +6,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/02/10
  */
 public class R4_数据类型 {

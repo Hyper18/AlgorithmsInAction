@@ -1,7 +1,7 @@
 package BinarySearch;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2022/02/11
  * 思路
  * 题目已指定算法的时间复杂度为 O(log n),，数组无重复元素、升序 -> BinarySearch

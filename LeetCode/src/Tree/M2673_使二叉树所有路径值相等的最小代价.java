@@ -1,7 +1,7 @@
 package Tree;
 
 /**
- * @author Hyperspace
+ * @author Hyper
  * @date 2024/02/28
  * @file M2673_使二叉树所有路径值相等的最小代价.java
  * <p>

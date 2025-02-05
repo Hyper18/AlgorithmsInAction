@@ -1,5 +1,5 @@
 /*
-	@author Hyperspace
+	@author Hyper
 	@date 2024/09/04
 	@file M2860_让所有学生保持开心的分组方法数.go
 */
