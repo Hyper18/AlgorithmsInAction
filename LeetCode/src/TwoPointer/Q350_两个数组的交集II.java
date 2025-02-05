@@ -6,7 +6,7 @@ import java.util.Map;
 
 /**
  * @author Hyper
- * @date 2022/02/13
+ * @date 2022/02/13，2025/01/30
  * <p>
  * 思路
  * 1. 哈希表 -- O(m+n)
@@ -41,20 +41,17 @@ public class Q350_两个数组的交集II {
     public int[] intersect2(int[] nums1, int[] nums2) {
         Arrays.sort(nums1);
         Arrays.sort(nums2);
-        int len1 = nums1.length;
-        int len2 = nums2.length;
-        int[] res = new int[Math.min(len1, len2)];
-        int p1 = 0;
-        int p2 = 0;
-        int idx = 0;
-        while (p1 < len1 && p2 < len2) {
-            if (nums1[p1] < nums2[p2]) {
-                p1++;
-            } else if (nums1[p1] > nums2[p2]) {
-                p2++;
+        int m = nums1.length, n = nums2.length;
+        int[] res = new int[Math.min(m, n)];
+        int i = 0, j = 0, idx = 0;
+        while (i < m && j < n) {
+            if (nums1[i] < nums2[j]) {
+                i++;
+            } else if (nums1[i] > nums2[j]) {
+                j++;
             } else {
-                res[idx++] = nums1[p1++];
-                p2++;
+                res[idx++] = nums1[i++];
+                j++;
             }
         }
 

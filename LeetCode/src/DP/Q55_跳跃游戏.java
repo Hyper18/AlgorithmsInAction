@@ -14,14 +14,14 @@ package DP;
 public class Q55_跳跃游戏 {
     public boolean canJump(int[] nums) {
         int n = nums.length;
-        int[] dp = new int[n];
-        dp[0] = nums[0];
+        int[] f = new int[n];
+        f[0] = nums[0];
         for (int i = 1; i < n; i++) {
-            if (dp[i - 1] < i) {
+            if (f[i - 1] < i) {
                 return false;
             }
-            dp[i] = dp[i - 1] > nums[i] + i ? dp[i - 1] : nums[i] + i;
-            if (dp[i] >= n - 1) {
+            f[i] = f[i - 1] > nums[i] + i ? f[i - 1] : nums[i] + i;
+            if (f[i] >= n - 1) {
                 return true;
             }
         }
@@ -42,6 +42,7 @@ public class Q55_跳跃游戏 {
                 break;
             }
         }
+
         return false;
     }
 }
