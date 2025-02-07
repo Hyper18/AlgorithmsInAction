@@ -4,17 +4,17 @@ import java.util.Arrays;
 
 /**
  * @author Hyper
- * @date 2023/07/23
+ * @date 2023/07/23，2025/02/06
  * @file M42_接雨水.java
  * <p>
  * 思路
  * 模拟，经典题
  * 1. 按行求
- * 2. 按列求
- * (1) 遍历
- * (2) DP 参考题解@windliang
+ * 2. 按列求 遍历
+ * 3. 按列求 DP 参考@windliang
  * f[i]、g[i]表示第i列左侧和右侧最高列的高度
- * (3) 双指针，进一步优化空间复杂度
+ * 4. 按列求 双指针，进一步优化空间复杂度
+ * 5. 按列求 相向双指针+贪心
  */
 public class M42_接雨水 {
     public int trap(int[] height) {
@@ -130,6 +130,43 @@ public class M42_接雨水 {
                 r--;
             }
             i++;
+        }
+
+        return ans;
+    }
+
+    public int trap5_0(int[] height) {
+        int n = height.length;
+        int ans = 0, l = 0, r = n - 1;
+        while (l < r) {
+            int lh = height[l], rh = height[r];
+            if (lh <= rh) {
+                while (l < r && height[l] <= lh) {
+                    l++;
+                    if (lh > height[l]) {
+                        ans += lh - height[l];
+                    }
+                }
+            } else {
+                while (l < r && height[r] <= rh) {
+                    r--;
+                    if (rh > height[r]) {
+                        ans += rh - height[r];
+                    }
+                }
+            }
+        }
+
+        return ans;
+    }
+
+    public int trap5_1(int[] height) {
+        int n = height.length;
+        int ans = 0, l = 0, r = n - 1, lh = 0, rh = 0;
+        while (l < r) {
+            lh = Math.max(lh, height[l]);
+            rh = Math.max(rh, height[r]);
+            ans += lh <= rh ? lh - height[l++] : rh - height[r--];
         }
 
         return ans;
