@@ -1,11 +1,13 @@
 package DisjointSet;
 
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.Map;
+import java.util.Set;
 
 /**
  * @author Hyper
- * @date 2022/03/05
+ * @date 2022/03/05，2025/02/05
  */
 public class Q128_最长连续序列 {
     class UnionFind {
@@ -50,22 +52,40 @@ public class Q128_最长连续序列 {
         }
     }
 
-    class Solution {
-        public int longestConsecutive(int[] nums) {
-            if (nums == null || nums.length == 0) {
-                return 0;
-            }
-
-            UnionFind uf = new UnionFind(nums);
-
-            int ans = 1;
-            for (int num : nums) {
-                if (uf.find(num + 1) != null) {
-                    ans = Math.max(ans, uf.union(num, num + 1));
-                }
-            }
-
-            return ans;
+    public int longestConsecutive(int[] nums) {
+        if (nums == null || nums.length == 0) {
+            return 0;
         }
+
+        UnionFind uf = new UnionFind(nums);
+
+        int ans = 1;
+        for (int num : nums) {
+            if (uf.find(num + 1) != null) {
+                ans = Math.max(ans, uf.union(num, num + 1));
+            }
+        }
+
+        return ans;
+    }
+
+    public int longestConsecutive2(int[] nums) {
+        Set<Integer> st = new HashSet<>();
+        for (int num : nums) {
+            st.add(num);
+        }
+        int ans = 0;
+        for (int num : st) {
+            if (st.contains(num - 1)) {
+                continue;
+            }
+            int ne = num + 1;
+            while (st.contains(ne)) {
+                ne++;
+            }
+            ans = Math.max(ans, ne - num);
+        }
+
+        return ans;
     }
 }

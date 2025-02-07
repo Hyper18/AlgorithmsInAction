@@ -5,7 +5,7 @@ import java.util.Map;
 
 /**
  * @author Hyper
- * @date 2021/09/04，2022/02/12，2023/07/02
+ * @date 2021/09/04，2022/02/12，2023/07/02，2025/02/05
  * 解题思路
  * 1.嵌套循环暴力求解 -- 时间复杂度O(n^2)
  * 2.使用HashMap -- 时间复杂度O(n)
@@ -59,5 +59,18 @@ public class Q1_两数之和 {
         }
 
         return res;
+    }
+
+    public int[] twoSum4(int[] nums, int target) {
+        int n = nums.length;
+        Map<Integer, Integer> mp = new HashMap<>();
+        for (int i = 0; i < n; i++) {
+            if (mp.containsKey(target - nums[i])) {
+                return new int[]{mp.get(target - nums[i]), i};
+            }
+            mp.put(nums[i], i);
+        }
+
+        return new int[0];
     }
 }
