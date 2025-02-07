@@ -5,43 +5,58 @@ import java.util.Map;
 
 /**
  * @author Hyper
- * @date 2022/02/24，2023/02/28
+ * @date 2022/02/24，2023/02/28，2025/02/06
  * <p>
- * 思路 SWM
- * 1. hash
- * 2. string
+ * 思路
+ * SWM
+ * 1. 哈希 记录cnt
+ * 2. 字符串处理
+ * 3. 哈希 记录pos
  */
 public class Q3_无重复字符的最长子串 {
     public int lengthOfLongestSubstring(String s) {
-        Map<Character, Integer> map = new HashMap<>();
-        int cnt = 0;
-        int start = 0;
-        for (int end = 0; end < s.length(); end++) {
-            char ch = s.charAt(end);
-            if (map.containsKey(ch)) {
-                start = Math.max(start, map.get(ch) + 1);
+        char[] cs = s.toCharArray();
+        int n = cs.length;
+        Map<Character, Integer> mp = new HashMap<>();
+        int ans = 0;
+        for (int l = 0, r = 0; r < n; r++) {
+            mp.merge(cs[r], 1, Integer::sum);
+            while (mp.get(cs[r]) > 1) {
+                mp.merge(cs[l], -1, Integer::sum);
+                l++;
             }
-            map.put(ch, end);
-            cnt = Math.max(cnt, end - start + 1);
+            ans = Math.max(ans, r - l + 1);
         }
 
-        return cnt;
+        return ans;
     }
 
     public int lengthOfLongestSubstring2(String s) {
-        int n = s.length();
-        int ans = 0, l = 0, r = 0;
-        String t = "";
-        while (r < n) {
-            char c = s.charAt(r);
-            int idx = t.indexOf(c);
+        StringBuilder sb = new StringBuilder();
+        int ans = 0;
+        for (char c : s.toCharArray()) {
+            int idx = sb.toString().indexOf(c);
             if (idx >= 0) {
-                l = idx + 1;
-                t = t.substring(l);
+                sb = new StringBuilder(sb.substring(idx + 1));
             }
-            t += c;
-            ans = Math.max(ans, t.length());
-            r++;
+            sb.append(c);
+            ans = Math.max(ans, sb.length());
+        }
+
+        return ans;
+    }
+
+    public int lengthOfLongestSubstring3(String s) {
+        char[] cs = s.toCharArray();
+        int n = cs.length;
+        Map<Character, Integer> mp = new HashMap<>();
+        int ans = 0;
+        for (int l = 0, r = 0; r < n; r++) {
+            if (mp.containsKey(cs[r])) {
+                l = Math.max(l, mp.get(cs[r]) + 1);
+            }
+            mp.put(cs[r], r);
+            ans = Math.max(ans, r - l + 1);
         }
 
         return ans;
