@@ -7,13 +7,16 @@ import java.util.List;
 /**
  * @author Hyper
  * @date 2022/03/14
+ * <p>
+ * 思路
+ * 回溯
  */
 public class Q47_全排列II {
     private List<List<Integer>> res = new ArrayList<>();
     private List<Integer> permutation = new ArrayList<>();
     private boolean[] visited;
     private int[] nums;
-    int n;
+    private int n;
 
     public List<List<Integer>> permuteUnique(int[] nums) {
         this.nums = nums;
