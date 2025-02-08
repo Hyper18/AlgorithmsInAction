@@ -5,7 +5,7 @@ import java.util.Map;
 
 /**
  * @author Hyper
- * @date 2023/03/02
+ * @date 2023/03/02，2025/02/08
  * @file Q76_最小覆盖子串.java
  * <p>
  * 思路
@@ -51,7 +51,7 @@ public class Q76_最小覆盖子串 {
         return minR == n1 ? "" : s.substring(minL, minR + 1);
     }
 
-    public String minWindow2(String s, String t) {
+    public String minWindow2_0(String s, String t) {
         int n1 = s.length(), n2 = t.length();
         int[] cnt1 = new int[58], cnt2 = new int[58];
         for (char c : t.toCharArray()) {
@@ -78,5 +78,31 @@ public class Q76_最小覆盖子串 {
         }
 
         return minR == n1 ? "" : s.substring(minL, minR + 1);
+    }
+
+    public String minWindow2_1(String s, String t) {
+        char[] cs = s.toCharArray(), ct = t.toCharArray();
+        int sLen = cs.length, tLen = ct.length;
+        int[] sCnt = new int[58], tCnt = new int[58];
+        for (char c : ct) {
+            tCnt[c - 'A']++;
+        }
+        int tl = 0, tr = sLen;
+        for (int cnt = 0, l = 0, r = 0; r < sLen; r++) {
+            if (++sCnt[cs[r] - 'A'] <= tCnt[cs[r] - 'A']) {
+                cnt++;
+            }
+            while (cnt == tLen) {
+                if (tr - tl > r - l) {
+                    tl = l;
+                    tr = r;
+                }
+                if (sCnt[cs[l] - 'A']-- <= tCnt[cs[l++] - 'A']) {
+                    cnt--;
+                }
+            }
+        }
+
+        return tr == sLen ? "" : s.substring(tl, tr + 1);
     }
 }
