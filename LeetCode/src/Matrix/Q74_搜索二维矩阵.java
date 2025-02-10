@@ -1,11 +1,13 @@
 package Matrix;
 
+import java.util.Arrays;
+
 /**
  * @author Hyper
- * @date 2022/10/15
+ * @date 2022/10/15，2025/02/10
  * <p>
  * 思路
- * 对每行依次二分查找值
+ * 逐行二分
  */
 public class Q74_搜索二维矩阵 {
     public boolean searchMatrix(int[][] matrix, int target) {
@@ -21,7 +23,7 @@ public class Q74_搜索二维矩阵 {
         int n = nums.length;
         int low = 0, high = n - 1;
         while (low <= high) {
-            int mid = low + (high - low) / 2;
+            int mid = low + ((high - low) >> 1);
             if (nums[mid] == target) {
                 return mid;
             } else if (nums[mid] > target) {
@@ -32,5 +34,14 @@ public class Q74_搜索二维矩阵 {
         }
 
         return -1;
+    }
+
+    public boolean searchMatrix2(int[][] matrix, int target) {
+        for (int[] row : matrix) {
+            if (Arrays.binarySearch(row, target) >= 0) {
+                return true;
+            }
+        }
+        return false;
     }
 }

@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 /**
  * @author Hyper
- * @date 2022/02/15
+ * @date 2022/02/15，2025/02/10
  * <p>
  * 思路
  * 1. 数组分别标记行、列，遍历两次 -- O(n*m)
@@ -12,10 +12,8 @@ import java.util.Arrays;
  */
 public class Q73_矩阵置零 {
     public void setZeroes(int[][] matrix) {
-        int m = matrix.length;
-        int n = matrix[0].length;
-        boolean[] row = new boolean[m];
-        boolean[] col = new boolean[n];
+        int m = matrix.length, n = matrix[0].length;
+        boolean[] row = new boolean[m], col = new boolean[n];
         for (int i = 0; i < m; i++) {
             for (int j = 0; j < n; j++) {
                 if (matrix[i][j] == 0) {
@@ -33,9 +31,7 @@ public class Q73_矩阵置零 {
     }
 
     public void setZeroes2(int[][] matrix) {
-        int m = matrix.length;
-        int n = matrix[0].length;
-
+        int m = matrix.length, n = matrix[0].length;
         boolean row0 = false, col0 = false;
         for (int i = 0; i < m; i++) {
             if (matrix[i][0] == 0) {
@@ -49,7 +45,6 @@ public class Q73_矩阵置零 {
                 break;
             }
         }
-
         for (int i = 1; i < m; i++) {
             for (int j = 1; j < n; j++) {
                 if (matrix[i][j] == 0) {
@@ -57,7 +52,6 @@ public class Q73_矩阵置零 {
                 }
             }
         }
-
         for (int j = 1; j < n; j++) {
             if (matrix[0][j] == 0) {
                 for (int i = 1; i < m; i++) {
@@ -70,7 +64,6 @@ public class Q73_矩阵置零 {
                 Arrays.fill(matrix[i], 0);
             }
         }
-
         if (row0) {
             for (int i = 0; i < m; i++) {
                 matrix[i][0] = 0;
