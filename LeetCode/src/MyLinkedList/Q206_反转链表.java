@@ -4,12 +4,13 @@ import java.util.Stack;
 
 /**
  * @author Hyper
- * @date 2022/02/20
+ * @date 2022/02/20，2025/02/21
  * <p>
  * 1. stack
- * 2. two-pointer
+ * 2. 原地反转
+ * 这种做法属于本题想考察的内容
  * 3. 递归
- * 4. 直接反转值，思路来自@触不可及
+ * 4. 直接反转值@触不可及
  */
 public class Q206_反转链表 {
     public ListNode reverseList(ListNode head) {
@@ -36,16 +37,15 @@ public class Q206_反转链表 {
     }
 
     public ListNode reverseList2(ListNode head) {
-        ListNode pre = null;
-        ListNode cur = head;
+        ListNode cur = head, pre = null;
         while (cur != null) {
-            ListNode tmp = cur.next;
+            ListNode t = cur.next;
             cur.next = pre;
             pre = cur;
-            cur = tmp;
+            cur = t;
         }
 
-        return head;
+        return pre;
     }
 
     public ListNode reverseList3(ListNode head) {
@@ -64,6 +64,7 @@ public class Q206_反转链表 {
         for (ListNode n = head; n != null; n = n.next) {
             newHead = new ListNode(n.val, newHead);
         }
+
         return newHead;
     }
 }

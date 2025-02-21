@@ -2,7 +2,7 @@ package MyLinkedList;
 
 /**
  * @author Hyper
- * @date 2022/02/15
+ * @date 2022/02/15，2025/02/21
  * <p>
  * 思路
  * 1. 单指针法 -- O(N)
@@ -26,8 +26,7 @@ public class Q876_链表的中间结点 {
     }
 
     public ListNode middleNode2(ListNode head) {
-        ListNode slow = head;
-        ListNode fast = head;
+        ListNode slow = head, fast = head;
         while (fast != null && fast.next != null) {
             slow = slow.next;
             fast = fast.next.next;
