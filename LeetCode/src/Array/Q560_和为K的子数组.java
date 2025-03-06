@@ -5,7 +5,7 @@ import java.util.Map;
 
 /**
  * @author Hyper
- * @date 2022/02/27，2025/02/07
+ * @date 2022/02/27，2025/02/07，2025/03/06
  * <p>
  * 思路
  * 1. 模拟 -- O(n^2)
@@ -15,6 +15,7 @@ import java.util.Map;
  * O(n^2)如何优化？@灵茶山艾府
  * 引入哈希记录当前前缀和与左侧前缀和的和为k的个数
  * 3. 前缀和+哈希 -- O(n)
+ * 较优解
  */
 public class Q560_和为K的子数组 {
     public int subarraySum(int[] nums, int k) {
