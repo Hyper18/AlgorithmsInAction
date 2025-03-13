@@ -2,13 +2,13 @@ package MyLinkedList;
 
 /**
  * @author Hyper
- * @date 2022/02/19，2023/08/05
+ * @date 2022/02/19，2023/08/05，2025/03/13
  * <p>
  * 1. 归并
  * 2. 递归
  */
 public class Q21_合并两个有序链表 {
-    public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
+    public ListNode mergeTwoLists1_0(ListNode list1, ListNode list2) {
         ListNode dummy = new ListNode(0);
         ListNode cur = dummy;
         while (list1 != null && list2 != null) {
@@ -26,21 +26,7 @@ public class Q21_合并两个有序链表 {
         return dummy.next;
     }
 
-    public ListNode mergeTwoLists2(ListNode list1, ListNode list2) {
-        if (list1 == null) {
-            return list2;
-        } else if (list2 == null) {
-            return list1;
-        } else if (list1.val <= list2.val) {
-            list1.next = mergeTwoLists2(list1.next, list2);
-            return list1;
-        } else {
-            list2.next = mergeTwoLists2(list1, list2.next);
-            return list2;
-        }
-    }
-
-    public ListNode mergeTwoLists3(ListNode list1, ListNode list2) {
+    public ListNode mergeTwoLists1_1(ListNode list1, ListNode list2) {
         ListNode l = new ListNode(), cur = l;
         while (list1 != null && list2 != null) {
             if (list1.val <= list2.val) {
@@ -60,5 +46,35 @@ public class Q21_合并两个有序链表 {
         }
 
         return l.next;
+    }
+
+    public ListNode mergeTwoLists2_0(ListNode list1, ListNode list2) {
+        if (list1 == null) {
+            return list2;
+        } else if (list2 == null) {
+            return list1;
+        } else if (list1.val <= list2.val) {
+            list1.next = mergeTwoLists2_0(list1.next, list2);
+            return list1;
+        } else {
+            list2.next = mergeTwoLists2_0(list1, list2.next);
+            return list2;
+        }
+    }
+
+    private ListNode mergeTwoLists2_1(ListNode list1, ListNode list2) {
+        if (list1 == null) {
+            return list2;
+        }
+        if (list2 == null) {
+            return list1;
+        }
+        if (list1.val <= list2.val) {
+            list1.next = mergeTwoLists2_1(list1.next, list2);
+            return list1;
+        }
+        list2.next = mergeTwoLists2_1(list1, list2.next);
+
+        return list2;
     }
 }

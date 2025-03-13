@@ -5,7 +5,7 @@ import java.util.Set;
 
 /**
  * @author Hyper
- * @date 2023/07/30
+ * @date 2023/07/30，2025/03/13
  * @file M142_环形链表II.java
  * <p>
  * 思路
@@ -50,5 +50,27 @@ public class M142_环形链表II {
                 return fast;
             }
         }
+    }
+
+    public ListNode detectCycle3(ListNode head) {
+        if (head == null || head.next == null) {
+            return null;
+        }
+        ListNode fast = head, slow = head;
+        while (fast != null && fast.next != null) {
+            fast = fast.next.next;
+            slow = slow.next;
+            if (fast == slow) {
+                fast = head;
+                while (slow != fast) {
+                    fast = fast.next;
+                    slow = slow.next;
+                }
+
+                return fast;
+            }
+        }
+
+        return null;
     }
 }

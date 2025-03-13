@@ -5,10 +5,10 @@ import java.util.Set;
 
 /**
  * @author Hyper
- * @date 2022/02/19，2023/07/29
+ * @date 2022/02/19，2023/07/29，2025/03/13
  * <p>
- * 1. set验重 -- O(n)
- * 2. 快慢指针
+ * 1. set验重 -- 时间 O(n)，空间 O(n)
+ * 2. 快慢指针 -- 时间 O(n)，空间 O(1)
  */
 public class Q141_环形链表 {
     public boolean hasCycle(ListNode head) {
