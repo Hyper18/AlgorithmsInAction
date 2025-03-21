@@ -1,10 +1,10 @@
-package Array;
+package TwoPointer;
 
 import java.util.Arrays;
 
 /**
  * @author Hyper
- * @date 2023/07/23，2025/02/06
+ * @date 2023/07/23，2025/02/06，2025/03/21
  * @file M42_接雨水.java
  * <p>
  * 思路
@@ -166,7 +166,7 @@ public class M42_接雨水 {
         while (l < r) {
             lh = Math.max(lh, height[l]);
             rh = Math.max(rh, height[r]);
-            ans += lh <= rh ? lh - height[l++] : rh - height[r--];
+            ans += lh >= rh ? rh - height[r--] : lh - height[l++];
         }
 
         return ans;

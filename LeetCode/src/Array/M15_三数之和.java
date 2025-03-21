@@ -6,18 +6,19 @@ import java.util.List;
 
 /**
  * @author Hyper
- * @date 2023/07/09，2025/02/06
+ * @date 2023/07/09，2025/02/06，2025/03/21
  * @file M15_三数之和.java
  * <p>
  * 思路
- * 排序，双指针
+ * 排序+相向双指针
+ * <p>
  * 注意题干中去重的要求
  */
 public class M15_三数之和 {
     public List<List<Integer>> threeSum(int[] nums) {
         int n = nums.length;
-        List<List<Integer>> res = new ArrayList<>();
         Arrays.sort(nums);
+        List<List<Integer>> res = new ArrayList<>();
         for (int i = 0; i < n - 2; i++) {
             if (nums[i] > 0) {
                 break;
@@ -38,10 +39,10 @@ public class M15_三数之和 {
                     }
                     j++;
                     k--;
-                } else if (sum < 0) {
-                    j++;
-                } else {
+                } else if (sum > 0) {
                     k--;
+                } else {
+                    j++;
                 }
             }
         }
