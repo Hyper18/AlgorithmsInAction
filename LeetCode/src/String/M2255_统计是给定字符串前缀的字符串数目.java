@@ -1,5 +1,7 @@
 package String;
 
+import java.util.Arrays;
+
 /**
  * @author Hyperspace
  * @date 2025/03/24
@@ -29,5 +31,9 @@ public class M2255_统计是给定字符串前缀的字符串数目 {
         }
 
         return ans;
+    }
+
+    public int countPrefixes3(String[] words, String s) {
+        return (int) Arrays.stream(words).filter(w -> w.length() <= s.length() && w.equals(s.substring(0, w.length()))).count();
     }
 }
