@@ -48,4 +48,63 @@ public class Q6010_完成旅途的最少时间 {
 
         return low;
     }
+
+    public long minimumTime3_0(int[] time, int totalTrips) {
+        long low = 1, high = totalTrips * 10000000L;
+        while (low <= high) {
+            long mid = low + ((high - low) >> 1);
+            if (check(time, mid, totalTrips)) {
+                low = mid + 1;
+            } else {
+                high = mid - 1;
+            }
+        }
+
+        return low;
+    }
+
+    private boolean check(int[] time, long mid, int totalTrips) {
+        long ans = 0;
+        for (int t : time) {
+            ans += mid / t;
+            if (ans >= totalTrips) {
+                return true;
+            }
+        }
+
+        return false;
+    }
+
+    public long minimumTime3_1(int[] time, int totalTrips) {
+        int n = time.length;
+        int mn = Integer.MAX_VALUE, mx = 0;
+        for (int t : time) {
+            mn = Math.min(mn, t);
+            mx = Math.max(mx, t);
+        }
+        int avg = (totalTrips - 1) / n + 1;
+        long low = (long) mn * avg - 1, high = Math.min((long) mx * avg, (long) mn * totalTrips);
+        while (low <= high) {
+            long mid = low + ((high - low) >> 1);
+            if (check(time, mid, totalTrips)) {
+                low = mid + 1;
+            } else {
+                high = mid - 1;
+            }
+        }
+
+        return low;
+    }
+
+    private boolean check2(int[] time, long mid, int totalTrips) {
+        long ans = 0;
+        for (int t : time) {
+            ans += mid / t;
+            if (ans >= totalTrips) {
+                return false;
+            }
+        }
+
+        return true;
+    }
 }
