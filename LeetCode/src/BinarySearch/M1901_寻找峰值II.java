@@ -2,27 +2,43 @@ package BinarySearch;
 
 /**
  * @author Hyper
- * @date 2023/12/19
+ * @date 2023/12/19，2025/03/27
  * @file M1901_寻找峰值II.java
  * <p>
  * 思路
- * 二分，先找到每行的最大值，再往递增方向走
+ * 1. 左闭右开二分
+ * 先找到每行的最大值，再往递增方向走
+ * 2. 闭区间二分
  */
 public class M1901_寻找峰值II {
     public int[] findPeakGrid(int[][] mat) {
         int n = mat.length;
-        int l = 0, r = n - 1;
-        while (l < r) {
-            int i = l + ((r - l) >> 1);
-            int j = getMaxIdx(mat[i]);
+        int low = 0, high = n - 1;
+        while (low < high) {
+            int i = low + ((high - low) >> 1), j = getMaxIdx(mat[i]);
             if (mat[i][j] > mat[i + 1][j]) {
-                r = i;
+                high = i;
             } else {
-                l = i + 1;
+                low = i + 1;
             }
         }
 
-        return new int[]{l, getMaxIdx(mat[l])};
+        return new int[]{low, getMaxIdx(mat[low])};
+    }
+
+    public int[] findPeakGrid2(int[][] mat) {
+        int n = mat.length;
+        int low = 0, high = n - 1;
+        while (low <= high) {
+            int i = low + ((high - low) >> 1), j = getMaxIdx(mat[i]);
+            if (i == n - 1 || mat[i][j] > mat[i + 1][j]) {
+                high = i - 1;
+            } else {
+                low = i + 1;
+            }
+        }
+
+        return new int[]{low, getMaxIdx(mat[low])};
     }
 
     private int getMaxIdx(int[] row) {
