@@ -2,12 +2,14 @@ package MyLinkedList;
 
 /**
  * @author Hyper
- * @date 2025/02/21
+ * @date 2025/02/21，2025/03/28
  * @file Q234_回文链表.java
  * <p>
  * 思路
  * 1. 模拟
- * 2. 快慢指针+反转部分列表
+ * 2. 原地模拟
+ * 快慢指针+反转列表
+ * 参见Q876+Q206
  */
 public class Q234_回文链表 {
     public boolean isPalindrome(ListNode head) {
@@ -22,7 +24,7 @@ public class Q234_回文链表 {
 
     public boolean isPalindrome2(ListNode head) {
         ListNode mid = middleNode(head), head2 = reverseList(mid);
-        while (head != null && head2 != null) {
+        while (head2 != null) {
             if (head.val != head2.val) {
                 return false;
             }
@@ -43,13 +45,13 @@ public class Q234_回文链表 {
         return slow;
     }
 
-    private ListNode reverseList(ListNode head) {
-        ListNode cur = head, pre = null;
+    public ListNode reverseList(ListNode head) {
+        ListNode pre = null, cur = head;
         while (cur != null) {
-            ListNode t = cur.next;
+            ListNode nxt = cur.next;
             cur.next = pre;
             pre = cur;
-            cur = t;
+            cur = nxt;
         }
 
         return pre;

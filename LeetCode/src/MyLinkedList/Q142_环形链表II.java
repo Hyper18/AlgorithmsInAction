@@ -5,8 +5,8 @@ import java.util.Set;
 
 /**
  * @author Hyper
- * @date 2023/07/30，2025/03/13
- * @file M142_环形链表II.java
+ * @date 2023/07/30，2025/03/13，2025/03/28
+ * @file Q142_环形链表II.java
  * <p>
  * 思路
  * 1. set验重
@@ -18,7 +18,7 @@ import java.util.Set;
  * 得dis(fast) = 2nb， dis(slow) = nb
  * 此时需再走a步到达环头
  */
-public class M142_环形链表II {
+public class Q142_环形链表II {
     public ListNode detectCycle(ListNode head) {
         Set<ListNode> set = new HashSet<>();
         ListNode cur = head;
@@ -32,30 +32,7 @@ public class M142_环形链表II {
         return null;
     }
 
-    public ListNode detectCycle2(ListNode head) {
-        ListNode fast = head, slow = head;
-        while (true) {
-            if (fast == null || fast.next == null) {
-                return null;
-            }
-            fast = fast.next.next;
-            slow = slow.next;
-            if (fast == slow) {
-                fast = head;
-                while (slow != fast) {
-                    slow = slow.next;
-                    fast = fast.next;
-                }
-
-                return fast;
-            }
-        }
-    }
-
-    public ListNode detectCycle3(ListNode head) {
-        if (head == null || head.next == null) {
-            return null;
-        }
+    public ListNode detectCycle2_0(ListNode head) {
         ListNode fast = head, slow = head;
         while (fast != null && fast.next != null) {
             fast = fast.next.next;
@@ -68,6 +45,23 @@ public class M142_环形链表II {
                 }
 
                 return fast;
+            }
+        }
+
+        return null;
+    }
+
+    public ListNode detectCycle2_1(ListNode head) {
+        ListNode fast = head, slow = head;
+        while (fast != null && fast.next != null) {
+            fast = fast.next.next;
+            slow = slow.next;
+            if (fast == slow) {
+                while (slow != head) {
+                    head = head.next;
+                    slow = slow.next;
+                }
+                return slow;
             }
         }
 
