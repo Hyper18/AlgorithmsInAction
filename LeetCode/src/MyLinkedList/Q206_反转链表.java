@@ -4,7 +4,7 @@ import java.util.Stack;
 
 /**
  * @author Hyper
- * @date 2022/02/20，2025/02/21
+ * @date 2022/02/20，2025/02/21，2025/03/28
  * <p>
  * 1. stack
  * 2. 原地反转
@@ -37,12 +37,12 @@ public class Q206_反转链表 {
     }
 
     public ListNode reverseList2(ListNode head) {
-        ListNode cur = head, pre = null;
+        ListNode pre = null, cur = head;
         while (cur != null) {
-            ListNode t = cur.next;
+            ListNode nxt = cur.next;
             cur.next = pre;
             pre = cur;
-            cur = t;
+            cur = nxt;
         }
 
         return pre;
