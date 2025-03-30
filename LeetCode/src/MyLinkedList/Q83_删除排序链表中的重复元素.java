@@ -5,7 +5,7 @@ import java.util.Set;
 
 /**
  * @author Hyper
- * @date 2022/02/20
+ * @date 2022/02/20，2025/03/29
  * <p>
  * 1. set去重
  * 2. 利用 已排序 特点
@@ -27,16 +27,16 @@ public class Q83_删除排序链表中的重复元素 {
         return head;
     }
 
-    public ListNode deleteDuplicates2(ListNode head) {
+    public ListNode deleteDuplicates2_0(ListNode head) {
         if (head == null) {
             return head;
         }
         ListNode cur = head;
         while (cur.next != null) {
-            if (cur.val != cur.next.val) {
-                cur = cur.next;
-            } else {
+            if (cur.val == cur.next.val) {
                 cur.next = cur.next.next;
+            } else {
+                cur = cur.next;
             }
         }
 

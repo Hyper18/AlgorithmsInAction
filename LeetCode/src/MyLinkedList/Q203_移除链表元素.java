@@ -2,13 +2,15 @@ package MyLinkedList;
 
 /**
  * @author Hyper
- * @date 2022/02/20
+ * @date 2022/02/20，2025/03/29
+ * <p>
+ * 思路
+ * 1. 迭代
+ * 2. 递归
  */
 public class Q203_移除链表元素 {
     public ListNode removeElements(ListNode head, int val) {
-        ListNode dummy = new ListNode(0);
-        dummy.next = head;
-        ListNode cur = dummy;
+        ListNode dummy = new ListNode(0, head), cur = dummy;
         while (cur.next != null) {
             if (cur.next.val == val) {
                 cur.next = cur.next.next;

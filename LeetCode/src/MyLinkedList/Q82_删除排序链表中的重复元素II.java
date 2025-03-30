@@ -2,30 +2,23 @@ package MyLinkedList;
 
 /**
  * @author Hyper
- * @date 2022/02/20
+ * @date 2022/02/20，2025/03/29
  * <p>
- * 1. 迭代 双指针
+ * 1. 迭代
  * 2. 递归
  */
 public class Q82_删除排序链表中的重复元素II {
     public ListNode deleteDuplicates(ListNode head) {
-        if (head == null || head.next == null) {
-            return head;
-        }
-        ListNode dummy = new ListNode(101);
-        dummy.next = head;
-        ListNode pre = dummy;
-        ListNode cur = head;
-        while (cur != null && cur.next != null) {
-            if (pre.next.val != cur.next.val) {
-                pre = pre.next;
-            } else {
-                while (cur.next != null && pre.next.val == cur.next.val) {
-                    cur = cur.next;
+        ListNode dummy = new ListNode(0, head), cur = dummy;
+        while (cur.next != null && cur.next.next != null) {
+            int v = cur.next.val;
+            if (v == cur.next.next.val) {
+                while (cur.next != null && v == cur.next.val) {
+                    cur.next = cur.next.next;
                 }
-                pre.next = cur.next;
+            } else {
+                cur = cur.next;
             }
-            cur = cur.next;
         }
 
         return dummy.next;

@@ -5,12 +5,13 @@ import java.util.PriorityQueue;
 
 /**
  * @author Hyper
- * @date 2023/08/12
+ * @date 2023/08/12，2025/03/30
  * @file M23_合并K个升序链表.java
  * <p>
  * 思路
- * 一开始抖机灵，废物利用两链合并过了，乐
- * 模拟，小根堆
+ * 1. 迭代
+ * 2. 递归
+ * 3. 模拟，小根堆
  */
 public class M23_合并K个升序链表 {
     public ListNode mergeKLists(ListNode[] lists) {
@@ -22,29 +23,39 @@ public class M23_合并K个升序链表 {
         return res;
     }
 
-    public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
-        ListNode l = new ListNode(), cur = l;
-        while (list1 != null && list2 != null) {
-            if (list1.val <= list2.val) {
-                cur.next = list1;
-                list1 = list1.next;
-            } else {
-                cur.next = list2;
-                list2 = list2.next;
-            }
-            cur = cur.next;
-        }
-        if (list1 != null) {
-            cur.next = list1;
-        }
-        if (list2 != null) {
-            cur.next = list2;
-        }
-
-        return l.next;
+    public ListNode mergeKLists2(ListNode[] lists) {
+        return mergeKLists(lists, 0, lists.length);
     }
 
-    public ListNode mergeKLists2(ListNode[] lists) {
+    private ListNode mergeKLists(ListNode[] lists, int i, int j) {
+        int mid = j - i;
+        if (mid == 0) {
+            return null;
+        }
+        if (mid == 1) {
+            return lists[i];
+        }
+
+        return mergeTwoLists(mergeKLists(lists, i, i + mid / 2), mergeKLists(lists, i + mid / 2, j));
+    }
+
+    private ListNode mergeTwoLists(ListNode list1, ListNode list2) {
+        if (list1 == null) {
+            return list2;
+        }
+        if (list2 == null) {
+            return list1;
+        }
+        if (list1.val < list2.val) {
+            list1.next = mergeTwoLists(list1.next, list2);
+            return list1;
+        }
+        list2.next = mergeTwoLists(list1, list2.next);
+
+        return list2;
+    }
+
+    public ListNode mergeKLists3(ListNode[] lists) {
         PriorityQueue<ListNode> q = new PriorityQueue<>(Comparator.comparingInt(a -> a.val));
         for (ListNode l : lists) {
             if (l != null) {
