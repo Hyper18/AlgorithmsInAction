@@ -2,25 +2,19 @@ package Tree;
 
 /**
  * @author Hyper
- * @date 2022/03/01
+ * @date 2025/04/15
  * <p>
- * 1. 递归写法
- * 2. 优化版本
+ * 思路
+ * dfs
  */
 public class Q226_翻转二叉树 {
     public TreeNode invertTree(TreeNode root) {
-        return traverse(root);
-    }
-
-    private TreeNode traverse(TreeNode root) {
         if (root == null) {
             return null;
         }
-        TreeNode leftSubTree = traverse(root.left);
-        TreeNode rightSubTree = traverse(root.right);
-
-        root.left = rightSubTree;
-        root.right = leftSubTree;
+        TreeNode l = invertTree(root.left), r = invertTree(root.right);
+        root.left = r;
+        root.right = l;
 
         return root;
     }
@@ -29,13 +23,11 @@ public class Q226_翻转二叉树 {
         if (root == null) {
             return null;
         }
-
+        TreeNode t = root.left;
+        root.left = root.right;
+        root.right = t;
         invertTree2(root.left);
         invertTree2(root.right);
-
-        TreeNode tmp = root.left;
-        root.left = root.right;
-        root.right = tmp;
 
         return root;
     }
