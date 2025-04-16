@@ -1,21 +1,22 @@
 import java.io.*;
 import java.util.*;
+import java.util.function.Function;
 
 /**
  * @author Hyper
  * @date 2022/03/07
  */
-public class Main {
+public class MainV2 {
     public static BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
     public static StringTokenizer tk = new StringTokenizer("");
     public static PrintWriter out = new PrintWriter(new BufferedOutputStream(System.out));
 
     public static void main(String[] args) throws IOException {
         if (hasNext()) {
-            int n = nextInt();
-            String s = next();
-            long a = nextLong();
-            double b = nextDouble();
+            int n = next(Integer::parseInt);
+            String s = next(Function.identity());
+            long a = next(Long::parseLong);
+            double b = next(Double::parseDouble);
             String[] ss = nextLine().split(" ");
 
             out.println("n: " + n);
@@ -33,6 +34,13 @@ public class Main {
         out.close();
     }
 
+    public static <T> T next(Function<String, T> parser) throws IOException {
+        while (!tk.hasMoreTokens()) {
+            tk = new StringTokenizer(in.readLine());
+        }
+        return parser.apply(tk.nextToken());
+    }
+
     public static boolean hasNext() throws IOException {
         while (!tk.hasMoreTokens()) {
             String line = in.readLine();
@@ -44,36 +52,8 @@ public class Main {
         return true;
     }
 
-    public static int nextInt() throws IOException {
-        while (!tk.hasMoreTokens()) {
-            tk = new StringTokenizer(in.readLine());
-        }
-        return Integer.parseInt(tk.nextToken());
-    }
-
-    public static String next() throws IOException {
-        while (!tk.hasMoreTokens()) {
-            tk = new StringTokenizer(in.readLine());
-        }
-        return tk.nextToken();
-    }
-
     public static String nextLine() throws IOException {
         tk = new StringTokenizer("");
         return in.readLine();
-    }
-
-    public static long nextLong() throws IOException {
-        while (!tk.hasMoreTokens()) {
-            tk = new StringTokenizer(in.readLine());
-        }
-        return Long.parseLong(tk.nextToken());
-    }
-
-    public static double nextDouble() throws IOException {
-        while (!tk.hasMoreTokens()) {
-            tk = new StringTokenizer(in.readLine());
-        }
-        return Double.parseDouble(tk.nextToken());
     }
 }

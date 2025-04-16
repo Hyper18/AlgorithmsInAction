@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/KamaCoder/KamaCoder.iml" filepath="$PROJECT_DIR$/KamaCoder/KamaCoder.iml" />
       <module fileurl="file://$PROJECT_DIR$/LeetCode/LeetCode.iml" filepath="$PROJECT_DIR$/LeetCode/LeetCode.iml" />
       <module fileurl="file://$PROJECT_DIR$/Luogu/Luogu.iml" filepath="$PROJECT_DIR$/Luogu/Luogu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NowCoder/NowCoder.iml" filepath="$PROJECT_DIR$/NowCoder/NowCoder.iml" />
     </modules>
   </component>
 </project>
