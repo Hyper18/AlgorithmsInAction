@@ -7,83 +7,83 @@ import java.util.Map;
 
 /**
  * @author Hyper
- * @date 2022/03/06
+ * @date 2022/03/06，2024/02/21，2025/05/01
  * <p>
- * 1. 递归 -- O(n)
- * 2. 迭代 -- O(n)
- * 来自官解：迭代法的实现基于以下两点发现
- * 如果将中序遍历反序，则得到反向的中序遍历，即每次遍历右孩子，再遍历根节点，最后遍历左孩子。
- * 如果将后序遍历反序，则得到反向的前序遍历，即每次遍历根节点，再遍历右孩子，最后遍历左孩子。
- * 「反向」的意思是交换遍历左孩子和右孩子的顺序，即反向的遍历中，右孩子在左孩子之前被遍历。
+ * 1. dfs + hash -- O(n)
+ * 2. bfs -- O(n)
+ * 交换左、右孩子的遍历顺序，先右后左
+ * 将中序遍历反序，右-根-左
+ * 将后序遍历反序，根-右-左
  */
 public class Q106_从中序与后序遍历序列构造二叉树 {
-    private int[] inorder;
     private int[] postorder;
-    private int postIdx;
-    private Map<Integer, Integer> idxMap;
+    private Map<Integer, Integer> mp = new HashMap<>();
 
-    private void init(int[] inorder, int[] postorder) {
-        this.inorder = inorder;
+    public TreeNode buildTree1_0(int[] inorder, int[] postorder) {
         this.postorder = postorder;
-        postIdx = postorder.length - 1;
-        idxMap = new HashMap<>();
-    }
-
-    public TreeNode buildTree(int[] inorder, int[] postorder) {
-        init(inorder, postorder);
-
-        int idx = 0;
-        for (int val : inorder) {
-            idxMap.put(val, idx++);
+        int n = inorder.length;
+        for (int i = 0; i < n; i++) {
+            mp.put(inorder[i], i);
         }
 
-        return build(0, inorder.length - 1);
+        return build(0, n - 1, 0, n - 1);
     }
 
-    private TreeNode build(int inLeft, int inRight) {
-        if (inLeft > inRight) {
+    private TreeNode build(int inL, int inR, int postL, int postR) {
+        if (inL > inR) {
             return null;
         }
-
-        int rootVal = postorder[postIdx];
-        TreeNode root = new TreeNode(rootVal);
-
-        int idx = idxMap.get(rootVal);
-        postIdx--;
-
-        root.right = build(idx + 1, inRight);
-        root.left = build(inLeft, idx - 1);
+        TreeNode root = new TreeNode(postorder[postR]);
+        int inRoot = mp.get(root.val), lenL = inRoot - inL;
+        root.left = build(inL, inRoot - 1, postL, postL + lenL - 1);
+        root.right = build(inRoot + 1, inR, postL + lenL, postR - 1);
 
         return root;
     }
 
-    private void init2(int[] inorder, int[] postorder) {
-        this.inorder = inorder;
+    private int postIdx;
+
+    public TreeNode buildTree1_1(int[] inorder, int[] postorder) {
         this.postorder = postorder;
-        postIdx = postorder.length - 1;
+        int n = inorder.length;
+        postIdx = n - 1;
+        for (int i = 0; i < n; i++) {
+            mp.put(inorder[i], i);
+        }
+
+        return build1_1(0, n - 1);
+    }
+
+    private TreeNode build1_1(int inL, int inR) {
+        if (inL > inR) {
+            return null;
+        }
+        TreeNode root = new TreeNode(postorder[postIdx--]);
+        int inRoot = mp.get(root.val);
+        // 注意次序
+        root.right = build1_1(inRoot + 1, inR);
+        root.left = build1_1(inL, inRoot - 1);
+
+        return root;
     }
 
     public TreeNode buildTree2(int[] inorder, int[] postorder) {
-        init2(inorder, postorder);
-        int rootVal = postorder[postIdx];
-        TreeNode root = new TreeNode(rootVal);
+        int n = postorder.length;
+        TreeNode root = new TreeNode(postorder[n - 1]);
         Deque<TreeNode> stk = new LinkedList<>();
-
         stk.push(root);
-        int inorderIndex = inorder.length - 1;
-        for (int i = postorder.length - 2; i >= 0; i--) {
-            int postorderVal = postorder[i];
-            TreeNode node = stk.peek();
-            if (node.val != inorder[inorderIndex]) {
-                node.right = new TreeNode(postorderVal);
-                stk.push(node.right);
+        for (int inIdx = n - 1, i = inIdx - 1; i >= 0; i--) {
+            TreeNode cur = stk.peek();
+            if (cur.val != inorder[inIdx]) {
+                cur.right = new TreeNode(postorder[i]);
+                stk.push(cur.right);
             } else {
-                while (!stk.isEmpty() && stk.peek().val == inorder[inorderIndex]) {
-                    node = stk.pop();
-                    inorderIndex--;
+                while (!stk.isEmpty() && stk.peek().val == inorder[inIdx]) {
+                    cur = stk.pop();
+                    inIdx--;
                 }
-                node.left = new TreeNode(postorderVal);
-                stk.push(node.left);
+                cur.left = new TreeNode(postorder[i]);
+                stk.push(cur.left);
             }
         }
 
