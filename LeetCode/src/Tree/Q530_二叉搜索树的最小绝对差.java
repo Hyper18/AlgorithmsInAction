@@ -41,19 +41,19 @@ public class Q530_二叉搜索树的最小绝对差 {
     private int pre = -1, ans = Integer.MAX_VALUE;
 
     public int getMinimumDifference2(TreeNode root) {
-        dfs2(root);
+        inorder(root);
         return ans;
     }
 
-    private void dfs2(TreeNode cur) {
+    private void inorder(TreeNode cur) {
         if (cur == null) {
             return;
         }
-        dfs2(cur.left);
+        inorder(cur.left);
         if (pre != -1) {
             ans = Math.min(ans, cur.val - pre);
         }
         pre = cur.val;
-        dfs2(cur.right);
+        inorder(cur.right);
     }
 }

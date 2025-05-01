@@ -1,74 +1,56 @@
 package Tree;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 /**
  * @author Hyper
- * @date 2024/02/24
+ * @date 2024/02/24，2025/05/01
  * @file M2476_二叉搜索树最近节点查询.java
  * <p>
  * 思路
- * 在二叉搜索树上面进行中序遍历得到有序数组，再二分查找
- * 这样做事件复杂度才为O(log(n))
- * 否则不平衡时最差时间复杂度是O(n)
+ * 二分 -- O(log_n)
+ * 核心：对二叉搜索树的中序遍历，记录 val 得到的是一个递增序列
+ * 类似Q530
  * <p>
- * 待回看
+ * 注意处理相等的情况
  */
 public class M2476_二叉搜索树最近节点查询 {
-    List<Integer> nums = new ArrayList<>();
+    private List<Integer> li = new ArrayList<>();
 
     public List<List<Integer>> closestNodes(TreeNode root, List<Integer> queries) {
-        dfs(root);
+        inorder(root);
+        int n = li.size();
         List<List<Integer>> res = new ArrayList<>();
-        int n = nums.size();
         for (int q : queries) {
-            List<Integer> li = new ArrayList<>();
-            int min = -1, max = -1;
-
-            int idxMin = binarySearch(n, q);
-            if (idxMin != -1) {
-                min = nums.get(idxMin);
-            }
-            li.add(min);
-
-            if (min == q) {
-                max = min;
-            } else {
-                if (idxMin != n - 1) {
-                    max = nums.get(idxMin + 1);
-                }
-            }
-            li.add(max);
-
-            res.add(li);
+            int j = binarySearch(0, n - 1, q);
+            int mn = j < 0 ? -1 : li.get(j), mx = mn == q ? mn : j == n - 1 ? -1 : li.get(j + 1);
+            res.add(Arrays.asList(mn, mx));
         }
 
         return res;
     }
 
-    private void dfs(TreeNode cur) {
+    private void inorder(TreeNode cur) {
         if (cur == null) {
             return;
         }
-        dfs(cur.left);
-        nums.add(cur.val);
-        dfs(cur.right);
+        inorder(cur.left);
+        li.add(cur.val);
+        inorder(cur.right);
     }
 
-    private int binarySearch(int n, int target) {
-        int low = 0, high = n - 1;
-        int ans = -1;
+    private int binarySearch(int low, int high, int target) {
         while (low <= high) {
             int mid = low + ((high - low) >> 1);
-            if (nums.get(mid) <= target) {
-                ans = mid;
+            if (li.get(mid) <= target) {
                 low = mid + 1;
             } else {
                 high = mid - 1;
             }
         }
 
-        return ans;
+        return high;
     }
 }
