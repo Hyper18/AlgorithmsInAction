@@ -1,13 +1,14 @@
 package Tree;
 
+
+import java.util.ArrayDeque;
 import java.util.ArrayList;
-import java.util.LinkedList;
+import java.util.Deque;
 import java.util.List;
-import java.util.Queue;
 
 /**
  * @author Hyper
- * @date 2022/03/01
+ * @date 2022/03/01，2025/05/02
  * <p>
  * 思路
  * 1. bfs
@@ -15,28 +16,26 @@ import java.util.Queue;
  */
 public class Q102_二叉树的层序遍历 {
     public List<List<Integer>> levelOrder(TreeNode root) {
-        List<List<Integer>> res = new ArrayList<>();
         if (root == null) {
-            return res;
+            return new ArrayList<>();
         }
-
-        Queue<TreeNode> queue = new LinkedList<>();
-        queue.offer(root);
-        while (!queue.isEmpty()) {
-            int curSize = queue.size();
-            List<Integer> level = new ArrayList<>();
-            for (int i = 0; i < curSize; i++) {
-                TreeNode cur = queue.poll();
-                level.add(cur.val);
-                if (cur.left != null) {
-                    queue.offer(cur.left);
+        List<List<Integer>> res = new ArrayList<>();
+        Deque<TreeNode> q = new ArrayDeque<>();
+        q.offer(root);
+        while (!q.isEmpty()) {
+            int n = q.size();
+            List<Integer> li = new ArrayList<>();
+            while (n-- > 0) {
+                TreeNode p = q.poll();
+                li.add(p.val);
+                if (p.left != null) {
+                    q.offer(p.left);
                 }
-                if (cur.right != null) {
-                    queue.offer(cur.right);
+                if (p.right != null) {
+                    q.offer(p.right);
                 }
             }
-            res.add(level);
-
+            res.add(li);
         }
 
         return res;
@@ -48,23 +47,21 @@ public class Q102_二叉树的层序遍历 {
         if (root == null) {
             return res;
         }
-
-        TreeNode cur = root;
-        DFSTraverse(cur, 0);
+        dfs(root, 0);
 
         return res;
     }
 
-    private void DFSTraverse(TreeNode cur, int level) {
-        if (res.size() == level) {
-            res.add(new ArrayList<Integer>());
+    private void dfs(TreeNode cur, int d) {
+        if (res.size() == d) {
+            res.add(new ArrayList<>());
         }
-        res.get(level).add(cur.val);
+        res.get(d).add(cur.val);
         if (cur.left != null) {
-            DFSTraverse(cur.left, level + 1);
+            dfs(cur.left, d + 1);
         }
         if (cur.right != null) {
-            DFSTraverse(cur.right, level + 1);
+            dfs(cur.right, d + 1);
         }
     }
 }
