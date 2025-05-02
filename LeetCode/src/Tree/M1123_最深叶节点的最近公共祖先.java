@@ -2,33 +2,32 @@ package Tree;
 
 /**
  * @author Hyper
- * @date 2023/09/06
+ * @date 2023/09/06，2025/05/02
  * @file M1123_最深叶节点的最近公共祖先.java
  * <p>
  * 思路
  * dfs
- * 求最深叶子结点的最小公共子树
+ * 求最深叶子节点的最小公共子树
  */
 public class M1123_最深叶节点的最近公共祖先 {
-    int maxDepth = -1;
-    TreeNode ans;
+    private TreeNode ans;
+    private int mx;
 
     public TreeNode lcaDeepestLeaves(TreeNode root) {
         dfs(root, 0);
         return ans;
     }
 
-    int dfs(TreeNode t, int d) {
-        if (t == null) {
-            maxDepth = Math.max(maxDepth, d);
+    private int dfs(TreeNode cur, int d) {
+        if (cur == null) {
+            mx = Math.max(mx, d);
             return d;
         }
-        int l = dfs(t.left, d + 1);
-        int r = dfs(t.right, d + 1);
-        if (l == maxDepth && l == r) {
-            ans = t;
+        int l = dfs(cur.left, d + 1), r = dfs(cur.right, d + 1);
+        if (mx == l && l == r) {
+            ans = cur;
         }
 
-        return l >= r ? l : r;
+        return Math.max(l, r);
     }
 }
