@@ -36,15 +36,15 @@ public class Q230_二叉搜索树中第K小的元素 {
         return ans;
     }
 
-    private void inorder2(TreeNode node) {
-        if (node == null) {
+    private void inorder2(TreeNode cur) {
+        if (cur == null) {
             return;
         }
-        inorder2(node.left);
+        inorder2(cur.left);
         if (--k == 0) {
-            ans = node.val;
+            ans = cur.val;
             return;
         }
-        inorder2(node.right);
+        inorder2(cur.right);
     }
 }

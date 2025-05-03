@@ -43,9 +43,9 @@ public class Q199_二叉树的右视图 {
         q.offer(root);
         while (!q.isEmpty()) {
             int n = q.size();
-            for (int i = 0; i < n; i++) {
+            while (n-- > 0) {
                 TreeNode p = q.poll();
-                if (i == n - 1) {
+                if (n == 0) {
                     res.add(p.val);
                 }
                 if (p.left != null) {

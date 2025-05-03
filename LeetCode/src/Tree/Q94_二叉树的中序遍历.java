@@ -4,59 +4,41 @@ import java.util.*;
 
 /**
  * @author Hyper
- * @date 2022/02/18，2024/02/10
+ * @date 2022/02/18，2024/02/10，2025/05/03
  * <p>
  * 思路
- * 1. 递归
- * 2. 迭代
+ * 1. dfs
+ * 2. bfs
+ * 本质和dfs是相同的，需要显式地维护一个栈
  */
 public class Q94_二叉树的中序遍历 {
-    public List<Integer> inorderTraversal(TreeNode root) {
-        List<Integer> res = new ArrayList<>();
-        TreeNode cur = root;
-        inorder(cur, res);
+    private List<Integer> res = new ArrayList<>();
 
+    public List<Integer> inorderTraversal(TreeNode root) {
+        inorder(root);
         return res;
     }
 
-    public void inorder(TreeNode cur, List<Integer> res) {
-        if (cur != null) {
-            inorder(cur.left, res);
-            res.add(cur.val);
-            inorder(cur.right, res);
+    private void inorder(TreeNode cur) {
+        if (cur == null) {
+            return;
         }
+        inorder(cur.left);
+        res.add(cur.val);
+        inorder(cur.right);
     }
 
     public List<Integer> inorderTraversal2(TreeNode root) {
         List<Integer> res = new ArrayList<>();
-        Stack<TreeNode> stk = new Stack<>();
-        TreeNode cur = root;
-        while (cur != null || !stk.isEmpty()) {
-            if (cur != null) {
-                stk.push(cur);
-                cur = cur.left;
-            } else {
-                cur = stk.pop();
-                res.add(cur.val);
-                cur = cur.right;
-            }
-        }
-
-        return res;
-    }
-
-    public List<Integer> inorderTraversal3(TreeNode root) {
-        List<Integer> res = new ArrayList<>();
         Deque<TreeNode> stk = new ArrayDeque<>();
-        TreeNode cur = root;
-        while (cur != null || !stk.isEmpty()) {
-            while (cur != null) {
-                stk.push(cur);
-                cur = cur.left;
+        while (root != null || !stk.isEmpty()) {
+            while (root != null) {
+                stk.push(root);
+                root = root.left;
             }
-            cur = stk.pop();
-            res.add(cur.val);
-            cur = cur.right;
+            root = stk.pop();
+            res.add(root.val);
+            root = root.right;
         }
 
         return res;

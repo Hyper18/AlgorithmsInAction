@@ -5,7 +5,7 @@ import java.util.Deque;
 
 /**
  * @author Hyper
- * @date 2025/04/01
+ * @date 2025/04/01，2025/05/03
  * @file Q112_路径总和.java
  * <p>
  * 思路
@@ -14,32 +14,30 @@ import java.util.Deque;
  */
 public class Q112_路径总和 {
     private boolean ans;
-    private int target;
+    private int targetSum;
 
-    public boolean hasPathSum1_0(TreeNode root, int targetSum) {
+    public boolean hasPathSum(TreeNode root, int targetSum) {
         if (root == null) {
             return false;
         }
-        this.target = targetSum;
+        this.targetSum = targetSum;
         dfs(root, 0);
-
         return ans;
     }
 
-    private void dfs(TreeNode tn, int cnt) {
-        if (tn.left == null && tn.right == null) {
-            if (cnt + tn.val == target) {
+    private void dfs(TreeNode cur, int sum) {
+        if (cur == null) {
+            return;
+        }
+        if (cur.left == null && cur.right == null) {
+            if (targetSum == sum + cur.val) {
                 ans = true;
             }
             return;
         }
-        cnt += tn.val;
-        if (tn.left != null) {
-            dfs(tn.left, cnt);
-        }
-        if (tn.right != null) {
-            dfs(tn.right, cnt);
-        }
+        sum += cur.val;
+        dfs(cur.left, sum);
+        dfs(cur.right, sum);
     }
 
     public boolean hasPathSum1_1(TreeNode root, int targetSum) {

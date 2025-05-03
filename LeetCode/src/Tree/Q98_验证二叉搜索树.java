@@ -2,7 +2,7 @@ package Tree;
 
 /**
  * @author Hyperspace
- * @date 2025/04/25
+ * @date 2025/04/25，2025/05/03
  * @file Q98_验证二叉搜索树.java
  * <p>
  * 思路
@@ -11,6 +11,8 @@ package Tree;
  * 这种写法逻辑上最顺
  * 2. 中序遍历
  * 3. 后序遍历
+ * <p>
+ * 注意取值范围不要爆int
  */
 public class Q98_验证二叉搜索树 {
     public boolean isValidBST(TreeNode root) {
