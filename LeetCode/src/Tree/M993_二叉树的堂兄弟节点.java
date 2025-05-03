@@ -1,11 +1,11 @@
 package Tree;
 
-import java.util.ArrayDeque;
-import java.util.Queue;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * @author Hyper
- * @date 2024/02/08
+ * @date 2024/02/08，2025/05/03
  * @file M993_二叉树的堂兄弟节点.java
  * <p>
  * 思路
@@ -13,38 +13,38 @@ import java.util.Queue;
  */
 public class M993_二叉树的堂兄弟节点 {
     public boolean isCousins(TreeNode root, int x, int y) {
-        Queue<TreeNode> q = new ArrayDeque<>();
-        q.offer(root);
+        List<TreeNode> q = new ArrayList<>();
+        q.add(root);
         while (!q.isEmpty()) {
             TreeNode fa = root;
             boolean hasX = false, hasY = false;
-            Queue<TreeNode> cur = new ArrayDeque<>();
-            for (TreeNode tr : q) {
-                if (tr.left != null) {
-                    if (tr.left.val == x) {
-                        fa = tr;
-                        hasX = !hasX;
+            List<TreeNode> t = new ArrayList<>();
+            for (TreeNode p : q) {
+                if (p.left != null) {
+                    t.add(p.left);
+                    if (p.left.val == x) {
+                        fa = p;
+                        hasX = true;
                     }
-                    if (tr.left.val == y) {
-                        fa = tr;
-                        hasY = !hasY;
+                    if (p.left.val == y) {
+                        fa = p;
+                        hasY = true;
                     }
-                    cur.offer(tr.left);
                 }
-                if (tr.right != null) {
-                    if (fa != tr && tr.right.val == x) {
-                        hasX = !hasX;
+                if (p.right != null) {
+                    t.add(p.right);
+                    if (fa != p && p.right.val == x) {
+                        hasX = true;
                     }
-                    if (fa != tr && tr.right.val == y) {
-                        hasY = !hasY;
+                    if (fa != p && p.right.val == y) {
+                        hasY = true;
                     }
-                    cur.offer(tr.right);
                 }
             }
             if (hasX && hasY) {
                 return true;
             }
-            q = cur;
+            q = t;
         }
 
         return false;

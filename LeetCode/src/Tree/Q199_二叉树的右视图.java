@@ -1,20 +1,15 @@
 package Tree;
 
-import java.util.ArrayList;
-import java.util.Deque;
-import java.util.LinkedList;
-import java.util.List;
+import java.util.*;
 
 /**
  * @author Hyper
- * @date 2025/04/15
+ * @date 2025/04/15，2025/05/03
  * @file Q199_二叉树的右视图.java
  * <p>
  * 思路
  * 1. dfs
  * 2. bfs
- * <p>
- * 注：本题以dfs为准
  */
 public class Q199_二叉树的右视图 {
     private List<Integer> res = new ArrayList<>();
@@ -40,11 +35,11 @@ public class Q199_二叉树的右视图 {
     }
 
     public List<Integer> rightSideView2(TreeNode root) {
-        List<Integer> res = new ArrayList<>();
         if (root == null) {
-            return res;
+            return new ArrayList<>();
         }
-        Deque<TreeNode> q = new LinkedList<>();
+        List<Integer> res = new ArrayList<>();
+        Deque<TreeNode> q = new ArrayDeque<>();
         q.offer(root);
         while (!q.isEmpty()) {
             int n = q.size();

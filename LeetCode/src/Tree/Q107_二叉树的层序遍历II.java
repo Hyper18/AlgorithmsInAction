@@ -1,14 +1,15 @@
 package Tree;
 
+
 import java.util.*;
 
 /**
  * @author Hyper
- * @date 2022/04/23
- * 1. Graph.DFS
- * 虚假的自底向上（API）
- * 2. Graph.DFS
+ * @date 2022/04/23，2025/05/03
+ * 1. dfs
+ * 2. bfs
  * 逐层迭代至最深位置，头插法，结果顺次弹栈
+ * Q102的变种
  */
 public class Q107_二叉树的层序遍历II {
     List<List<Integer>> res = new ArrayList<>();
@@ -23,41 +24,40 @@ public class Q107_二叉树的层序遍历II {
         return res;
     }
 
-    private void dfs(TreeNode cur, int level) {
-        if (res.size() == level) {
+    private void dfs(TreeNode cur, int d) {
+        if (res.size() == d) {
             res.add(new ArrayList<>());
         }
-        res.get(level).add(cur.val);
+        res.get(d).add(cur.val);
         if (cur.left != null) {
-            dfs(cur.left, level + 1);
+            dfs(cur.left, d + 1);
         }
         if (cur.right != null) {
-            dfs(cur.right, level + 1);
+            dfs(cur.right, d + 1);
         }
     }
 
     public List<List<Integer>> levelOrderBottom2(TreeNode root) {
-        List<List<Integer>> res = new ArrayList<>();
         if (root == null) {
-            return res;
+            return new ArrayList<>();
         }
-        Queue<TreeNode> q = new LinkedList<>();
+        List<List<Integer>> res = new ArrayList<>();
+        Deque<TreeNode> q = new ArrayDeque<>();
         q.add(root);
         while (!q.isEmpty()) {
             int n = q.size();
-            List<Integer> level = new ArrayList<>();
-            for (int i = 0; i < n; i++) {
-                TreeNode node = q.poll();
-                level.add(node.val);
-                if (node.left != null) {
-                    q.offer(node.left);
+            List<Integer> li = new ArrayList<>();
+            while (n-- > 0) {
+                TreeNode p = q.poll();
+                li.add(p.val);
+                if (p.left != null) {
+                    q.offer(p.left);
                 }
-                if (node.right != null) {
-                    q.offer(node.right);
+                if (p.right != null) {
+                    q.offer(p.right);
                 }
             }
-            // 这里采用头插法将每一层的数据插入
-            res.add(0, level);
+            res.add(0, li);
         }
 
         return res;

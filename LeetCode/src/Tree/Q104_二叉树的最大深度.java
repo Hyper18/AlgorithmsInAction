@@ -5,7 +5,7 @@ import java.util.Deque;
 
 /**
  * @author Hyper
- * @date 2022/03/01，2025/03/30
+ * @date 2022/03/01，2025/03/30，2025/05/03
  * <p>
  * 思路
  * 1. 向下dfs
@@ -44,7 +44,7 @@ public class Q104_二叉树的最大深度 {
         int ans = 0;
         while (!q.isEmpty()) {
             int n = q.size();
-            while (n > 0) {
+            while (n-- > 0) {
                 TreeNode p = q.poll();
                 if (p.left != null) {
                     q.offer(p.left);
@@ -52,7 +52,6 @@ public class Q104_二叉树的最大深度 {
                 if (p.right != null) {
                     q.offer(p.right);
                 }
-                n--;
             }
             ans++;
         }

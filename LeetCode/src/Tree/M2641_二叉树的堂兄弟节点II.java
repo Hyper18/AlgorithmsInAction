@@ -1,44 +1,46 @@
 package Tree;
 
-import java.util.ArrayDeque;
-import java.util.Queue;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * @author Hyper
- * @date 2024/02/07
+ * @date 2024/02/07，2025/05/03
  * @file M2641_二叉树的堂兄弟节点II.java
  * <p>
  * 思路
  * bfs
+ * <p>
+ * 注意root的值处理
  */
 public class M2641_二叉树的堂兄弟节点II {
     public TreeNode replaceValueInTree(TreeNode root) {
-        Queue<TreeNode> q = new ArrayDeque<>();
         root.val = 0;
-        q.offer(root);
+        List<TreeNode> q = new ArrayList<>();
+        q.add(root);
         while (!q.isEmpty()) {
+            List<TreeNode> t = new ArrayList<>();
             int sum = 0;
-            Queue<TreeNode> cur = new ArrayDeque<>();
-            for (TreeNode tr : q) {
-                if (tr.left != null) {
-                    cur.offer(tr.left);
-                    sum += tr.left.val;
+            for (TreeNode p : q) {
+                if (p.left != null) {
+                    t.add(p.left);
+                    sum += p.left.val;
                 }
-                if (tr.right != null) {
-                    cur.offer(tr.right);
-                    sum += tr.right.val;
-                }
-            }
-            for (TreeNode tr : q) {
-                int ownChildVal = (tr.left != null ? tr.left.val : 0) + (tr.right != null ? tr.right.val : 0);
-                if (tr.left != null) {
-                    tr.left.val = sum - ownChildVal;
-                }
-                if (tr.right != null) {
-                    tr.right.val = sum - ownChildVal;
+                if (p.right != null) {
+                    t.add(p.right);
+                    sum += p.right.val;
                 }
             }
-            q = cur;
+            for (TreeNode p : q) {
+                int ownChildVal = (p.left != null ? p.left.val : 0) + (p.right != null ? p.right.val : 0);
+                if (p.left != null) {
+                    p.left.val = sum - ownChildVal;
+                }
+                if (p.right != null) {
+                    p.right.val = sum - ownChildVal;
+                }
+            }
+            q = t;
         }
 
         return root;

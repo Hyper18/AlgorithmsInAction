@@ -5,7 +5,7 @@ import java.util.Deque;
 
 /**
  * @author Hyper
- * @date 2022/04/22，2025/04/01
+ * @date 2022/04/22，2025/04/01，2025/05/03
  * 思路
  * 1. 向下dfs
  * 先走左子树
@@ -79,7 +79,7 @@ public class Q111_二叉树的最小深度 {
         while (!q.isEmpty()) {
             ans++;
             int n = q.size();
-            for (int i = 0; i < n; i++) {
+            while (n-- > 0) {
                 TreeNode p = q.poll();
                 if (p.left == null && p.right == null) {
                     return ans;
