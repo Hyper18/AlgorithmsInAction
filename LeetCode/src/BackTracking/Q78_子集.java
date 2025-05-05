@@ -5,33 +5,56 @@ import java.util.List;
 
 /**
  * @author Hyper
- * @date 2024/07/17
+ * @date 2024/07/17，2025/05/04
  * @file Q78_子集.java
  * <p>
  * 思路
  * 回溯
  */
 public class Q78_子集 {
-    private int[] nums;
-    private List<Integer> path = new ArrayList<>();
-    private List<List<Integer>> res = new ArrayList<>();
+    class Solution1_0 {
+        private List<List<Integer>> res = new ArrayList<>();
+        private List<Integer> path = new ArrayList<>();
+        private int[] nums;
 
-    public List<List<Integer>> subsets(int[] nums) {
-        this.nums = nums;
-        dfs(0);
-        return res;
+        public List<List<Integer>> subsets(int[] nums) {
+            this.nums = nums;
+            backtrack(0);
+
+            return res;
+        }
+
+        private void backtrack(int i) {
+            if (i == nums.length) {
+                res.add(new ArrayList<>(path));
+                return;
+            }
+            backtrack(i + 1);
+            path.add(nums[i]);
+            backtrack(i + 1);
+            path.remove(path.size() - 1);
+        }
     }
 
-    private void dfs(int i) {
-        if (i == nums.length) {
-            res.add(new ArrayList<>(path));
-            return;
+    class Solution1_1 {
+        private List<List<Integer>> res = new ArrayList<>();
+        private List<Integer> path = new ArrayList<>();
+        private int[] nums;
+
+        public List<List<Integer>> subsets(int[] nums) {
+            this.nums = nums;
+            backtrack(0);
+
+            return res;
         }
-        // case1: is not selected
-        dfs(i + 1);
-        // case2: is selected
-        path.add(nums[i]);
-        dfs(i + 1);
-        path.remove(path.size() - 1);
+
+        private void backtrack(int i) {
+            res.add(new ArrayList<>(path));
+            for (int j = i; j < nums.length; j++) {
+                path.add(nums[j]);
+                backtrack(j + 1);
+                path.remove(path.size() - 1);
+            }
+        }
     }
 }
