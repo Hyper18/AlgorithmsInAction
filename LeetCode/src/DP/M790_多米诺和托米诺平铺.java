@@ -2,7 +2,7 @@ package DP;
 
 /**
  * @author Hyper
- * @date 2022/11/12
+ * @date 2022/11/12，2025/05/05
  * @file M790_多米诺和托米诺平铺.java
  * <p>
  * 思路
@@ -22,7 +22,7 @@ package DP;
  * f[i][3] = (((f[i - 1][0] + f[i - 1][1]) % MOD + f[i - 1][2]) % MOD + f[i - 1][3]) % MOD;
  */
 public class M790_多米诺和托米诺平铺 {
-    final int MOD = (int) 1e9 + 7;
+    private final int MOD = (int) 1e9 + 7;
 
     public int numTilings(int n) {
         int[][] f = new int[n + 1][4];
