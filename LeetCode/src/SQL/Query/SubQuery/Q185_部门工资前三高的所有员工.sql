@@ -1,10 +1,10 @@
--- dense_rank窗口函数的使用
-SELECT name Department, Employee, Salary
-FROM (SELECT d.name,
+-- 开窗函数的使用
+SELECT Department, Employee, Salary
+FROM (SELECT d.name       Department,
              e.name       Employee,
-             e.Salary,
-             DENSE_RANK() OVER(PARTITION BY d.name ORDER BY e.salary DESC) r
-      FROM Employee e,
-           Department d
-      WHERE e.departmentId = d.id) t
+             salary       Salary,
+             DENSE_RANK() over (PARTITION BY d.name ORDER BY Salary DESC) r
+      FROM Department d,
+           Employee e
+      WHERE d.id = e.departmentId) t1
 WHERE r <= 3
