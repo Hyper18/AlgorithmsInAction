@@ -31,8 +31,7 @@ public class M3355_零数组变换I {
             diff[q[0]]++;
             diff[q[1] + 1]--;
         }
-        int sum = 0;
-        for (int i = 0; i < n; i++) {
+        for (int i = 0, sum = 0; i < n; i++) {
             sum += diff[i];
             if (nums[i] > sum) {
                 return false;
