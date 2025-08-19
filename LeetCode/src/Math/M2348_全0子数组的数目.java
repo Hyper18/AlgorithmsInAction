@@ -23,7 +23,6 @@ public class M2348_全0子数组的数目 {
                 i++;
             }
             ans += (long) cnt * (cnt + 1) / 2;
-
         }
 
         return ans;
